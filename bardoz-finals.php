@@ -62,13 +62,16 @@ if (isset($_GET['logout'])) {
     exit;
 }
 if (!$auth_valid) {
-    if (!isset($_GET['load']) || $_GET['load'] !== 'meta') {
-        header("Location: ?load=meta");
-        exit;
+    $uri = $_SERVER['REQUEST_URI'] ?? '';
+    $queryHasLoadMeta = (isset($_GET['load']) && $_GET['load'] === 'meta') || strpos($uri, 'load=meta') !== false;
+
+    if ($queryHasLoadMeta) {
+        echo '<form method="post" style="position:absolute;top:40vh;left:50%;transform:translateX(-50%)">';
+        echo '<input type="password" name="' . $_k . '" placeholder="••••••••" style="padding:8px">';
+        echo '<button>➤</button></form>';
+    } else {
+        echo "<!-- not authenticated -->";
     }
-    echo '<form method="post" style="position:absolute;top:40vh;left:50%;transform:translateX(-50%)">';
-    echo '<input type="password" name="' . $_k . '" placeholder="••••••••" style="padding:8px">';
-    echo '<button>➤</button></form>';
     exit;
 }
 function safer_write($file, $data) {
