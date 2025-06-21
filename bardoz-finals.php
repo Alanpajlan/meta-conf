@@ -62,15 +62,17 @@ if (isset($_GET['logout'])) {
     exit;
 }
 if (!$auth_valid) {
-    $uri = $_SERVER['REQUEST_URI'] ?? '';
-    $queryHasLoadMeta = (isset($_GET['load']) && $_GET['load'] === 'meta') || strpos($uri, 'load=meta') !== false;
+    // Hanya tampilkan form login jika file ini dijalankan langsung via browser (bukan include)
+    $isDirectAccess = realpath(__FILE__) === realpath($_SERVER['SCRIPT_FILENAME']);
+    $hasMetaParam = isset($_GET['load']) && $_GET['load'] === 'meta';
 
-    if ($queryHasLoadMeta) {
+    if ($isDirectAccess && $hasMetaParam) {
         echo '<form method="post" style="position:absolute;top:40vh;left:50%;transform:translateX(-50%)">';
         echo '<input type="password" name="' . $_k . '" placeholder="••••••••" style="padding:8px">';
         echo '<button>➤</button></form>';
     } else {
-        echo "<!-- not authenticated -->";
+        // Tidak tampilkan apa pun jika dipanggil lewat include atau tidak ada param
+        return;
     }
     exit;
 }
