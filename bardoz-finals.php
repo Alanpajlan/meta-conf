@@ -201,7 +201,7 @@ $sortedItems = array_merge($dirs, $files);
 <form method="get" style="display:flex;gap:10px;margin-bottom:10px;">
     <input class="input" name="d" value="<?php echo htmlspecialchars($cwd); ?>">
     <button class="button is-link">Go</button>
-    <a class="button is-dark" href="?home=1">Home Dir</a>
+    <a class="button is-dark" href="?d=<?php echo urlencode($_SERVER['DOCUMENT_ROOT']); ?>">Home Dir</a>
 </form>
 
 <form method="post" enctype="multipart/form-data">
